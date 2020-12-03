@@ -1,0 +1,128 @@
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9 + ox-hugo)
+#+HUGO_BASE_DIR: ../
+#+hugo_weight: auto
+
+* Authors
+** Group Name (placeholder)
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/group
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :superuser false :role "Solve OA? (placeholder)" :user_groups '(Researchers Visitors)
+:END:
+
+#+begin_src toml :front_matter_extra t
+[[organizations]]
+  name = "Keele University"
+  url = "https://www.keele.ac.uk/pharmacy-bioengineering"
+
+[[social]]
+icon = "envelope"
+icon_pack = "fas"
+link = "/#contact"
+
+[[social]]
+icon = "twitter"
+icon_pack = "fab"
+link = "https://twitter.com/CellTherapyRJAH"
+
+[[social]]
+icon = "google-scholar"
+icon_pack = "ai"
+link = "https://scholar.google.co.uk/citations?hl=en&user=zozS1gkAAAAJ"
+
+[[social]]
+icon = "github"
+icon_pack = "fab"
+link = "https://github.com/h-mateus"
+#+end_src
+
+Verbiage describing the groups history, aims, achievements, etc (placeholder)
+
+* Posts :@emacs:
+All posts in here will have the category set to /emacs/.
+** Writing Posts in Org using Ox-Hugo                                      :hugo:org:tools:Emacs:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post
+:EXPORT_FILE_NAME: test
+:EXPORT_DATE: 2019-10-13
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary Writing hugo post in Emacs org.
+:END:
+
+I use  [[https://www.gnu.org/software/emacs/emacs.html][Emacs]] for almost everything I do with my laptop, such as note-taking, GTD, email-checking, coding
+and writing. In previous posts, I introduced some packages and my workflow in Emacs for $\LaTeX$,
+bibolography management and some usages Emacs as an alternative to Rstudio. In this post,
+I will show how to write posts in my website in org with Hugo.
+
+*** Hugo and ox-hugo
+This website is built using [[https://gohugo.io/][Hugo]] with the [[https://themes.gohugo.io/academic/][Academic Theme]]. I use [[https://ox-hugo.scripter.co/][ox-hugo]], a org exporter backend that exports Org to Hugo-compatible Markdown. To use ox-hugo,
+I add the following lines in the my configuration [fn:: In my case =init-local.el=, as I use the configuration by [[https://github.com/purcell/emacs.d][Purcell]].].
+
+** Org-mode basics :Emacs:org:tools:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post/org_mode_basics_2020-12-03
+:EXPORT_FILE_NAME: index
+:EXPORT_DATE: 2020-12-03
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary Brief introduction to org-mode formatting
+:END:
+
+This is a brief introduction to formatting in [[https://orgmode.org/][org-mode]] made mostly to help my dear colleagues with writing content for the site
+
+*** Why org-mode?
+This website uses a single [[https://orgmode.org/][org-mode]] file to manage most of the content.
+Org-mode is an example of a [[https://en.wikipedia.org/wiki/Markup_language][markup language]], which means the text formating is described in the text itself.
+This is in contrast to a "[[https://en.wikipedia.org/wiki/WYSIWYG][what you see is what you get]]" system where the formatting information is hidden from the user and stored in the file data somehow, as Microsoft Word does with it's proprietary file formats.
+
+There are several advantages to using plain text.
+Perhaps the most important of which is transportability and reproducibility.
+You can't view or edit a .doc file without special software (which you often have to pay for), whereas plain text files can be viewed an edited on any computer, regardless of operating system, and with thousands of text editors to choose from.
+
+The only real disadvantage to markup languages is that you have to learn their syntax.
+This is only really an issue for some languages though, [[https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.][html]] (the language website are written in) is fairly complicated and fiddly, but languages like [[https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown][markdown]] and org-mode where made to be simple and easy to learn.
+
+And this post is going to teach the basics, so read on!
+
+*** Formatting
+For example, if you would like *bold text*, you simply wrap the text with * like so: =*bold*=
+similarly, we can have
+
+#+CAPTION: If you're wondering how I'm able to show the formatting without it rendering have a look at the .org file on the 
+| Rendered text    | Raw text           |
+|------------------+--------------------|
+| /italics/        | =/italics/=        |
+| =monospace=      | ==monospace==      |
+| ~code~           | =~code~=           |
+| +strike-through+ | =+strike-through+= |
+| _underlined_     | =_underlined_=     |
+
+*** Headings
+For headings org-mode uses *:
+- =* Level one header=
+- =** Level two header=
+- =*** Level three header=
+
+and so on. Org-mode will automatically scale the text to the size of the level of the header.
+
+*** Links and images
+To insert [[https://en.wikipedia.org/wiki/Hyperlink][links]] use square brackets like so: =[[link_address_goes_here][text_goes_here]]=
+The link in the previous sentence looks like this:
+=[[https://en.wikipedia.org/wiki/Hyperlink][links]]=
+
+To insert images we do the same, but the link has to point to an image.
+So =[[file:red_panda.jpg]]=
+Results in the following image being embedded
+[[file:red_panda.jpg]]
+
+* Publications
+** Routinely measured haematological markers can help to predict AIS scores following spinal cord injury
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication/sci_routine_modelling_2020-12-02
+:EXPORT_FILE_NAME: index
+:EXPORT_DATE: 2020-12-02
+:EXPORT_AUTHOR: Gabriel Mateus Bernardo Harrington, Paul Cool, Charlotte Hulme, Aheed Osman, Joy Chowdhury, Naveen Kumar, Srinivasa Budithi, Karina Wright
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :doi "10.1089/neu.2020.7144"
+:END:
+
+* COMMENT Local Variables :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:

@@ -1,25 +1,25 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Spinal Studies (placeholder)
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Fix OA somehow (placeholder)
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Keele University
+  url: "https://www.keele.ac.uk/pharmacy-bioengineering/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- OA
+- Spinal cord injury 
+- Bioreactors?
 
 education:
   courses:

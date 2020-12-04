@@ -1,13 +1,46 @@
 #+CREATOR: Emacs 26.3 (Org mode 9.1.9 + ox-hugo)
 #+HUGO_BASE_DIR: ../
+#+HUGO_CODE_FENCE: true
 #+hugo_weight: auto
+
+Note that HUGO_CODE_FENCE is set to true as the Academic theme has it's own highlighting, and with it disabled we can use diagram source blocks
+
+* Widgets
+** People
+:PROPERTIES:
+:export_hugo_section: people
+:EXPORT_FILE_NAME: people
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :widget people :headless true
+:END:
+
+#+begin_src toml :front_matter_extra t
+[content]
+user_groups = [
+  "Principal Investigators",
+  "Researchers",
+  "Grad Students",
+  "Administration",
+  "Visitors",
+  "Alumni"
+]
+
+[design]
+# Show user's social networking links? (true/false)
+show_social = false
+# Show user's interests? (true/false)
+show_interests = true
+# Show user's role?
+show_role = true
+# Show user's oragnizations/affiliations?
+show_organizations = true
+#+end_src
 
 * Authors
 ** Group Name (placeholder)
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: authors/group
 :EXPORT_FILE_NAME: index
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :superuser false :role "Solve OA? (placeholder)" :user_groups '(Researchers Visitors)
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :superuser false :role "Solve OA? (placeholder)" :user_groups '(NA)
 :END:
 
 #+begin_src toml :front_matter_extra t
@@ -33,37 +66,72 @@ link = "https://scholar.google.co.uk/citations?hl=en&user=zozS1gkAAAAJ"
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/h-mateus"
+link = "https://github.com/H-Mateus/spinal-studies-rjah-site"
 #+end_src
 
 Verbiage describing the groups history, aims, achievements, etc (placeholder)
-
-* Posts :@emacs:
-All posts in here will have the category set to /emacs/.
-** Writing Posts in Org using Ox-Hugo                                      :hugo:org:tools:Emacs:
+** Charlotte Hulme
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: post
-:EXPORT_FILE_NAME: test
-:EXPORT_DATE: 2019-10-13
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary Writing hugo post in Emacs org.
+:EXPORT_HUGO_SECTION: authors/charlotte_hulme
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
 :END:
 
-I use  [[https://www.gnu.org/software/emacs/emacs.html][Emacs]] for almost everything I do with my laptop, such as note-taking, GTD, email-checking, coding
-and writing. In previous posts, I introduced some packages and my workflow in Emacs for $\LaTeX$,
-bibolography management and some usages Emacs as an alternative to Rstudio. In this post,
-I will show how to write posts in my website in org with Hugo.
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Spinal cord injury
+  - Proteomics
+email: charlotte.hulme@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2016
+    - course: BSc in Biological Sciences?
+      institution: Manchester University?
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:charlotte.hulme@nhs.net
+  - icon: twitter
+    icon_pack: fab
+    link: 'https://twitter.com/CharlotteHulme6'
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.co.uk/citations?user=TU3Q1l8AAAAJ'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
+#+end_src
 
-*** Hugo and ox-hugo
-This website is built using [[https://gohugo.io/][Hugo]] with the [[https://themes.gohugo.io/academic/][Academic Theme]]. I use [[https://ox-hugo.scripter.co/][ox-hugo]], a org exporter backend that exports Org to Hugo-compatible Markdown. To use ox-hugo,
-I add the following lines in the my configuration [fn:: In my case =init-local.el=, as I use the configuration by [[https://github.com/purcell/emacs.d][Purcell]].].
+Life story goes here.
 
-** Org-mode basics :Emacs:org:tools:
+* Posts 
+Note: categories are set with tags preceded by =@=, so =:@Emacs:= will give a post the "Emacs" category
+** Org-mode basics :@Guides:orgmode:tutorials:emacs:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post/org_mode_basics_2020-12-03
 :EXPORT_FILE_NAME: index
 :EXPORT_DATE: 2020-12-03
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary Brief introduction to org-mode formatting
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary "Brief introduction to org-mode formatting" :math true :diagram true
 :END:
+
+#+begin_src toml :front_matter_extra t
+[image]
+placement = 3
+caption = "Image credit: [**orgmode.org**](https://orgmode.org/)"
+#+end_src
 
 This is a brief introduction to formatting in [[https://orgmode.org/][org-mode]] made mostly to help my dear colleagues with writing content for the site
 
@@ -78,14 +146,22 @@ You can't view or edit a .doc file without special software (which you often hav
 
 The only real disadvantage to markup languages is that you have to learn their syntax.
 This is only really an issue for some languages though, [[https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.][html]] (the language website are written in) is fairly complicated and fiddly, but languages like [[https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown][markdown]] and org-mode where made to be simple and easy to learn.
+And this post is going to demonstrate the basics, so read on!
 
-And this post is going to teach the basics, so read on!
+Plus, with a bit of magic from [[https://pandoc.org/][pandoc]] you can convert pretty much any markup language to any other markup language.
+This lets us do things like export a markdown file to a really nice pdf, or html document!
+
+
+**** A note on working with org-mode files
+Org-mode is made to be used with the wonderful [[https://www.gnu.org/software/emacs/][Emacs]], which sells itself as an extensible text editor, but it's really just an elisp interpreter geared towards text editing.
+Emacs makes working with org-mode files a joy, though it has a bit of a learning curve itself.
+There are plenty of great [[https://www.gnu.org/software/emacs/tour/][guides]] and [[https://www.youtube.com/watch?v=49kBWM3RQQ8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][videos]] for getting to grips with emacs, but you can of course use whatever plain text editor you like!
 
 *** Formatting
 For example, if you would like *bold text*, you simply wrap the text with * like so: =*bold*=
 similarly, we can have
 
-#+CAPTION: If you're wondering how I'm able to show the formatting without it rendering have a look at the .org file on the 
+#+CAPTION: If you're wondering how I'm able to show the formatting without it rendering have a look at this .org file on the [[https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org][git repository]] 
 | Rendered text    | Raw text           |
 |------------------+--------------------|
 | /italics/        | =/italics/=        |
@@ -94,7 +170,10 @@ similarly, we can have
 | +strike-through+ | =+strike-through+= |
 | _underlined_     | =_underlined_=     |
 
-*** Headings
+If you want a footnote [fn:: org-mode sure is neat!] use =[fn:: footnote text goes here]=.
+It even comes with a helpful return link!
+
+*** Headings and lists
 For headings org-mode uses *:
 - =* Level one header=
 - =** Level two header=
@@ -102,26 +181,463 @@ For headings org-mode uses *:
 
 and so on. Org-mode will automatically scale the text to the size of the level of the header.
 
+For bullet point lists use =-= or =+= or numbers =1.=
+The following:
+- using =-=
+=- item 1= \\
+=- item 2=
+- using =+=
+=+ item 1= \\
+=+ item 2=
+- using numbers
+=1. numbered list 1= \\
+=2. numbered list 2=
+
+Renders to:
+1. using =-=
+   + item 1
+   + item 2
+
+2. using =+=
+   + item 1
+   + item 2
+3. using numbers
+   a. numbered list 1
+   b. numbered list 2
+
 *** Links and images
 To insert [[https://en.wikipedia.org/wiki/Hyperlink][links]] use square brackets like so: =[[link_address_goes_here][text_goes_here]]=
 The link in the previous sentence looks like this:
 =[[https://en.wikipedia.org/wiki/Hyperlink][links]]=
 
-To insert images we do the same, but the link has to point to an image.
-So =[[file:red_panda.jpg]]=
+To insert images we do the same, but the link has to point to an image in the static/images directory of the site
+So =[[/images/red_panda.jpg]]=
 Results in the following image being embedded
-[[file:red_panda.jpg]]
+
+#+CAPTION: I know the feeling panda...
+[[/images/red_panda.jpg]]
+
+And if you're wonding about the captions, just add header on the line above whatever you want caption:
+
+=#+CAPTION: caption text goes here= \\
+=thing you want a caption on (normally an image or table)=
+
+*** Symbols and equations
+For things like Greek letters just type the letter after a \ like so:
+| \alpha   | =\alpha= |
+| \beta   | =\beta=  |
+| \gamma   | =\gamma= |
+| \pm | =\pm=    |
+| \ge   | =\ge=      |
+| \neq   | =\neq=      |
+
+For more complex equations we can use [[https://en.wikibooks.org/wiki/LaTeX/Mathematics][latex math]] syntax and wrap in single =$= for inline equations, and double =$$= for equation blocks.
+So =$a=+\sqrt{2}$= renders to $a=+\sqrt{2}$.
+
+And =$$P\left(A=2\middle|\frac{A^2}{B}>4\right)$$= renders to
+
+$$P\left(A=2\middle|\frac{A^2}{B}>4\right)$$
+
+We can also wrap in =\(= and close with =\)= for inline and =\[= =\]= for blocks to produce the same effect
+
+*** Code and foldable blocks 
+So there's this awesome package called [[https://orgmode.org/worg/org-contrib/babel/][org-babel]] that let you include code from pretty much any widely used language in org-mode files.
+I won't go into depth on org-babel here as there's a lot to it, but I'll use it to demonstrate folding blocks (click on the line bellow with the triangle to expand or collapse the block)
+
+#+begin_details
+
+#+begin_summary
+A little R code
+#+end_summary
+
+#+begin_src R
+## notice we get nice code highlighting to boot
+head(mtcars)
+
+for(i in 1:3){
+print("code")}
+#+end_src
+
+#+end_details
+
+So there are three parts here:
+
+=#+begin_details= \\
+=#+begin_summary= \\
+=A little R code= \\
+=#+end_summary= \\
+=#+begin_src= \\
+=## notice we get nice code highlighting to boot= \\
+=head(mtcars)= \\
+=for(i in 1:3){= \\
+=print("code")}= \\
+=#+end_src= \\
+=#+end_details= \\
+
+The whole thing is wraped in the =begin_details= block, the text next the triangle is defined in the =begin_summary=, and the code is in the =begin_src= block.
+Note that each block must be closed, and that code doesn't have to be run, the output with be produced during export
+
+*** Diagrams
+
+An example *flowchart*:
+
+#+begin_example
+#+begin_src mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+#+end_src
+#+end_example
+
+renders as
+
+#+begin_src mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+#+end_src
+
+An example *sequence diagram*:
+
+#+begin_example
+#+begin_src mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+#+end_src
+#+end_example
+
+renders as 
+
+#+begin_src mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+#+end_src
+
+An example *Gnatt diagram*
+
+#+begin_example
+#+begin_src mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+#+end_src
+#+end_example
+
+renders as
+
+#+begin_src mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+#+end_src
+
+An example *class diagram*:
+
+#+begin_example
+#+begin_src mermaid
+    classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    <<interface>> Class01
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    class Class10 {
+      <<service>>
+      int id
+      size()
+    }
+#+end_src
+#+end_example
+
+renders as
+
+#+begin_src mermaid
+    classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    <<interface>> Class01
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    class Class10 {
+      <<service>>
+      int id
+      size()
+    }
+    #+end_src
+    
+An example *state diagram*:
+
+#+begin_example
+#+begin_src mermaid
+    stateDiagram
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+#+end_src
+#+end_example
+
+renders as
+
+#+begin_src mermaid
+    stateDiagram
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+    #+end_src
+    
+*** Todo lists
+
+You can even write your todo lists in Academic too:
+
+=- [X] Write math example= \\
+=- [X] Write diagram example= \\ 
+=- [ ] Do something else=
+
+renders as
+
+- [X] Write math example
+- [X] Write diagram example
+- [ ] Do something else
+
+*** Tables
+
+Represent your data in tables:
+
+=| First Header | Second Header |= \\
+=|--------------+---------------|= \\
+=| Content Cell | Content Cell  |= \\
+=| Content Cell | Content Cell  |= \\
+
+renders as
+
+| First Header | Second Header |
+|--------------+---------------|
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
+
+*** Callouts
+
+Academic supports a [[https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts][shortcode for callouts]], also referred to as *asides*, *hints*, or *alerts*. By wrapping a paragraph in ={{%/* callout note */%}} ... {{%/* /callout */%}}=, it will render as an aside.
+
+#+begin_src markdown
+{{%/* callout note */%}}
+A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+{{%/* /callout */%}}
+#+end_src
+
+renders as
+
+{{% callout note %}}
+A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+{{% /callout %}}
+
+*** Spoilers
+
+Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.
+
+#+begin_src markdown
+{{</* spoiler text="Click to view the spoiler" */>}}
+You found me!
+{{</* /spoiler */>}}
+#+end_src
+
+renders as
+
+{{< spoiler text="Click to view the spoiler" >}} You found me! {{< /spoiler >}}
+
+*** Icons
+
+Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://sourcethemes.com/academic/docs/page-builder/#icons) in addition to [emojis](https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis).
+
+Here are some examples using the `icon` shortcode to render icons:
+
+#+begin_src markdown
+{{</* icon name="terminal" pack="fas" */>}} Terminal  
+{{</* icon name="python" pack="fab" */>}} Python  
+{{</* icon name="r-project" pack="fab" */>}} R
+#+end_src
+
+renders as
+
+{{< icon name="terminal" pack="fas" >}} Terminal  
+{{< icon name="python" pack="fab" >}} Python  
+{{< icon name="r-project" pack="fab" >}} R
 
 * Publications
+Arguments for publication_types
+- 0 = Uncategorised
+- 1 = Conference paper
+- 2 = Journal article 
+- 3 = Preprint / working paper
+- 4 = Report
+- 5 = Book 
+- 6 = Book section
+- 7 = Thesis
+- 8 = Patent
+  
 ** Routinely measured haematological markers can help to predict AIS scores following spinal cord injury
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: publication/sci_routine_modelling_2020-12-02
 :EXPORT_FILE_NAME: index
-:EXPORT_DATE: 2020-12-02
-:EXPORT_AUTHOR: Gabriel Mateus Bernardo Harrington, Paul Cool, Charlotte Hulme, Aheed Osman, Joy Chowdhury, Naveen Kumar, Srinivasa Budithi, Karina Wright
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :doi "10.1089/neu.2020.7144"
 :END:
 
+#+begin_src toml :front_matter_extra t
+authors = [
+  "admin",
+  "Paul Cool",
+  "Charlotte Hulme",
+  "Aheed Osman",
+  "Joy Chowdhury",
+  "Naveen Kumar",
+  "Srinivasa Budithi",
+  "Karina Wright"
+]
+date = 2020-07-23T15:53:28.000Z
+doi = "10.1089/neu.2020.7144"
+publishDate = 2020-07-27T15:53:28.000Z
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types = [ "2" ]
+
+publication = "*Journal of Neurotrauma*"
+publication_short = ""
+
+abstract = "Neurological outcomes following spinal cord injury (SCI) are currently difficult to predict. Whilst the initial American Spinal Injury Association (ASIA) Impairment Scale (AIS) grade can give an estimate of outcome, the high remaining degree of uncertainty has stoked recent interest in biomarkers for SCI. This study aimed to assess the prognostic value of routinely measured blood biomarkers by developing prognostic models of AIS scores at discharge and 12-months post-injury. Routine blood and clinical data were collected from SCI patients (n=427) and blood measures that had been assessed in less than 50% of patients were excluded. Outcome neurology was obtained from AIS and Spinal cord independence measure III (SCIM-III) scores at discharge and 12-months post-injury, with motor (AIS) and sensory (AIS, touch and prick) abilities being assessed individually. Linear regression models with and without elastic net penalisation were created for all outcome measures. Blood measures associated with liver function such as alanine transaminase were found to add value to predictions of SCIM-III at discharge and 12-months post-injury. Furthermore, components of a total blood count including haemoglobin were found to add value to predictions of AIS motor and sensory scores at discharge and 12-month post-injury. These findings corroborate the results of our previous preliminary study and thus provide further evidence that routine blood measures can add prognostic value in SCI, and that markers of liver function are of particular interest."
+
+# Summary. An optional shortened abstract.
+summary = "A follow up to our [perliminary paper](https://www.liebertpub.com/doi/10.1089/neu.2019.6495) with a larger cohort"
+
+tags = [ "Prognostic modelling", "Spinal cord injury" ]
+categories = [ ]
+featured = false
+
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+url_pdf = "https://www.liebertpub.com/doi/pdf/10.1089/neu.2020.7144"
+
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects = [ ]
+
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides = ""
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+[image]
+caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"
+focal_point = ""
+preview_only = false
+#+end_src
+** A Preliminary Cohort Study Assessing Routine Blood Analyte Levels and Neurological Outcome Following Spinal Cord Injury
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication/perlim_sci_routine_modelling_2020-12-02
+:EXPORT_FILE_NAME: index
+:END:
+
+#+begin_src toml :front_matter_extra t
+authors = [
+  "admin",
+  "Sharon Brown",
+  "Charlotte Hulme",
+  "Rachel Morris",
+  "Anna Bennett",
+  "Wai-Hung Tsang",
+  "Aheed Osman",
+  "Joy Chowdhury",
+  "Naveen Kumar",
+  "Karina Wright"
+]
+date = 2020-01-09T15:53:28.000Z
+doi = "10.1089/neu.2019.6495"
+publishDate = 2020-01-09T15:53:28.000Z
+publication_types = [ "2" ]
+
+publication = "*Journal of Neurotrauma*"
+publication_short = ""
+
+abstract = "There is increasing interest in the identification of biomarkers that could predict neurological outcome following a spinal cord injury (SCI). Although initial American Spinal Injury Association (ASIA) Impairment Scale (AIS) grade is a good indicator of neurological outcome, for the patient and clinicians, an element of uncertainty remains. This preliminary study aimed to assess the additive potential of routine blood analytes following Principal Component Analysis (PCA) to develop prognostic models for neurological outcome following spinal cord injury. Routine blood and clinical data were collected from SCI patients (n=82) and PCA used to reduce the number of blood analytes into related factors. Outcome neurology was obtained from AIS scores at 3- and 12-months post-injury, with Motor (AIS and Total including all myotomes) and Sensory (AIS, Touch and Pain) being assessed individually. Multiple regression models were created for all outcome measures. Blood analytes relating to 'liver function' and 'acute inflammation and liver function' factors were found to significantly increase prediction of neurological outcome at both 3 months (Touch, Pain and AIS Sensory) and at 1 year (Pain, R^2 increased by 0.025 and Total Motor, R^2 increased by 0.016). For some models 'liver function' and 'acute inflammation and liver function' factors were both significantly predictive with the greatest combined R^2 improvement of 0.043 occurring for 3m Pain prediction.  These preliminary findings support ongoing research into the use of routine blood analytes in the prediction of neurological outcome in SCI patients."
+
+summary = "A preliminary investigation into the value of routine bloods for prognosis of spinal cord injury"
+
+tags = [ "Prognostic modelling", "Spinal cord injury" ]
+categories = [ ]
+featured = false
+
+url_pdf = "https://www.liebertpub.com/doi/pdf/10.1089/neu.2019.6495"
+
+projects = [ ]
+
+slides = ""
+
+[image]
+caption = "Image credit: [**Dolman Law Group**](https://www.dolmanlaw.com/st-petersburg-spinal-cord-injuries/)"
+focal_point = ""
+preview_only = false
+#+end_src
 * COMMENT Local Variables :ARCHIVE:
 # Local Variables:
 # eval: (org-hugo-auto-export-mode)

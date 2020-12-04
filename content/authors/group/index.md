@@ -5,7 +5,7 @@ draft = false
 weight = 2001
 superuser = false
 role = "Solve OA? (placeholder)"
-user_groups = ["Researchers", "Visitors"]
+user_groups = ["NA"]
 [[organizations]]
   name = "Keele University"
   url = "https://www.keele.ac.uk/pharmacy-bioengineering"
@@ -28,7 +28,7 @@ link = "https://scholar.google.co.uk/citations?hl=en&user=zozS1gkAAAAJ"
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/h-mateus"
+link = "https://github.com/H-Mateus/spinal-studies-rjah-site"
 +++
 
 Verbiage describing the groups history, aims, achievements, etc (placeholder)

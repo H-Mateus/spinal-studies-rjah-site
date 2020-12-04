@@ -10,7 +10,7 @@ Note that HUGO_CODE_FENCE is set to true as the Academic theme has it's own high
 :PROPERTIES:
 :export_hugo_section: people
 :EXPORT_FILE_NAME: people
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :widget people :headless true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :widget people :headless true :active true :weight 20
 :END:
 
 #+begin_src toml :front_matter_extra t
@@ -116,6 +116,10 @@ social:
 #+end_src
 
 Life story goes here.
+* Links
+- Some useful resources
+  + [[https://github.com/wowchemy/starter-research-group][Example site with academic theme]] 
+  + [[https://wowchemy.com/templates/][Academic theme site]] 
 
 * Posts 
 Note: categories are set with tags preceded by =@=, so =:@Emacs:= will give a post the "Emacs" category

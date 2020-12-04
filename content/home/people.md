@@ -4,8 +4,8 @@ author = ["Gabriel Mateus Bernardo Harrington"]
 draft = false
 weight = 20
 widget = "people"
-headless = true
 active = true
+headless = true
 [content]
 user_groups = [
   "Principal Investigators",

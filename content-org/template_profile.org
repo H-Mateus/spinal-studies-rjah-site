@@ -1,0 +1,56 @@
+** Charlotte Hulme
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/charlotte_hulme
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Spinal cord injury
+  - Proteomics
+email: charlotte.hulme@nhs.net
+highlight_name: true
+superuser: false
+# for user groups select from the following list
+  # "Principal Investigators",
+  # "Researchers",
+  # "PhD Students",
+  # "Grad Students",
+  # "Administration",
+  # "Visitors",
+  # "Alumni"
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2015-2018
+    - course: BSc in Biological Sciences?
+      institution: Manchester University?
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:charlotte.hulme@nhs.net
+  - icon: twitter
+    icon_pack: fab
+    link: 'https://twitter.com/CharlotteHulme6'
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.co.uk/citations?user=TU3Q1l8AAAAJ'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
+#+end_src
+
+Life story goes here.
+For text formatting options like links or images, please refer to the org-mode post on the website.
+

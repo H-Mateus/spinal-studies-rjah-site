@@ -1,0 +1,23 @@
+** Org-mode basics :@Guides:orgmode:tutorials:emacs:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post/org_mode_basics_2020-12-03
+:EXPORT_FILE_NAME: index
+:EXPORT_DATE: 2020-12-03
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary "Brief introduction to org-mode formatting" :math true :diagram true
+:END:
+
+#+begin_src toml :front_matter_extra t
+[image]
+placement = 3
+caption = "Image credit: [**orgmode.org**](https://orgmode.org/)"
+#+end_src
+
+Note:
+- The toml block just above is for including a banner image. If you would like such an image on your post be sure to send it, and preferably name the file "featured". .png and .jpeg are the safest file formats, but others may work.
+- categories are set with tags preceded by =@=, so =:@Emacs:= will give a post the "Emacs" category, anything without the =@= will be a tags
+- change the above characteristics as appropriate, but leave the ":EXPORT_FILE_NAME: index" alone.
+  + if you would like math notation or diagrams make sure they are set to true as above.
+
+
+The body of your post goes here.
+Please read the notes above, and refer to the org-mode basics post on the site for guidance on how to format your post.

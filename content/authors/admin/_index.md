@@ -6,7 +6,7 @@ title: Gabriel Mateus Bernardo Harrington
 superuser: true
 
 # Role/position
-role: PhD student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:

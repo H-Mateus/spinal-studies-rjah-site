@@ -73,7 +73,8 @@ user_groups:
 - Researchers
 ---
 
-I am currently a PhD student at [Keele Univeristy](https://www.keele.ac.uk/research/). My research focuses on the prognosis of spinal cord injury. 
+I am currently a PhD student at [Keele Univeristy](https://www.keele.ac.uk/research/) funded by the [EPSRC](https://epsrc.ukri.org/) as part of the [Center for Doctoral Training in Regenerative Medicine](https://www.lboro.ac.uk/microsites/chemical/dtcregen-med/).
+My research focuses on the prognosis of spinal cord injury. 
 I have been investigating the value of blood parameters measured as part of routine care in predicting the level of neurological recovery a patient may have.
 I am also using proteomic techniques and ELISAs to further analyse patient blood to identify potential novel biomarkers that may predict recovery.
 
@@ -85,5 +86,7 @@ The early results are promising and contributes to laying the groundwork for cre
 This internship gave me an insight into cutting edge biomedical research that has helped me further develop my skills as a scientist.
 
 During my PhD I have developed a new-found love of data science, reproducible research and a passion for programming in R and Python.<br> 
-You can see the files I made to create this website on my [Github](https://github.com/H-Mateus/personal_website).<br>
+
+I also made this website! 
+The repository for the site can be found on [Github](https://github.com/H-Mateus/spinal-studies-rjah-site).<br>
 My full CV is available [here](/cv_2020-02-06.pdf) 

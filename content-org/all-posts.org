@@ -84,6 +84,9 @@ bio: One sentence summary goes here.
 interests:
   - Spinal cord injury
   - Proteomics
+  - Systems Biology
+  - Metabolomics
+  - Transcriptomics
 email: charlotte.hulme@nhs.net
 highlight_name: true
 superuser: false
@@ -115,7 +118,428 @@ social:
     link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
 #+end_src
 
-Life story goes here.
+- What you are working on?
+    Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
+
+** Claire Mennan
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/claire_mennan
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: claire.mennan@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:claire.mennan@nhs.net
+#+end_src
+I am based at the [[https://www.rjah.nhs.uk/][Robert Jones & Agnes Hunt Orthopaedic Hospital]] in Oswestry.  I work on a grant funded by [[https://www.versusarthritis.org/][Versus Arthritis]] as part of the [[http://arthritistissueengineering.org.uk][Tissue Engineering Centre]]. The focus of my research has been to isolate and characterise Mesenchymal stromal cells from human umbilical cords as an allogeneic source of cells for regenerative cell therapies for the treatment of diseases such as Osteoarthritis (OA).  We have used these cells in two pre-clinical models of OA and grown them successfully in the [[https://www.terumobct.com/quantum][Quantum® bioreactor]] for large-scale cell expansion.
+
+I also work on the ASCOT (Autologous Stem Cells Chondrocytes Or the Two) clinical trial as part of a team that analyses the cells being returned to patients.  One of the aims of this work is to try to find markers which may help us identify the most therapeutically potent cells for treating patients in the future.
+
+** Naomi Dugard
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/naomi_dugard
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: naomi.dugard@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:naomi.dugard@nhs.net
+#+end_src
+
+I am based at the [[https://www.rjah.nhs.uk/][Robert Jones & Agnes Hunt Orthopaedic Hospital]] in Oswestry and currently employed as a Consenting Research Officer.
+With this role I am the main interface between Keele Researchers (based at the RJAH), hospital clinicians and clinic staff, and importantly the patients attending pre-operative clinics at the hospital.
+
+I studied for my PhD at the RJAH and have subsequently worked there for many years as a post-doctoral researcher.  I have a keen interest in bone health and disease and the preservation of cartilage, with previous experience in the development and application of novel markers of bone resorption and clinical research studies investigating skeletal health in the ageing population
+
+** Karina Wright
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/karina_wright
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Principal Investigator
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: karina.wright1@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Principal Investigators
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:karina.wright1@nhs.net
+#+end_src
+
+- What you are working on
+Identifying, qualifying and validating diagnostic, prognostic and predictive biomarkers for orthopaedic and spinal cord injured patients.
+Assessing and optimising existing Advanced Therapy Medicinal Products (ATMPs) for the treatment of cartilage, bone and skin injury and degeneration. Developing and testing new ATMPs for the same conditions.
+
+- Areas of interest/collaborations
+Techniques employed include:
++ Proteomics, bioinformatics, biochemical single and multi-plex techniques and mathematical modelling (biomarker discovery and validation).
++ RNA sequencing, proteomics, flow cytometry, live cell imaging, up-scale manufacturing techniques utilising commercial bioreactors (current and future ATMP assessments and development).
+
+** Oksana Kehoe
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/oksana_kehoe
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Principal Investigator
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: oksana.kehoe@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Principal Investigators
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:oksana.kehoe@nhs.net
+#+end_src
+
+The Rheumatology Research lab is based at the [[https://www.rjah.nhs.uk/][RJAH Orthopaedic Hospital]], Oswestry as part of the ISTM Regenerative Medicine theme. The combined clinical and research excellence in Oswestry has contributed extensively to the current knowledge of mechanisms and therapy treatments for arthritis.
+
+*** Research:
+The research within our laboratory is focused on understanding *mechanisms of rheumatoid arthritis progression and possible treatments* including mesenchymal stem cells (MSCs), mesenchymal stem cell conditioned medium and mesenchymal stem cell-derived extracellular vesicles. We also try to find out how stem cells can be “encouraged” to perform better in aging and in disease such as arthritis. In our research we use many approaches, from cell biology, to biochemistry, molecular biology and animal models. 
+*** Current active projects
+    1. *Mesenchymal stem cell-derived extracellular vesicles as therapeutic agents in arthritis*
+
+       MSCs function predominantly through paracrine mechanisms, via growth factors, cytokines, chemokines and bioactive, membrane-bound extracellular vesicles (EVs) found in mesenchymal stem cell conditioned medium. We are pursuing simultaneous characterisation of EVs derived from human MSCs cultured in different conditions to determine the impact of culture conditions upon the molecular composition of EVs. We are using pre-clinical and clinical samples to test the anti-inflammatory and immunomodulatory properties of EVs.
+
+    2. *Uncovering the role of heparan sulphate proteoglycans in extracellular vesicle biogenesis: potential tools for improved therapies*
+
+       In collaboration with Dr Cathy Merry, Nottingham University we propose that EVs may be optimised for regenerative medicine therapies by controlling the cargo incorporated and efficiency of EV production, through manipulating EV biogenesis mechanisms. One such mechanism involves a family of proteoglycans called syndecans. Here we aim to develop a method of exosome optimisation through specific alterations to the syndecan structures on MSC surfaces.
+
+    3. *The in vitro effect of syndecan-3 gene knockout on bone marrow derived mesenchymal stem cells’ properties*
+
+       Inflammation is a central feature of rheumatoid arthritis that affects around 1% of the population and can result in disability and morbidity. The immunomodulatory effects of bone marrow derived mesenchymal stem cells has been widely studied and the recent observations that syndecan-3 (SDC3) is selectively pro-inflammatory in the joint led us to hypothesise that SDC3 might play an important role in MSCs biology. Syndecans are heparan sulphate proteoglycans expressed by endothelial cells of blood vessels and play a role in trafficking of inflammatory cells in an arthritis model.
+
+** Sally Roberts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/sally_roberts
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Principal Investigator
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: Sally.roberts4@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Principal Investigators
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:Sally.roberts4@nhs.net
+#+end_src
+
+- What you are working on?
+I started work here doing my PhD on Articular Cartilage and its role in Osteoarthritis and have come full circle to mostly working on that again now! I currently spend most time working with people doing studies with others related to cell therapy for cartilage repair eg Autologous Chondrocyte Implantation and developing other approaches for the future.
+
+- Areas of interest/collaborations
+Previously worked extensively on the spine, intervertebral discs and back pain, particularly the basic science (cell biology, matrix components and organisation) of the disc in health and disease.
+
+** Timothy Hopkins
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/timothy_hopkins
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: t.hopkins@keele.ac.uk
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:t.hopkins@keele.ac.uk
+#+end_src
+
+My research interests lie in the study, both in the laboratory and the clinic, of factors that affect the function of the knee over the lifetime of a patient.
+
+In the laboratory I am investigating the effect of subchondral bone health on the health of the articular cartilage in the knee. This involves the isolation and characterisation of various primary cell types from the subchondral bone and cartilage of tissue donated following total knee replacement. Subsequently, the characterised populations are employed in a co-culture model to investigate the effect of subchondral bone cells from regions of the joint with and without pathological changes (visible macroscopically and using imaging modalities) on the extracellular matrix forming capabilities of the patient-matched chondrocytes.
+
+Clinically, I am interested in the relationship between activity levels and knee function, and the part played by psychosocial factors in this relationship. We have carried out an initial analysis of activity, knee function and psychosocial data that was previously collected as part of an on-going cell therapy clinical trial. It was discovered that the relationship between activity levels and knee function varies between individuals, with some patients demonstrating a positive relationship, and others a negative one. Moreover, we found that some of this patient-to-patient variation can be explained by the patient’s positive and negative outlook scores. We are now in the process of applying for ethical approval to carry out a more robust study of these factors using wearable technology to provide an objective measure of activity levels.
+
+** Mairead Hyland
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/mairead_hyland
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: PhD Student
+bio: One sentence summary goes here.
+interests:
+  - Extracellular vesicles
+  - Mesenchymal Stem Cells
+  - Rheumatoid Arthritis
+email: m.hyland@keele.ac.uk
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:m.hyland@keele.ac.uk
+#+end_src
+
+I am a 2nd year PhD student based at [[https://www.rjah.nhs.uk/][RJAH, Oswestry]].
+My research involves studying the immunomodulatory potential of extracellular vesicles derived from umbilical cord mesenchymal stem cells.
+My aim is to study the characteristics of these extracelullar vesicles and see if they have anti-inflammatory properties for the treatment of Rheumatoid Arthritis.
+
+I am collaborating with some researchers from the University of Cardiff to analyse the cargo of my extracellular vesicles and their isolation.
+
+** John Garcia
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/john_garcia
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: john.garcia@rjah.nhs.uk
+highlight_name: true
+superuser: false
+user_groups:
+  - Alumni
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:john.garcia@rjah.nhs.uk
+#+end_src
+
+My research is based at the [[https://www.rjah.nhs.uk/][Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry]] and focused on understanding the role of inflammation in the pathophysiology of Osteoarthritis (OA).
+This work is in an attempt to harness specific features of the immune system to help drive tissue regeneration in damaged human articular joints.
+Special attention is given to macrophages due to their ability to switch between multiple phenotypes, one of which helps promote an anti-inflammatory and pro-regenerative microenvironment.
+My other research interests include understanding the natural healing of articular cartilage and the large-scale production of cells for allogenic cartilage cell therapies.
+
+** Mike Williams
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/mike_williams
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Data Analyst
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: mike.williams17@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:mike.williams17@nhs.net
+#+end_src
+
+Reporting to Prof Sally Roberts, I am responsible for the maintenance and development of the OsCell Research Database and for the extraction, manipulation and presentation of data to the research team as required. I also carry out other ad hoc data analysis work, and input of patient data related to the ASCOT and REACT studies.
+
+** Lauren Tierney
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/lauren_tierney
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Mesenchymal stromal cells
+email: mike.williams17@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:mike.williams17@nhs.net
+#+end_src
+
+I am a PhD student working at both Keele University and [[https://www.rjah.nhs.uk/][The Robert hunt and Agnes Jones Orthopaedic hospital in Oswestry]].
+
+PhD project: Transcriptome analysis of stem cell and chondrocyte therapies.
+
+I commenced work on this project in January 2019. During the course of this research project I will be investigating the transcriptome profiles (generated via RNA sequencing technologies) of the cells used in the autologous stem cell, chondrocyte or the two (ASCOT) clinical trial. From there, differential gene expression analysis will be performed in order to identify whether there is an association between gene expression profiles and trial outcome measures, and if so, examine the possible biological pathways involved.
+
+Prior to starting this PhD, I obtained a BSc in Biomedical Science from Keele University and was employed at a Genetic Toxicology contract research organisation during and after finishing my degree. Previous to that, I completed a modern apprenticeship at AstraZeneca Pharmaceuticals working within Genetic Toxicology, Hepatic Toxicology and Cardiac Toxicology departments.
+
 * Links
 - Some useful resources
   + [[https://github.com/wowchemy/starter-research-group][Example site with academic theme]] 
@@ -149,7 +573,7 @@ Perhaps the most important of which is transportability and reproducibility.
 You can't view or edit a .doc file without special software (which you often have to pay for), whereas plain text files can be viewed an edited on any computer, regardless of operating system, and with thousands of text editors to choose from.
 
 The only real disadvantage to markup languages is that you have to learn their syntax.
-This is only really an issue for some languages though, [[https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.][html]] (the language website are written in) is fairly complicated and fiddly, but languages like [[https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown][markdown]] and org-mode where made to be simple and easy to learn.
+This is only really an issue for some languages though, [[https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.][html]] (the language website are written in) is fairly complicated and fiddly, but languages like [[https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown][markdown]] and org-mode were made to be simple and easy to learn.
 And this post is going to demonstrate the basics, so read on!
 
 Plus, with a bit of magic from [[https://pandoc.org/][pandoc]] you can convert pretty much any markup language to any other markup language.
@@ -221,10 +645,10 @@ Results in the following image being embedded
 #+CAPTION: I know the feeling panda...
 [[/images/red_panda.jpg]]
 
-And if you're wonding about the captions, just add header on the line above whatever you want caption:
+And if you're wondering about the captions, just add header on the line above whatever you want caption:
 
 =#+CAPTION: caption text goes here= \\
-=thing you want a caption on (normally an image or table)=
+=thing you want a caption on goes here(normally an image or table)=
 
 *** Symbols and equations
 For things like Greek letters just type the letter after a \ like so:
@@ -278,7 +702,7 @@ So there are three parts here:
 =#+end_src= \\
 =#+end_details= \\
 
-The whole thing is wraped in the =begin_details= block, the text next the triangle is defined in the =begin_summary=, and the code is in the =begin_src= block.
+The whole thing is wrapped in the =begin_details= block, the text next the triangle is defined in the =begin_summary=, and the code is in the =begin_src= block.
 Note that each block must be closed, and that code doesn't have to be run, the output with be produced during export
 
 *** Diagrams

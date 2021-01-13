@@ -28,7 +28,7 @@ Perhaps the most important of which is transportability and reproducibility.
 You can't view or edit a .doc file without special software (which you often have to pay for), whereas plain text files can be viewed an edited on any computer, regardless of operating system, and with thousands of text editors to choose from.
 
 The only real disadvantage to markup languages is that you have to learn their syntax.
-This is only really an issue for some languages though, [html](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.) (the language website are written in) is fairly complicated and fiddly, but languages like [markdown](https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown) and org-mode where made to be simple and easy to learn.
+This is only really an issue for some languages though, [html](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.) (the language website are written in) is fairly complicated and fiddly, but languages like [markdown](https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown) and org-mode were made to be simple and easy to learn.
 And this post is going to demonstrate the basics, so read on!
 
 Plus, with a bit of magic from [pandoc](https://pandoc.org/) you can convert pretty much any markup language to any other markup language.
@@ -118,10 +118,10 @@ Results in the following image being embedded
 
 {{< figure src="/images/red_panda.jpg" caption="Figure 1: I know the feeling panda..." >}}
 
-And if you're wonding about the captions, just add header on the line above whatever you want caption:
+And if you're wondering about the captions, just add header on the line above whatever you want caption:
 
 `#+CAPTION: caption text goes here` <br />
-`thing you want a caption on (normally an image or table)`
+`thing you want a caption on goes here(normally an image or table)`
 
 
 ## Symbols and equations {#symbols-and-equations}
@@ -194,7 +194,7 @@ So there are three parts here:
 `#+end_src` <br />
 `#+end_details` <br />
 
-The whole thing is wraped in the `begin_details` block, the text next the triangle is defined in the `begin_summary`, and the code is in the `begin_src` block.
+The whole thing is wrapped in the `begin_details` block, the text next the triangle is defined in the `begin_summary`, and the code is in the `begin_src` block.
 Note that each block must be closed, and that code doesn't have to be run, the output with be produced during export
 
 

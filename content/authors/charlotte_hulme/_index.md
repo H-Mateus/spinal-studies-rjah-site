@@ -8,6 +8,9 @@ bio: One sentence summary goes here.
 interests:
   - Spinal cord injury
   - Proteomics
+  - Systems Biology
+  - Metabolomics
+  - Transcriptomics
 email: charlotte.hulme@nhs.net
 highlight_name: true
 superuser: false
@@ -39,4 +42,6 @@ social:
     link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
 ---
 
-Life story goes here.
+-   What you are working on?
+
+    Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.

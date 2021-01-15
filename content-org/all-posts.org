@@ -443,8 +443,8 @@ superuser: false
 user_groups:
   - Alumni
 organizations:
-  - name: Royal Free London NHS Trust
-    url: 'https://www.royalfree.nhs.uk/'
+  - name: NHS Blood and Transplant
+    url: 'https://www.nhsbt.nhs.uk/'
 education:
   courses:
     - course: PhD in Bioengineering
@@ -467,6 +467,7 @@ social:
 
 My research is based at the [[https://www.rjah.nhs.uk/][Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry]] and focused on understanding the role of inflammation in the pathophysiology of Osteoarthritis (OA).
 This work is in an attempt to harness specific features of the immune system to help drive tissue regeneration in damaged human articular joints.
+
 Special attention is given to macrophages due to their ability to switch between multiple phenotypes, one of which helps promote an anti-inflammatory and pro-regenerative microenvironment.
 My other research interests include understanding the natural healing of articular cartilage and the large-scale production of cells for allogenic cartilage cell therapies.
 

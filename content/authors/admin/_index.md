@@ -17,10 +17,10 @@ organizations:
 bio: My research interests include spinal cord injury, bioinformatics, statistical modelling and reproducible research.
 
 interests:
-- Artificial Intelligence
+- Prognostic modelling
 - Data Science
 - Programming
-- Linux
+- Reproducible Research
 - Spinal cord injury
 
 education:

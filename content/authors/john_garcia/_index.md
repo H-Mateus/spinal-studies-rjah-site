@@ -7,26 +7,36 @@ role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
 interests:
   - Mesenchymal stromal cells
-email: john.garcia@rjah.nhs.uk
+  - Osteoarthritis
+  - Inflammation
+  - Macrophages
+  - Cartilage Repair 
+email: john.garcia@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
   - Alumni
 organizations:
-  - name: Keele University
-    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+  - name: Royal Free London NHS Trust
+    url: 'https://www.royalfree.nhs.uk/'
 education:
   courses:
-    - course: PhD in something
-      institution: somewhere
-      year: sometime
-    - course: BSc in something
-      institution: somewhere
-      year: sometime
+    - course: PhD in Bioengineering
+      institution: Keele University
+      year: 2016
+    - course: MSc in Tissue Engineering 
+      institution: Keele University
+      year: 2013
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:john.garcia@rjah.nhs.uk
+    link: mailto:john.garcia@nhs.net
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/john-garcia-594a1865/'
+  - icon: twitter
+    icon_pack: fab
+    link: 'https://twitter.com/J_kgarcia'
 ---
 
 My research is based at the [Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry](https://www.rjah.nhs.uk/) and focused on understanding the role of inflammation in the pathophysiology of Osteoarthritis (OA).

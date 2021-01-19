@@ -517,7 +517,7 @@ Reporting to Prof Sally Roberts, I am responsible for the maintenance and develo
 :END:
 
 #+begin_src yaml :front_matter_extra t
-role: Post-Doctoral Researcher
+role: PhD Student
 bio: One sentence summary goes here.
 interests:
   - Mesenchymal stromal cells

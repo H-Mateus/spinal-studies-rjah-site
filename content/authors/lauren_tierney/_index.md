@@ -3,7 +3,7 @@ title: "Lauren Tierney"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2012
-role: Post-Doctoral Researcher
+role: PhD Student
 bio: One sentence summary goes here.
 interests:
   - Mesenchymal stromal cells

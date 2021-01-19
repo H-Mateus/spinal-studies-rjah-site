@@ -1,0 +1,123 @@
+#+TITLE: Guidance for website content
+
+This is some guidance pertaining to the content on the group website.\\
+The main idea for the website is to try and improve the external presence of the group.\\
+
+* Types of content
+There are 3 main types of content:
++ Profiles
++ Publications
++ Posts
+
+There are templates for each content type:
++ [[file:template_profile.org]]
++ [[file:template_publication.org]]
++ [[file:template_post.org]]
+
+These can all be created from a single [[https://orgmode.org/][Org Mode]] file, and this file has headings for each of the above content types. \\
+This file is then used to create all the files needed to generate the website content.\\
+You can file this file on [[https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org][site repository]].\\
+You can also find a [[https://inspiring-hawking-738e7b.netlify.app/post/org_mode_basics_2020-12-03/][post]] which details how to do various types of formating in Org Mode, such as *bold*, /italits/ or _underlined_ text.
+
+* Structure of the files
+
+This is an example of a profile:
+
+#+begin_example
+\** Charlotte Hulme
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/charlotte_hulme
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Spinal cord injury
+  - Proteomics
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2016
+social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.co.uk/citations?user=TU3Q1l8AAAAJ'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
+#+end_src
+
+- What you are working on?
+    Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
+#+end_example
+
+** First section
+To break this down, the important part of the first section is the title of the content which is after the =**= and the =:EXPORT_HUGO_SECTION:= which determines where the content will be exported to.\\
+Note that the =\= before is for formating in this guide and isn't part of the actual file.
+
+#+begin_example
+\** Title goes here
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: path/to/content/goes/here
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+#+end_example
+** Second section
+Next is the [[https://cran.r-project.org/web/packages/officedown/vignettes/yaml.html][YAML header]].\\
+YAML is structured with key-value pairs with a =:= and a space.\\
+If a key has multiple values you can put them on new lines, but they must be indented correctly and be preceded with a =-=
+This should just be a case of replace the relevant values as needed.
+
+#+begin_example
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Spinal cord injury
+  - Proteomics
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2016
+social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.co.uk/citations?user=TU3Q1l8AAAAJ'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
+#+end_src
+#+end_example
+** Third and final section
+The last section is the main body of the content.\\
+This is just written in Org Mode so please see the aforementioned [[https://inspiring-hawking-738e7b.netlify.app/post/org_mode_basics_2020-12-03/][post]] for formatting guidance
+
+#+begin_example
+- What you are working on?
+    Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
+#+end_example
+
+
+Whilst I'm running the site you can write up the

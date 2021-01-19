@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-01-19 Tue 10:18 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guidance for website content</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Gabriel Mateus Bernardo Harrington" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Guidance for website content</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgc8aece0">1. Types of content</a></li>
+<li><a href="#orgb5c7084">2. Structure of the files</a>
+<ul>
+<li><a href="#org210964c">2.1. First section</a></li>
+<li><a href="#orgdc25825">2.2. Second section</a></li>
+<li><a href="#org3bfd847">2.3. Third and final section</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+This is some guidance pertaining to the content on the group website.<br />
+The main idea for the website is to try and improve the external presence of the group.
+</p>
+
+<div id="outline-container-orgc8aece0" class="outline-2">
+<h2 id="orgc8aece0"><span class="section-number-2">1</span> Types of content</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+There are 3 main types of content:
+</p>
+<ul class="org-ul">
+<li>Profiles</li>
+<li>Publications</li>
+<li>Posts</li>
+</ul>
+
+<p>
+These can all be created from a single <a href="https://orgmode.org/">Org Mode</a> file, and this file has headings for each of the above content types. <br />
+This file is then used to create all the files needed to generate the website content.<br />
+You can file this file on <a href="https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org">site repository</a>.<br />
+You can also find a <a href="https://inspiring-hawking-738e7b.netlify.app/post/org_mode_basics_2020-12-03/">post</a> which details how to do various types of formating in Org Mode, such as <b>bold</b>, <i>italits</i> or <span class="underline">underlined</span> text.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb5c7084" class="outline-2">
+<h2 id="orgb5c7084"><span class="section-number-2">2</span> Structure of the files</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+This is an example of a profile:
+</p>
+
+<pre class="example" id="orgac99d30">
+\** Charlotte Hulme
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/charlotte_hulme
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Spinal cord injury
+  - Proteomics
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2016
+social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.co.uk/citations?user=TU3Q1l8AAAAJ'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
+#+end_src
+
+- What you are working on?
+    Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
+</pre>
+</div>
+
+<div id="outline-container-org210964c" class="outline-3">
+<h3 id="org210964c"><span class="section-number-3">2.1</span> First section</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+To break this down, the important part of the first section is the title of the content which is after the <code>**</code> and the <code>:EXPORT_HUGO_SECTION:</code> which determines where the content will be exported to.<br />
+Note that the <code>\</code> before is for formating in this guide and isn&rsquo;t part of the actual file.
+</p>
+
+<pre class="example" id="org7863c35">
+\** Title goes here
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: path/to/content/goes/here
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+</pre>
+</div>
+</div>
+<div id="outline-container-orgdc25825" class="outline-3">
+<h3 id="orgdc25825"><span class="section-number-3">2.2</span> Second section</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Next is the <a href="https://cran.r-project.org/web/packages/officedown/vignettes/yaml.html">YAML header</a>.<br />
+YAML is structured with key-value pairs with a <code>:</code> and a space.<br />
+If a key has multiple values you can put them on new lines, but they must be indented correctly and be preceded with a <code>-</code>
+This should just be a case of replace the relevant values as needed.
+</p>
+
+<pre class="example" id="org7a19d35">
+#+begin_src yaml :front_matter_extra t
+role: Post-Doctoral Researcher
+bio: One sentence summary goes here.
+interests:
+  - Spinal cord injury
+  - Proteomics
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2016
+social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.co.uk/citations?user=TU3Q1l8AAAAJ'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
+#+end_src
+</pre>
+</div>
+</div>
+<div id="outline-container-org3bfd847" class="outline-3">
+<h3 id="org3bfd847"><span class="section-number-3">2.3</span> Third and final section</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+The last section is the main body of the content.<br />
+This is just written in Org Mode so please see the aforementioned <a href="https://inspiring-hawking-738e7b.netlify.app/post/org_mode_basics_2020-12-03/">post</a> for formatting guidance
+</p>
+
+<pre class="example" id="orgc65d15c">
+- What you are working on?
+    Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Gabriel Mateus Bernardo Harrington</p>
+<p class="date">Created: 2021-01-19 Tue 10:18</p>
+</div>
+</body>
+</html>

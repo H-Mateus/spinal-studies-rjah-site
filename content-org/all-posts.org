@@ -471,6 +471,54 @@ This work is in an attempt to harness specific features of the immune system to 
 Special attention is given to macrophages due to their ability to switch between multiple phenotypes, one of which helps promote an anti-inflammatory and pro-regenerative microenvironment.
 My other research interests include understanding the natural healing of articular cartilage and the large-scale production of cells for allogenic cartilage cell therapies.
 
+** Rebecca Davies
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/rebecca_davies
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: PhD Student
+bio: A PhD Student at Keele University, interested in MSC-derived extracellular vesicles.
+interests:
+  - Mesenchymal Stem Cells (MSCs)
+  - Extracellular Vesicles (EVs)
+  - Rheumatoid Arthritis
+  - Inflammation
+email: r.l.davies@keele.ac.uk
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in Regenerative Medicine
+      institution: Keele University
+      year: 2018-2023
+    - course: BSc in Biomedical Science
+      institution: University of Sheffield
+      year: 2014-2017
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:r.l.davies@keele.ac.uk
+  - icon: linkedin
+    icon_pack: fab
+    link: 'www.linkedin.com/in/rebecca-davies-17383a116'
+#+end_src
+
+I am a 2nd year PhD student in the Rheumatology Research department based at RJAH, Oswestry. My research centres around umbilical cord mesenchymal stem cell (UC-MSC) derived extracellular vesicles (EVs), with a particular focus on their anti-inflammatory properties. This work will comprise of three main research objectives: 
+1.	The isolation and characterisation of UC-MSC EVs, to allow comparison between donors, to determine if MSC variability is reflected in their EV population, possibly contributing to minimal criteria for their clinical application.
+2.	Development towards an allogeneic strategy of EV production by pooling UC-MSC donors, to explore their cellular properties and detect potential immunogenic responses.
+3.	Achieve the large-scale production of allogeneic EVs from pooled UC-MSC donors, using the Quantum cell expansion system, and determine their therapeutic efficacy using T-cells isolated from patients with rheumatoid arthritis.
+   
+Previously, I graduated from the University of Sheffield after completing a BSc in Biomedical Science. Following this, I was accepted on to a DTC programme in Regenerative Medicine, allowing me to undertake research projects such as ‘the generation of a polymer brush of different lengths and densities to characterise the behaviour of SYSY-5Y cells’ and ‘the characterisation of collagen VI from osteoarthritic-sourced cartilage and the effect of its addition on chondrocytes’, which ultimately led me to my PhD project being undertaken today.
+
 ** Mike Williams
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: authors/mike_williams
@@ -1077,6 +1125,37 @@ caption = "Image credit: [**Dolman Law Group**](https://www.dolmanlaw.com/st-pet
 focal_point = ""
 preview_only = false
 #+end_src
+
+** Regenerative Medicine: A Review of the Evolution of Autologous Chondrocyte Implantation (ACI) Therapy
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication/review_evolution_aci_2021-01-27
+:EXPORT_FILE_NAME: index
+:END:
+
+#+begin_src toml :front_matter_extra t
+authors = [
+  "Rebecca Davies",
+  "Nicola Kuiper"
+]
+doi = "10.3390/bioengineering6010022"
+publishDate = 2019-03-09T00:00:00.000Z
+publication_types = [ "2" ]
+
+publication = "*Bioengineering*"
+publication_short = ""
+
+abstract = "Articular cartilage is composed of chondrons within a territorial matrix surrounded by a highly organized extracellular matrix comprising collagen II fibrils, proteoglycans, glycosaminoglycans, and non-collagenous proteins. Damaged articular cartilage has a limited potential for healing and untreated defects often progress to osteoarthritis. High hopes have been pinned on regenerative medicine strategies to meet the challenge of preventing progress to late osteoarthritis. One such strategy, autologous chondrocyte implantation (ACI), was first reported in 1994 as a treatment for deep focal articular cartilage defects. ACI has since evolved to become a worldwide well-established surgical technique. For ACI, chondrocytes are harvested from the lesser weight bearing edge of the joint by arthroscopy, their numbers expanded in monolayer culture for at least four weeks, and then re-implanted in the damaged region under a natural or synthetic membrane via an open joint procedure. We consider the evolution of ACI to become an established cell therapy, its current limitations, and on-going strategies to improve its efficacy. The most promising developments involving cells and natural or synthetic biomaterials will be highlighted."
+
+tags = [ "Articular Cartilage", "Regenerative Medicine", "Chondron", "Extracellular Matrix", "Autologous Chondrocyte Implantation", "Cell Therapy" ]
+categories = [ ]
+featured = false
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+url_pdf = "https://www.mdpi.com/2306-5354/6/1/22"
+#+end_src
+
 * COMMENT Local Variables :ARCHIVE:
 # Local Variables:
 # eval: (org-hugo-auto-export-mode)

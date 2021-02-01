@@ -11,6 +11,7 @@ user_groups = [
   "Principal Investigators",
   "Researchers",
   "PhD Students",
+  "Post-Doctoral Researchers",
   "Grad Students",
   "Administration",
   "Visitors",

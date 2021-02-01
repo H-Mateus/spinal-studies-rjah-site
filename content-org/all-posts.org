@@ -121,6 +121,61 @@ social:
 - What you are working on?
     Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
 
+** Jingsong Wang
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/jingsong_wang
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: PhD Student
+bio: One sentence summary goes here.
+interests:
+  - Meniscus tissue engineering
+  - Cartilage repair
+email: wjsworkmail@gmail.com
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in something
+      institution: Keele University
+      year: 2016
+    - course: BSc in Biological Sciences?
+      institution: Manchester University?
+      year: sometime
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:wjsworkmail@gmail.com
+  - icon: orcid 
+    icon_pack: fab
+    link: 'https://orcid.org/0000-0001-5002-2636'
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/jingsong-wang-37822a178/'
+#+end_src
+
+I was awarded a MD in Clinical Medicine from Dalian Medical University in 2016.
+I got an PhD offer from Keele University in Cell and Tissue Engineering in 2017.
+Since then I started my research work as a PhD student at the RJAH and currently in my final year of PhD.
+
+My research interests are meniscus injuries, focusing on:​
+- Understanding meniscus degeneration​
+- Enhancing meniscus tissue repair​
+- Developing cell-based meniscus therapies
+
+Beyond the lab work, I am also a big basketball fan.
+One of the reason I looked into meniscus repair is I injured my own meniscus twice while playing basketball.
+Now I am trying to cure myself!​
+
 ** Claire Mennan
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: authors/claire_mennan
@@ -1169,6 +1224,54 @@ focal_point = ""
 preview_only = false
 #+end_src
 
+** Combined Autologous Chondrocyte and Bone Marrow Mesenchymal Stromal Cell Implantation in the Knee: An 8-year Follow Up of Two First-In-Man Cases
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication/aci_case_study_2021-02-01
+:EXPORT_FILE_NAME: index
+:END:
+
+#+begin_src toml :front_matter_extra t
+authors = [
+  "Jingsong Wang",
+  "Karina T Wright",
+  "Jade Perry",
+  "Bernhard Tins",
+  "Timothy Hopkins",
+  "Charlotte Hulme",
+  "Helen S McCarthy",
+  "Ashley Brown",
+  "James B Richardson"
+]
+date = 2019-05-08T15:53:28.000Z
+doi = "10.1177/0963689719845328"
+publishDate = 2019-05-08T15:53:28.000Z
+
+publication_types = [ "2" ]
+
+publication = "*Cell Transplantation*"
+publication_short = ""
+
+abstract = "Autologous chondrocyte implantation (ACI) has been used to treat cartilage defects for >20 years, with promising clinical outcomes. Here, we report two first-in-man cases (patient A and B) treated with combined autologous chondrocyte and bone marrow mesenchymal stromal cell implantation (CACAMI), with 8-year follow up. Two patients with International Cartilage Repair Society (ICRS) grade III–IV cartilage lesions underwent a co-implantation of autologous chondrocytes and bone marrow-derived mesenchymal stromal cells (BM-MSCs) between February 2008 and October 2009. In brief, chondrocytes and BM-MSCs were separately isolated and culture-expanded in a good manufacturing practice laboratory for a period of 2–4 weeks. Cells were then implanted in combination into cartilage defects and patients were clinically evaluated preoperatively and postoperatively, using the self-reported Lysholm knee score and magnetic resonance imaging (MRI). Postoperative Lysholm scores were compared with the Oswestry risk of knee arthroplasty (ORKA) scores. Patient A also had a second-look arthroscopy, at which time a biopsy of the repair site was taken. Both patients demonstrated a significant longterm improvement in knee function, with postoperative Lysholm scores being consistently higher than ORKA predictions. The most recent Lysholm scores, 8 years after surgery were 100/100 (Patient A) and 88/100 (Patient B), where 100 represents a fully functioning knee joint. Bone marrow lesion (BML) volume was shown to decrease on postoperative MRIs in both patients. Cartilage defect area increased in patient A, but declined initially for patient B, slightly increasing again 2 years after treatment. The repair site biopsy taken from patient A at 14 months postoperatively, demonstrated a thin layer of fibrocartilage covering the treated defect site. The use of a combination of cultured autologous chondrocytes and BM-MSCs appears to confer long-term benefit in this two-patient case study. Improvements in knee function perhaps relate to the observed reduction in the size of the BML."
+
+# Summary. An optional shortened abstract.
+summary = ""
+
+tags = [ "Cartilage repair", "Autologous Chondrocyte Implantation" ]
+categories = [ ]
+featured = false
+
+url_pdf = "https://journals.sagepub.com/doi/pdf/10.1177/0963689719845328"
+
+projects = [ ]
+
+slides = ""
+
+[image]
+caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"
+focal_point = ""
+preview_only = false
+#+end_src
+
 ** Regenerative Medicine: A Review of the Evolution of Autologous Chondrocyte Implantation (ACI) Therapy
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: publication/review_evolution_aci_2021-01-27
@@ -1189,6 +1292,9 @@ publication_short = ""
 
 abstract = "Articular cartilage is composed of chondrons within a territorial matrix surrounded by a highly organized extracellular matrix comprising collagen II fibrils, proteoglycans, glycosaminoglycans, and non-collagenous proteins. Damaged articular cartilage has a limited potential for healing and untreated defects often progress to osteoarthritis. High hopes have been pinned on regenerative medicine strategies to meet the challenge of preventing progress to late osteoarthritis. One such strategy, autologous chondrocyte implantation (ACI), was first reported in 1994 as a treatment for deep focal articular cartilage defects. ACI has since evolved to become a worldwide well-established surgical technique. For ACI, chondrocytes are harvested from the lesser weight bearing edge of the joint by arthroscopy, their numbers expanded in monolayer culture for at least four weeks, and then re-implanted in the damaged region under a natural or synthetic membrane via an open joint procedure. We consider the evolution of ACI to become an established cell therapy, its current limitations, and on-going strategies to improve its efficacy. The most promising developments involving cells and natural or synthetic biomaterials will be highlighted."
 
+# Summary. An optional shortened abstract.
+summary = ""
+
 tags = [ "Articular Cartilage", "Regenerative Medicine", "Chondron", "Extracellular Matrix", "Autologous Chondrocyte Implantation", "Cell Therapy" ]
 categories = [ ]
 featured = false
@@ -1197,6 +1303,53 @@ featured = false
 #   Uncomment and edit lines below to show custom links.
 # links:
 url_pdf = "https://www.mdpi.com/2306-5354/6/1/22"
+#+end_src
+
+** Characterization of regional meniscal cell and chondrocyte phenotypes and chondrogenic differentiation with histological analysis in osteoarthritic donor-matched tissues
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication/characterisation_meniscal_cell_region_2021-02-01
+:EXPORT_FILE_NAME: index
+:END:
+
+#+begin_src toml :front_matter_extra t
+authors = [
+  "Jingsong Wang",
+  "Sally Roberts",
+  "Jan Herman Kuiper",
+  "Weiguo Zhang",
+  "John Garcia",
+  "Zhanfeng Cui",
+  "Karina Wright"
+]
+date = 2020-10-12T15:53:28.000Z
+doi = "10.1038/s41598-020-78757-6"
+publishDate = 2020-10-12T15:53:28.000Z
+
+publication_types = [ "2" ]
+
+publication = "*Scientific Reports*"
+publication_short = ""
+
+abstract = "Meniscus degeneration is closely related to the progression of knee osteoarthritis (OA). However, there is currently a lack of quantitative and objective metrics to assess OA meniscal cell phenotypes. In this study we investigated the phenotypic markers and chondrogenic potency of avascular and vascular meniscal cells and chondrocytes from medial OA knee joints (n = 10). Flow cytometry results showed that a significantly greater percentage of meniscal cells were positive for CD49b, CD49c and CD166 compared to donor-matched chondrocytes after 14 days in monolayer culture. The integrins, CD49b and CD29, were expressed at a significantly higher level on avascular meniscal cells derived from tissues with a more degenerated inner border than non-degenerate menisci, suggesting that the integrin family may play an important role in meniscus OA pathology. Collagen fibres arranged in a “tree-like” formation within the meniscus appeared to have less blood vessels associated with them in the vascular region of the most degenerate menisci, which may indicate that such structures are involved in the pathological process. We have demonstrated that meniscal cells derived from the lateral meniscus in medial OA patients have chondrogenic capacity in vitro and hence could represent a potential cell source to consider for meniscus tissue engineering."
+
+# Summary. An optional shortened abstract.
+summary = ""
+
+tags = []
+categories = [ ]
+featured = false
+
+url_pdf = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6719505/pdf/10.1177_0963689719845328.pdf"
+projects = [ ]
+slides = ""
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+[image]
+caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"
+focal_point = ""
+preview_only = false
 #+end_src
 
 * COMMENT Local Variables :ARCHIVE:

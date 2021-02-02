@@ -26,12 +26,12 @@ subtitle = ""
      tag = "*"
   
    [[content.filter_button]]
-     name = "Deep Learning"
-     tag = "Deep Learning"
+     name = "ACI"
+     tag = "Autologous Chondrocyte Implantation"
   
    [[content.filter_button]]
-     name = "Other"
-     tag = "Demo"
+     name = "Spinal cord injury"
+     tag = "Spinal cord injury"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

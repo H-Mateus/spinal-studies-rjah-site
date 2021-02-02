@@ -672,7 +672,7 @@ Prior to starting this PhD, I obtained a BSc in Biomedical Science from Keele Un
 title: Example Project
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
+- Autologous Chondrocyte Implantation
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -1,5 +1,5 @@
 ---
-title: "Helen Mccarthy"
+title: "Helen McCarthy"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2003

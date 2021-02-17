@@ -130,7 +130,7 @@ I first came joined the OsKOR group in 2015, where I to worked on a project (fun
 I continue to be interested in projects relating to SCI, currently co-supervising a third year PhD student.
 I also supervise a first year PhD student who is looking at better understanding the science behind how bone marrow aspirate concentrate (BMAC) procedures work and also on stratifying patients for this treatment in the ankle (funded by the [[https://www.orthopaedic-institute.org/][Orthopaedic Institute]]).
 
-** Helen Mccarthy
+** Helen McCarthy
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: authors/helen_mccarthy
 :EXPORT_FILE_NAME: _index

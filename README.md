@@ -1,6 +1,6 @@
 # Readme
 
-This is the github repo of [[https://oskor.netlify.app/][OsKOR group website]].
+This is the github repo of [OsKOR group website](https://oskor.netlify.app/).
 
 ## Initial setup
 

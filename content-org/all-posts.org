@@ -98,9 +98,9 @@ organizations:
 education:
   courses:
     - course: PhD Developmental Medicine
-      institution: University of Manchester 
+      institution: University of Manchester
       year: 2015
-    - course: BSc in Biology 
+    - course: BSc in Biology
       institution: University of Manchester
       year: 2011
 social:
@@ -222,7 +222,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:wjsworkmail@gmail.com
-  - icon: orcid 
+  - icon: orcid
     icon_pack: fab
     link: 'https://orcid.org/0000-0001-5002-2636'
   - icon: linkedin
@@ -234,14 +234,14 @@ I was awarded a MD in Clinical Medicine from Dalian Medical University in 2016.
 I got an PhD offer from Keele University in Cell and Tissue Engineering in 2017.
 Since then I started my research work as a PhD student at the RJAH and currently in my final year of PhD.
 
-My research interests are meniscus injuries, focusing on:​
-- Understanding meniscus degeneration​
-- Enhancing meniscus tissue repair​
+My research interests are meniscus injuries, focusing on:
+- Understanding meniscus degeneration
+- Enhancing meniscus tissue repair
 - Developing cell-based meniscus therapies
 
 Beyond the lab work, I am also a big basketball fan.
 One of the reason I looked into meniscus repair is I injured my own meniscus twice while playing basketball.
-Now I am trying to cure myself!​
+Now I am trying to cure myself!
 
 ** Claire Mennan
 :PROPERTIES:
@@ -403,7 +403,7 @@ social:
 The Rheumatology Research lab is based at the [[https://www.rjah.nhs.uk/][RJAH Orthopaedic Hospital]], Oswestry as part of the ISTM Regenerative Medicine theme. The combined clinical and research excellence in Oswestry has contributed extensively to the current knowledge of mechanisms and therapy treatments for arthritis.
 
 *** Research:
-The research within our laboratory is focused on understanding *mechanisms of rheumatoid arthritis progression and possible treatments* including mesenchymal stem cells (MSCs), mesenchymal stem cell conditioned medium and mesenchymal stem cell-derived extracellular vesicles. We also try to find out how stem cells can be “encouraged” to perform better in aging and in disease such as arthritis. In our research we use many approaches, from cell biology, to biochemistry, molecular biology and animal models. 
+The research within our laboratory is focused on understanding *mechanisms of rheumatoid arthritis progression and possible treatments* including mesenchymal stem cells (MSCs), mesenchymal stem cell conditioned medium and mesenchymal stem cell-derived extracellular vesicles. We also try to find out how stem cells can be “encouraged” to perform better in aging and in disease such as arthritis. In our research we use many approaches, from cell biology, to biochemistry, molecular biology and animal models.
 *** Current active projects
     1. *Mesenchymal stem cell-derived extracellular vesicles as therapeutic agents in arthritis*
 
@@ -558,7 +558,7 @@ interests:
   - Osteoarthritis
   - Inflammation
   - Macrophages
-  - Cartilage Repair 
+  - Cartilage Repair
 email: john.garcia@nhs.net
 highlight_name: true
 superuser: false
@@ -572,7 +572,7 @@ education:
     - course: PhD in Bioengineering
       institution: Keele University
       year: 2016
-    - course: MSc in Tissue Engineering 
+    - course: MSc in Tissue Engineering
       institution: Keele University
       year: 2013
 social:
@@ -634,11 +634,11 @@ social:
     link: 'www.linkedin.com/in/rebecca-davies-17383a116'
 #+end_src
 
-I am a 2nd year PhD student in the Rheumatology Research department based at RJAH, Oswestry. My research centres around umbilical cord mesenchymal stem cell (UC-MSC) derived extracellular vesicles (EVs), with a particular focus on their anti-inflammatory properties. This work will comprise of three main research objectives: 
+I am a 2nd year PhD student in the Rheumatology Research department based at RJAH, Oswestry. My research centres around umbilical cord mesenchymal stem cell (UC-MSC) derived extracellular vesicles (EVs), with a particular focus on their anti-inflammatory properties. This work will comprise of three main research objectives:
 1.	The isolation and characterisation of UC-MSC EVs, to allow comparison between donors, to determine if MSC variability is reflected in their EV population, possibly contributing to minimal criteria for their clinical application.
 2.	Development towards an allogeneic strategy of EV production by pooling UC-MSC donors, to explore their cellular properties and detect potential immunogenic responses.
 3.	Achieve the large-scale production of allogeneic EVs from pooled UC-MSC donors, using the Quantum cell expansion system, and determine their therapeutic efficacy using T-cells isolated from patients with rheumatoid arthritis.
-   
+
 Previously, I graduated from the University of Sheffield after completing a BSc in Biomedical Science. Following this, I was accepted on to a DTC programme in Regenerative Medicine, allowing me to undertake research projects such as ‘the generation of a polymer brush of different lengths and densities to characterise the behaviour of SYSY-5Y cells’ and ‘the characterisation of collagen VI from osteoarthritic-sourced cartilage and the effect of its addition on chondrocytes’, which ultimately led me to my PhD project being undertaken today.
 
 ** Mike Williams
@@ -723,8 +723,10 @@ Prior to starting this PhD, I obtained a BSc in Biomedical Science from Keele Un
 
 * Links
 - Some useful resources
-  + [[https://github.com/wowchemy/starter-research-group][Example site with academic theme]] 
-  + [[https://wowchemy.com/templates/][Academic theme site]] 
+  + [[https://github.com/wowchemy/starter-research-group][Example site with academic theme]]
+  + [[https://wowchemy.com/templates/][Academic theme site]]
+  + example site: [[http://cicl.stanford.edu/][causality in cognition lab]]
+    + site [[https://github.com/tobiasgerstenberg/homepage][repo here]]
 
 * Projects
 ** Example project
@@ -769,7 +771,7 @@ slides: ""
 
 Verbiage about the project goes here.
 
-* Posts 
+* Posts
 Note: categories are set with tags preceded by =@=, so =:@Emacs:= will give a post the "Emacs" category
 ** Org-mode basics :@Guides:orgmode:tutorials:emacs:
 :PROPERTIES:
@@ -813,7 +815,7 @@ There are plenty of great [[https://www.gnu.org/software/emacs/tour/][guides]] a
 For example, if you would like *bold text*, you simply wrap the text with * like so: =*bold*=
 similarly, we can have
 
-#+CAPTION: If you're wondering how I'm able to show the formatting without it rendering have a look at this .org file on the [[https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org][git repository]] 
+#+CAPTION: If you're wondering how I'm able to show the formatting without it rendering have a look at this .org file on the [[https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org][git repository]]
 | Rendered text    | Raw text           |
 |------------------+--------------------|
 | /italics/        | =/italics/=        |
@@ -892,7 +894,7 @@ $$P\left(A=2\middle|\frac{A^2}{B}>4\right)$$
 
 We can also wrap in =\(= and close with =\)= for inline and =\[= =\]= for blocks to produce the same effect
 
-*** Code and foldable blocks 
+*** Code and foldable blocks
 So there's this awesome package called [[https://orgmode.org/worg/org-contrib/babel/][org-babel]] that let you include code from pretty much any widely used language in org-mode files.
 I won't go into depth on org-babel here as there's a lot to it, but I'll use it to demonstrate folding blocks (click on the line bellow with the triangle to expand or collapse the block)
 
@@ -969,7 +971,7 @@ Bob-->>John: Jolly good!
 #+end_src
 #+end_example
 
-renders as 
+renders as
 
 #+begin_src mermaid
 sequenceDiagram
@@ -1054,7 +1056,7 @@ renders as
       size()
     }
     #+end_src
-    
+
 An example *state diagram*:
 
 #+begin_example
@@ -1080,13 +1082,13 @@ renders as
     Moving --> Crash
     Crash --> [*]
     #+end_src
-    
+
 *** Todo lists
 
 You can even write your todo lists in Academic too:
 
 =- [X] Write math example= \\
-=- [X] Write diagram example= \\ 
+=- [X] Write diagram example= \\
 =- [ ] Do something else=
 
 renders as
@@ -1148,29 +1150,29 @@ Academic enables you to use a wide range of [icons from _Font Awesome_ and _Acad
 Here are some examples using the `icon` shortcode to render icons:
 
 #+begin_src markdown
-{{</* icon name="terminal" pack="fas" */>}} Terminal  
-{{</* icon name="python" pack="fab" */>}} Python  
+{{</* icon name="terminal" pack="fas" */>}} Terminal
+{{</* icon name="python" pack="fab" */>}} Python
 {{</* icon name="r-project" pack="fab" */>}} R
 #+end_src
 
 renders as
 
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
+{{< icon name="terminal" pack="fas" >}} Terminal
+{{< icon name="python" pack="fab" >}} Python
 {{< icon name="r-project" pack="fab" >}} R
 
 * Publications
 Arguments for publication_types
 - 0 = Uncategorised
 - 1 = Conference paper
-- 2 = Journal article 
+- 2 = Journal article
 - 3 = Preprint / working paper
 - 4 = Report
-- 5 = Book 
+- 5 = Book
 - 6 = Book section
 - 7 = Thesis
 - 8 = Patent
-  
+
 ** Routinely measured haematological markers can help to predict AIS scores following spinal cord injury
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: publication/sci_routine_modelling_2020-12-02
@@ -1237,7 +1239,7 @@ projects = [ ]
 slides = ""
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 [image]
 caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"
@@ -1411,7 +1413,7 @@ projects = [ ]
 slides = ""
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 [image]
 caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"

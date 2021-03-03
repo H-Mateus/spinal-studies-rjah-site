@@ -1,32 +1,23 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+# Readme
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+This is the github repo of [[https://oskor.netlify.app/][OsKOR group website]].
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+## Initial setup
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+### Cloning the homepage repo
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+- Make a github account [here](https://github.com/).
+- Ask Mateus ([g.m.bernardo.harrington@keele.ac.uk](mailto:g.m.bernardo.harrington@keele.ac.uk)) to be added as a collaborator to the repo.
+- Open your terminal and navigate to a directory where you'd like to clone the repository.
+- Run this command in your terminal:
+```
+git clone https://github.com/H-Mateus/spinal-studies-rjah-site.git
+```
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+### Install Hugo
 
-## Crowd-funded open-source software
+This site uses the [Hugo static website generator](https://gohugo.io/), so you will need to install it.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
-
-## Ecosystem
-
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
-
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
-
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+- On Linux Hugo is available in most major repositories so you can install from there.
+- On Mac you'll likely want to use `homebrew`, instructions for which can be found [here](https://brew.sh/).
+- On Windows you'll want to stop making bad life choices. If you refuse, there is a docker container or you could use [Chocolatey](https://chocolatey.org/), instructions [here](https://gohugo.io/getting-started/installing/).

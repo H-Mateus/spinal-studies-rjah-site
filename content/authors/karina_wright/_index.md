@@ -6,9 +6,8 @@ weight: 2007
 role: Principal Investigator
 bio: One sentence summary goes here.
 interests:
-  - Mesenchymal stromal cells
-  - Neuromusculoskeletal biology
-  - Injury/disease prognosis
+  - Neuromusculoskeletal injury/disease
+  - Prognostic/predictive biomarkers/models
   - Regenerative medicine
 email: karina.wright1@nhs.net
 highlight_name: true
@@ -20,12 +19,12 @@ organizations:
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: PhD in something
-      institution: somewhere
-      year: sometime
-    - course: BSc in something
-      institution: somewhere
-      year: sometime
+    - course: PhD in Biomedical Engineering
+      institution: Keele University
+      year: 2005-2009
+    - course: BSc (Hons) Biological Sciences with Professional Experience
+      institution: Salford University
+      year: 1998-2002
 social:
   - icon: envelope
     icon_pack: fas

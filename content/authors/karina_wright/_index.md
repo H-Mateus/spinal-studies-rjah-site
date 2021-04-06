@@ -1,12 +1,15 @@
 ---
 title: "Karina Wright"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2005
+weight: 2007
 role: Principal Investigator
 bio: One sentence summary goes here.
 interests:
   - Mesenchymal stromal cells
+  - Neuromusculoskeletal biology
+  - Injury/disease prognosis
+  - Regenerative medicine
 email: karina.wright1@nhs.net
 highlight_name: true
 superuser: false
@@ -29,14 +32,11 @@ social:
     link: mailto:karina.wright1@nhs.net
 ---
 
--   What you are working on
+I commenced my studies at the RJAH Orthopaedic Hospital Foundation Trust in 2005, and in 2009, was awarded a PhD in Biomedical Engineering from Keele University.
+Since then I have been employed as an academic researcher and senior lecturer at the RJAH/Keele and am also the current Keele’s stakeholder governor for the hospital.
 
-Identifying, qualifying and validating diagnostic, prognostic and predictive biomarkers for orthopaedic and spinal cord injured patients.
-Assessing and optimising existing Advanced Therapy Medicinal Products (ATMPs) for the treatment of cartilage, bone and skin injury and degeneration. Developing and testing new ATMPs for the same conditions.
+My groups research interests are musculoskeletal injuries/diseases, spinal cord injuries and pressure sores, focussing on:
 
--   Areas of interest/collaborations
-
-Techniques employed include:
-
--   Proteomics, bioinformatics, biochemical single and multi-plex techniques and mathematical modelling (biomarker discovery and validation).
--   RNA sequencing, proteomics, flow cytometry, live cell imaging, up-scale manufacturing techniques utilising commercial bioreactors (current and future ATMP assessments and development).
+-   Understanding their biology and pathology
+-   Improving their diagnosis and prognosis
+-   Developing and delivering cell-based therapies

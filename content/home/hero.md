@@ -24,15 +24,18 @@ title = "Oswestry Keele Orthopaedic Research group"
   #gradient_end = "#2b94c3"
 
   # Background image.
-  image = "Cover_Keele-University.jpg"  # Name of image in `static/media/`.
+  image = "test2.jpg"  # Name of image in `static/media/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+  image_parallax = false # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
   text_color_light = true
 
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  #padding = ["25px", "0", "200px", "0"]
 +++
 
 The research group works in 2 main clinical areas treating patients with either joint injury or degeneration such as osteoarthritis or those with spinal problems in the [Robert Jones and Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/), Oswestry.

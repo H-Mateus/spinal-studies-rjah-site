@@ -1,6 +1,6 @@
 +++
 title = "Org-mode basics"
-author = ["Gabriel Mateus Bernardo Harrington"]
+author = ["mateus"]
 date = 2020-12-03
 tags = ["orgmode", "tutorials", "emacs"]
 categories = ["Guides"]
@@ -113,10 +113,10 @@ The link in the previous sentence looks like this:
 `[[https://en.wikipedia.org/wiki/Hyperlink][links]]`
 
 To insert images we do the same, but the link has to point to an image in the static/images directory of the site
-So `[[/images/red_panda.jpg]]`
+So `[[/images/red_panda.jpeg]]`
 Results in the following image being embedded
 
-{{< figure src="/images/red_panda.jpg" caption="Figure 1: I know the feeling panda..." >}}
+{{< figure src="/images/red_panda.jpeg" caption="Figure 1: I know the feeling panda... Image credit: [Unsplash](https://unsplash.com/photos/QZwf5yNopUo)" >}}
 
 And if you're wondering about the captions, just add header on the line above whatever you want caption:
 
@@ -306,22 +306,22 @@ An example **class diagram**:
 renders as
 
 ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    <<interface>> Class01
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    class Class10 {
-      <<service>>
-      int id
-      size()
-    }
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+<<interface>> Class01
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  <<service>>
+  int id
+  size()
+}
 ```
 
 An example **state diagram**:
@@ -341,13 +341,13 @@ An example **state diagram**:
 renders as
 
 ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+stateDiagram
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
 ```
 
 

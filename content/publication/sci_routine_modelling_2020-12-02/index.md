@@ -1,6 +1,6 @@
 +++
 title = "Routinely measured haematological markers can help to predict AIS scores following spinal cord injury"
-author = ["Gabriel Mateus Bernardo Harrington"]
+author = ["mateus"]
 draft = false
 weight = 2001
 authors = [
@@ -51,7 +51,7 @@ url_pdf = "https://www.liebertpub.com/doi/pdf/10.1089/neu.2020.7144"
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects = [ ]
+projects = ["gmbh_phd_2018-10-01" ]
 
 
 # Slides (optional).
@@ -62,10 +62,10 @@ projects = [ ]
 slides = ""
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 [image]
-caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"
+caption = ""
 focal_point = ""
 preview_only = false
 +++

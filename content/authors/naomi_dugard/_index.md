@@ -1,12 +1,10 @@
 ---
 title: "Naomi Dugard"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2004
+weight: 2006
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: naomi.dugard@nhs.net
 highlight_name: true
 superuser: false

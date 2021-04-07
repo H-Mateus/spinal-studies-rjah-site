@@ -254,8 +254,6 @@ Now I am trying to cure myself!
 #+begin_src yaml :front_matter_extra t
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: claire.mennan@nhs.net
 highlight_name: true
 superuser: false
@@ -292,8 +290,6 @@ I also work on the ASCOT (Autologous Stem Cells Chondrocytes Or the Two) clinica
 #+begin_src yaml :front_matter_extra t
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: naomi.dugard@nhs.net
 highlight_name: true
 superuser: false
@@ -378,8 +374,6 @@ My groups research interests are musculoskeletal injuries/diseases, spinal cord 
 #+begin_src yaml :front_matter_extra t
 role: Principal Investigator
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: oksana.kehoe@nhs.net
 highlight_name: true
 superuser: false
@@ -430,8 +424,6 @@ The research within our laboratory is focused on understanding *mechanisms of rh
 #+begin_src yaml :front_matter_extra t
 role: Principal Investigator
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: Sally.roberts4@nhs.net
 highlight_name: true
 superuser: false
@@ -471,8 +463,6 @@ Previously worked extensively on the spine, intervertebral discs and back pain, 
 #+begin_src yaml :front_matter_extra t
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: t.hopkins@keele.ac.uk
 highlight_name: true
 superuser: false
@@ -654,8 +644,6 @@ Previously, I graduated from the University of Sheffield after completing a BSc 
 #+begin_src yaml :front_matter_extra t
 role: Data Analyst
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: mike.williams17@nhs.net
 highlight_name: true
 superuser: false
@@ -691,8 +679,6 @@ Reporting to Prof Sally Roberts, I am responsible for the maintenance and develo
 #+begin_src yaml :front_matter_extra t
 role: PhD Student
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: mike.williams17@nhs.net
 highlight_name: true
 superuser: false
@@ -867,11 +853,11 @@ The link in the previous sentence looks like this:
 =[[https://en.wikipedia.org/wiki/Hyperlink][links]]=
 
 To insert images we do the same, but the link has to point to an image in the static/images directory of the site
-So =[[/images/red_panda.jpg]]=
+So =[[/images/red_panda.jpeg]]=
 Results in the following image being embedded
 
-#+CAPTION: I know the feeling panda...
-[[/images/red_panda.jpg]]
+#+CAPTION: I know the feeling panda... Image credit: [[https://unsplash.com/photos/QZwf5yNopUo][Unsplash]]
+[[/images/red_panda.jpeg]]
 
 And if you're wondering about the captions, just add header on the line above whatever you want caption:
 
@@ -1230,7 +1216,7 @@ url_pdf = "https://www.liebertpub.com/doi/pdf/10.1089/neu.2020.7144"
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects = [ ]
+projects = ["gmbh_phd_2018-10-01" ]
 
 
 # Slides (optional).
@@ -1244,7 +1230,7 @@ slides = ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 [image]
-caption = "Image credit: [**apparalyzed**](www.apparalyzed.com)"
+caption = ""
 focal_point = ""
 preview_only = false
 #+end_src
@@ -1290,7 +1276,7 @@ projects = [ ]
 slides = ""
 
 [image]
-caption = "Image credit: [**Dolman Law Group**](https://www.dolmanlaw.com/st-petersburg-spinal-cord-injuries/)"
+caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/IG96K_HiDk0)"
 focal_point = ""
 preview_only = false
 #+end_src

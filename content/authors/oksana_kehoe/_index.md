@@ -1,12 +1,10 @@
 ---
 title: "Oksana Kehoe"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2006
+weight: 2008
 role: Principal Investigator
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: oksana.kehoe@nhs.net
 highlight_name: true
 superuser: false
@@ -34,7 +32,7 @@ The Rheumatology Research lab is based at the [RJAH Orthopaedic Hospital](https:
 
 ## Research: {#research}
 
-The research within our laboratory is focused on understanding **mechanisms of rheumatoid arthritis progression and possible treatments** including mesenchymal stem cells (MSCs), mesenchymal stem cell conditioned medium and mesenchymal stem cell-derived extracellular vesicles. We also try to find out how stem cells can be “encouraged” to perform better in aging and in disease such as arthritis. In our research we use many approaches, from cell biology, to biochemistry, molecular biology and animal models. 
+The research within our laboratory is focused on understanding **mechanisms of rheumatoid arthritis progression and possible treatments** including mesenchymal stem cells (MSCs), mesenchymal stem cell conditioned medium and mesenchymal stem cell-derived extracellular vesicles. We also try to find out how stem cells can be “encouraged” to perform better in aging and in disease such as arthritis. In our research we use many approaches, from cell biology, to biochemistry, molecular biology and animal models.
 
 
 ## Current active projects {#current-active-projects}

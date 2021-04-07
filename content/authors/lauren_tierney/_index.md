@@ -1,12 +1,10 @@
 ---
 title: "Lauren Tierney"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2012
+weight: 2015
 role: PhD Student
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: mike.williams17@nhs.net
 highlight_name: true
 superuser: false

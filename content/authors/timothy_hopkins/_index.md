@@ -1,12 +1,10 @@
 ---
 title: "Timothy Hopkins"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2008
+weight: 2010
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: t.hopkins@keele.ac.uk
 highlight_name: true
 superuser: false

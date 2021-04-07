@@ -1,12 +1,10 @@
 ---
 title: "Sally Roberts"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2007
+weight: 2009
 role: Principal Investigator
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: Sally.roberts4@nhs.net
 highlight_name: true
 superuser: false

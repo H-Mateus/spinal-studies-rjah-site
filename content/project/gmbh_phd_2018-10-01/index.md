@@ -12,7 +12,7 @@ date: "2018-10-01T00:00:00Z"
 external_link: ""
 
 image:
-  caption: "Image copyright: Eraxion"
+  caption: "Image credit: Unsplash"
   focal_point: Smart
 
 links:

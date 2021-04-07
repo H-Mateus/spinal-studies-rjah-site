@@ -1,12 +1,10 @@
 ---
 title: "Claire Mennan"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2003
+weight: 2005
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
-interests:
-  - Mesenchymal stromal cells
 email: claire.mennan@nhs.net
 highlight_name: true
 superuser: false

@@ -709,6 +709,61 @@ I commenced work on this project in January 2019. During the course of this rese
 
 Prior to starting this PhD, I obtained a BSc in Biomedical Science from Keele University and was employed at a Genetic Toxicology contract research organisation during and after finishing my degree. Previous to that, I completed a modern apprenticeship at AstraZeneca Pharmaceuticals working within Genetic Toxicology, Hepatic Toxicology and Cardiac Toxicology departments.
 
+** Larissa Rix
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/larissa_rix
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: PhD Student
+bio: One sentence summary goes here.
+interests:
+  - Patellofemoral joint
+  - Patellofemoral Osteoarthritis
+  - Tissue Engineering
+  - Cartilage Repair
+email: larissa.rix@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in Cell and Tissue Engineering
+      institution: Keele University
+      year: 2023
+    - course: MBioMedSci in Biomedical Science
+      institution: Manchester Metropolitan University
+      year: 2018
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:larissa.rix@nhs.net
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/larissa-rix-b527b382'
+#+end_src
+
+I am a current PhD student at [[https://www.keele.ac.uk/][Keele University]] and [[https://www.rjah.nhs.uk/][The Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry]].
+
+My research investigates into patellofemoral pain syndrome (PFPS); improving the diagnostics, prognostics and cell based therapies.
+
+To improve current understanding of the underlying biology of PFPS, I aim to characterise a range of PFPS patients at differing disease stage pathogenesis using knee function assessments, clinical imaging modalities, synovial fluid proteomics, targeted biomarker assessments, and cellular analysis.
+To improve and develop new PFPS cell-based therapies, I am to assess the current clinical outcomes of patients who have undergone autologous chondrocyte implantation (ACI) treatment within the patellofemoral joint, and to develop a biocompatible scaffold with the aim to evaluate the success of regenerating cartilage growth on the patella.
+
+Prior to undertaking my PhD, I graduated from Manchester Metropolitan University with a 1st class MBioMedSci (Hons) Biomedical Science degree.
+During my degree, I deferred my studies in order to undertake a years placement at AstraZeneca as a Microbiologist.
+Upon completion of my degree, I worked as a senior laboratory technician.
+By having a variety of industry experience, I believe it has given me valuable skills of which I can incorporate into my PhD research.
+
+Having suffered from lifelong patellofemoral joint issues, I understand what it feels like to be the patient with very little successful treatment options. Thus, this research is a personally invested area of interest to me.
+
 * Links
 - Some useful resources
   + [[https://github.com/wowchemy/starter-research-group][Example site with academic theme]]

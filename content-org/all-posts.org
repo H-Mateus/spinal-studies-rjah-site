@@ -743,7 +743,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/CellTherapyRJAH
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -767,6 +767,7 @@ Note: categories are set with tags preceded by =@=, so =:@Emacs:= will give a po
 :EXPORT_FILE_NAME: index
 :EXPORT_DATE: 2020-12-03
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary "Brief introduction to org-mode formatting" :math true :diagram true
+:EXPORT_OPTIONS: toc:2
 :END:
 
 #+begin_src toml :front_matter_extra t
@@ -793,15 +794,18 @@ And this post is going to demonstrate the basics, so read on!
 Plus, with a bit of magic from [[https://pandoc.org/][pandoc]] you can convert pretty much any markup language to any other markup language.
 This lets us do things like export a markdown file to a really nice pdf, or html document!
 
-
 **** A note on working with org-mode files
 Org-mode is made to be used with the wonderful [[https://www.gnu.org/software/emacs/][Emacs]], which sells itself as an extensible text editor, but it's really just an elisp interpreter geared towards text editing.
 Emacs makes working with org-mode files a joy, though it has a bit of a learning curve itself.
 There are plenty of great [[https://www.gnu.org/software/emacs/tour/][guides]] and [[https://www.youtube.com/watch?v=49kBWM3RQQ8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][videos]] for getting to grips with emacs, but you can of course use whatever plain text editor you like!
 
+**** An alternative: RMarkdown
+I'm using org-mode because I like emacs, but you can also use the wonderful [[https://rmarkdown.rstudio.com/][RMarkdown]] to create posts, and if you're a fan of [[https://www.rstudio.com/][RStudio]], there's a neat package called [[https://bookdown.org/yihui/blogdown/][blogdown]] to make adding content super easy.
+I suspect some of you may prefer that, it is probably easier to get up an running with compared to emacs...
+
 *** Formatting
 For example, if you would like *bold text*, you simply wrap the text with * like so: =*bold*=
-similarly, we can have
+similarly, we can have:
 
 #+CAPTION: If you're wondering how I'm able to show the formatting without it rendering have a look at this .org file on the [[https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org][git repository]]
 | Rendered text    | Raw text           |
@@ -852,9 +856,9 @@ To insert [[https://en.wikipedia.org/wiki/Hyperlink][links]] use square brackets
 The link in the previous sentence looks like this:
 =[[https://en.wikipedia.org/wiki/Hyperlink][links]]=
 
-To insert images we do the same, but the link has to point to an image in the static/images directory of the site
+To insert images we do the same, but the link has to point to an image in the static/images directory of the site.
 So =[[/images/red_panda.jpeg]]=
-Results in the following image being embedded
+Results in the following image being embedded:
 
 #+CAPTION: I know the feeling panda... Image credit: [[https://unsplash.com/photos/QZwf5yNopUo][Unsplash]]
 [[/images/red_panda.jpeg]]
@@ -865,7 +869,7 @@ And if you're wondering about the captions, just add header on the line above wh
 =thing you want a caption on goes here(normally an image or table)=
 
 *** Symbols and equations
-For things like Greek letters just type the letter after a \ like so:
+For things like Greek letters just type the letter after a =\= like so:
 | \alpha   | =\alpha= |
 | \beta   | =\beta=  |
 | \gamma   | =\gamma= |
@@ -920,6 +924,8 @@ The whole thing is wrapped in the =begin_details= block, the text next the trian
 Note that each block must be closed, and that code doesn't have to be run, the output with be produced during export
 
 *** Diagrams
+
+We can use the [[https://mermaid-js.github.io/mermaid/#/][mermaid]] markup syntax to add nice diagrams too.
 
 An example *flowchart*:
 

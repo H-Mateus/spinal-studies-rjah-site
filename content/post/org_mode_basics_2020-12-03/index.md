@@ -14,6 +14,29 @@ placement = 3
 caption = "Image credit: [**orgmode.org**](https://orgmode.org/)"
 +++
 
+<div class="ox-hugo-toc toc">
+<div></div>
+
+<div class="heading">Table of Contents</div>
+
+- [Why org-mode?](#why-org-mode)
+    - [A note on working with org-mode files](#a-note-on-working-with-org-mode-files)
+    - [An alternative: RMarkdown](#an-alternative-rmarkdown)
+- [Formatting](#formatting)
+- [Headings and lists](#headings-and-lists)
+- [Links and images](#links-and-images)
+- [Symbols and equations](#symbols-and-equations)
+- [Code and foldable blocks](#code-and-foldable-blocks)
+- [Diagrams](#diagrams)
+- [Todo lists](#todo-lists)
+- [Tables](#tables)
+- [Callouts](#callouts)
+- [Spoilers](#spoilers)
+- [Icons](#icons)
+
+</div>
+<!--endtoc-->
+
 This is a brief introduction to formatting in [org-mode](https://orgmode.org/) made mostly to help my dear colleagues with writing content for the site
 
 
@@ -42,10 +65,16 @@ Emacs makes working with org-mode files a joy, though it has a bit of a learning
 There are plenty of great [guides](https://www.gnu.org/software/emacs/tour/) and [videos](https://www.youtube.com/watch?v=49kBWM3RQQ8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg) for getting to grips with emacs, but you can of course use whatever plain text editor you like!
 
 
+### An alternative: RMarkdown {#an-alternative-rmarkdown}
+
+I'm using org-mode because I like emacs, but you can also use the wonderful [RMarkdown](https://rmarkdown.rstudio.com/) to create posts, and if you're a fan of [RStudio](https://www.rstudio.com/), there's a neat package called [blogdown](https://bookdown.org/yihui/blogdown/) to make adding content super easy.
+I suspect some of you may prefer that, it is probably easier to get up an running with compared to emacs...
+
+
 ## Formatting {#formatting}
 
 For example, if you would like **bold text**, you simply wrap the text with \* like so: `*bold*`
-similarly, we can have
+similarly, we can have:
 
 <div class="table-caption">
   <span class="table-number">Table 1</span>:
@@ -112,9 +141,9 @@ To insert [links](https://en.wikipedia.org/wiki/Hyperlink) use square brackets l
 The link in the previous sentence looks like this:
 `[[https://en.wikipedia.org/wiki/Hyperlink][links]]`
 
-To insert images we do the same, but the link has to point to an image in the static/images directory of the site
+To insert images we do the same, but the link has to point to an image in the static/images directory of the site.
 So `[[/images/red_panda.jpeg]]`
-Results in the following image being embedded
+Results in the following image being embedded:
 
 {{< figure src="/images/red_panda.jpeg" caption="Figure 1: I know the feeling panda... Image credit: [Unsplash](https://unsplash.com/photos/QZwf5yNopUo)" >}}
 
@@ -126,7 +155,7 @@ And if you're wondering about the captions, just add header on the line above wh
 
 ## Symbols and equations {#symbols-and-equations}
 
-For things like Greek letters just type the letter after a \\ like so:
+For things like Greek letters just type the letter after a `\` like so:
 
 | &alpha;  | `\alpha` |
 |----------|----------|
@@ -199,6 +228,8 @@ Note that each block must be closed, and that code doesn't have to be run, the o
 
 
 ## Diagrams {#diagrams}
+
+We can use the [mermaid](https://mermaid-js.github.io/mermaid/#/) markup syntax to add nice diagrams too.
 
 An example **flowchart**:
 

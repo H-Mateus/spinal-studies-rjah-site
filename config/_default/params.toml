@@ -88,8 +88,8 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
+email = "karina.wright1@nhs.net"
+phone = "+44 1691 404664"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
@@ -100,11 +100,11 @@ address = {street = "The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Fo
 coordinates = {latitude = "52.884422", longitude = "-3.033414"}
 
 # Directions for visitors to locate you.
-directions = "Arc/Tourch building"
+directions = "ARC/Torch buildings"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 09:00 to 17:00", "Friday 09:00 to 17:00"]
+office_hours = ["Weekdays 09:00 to 17:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""

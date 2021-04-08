@@ -764,6 +764,54 @@ By having a variety of industry experience, I believe it has given me valuable s
 
 Having suffered from lifelong patellofemoral joint issues, I understand what it feels like to be the patient with very little successful treatment options. Thus, this research is a personally invested area of interest to me.
 
+** Tian Lan
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: authors/tian_lan
+:EXPORT_FILE_NAME: _index
+:EXPORT_AUTHOR: nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
+role: PhD Student
+bio: One sentence summary goes here.
+interests:
+  - Ankle joint
+  - Osteochondral lesions of the talus
+  - Bone marrow aspirate concentrate
+  - Cartilage Repair
+email: tian.lan@nhs.net
+highlight_name: true
+superuser: false
+user_groups:
+  - Researchers
+organizations:
+  - name: Keele University
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+education:
+  courses:
+    - course: PhD in Cell and Tissue Engineering
+      institution: Keele University
+      year: 2024
+    - course: BSc in Biological science
+      institution: Yangzhou University, China
+      year: 2019
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:tian.lan@nhs.net
+#+end_src
+
+I am a first year PhD student at [[https://www.keele.ac.uk/][Keele University]] and [[https://www.rjah.nhs.uk/][The Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry]].
+
+I was awarded a BSc in Biological science in 2019 from Yangzhou University, China. In 2020, I was awarded a MSc in Cell and Tissue Engineering with distinction from Keele University.
+
+My research project is Cell therapy for repair of cartilage defects in the ankle – how does it work and who should we treat?
+
+Untreated cartilage defects in the ankle can lead to OA.
+Various versions of a cell therapy, using a one-step arthroscopic technique to deliver bone-marrow aspirate concentrate (BMAC) into a cartilage defect to delay the development of OA have been used in the ankle at RJAH.
+This reverse-translational study aims to establish the exact cell population/s obtained via BMAC (in both commercially available ‘normal’ and patient samples); assess their chondrogenic potency and phenotype and how these cells might relate to a good clinical outcome; identify biomarkers within the synovial fluid and bloods which may predict which patients are most likely to benefit from this treatment.
+
 * Links
 - Some useful resources
   + [[https://github.com/wowchemy/starter-research-group][Example site with academic theme]]

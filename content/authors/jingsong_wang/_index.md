@@ -1,8 +1,8 @@
 ---
 title: "Jingsong Wang"
-author: ["Gabriel Mateus Bernardo Harrington"]
+author: ["mateus"]
 draft: false
-weight: 2003
+weight: 2004
 role: PhD Student
 bio: One sentence summary goes here.
 interests:
@@ -18,17 +18,17 @@ organizations:
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: PhD in something
+    - course: PhD in Cell and tissue engineering
       institution: Keele University
-      year: 2016
-    - course: BSc in Biological Sciences?
-      institution: Manchester University?
-      year: sometime
+      year: 2021
+    - course: BSc and MSc in Clinical Medicine
+      institution: Dalian Medical University
+      year: 2009-2016
 social:
   - icon: envelope
     icon_pack: fas
     link: mailto:wjsworkmail@gmail.com
-  - icon: orcid 
+  - icon: orcid
     icon_pack: fab
     link: 'https://orcid.org/0000-0001-5002-2636'
   - icon: linkedin

@@ -212,12 +212,12 @@ organizations:
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: PhD in something
+    - course: PhD in Cell and tissue engineering
       institution: Keele University
-      year: 2016
-    - course: BSc in Biological Sciences?
-      institution: Manchester University?
-      year: sometime
+      year: 2021
+    - course: BSc and MSc in Clinical Medicine
+      institution: Dalian Medical University
+      year: 2009-2016
 social:
   - icon: envelope
     icon_pack: fas

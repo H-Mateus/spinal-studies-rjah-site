@@ -1,14 +1,17 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://wowchemy.com/docs/page-builder/
+widget = "blank"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
-title = "Oswestry Keele Orthopaedic Research group"
+title = "<span style='font-size: 45px'>Oswestry Keele Orthopaedic Research group</style>"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 #hero_media = "placeholder_image.jpg"
+
+[design]
+columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.

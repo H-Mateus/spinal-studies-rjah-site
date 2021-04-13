@@ -16,7 +16,7 @@ This is the github repo of the [OsKOR group website](https://oskor.netlify.app/)
 ```
 update.packages(ask = FALSE, checkBuilt = TRUE)
 ```
-4. Install the [blogdown package](https://bookdown.org/yihui/blogdown/):
+4. Install the [blogdown package](https://bookdown.org/yihui/blogdown/) in R:
 ```
 if (!requireNamespace("remotes")) install.packages("remotes")
 remotes::install_github("rstudio/blogdown")
@@ -26,7 +26,7 @@ remotes::install_github("rstudio/blogdown")
 
 - Make a github account [here](https://github.com/).
 - Ask Mateus ([g.m.bernardo.harrington@keele.ac.uk](mailto:g.m.bernardo.harrington@keele.ac.uk)) to be added as a collaborator to the repo.
-- Make sure Git is installed on your machine (guide [here](https://happygitwithr.com/install-git.html)
+- Make sure Git is installed on your machine (guide [here](https://happygitwithr.com/install-git.html))
 - Add your username and email to git:
 From the shell:
 ```

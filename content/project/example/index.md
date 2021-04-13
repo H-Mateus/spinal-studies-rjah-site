@@ -3,7 +3,6 @@ title: "Example project"
 author: ["mateus"]
 draft: false
 weight: 2001
-title: Example Project
 summary: An example of using the in-built project page.
 tags:
 - Autologous Chondrocyte Implantation

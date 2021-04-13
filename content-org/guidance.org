@@ -1,4 +1,4 @@
-#+TITLE: Guidance for website content
+#+TITLE: Guidance for website content - using ox-hugo
 
 This is some guidance pertaining to the content on the group website.\\
 The main idea for the website is to try and improve the external presence of the group.\\
@@ -110,6 +110,7 @@ social:
     link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
 #+end_src
 #+end_example
+
 ** Third and final section
 The last section is the main body of the content.\\
 This is just written in Org Mode so please see the aforementioned [[https://inspiring-hawking-738e7b.netlify.app/post/org_mode_basics_2020-12-03/][post]] for formatting guidance
@@ -119,5 +120,9 @@ This is just written in Org Mode so please see the aforementioned [[https://insp
     Using 'Omic technologies and bioinformatics to identify biomarkers to determine which orthopaedic treatments aiming to prevent the development of Osteoarthritis are most suited to which individual patients. Developing novel allogeneic cell therapies to treat cartilage injury and the progression of Osteoarthritis.
 #+end_example
 
+Posts, publication and profiles work by the same principle.\\
+Whilst I'm running the site you can write up a plain text file (with a .txt extension if you're unsure) and send it to me.
+I'll add it to this all-posts.org file and push the changes to git repository.
 
-Whilst I'm running the site you can write up the
+In the event that someone else want to do this themselves, you'll need to use [[https://www.gnu.org/software/emacs/][Emacs]] with the [[https://ox-hugo.scripter.co/][ox-hugo]] package.\\
+This is what actually creates the =.md= files the website uses.

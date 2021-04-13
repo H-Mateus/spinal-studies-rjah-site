@@ -19,7 +19,11 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/Hmateus4
+  url: https://twitter.com/CellTherapyRJAH
+- icon: hand-holding-usd
+  icon_pack: fas
+  name: Funder
+  url: https://epsrc.ukri.org
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -44,3 +48,5 @@ The student will use in vitro models of nerve growth and SCI to conduct prelimin
 Novel engineering science: the design, implementation and validation of an in vitro model of a contusion (blunt force) spinal cord injury.
 
 Novel bio-engineering science: the manipulation of mechanistically important proteins (determined from the bioinformatics analysis) in established contusion injury models.
+
+This project is funded by the [EPSRC](https://epsrc.ukri.org/).

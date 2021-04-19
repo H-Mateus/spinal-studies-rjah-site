@@ -12,7 +12,7 @@ date: "2018-10-01T00:00:00Z"
 external_link: ""
 
 image:
-  caption: "Image credit: Unsplash"
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/gRTzhQsiVG0)"
   focal_point: Smart
 
 links:

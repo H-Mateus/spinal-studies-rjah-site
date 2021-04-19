@@ -16,7 +16,7 @@ organizations:
 education:
   courses:
     - course: Transcriptome analysis of stem cell and chondrocyte therapies
-      institution: Keele University and RJAH 
+      institution: Keele University and RJAH
       year: 2019-2022
     - course: BSc Biomedical Science
       institution: Keele University
@@ -24,7 +24,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:mike.williams17@nhs.net
+    link: mailto:l.tierney@keele.ac.uk
 ---
 
 I am a PhD student working at both Keele University and [The Robert hunt and Agnes Jones Orthopaedic hospital in Oswestry](https://www.rjah.nhs.uk/).

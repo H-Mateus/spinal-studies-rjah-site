@@ -15,12 +15,12 @@ organizations:
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: Transcriptome analysis of stem cell and chondrocyte therapies
-      institution: Keele University and RJAH
-      year: 2019-2022
-    - course: BSc Biomedical Science
-      institution: Keele University
-      year: 2015-2018
+    - course: PhD in something
+      institution: somewhere
+      year: sometime
+    - course: BSc in something
+      institution: somewhere
+      year: sometime
 social:
   - icon: envelope
     icon_pack: fas

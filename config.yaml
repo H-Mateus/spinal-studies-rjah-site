@@ -100,3 +100,5 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
     - path: github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic
+    #- path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
+    ## uncomment the above line and commment out the second "- path" if the site won't build on windows

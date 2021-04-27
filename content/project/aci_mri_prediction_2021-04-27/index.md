@@ -5,10 +5,10 @@ draft: false
 weight: 2001
 title: Prediction of clinical outcome following Autologous Chondrocyte Implantation by magnetic resonance imaging
 summary: Modelling of clinical outcomes via MRI following ACI, funded by Versus Arthritis and the MRC
+authors: ["Helen McCarthy", "Iain McCall", "Claire Mennan", "Mike Williams", "James Richardson", "Sally Roberts"]
 tags:
 - Autologous Chondrocyte Implantation
 - Clinical outcomes
-- Arthritis
 date: "2021-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

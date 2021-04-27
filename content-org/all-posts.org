@@ -857,6 +857,7 @@ This reverse-translational study aims to establish the exact cell population/s o
 #+begin_src yaml :front_matter_extra t
 title: Prediction of clinical outcome following Autologous Chondrocyte Implantation by magnetic resonance imaging
 summary: Modelling of clinical outcomes via MRI following ACI, funded by Versus Arthritis and the MRC
+authors: ["Helen McCarthy", "Iain McCall", "Claire Mennan", "Mike Williams", "James Richardson", "Sally Roberts"]
 tags:
 - Autologous Chondrocyte Implantation
 - Clinical outcomes

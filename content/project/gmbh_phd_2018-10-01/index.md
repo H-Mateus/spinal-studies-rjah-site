@@ -6,6 +6,8 @@ weight: 2001
 summary: "Exploring the serum proteome of spinal cord injured patients: Identifying prognostic biomarkers and new treatment targets"
 tags:
 - Spinal cord injury
+- Biomarkers
+- Biomarker discovery
 date: "2018-10-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

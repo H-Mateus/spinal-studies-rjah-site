@@ -478,25 +478,44 @@ user_groups:
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+interests:
+  - Cell and tissue engineering
+  - in vitro modelling, organ-on-a-chip
+  - subchondral bone
+  - cartilage
+  - synovium
+  - osteoarthritis
 education:
   courses:
-    - course: PhD in something
-      institution: somewhere
-      year: sometime
-    - course: BSc in something
-      institution: somewhere
-      year: sometime
+    - course: PhD in Cell and Tissue Engineering
+      institution: Keele University
+      year: 2020
+    - course: BSc in Biomedical Sciences
+      institution: University of Plymouth
+      year: 2015
 social:
   - icon: envelope
     icon_pack: fas
     link: mailto:t.hopkins@keele.ac.uk
 #+end_src
 
-My research interests lie in the study, both in the laboratory and the clinic, of factors that affect the function of the knee over the lifetime of a patient.
+I am a cell and tissue engineer with an interest in the development of biomimetic, in-vitro models of musculoskeletal tissues.
+I am currently working as a postdoctoral research associate at Keele University.
 
-In the laboratory I am investigating the effect of subchondral bone health on the health of the articular cartilage in the knee. This involves the isolation and characterisation of various primary cell types from the subchondral bone and cartilage of tissue donated following total knee replacement. Subsequently, the characterised populations are employed in a co-culture model to investigate the effect of subchondral bone cells from regions of the joint with and without pathological changes (visible macroscopically and using imaging modalities) on the extracellular matrix forming capabilities of the patient-matched chondrocytes.
+My PhD, which was awarded in 2020, centred on the investigation of several factors that are suspected to influence cartilage repair in the knee, and was split between the lab and the clinic.
+The main focus of the lab-based research was the development of a novel, in vitro co-culture model to investigate the interaction between the subchondral bone and articular cartilage.
+The model consisted of 2D and 3D elements and was used to successfully demonstrate that the behaviour of healthy chondrocytes could be modulated by indirect co-culture with MSCs isolated from subchondral bone that demonstrated varying degrees of degeneration.
+In the clinic, research was focused on investigating the relationship between activity levels and knee function in patients that were undergoing rehabilitation following cell-based cartilage repair.
+We were able to demonstrate that the relationship between activity levels and knee function varied between patients and that some of this variation could be explained by the patients' subjective experience of emotion, a construct termed, 'effect'.
+Most interestingly, we found that the patients' effect score was the best predictor of the functional outcome of cell-based cartilage repair, even when adjusted for previously reported predictors such as age, gender and BMI.
 
-Clinically, I am interested in the relationship between activity levels and knee function, and the part played by psychosocial factors in this relationship. We have carried out an initial analysis of activity, knee function and psychosocial data that was previously collected as part of an on-going cell therapy clinical trial. It was discovered that the relationship between activity levels and knee function varies between individuals, with some patients demonstrating a positive relationship, and others a negative one. Moreover, we found that some of this patient-to-patient variation can be explained by the patient’s positive and negative outlook scores. We are now in the process of applying for ethical approval to carry out a more robust study of these factors using wearable technology to provide an objective measure of activity levels.
+Since then, I have been working on several projects focusing on the contribution of the synovium to the health and disease of the knee joint.
+In one project I have been investigating the polarisation of synovial macrophages in early- and late-stage osteoarthritis to characterise their role in disease progression.
+I have also been collaborating with a number of centres to decellularise human synovium extracellular matrix for repopulation with pathogenic human macrophages to investigate cell-matrix interactions.
+
+I will soon be moving to Queen Mary University of London, where I will be working with Dr Clare Thompson to develop disease-relevant, in vitro models of the human synovium, built upon her synovium-on-a-chip model.
+We plan to develop early- and late-stage OA synovium-on-a-chip models by introducing relevant primary synovial fibroblasts and macrophages.
+Subsequently, we will use these models to assess the response of the synovium, at these disease stages, to biologically relevant disease and treatment stimuli.
 
 ** Mairead Hyland
 :PROPERTIES:
@@ -685,8 +704,8 @@ Reporting to Prof Sally Roberts, I am responsible for the maintenance and develo
 
 #+begin_src yaml :front_matter_extra t
 role: PhD Student
-bio: One sentence summary goes here.
-email: mike.williams17@nhs.net
+bio: Transcriptome analysis of stem cell and chondrocyte therapies
+email: l.tierney@keele.ac.uk
 highlight_name: true
 superuser: false
 user_groups:
@@ -696,23 +715,23 @@ organizations:
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: PhD in something
-      institution: somewhere
-      year: sometime
-    - course: BSc in something
-      institution: somewhere
-      year: sometime
+    - course: Transcriptome analysis of stem cell and chondrocyte therapies
+      institution: Keele University and RJAH
+      year: 2019-2022
+    - course: BSc Biomedical Science
+      institution: Keele University
+      year: 2015-2018
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:mike.williams17@nhs.net
+    link: mailto:l.tierney@keele.ac.uk
 #+end_src
 
 I am a PhD student working at both Keele University and [[https://www.rjah.nhs.uk/][The Robert hunt and Agnes Jones Orthopaedic hospital in Oswestry]].
 
 PhD project: Transcriptome analysis of stem cell and chondrocyte therapies.
 
-I commenced work on this project in January 2019. During the course of this research project I will be investigating the transcriptome profiles (generated via RNA sequencing technologies) of the cells used in the autologous stem cell, chondrocyte or the two (ASCOT) clinical trial. From there, differential gene expression analysis will be performed in order to identify whether there is an association between gene expression profiles and trial outcome measures, and if so, examine the possible biological pathways involved.
+I commenced work on this project in January 2019. During the course of this research project I will be investigating the transcriptome profiles (generated via RNA sequencing technologies) of the cells used in the autologous stem cell, chondrocyte or the two (ASCOT) clinical trial. From there, I will explore what genes are expressed in these cells and whether there is a link between gene expression profiles and patient outcome 15 months following intervention.
 
 Prior to starting this PhD, I obtained a BSc in Biomedical Science from Keele University and was employed at a Genetic Toxicology contract research organisation during and after finishing my degree. Previous to that, I completed a modern apprenticeship at AstraZeneca Pharmaceuticals working within Genetic Toxicology, Hepatic Toxicology and Cardiac Toxicology departments.
 
@@ -827,26 +846,27 @@ This reverse-translational study aims to establish the exact cell population/s o
     + site [[https://github.com/tobiasgerstenberg/homepage][repo here]]
 
 * Projects
-** Example project
+** Prediction of clinical outcome following Autologous Chondrocyte Implantation by magnetic resonance imaging
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: project/example
+:EXPORT_HUGO_SECTION: project/aci_mri_prediction_2021-04-27
 :EXPORT_FILE_NAME: index
-:EXPORT_AUTHOR: nil
+:EXPORT_AUTHOR: Helen McCarthy, Iain McCall, Claire Mennan, Mike Williams, James Richardson, Sally Roberts
 :EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
 :END:
 
 #+begin_src yaml :front_matter_extra t
-title: Example Project
-summary: An example of using the in-built project page.
+title: Prediction of clinical outcome following Autologous Chondrocyte Implantation by magnetic resonance imaging
+summary: Modelling of clinical outcomes via MRI following ACI, funded by Versus Arthritis and the MRC
 tags:
 - Autologous Chondrocyte Implantation
-date: "2016-04-27T00:00:00Z"
+- Clinical outcomes
+date: "2021-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/f2aDTqfnqfE)"
   focal_point: Smart
 
 links:
@@ -854,6 +874,14 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/CellTherapyRJAH
+- icon: hand-holding-usd
+  icon_pack: fas
+  name: Funder 1
+  url: https://www.versusarthritis.org/
+- icon: hand-holding-usd
+  icon_pack: fas
+  name: Funder 2
+  url: https://mrc.ukri.org/
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -867,7 +895,13 @@ url_video: ""
 slides: ""
 #+end_src
 
-Verbiage about the project goes here.
+Since 2010, we have been collating data from a Retrospective study of Autologous Cell Therapy (REACT), using a postal questionnaire completed by patients who have previously received this treatment here at this hospital for cartilage defects of their knee.
+We have assessed the quality of the repair tissue which forms in the treated defect using magnetic resonance imaging (MRI) to see if it correlates with clinical outcomes.
+
+We found that certain features identifiable on the MRIs correlated significantly with how well the patient felt at a year after treatment (eg the amount and composition of repair tissue which had formed, how well it was integrated with the adjacent cartilage and bone, how smooth the surface was and if there were no cysts in the bone beneath).
+What may be particularly useful is that 3 of these parameters at 1 year after treatment (how much tissue, its composition and the smoothness of the surface) all affected the clinical outcome in the long term (up to 17 years after treatment).
+This could be particularly useful for clinical trials, meaning that long term follow up such as is ongoing in the Oswestry led multicentre trial of Autologous Chondrocyte Implantation (ACI) in ACTIVE, could be avoided.
+Instead of following patients up for 10 years in person, an MRI at 1 year could predict how well those patients would do with this treatment, which could be a huge cost-saving in running such trials. ([[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6081761/][McCarthy et al (2018) Orthop J Sports Med. 2018 Aug; 6(8): 325967118788280]])
 
 * Posts
 Note: categories are set with tags preceded by =@=, so =:@Emacs:= will give a post the "Emacs" category

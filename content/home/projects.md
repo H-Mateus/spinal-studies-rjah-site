@@ -32,6 +32,14 @@ subtitle = ""
    [[content.filter_button]]
      name = "Spinal cord injury"
      tag = "Spinal cord injury"
+   
+   [[content.filter_button]]
+     name = "Biomarkers"
+     tag = "Biomarkers"
+     
+   [[content.filter_button]]
+     name = "Arthritis"
+     tag = "Arthritis"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

@@ -1,0 +1,28 @@
+---
+title: A comprehensive characterisation of large-scale expanded human bone marrow
+  and umbilical cord mesenchymal stem cells
+author: Claire Mennan
+date: '2021-05-04'
+slug: a-comprehensive-characterisation-of-large-scale-expanded-human-bone-marrow-and-umbilical-cord-mesenchymal-stem-cells
+categories: []
+tags:
+  - Umbilical cord mesenchymal stromal cells
+subtitle: ''
+summary: ''
+authors: ["Claire Mennan", "John Garcia", "Sally Roberts", "Charlotte Hulme", "Karina Wright"]
+lastmod: '2021-05-04T14:58:53+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1186/s13287-019-1202-4"
+publishDate: 2019-03-18T15:53:28.000Z
+url_pdf: "https://stemcellres.biomedcentral.com/track/pdf/10.1186/s13287-019-1202-4.pdf"
+publication_types:
+  - '2'
+publication: '*Stem Cell Research & Therapy*'
+publication_short: ''
+abstract: "Background: The manufacture of mesenchymal stem/stromal cells (MSCs) for clinical use needs to be cost effective, safe and scaled up. Current methods of expansion on tissue culture plastic are labour-intensive and involve several ‘open’ procedures. We have used the closed Quantum® hollow fibre bioreactor to expand four cultures each of MSCs derived from bone marrow (BM) and, for the first time, umbilical cords (UCs) and assessed extensive characterisation profiles for each, compared to parallel cultures grown on tissue culture plastic. <br>Methods: Bone marrow aspirate was directly loaded into the Quantum®, and cells were harvested and characterised at passage (P) 0. Bone marrow cells were re-seeded into the Quantum®, harvested and further characterised at P1. UC-MSCs were isolated enzymatically and cultured once on tissue culture plastic, before loading cells into the Quantum®, harvesting and characterising at P1. Quantum®-derived cultures were phenotyped in terms of immunoprofile, tri-lineage differentiation, response to inflammatory stimulus and telomere length, as were parallel cultures expanded on tissue culture plastic. <br>Results: Bone marrow cell harvests from the Quantum® were 23.1±16.2×106 in 14±2days (P0) and 131±84×106 BM-MSCs in 13±1days (P1), whereas UC-MSC harvests from the Quantum® were 168±52×106 UC-MSCs after 7±2days (P1). Quantum®- and tissue culture plastic-expanded cultures at P1 adhered to criteria for MSCs in terms of cell surface markers, multipotency and plastic adherence, whereas the integrins, CD29, CD49c and CD51/61, were found to be elevated on Quantum®-expanded BM-MSCs. Rapid culture expansion in the Quantum® did not cause shortened telomeres when compared to cultures on tissue culture plastic. Immunomodulatory gene expression was variable between donors but showed that all MSCs upregulated indoleamine 2, 3-dioxygenase (IDO). <br>Conclusions: The results presented here demonstrate that the Quantum® can be used to expand large numbers of MSCs from bone marrow and umbilical cord tissues for next-generation large-scale manufacturing, without impacting on many of the properties that are characteristic of MSCs or potentially therapeutic. Using the Quantum®, we can obtain multiple MSC doses from a single manufacturing run to treat many patients. Together, our findings support the development of cheaper cell-based treatments."
+---

@@ -1,0 +1,30 @@
+---
+title: Autologous chondrocyte implantation-derived synovial fluids display distinct
+  responder and non-responder proteomic profiles
+author: Charlotte Hulme
+date: '2021-05-04'
+slug: autologous-chondrocyte-implantation-derived-synovial-fluids-display-distinct-responder-and-non-responder-proteomic-profiles
+categories: []
+tags:
+  - Autologous Chondrocyte Implantation
+  - Proteomics
+subtitle: ''
+summary: ''
+authors: ["Charlotte Hulme", "Emma L. Wilson", "Mandy J. Peffers", "Sally Roberts", "Deborah M. Simpson", "James B. Richardson", "Pete Gallacher", "Karina Wright"]
+lastmod: '2021-05-04T08:18:55+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1089/neu.2020.7144"
+publishDate: 2017-06-30T15:53:28.000Z
+url_pdf: "https://arthritis-research.biomedcentral.com/track/pdf/10.1186/s13075-017-1336-7.pdf"
+publication_types:
+  - '2'
+publication: '*Arthritis Research & Therapy*'
+publication_short: ''
+abstract: "Background: Autologous chondrocyte implantation (ACI) can be used in the treatment of focal cartilage injuries to prevent the onset of osteoarthritis (OA). However, we are yet to understand fully why some individuals do not respond well to this intervention. Identification of a reliable and accurate biomarker panel that can predict which patients are likely to respond well to ACI is needed in order to assign the patient to the most appropriate therapy. This study aimed to compare the baseline and mid-treatment proteomic profiles of synovial fluids (SFs) obtained from responders and non-responders to ACI. <br> Methods: SFs were derived from 14 ACI responders (mean Lysholm improvement of 33 (17–54)) and 13 non-responders (mean Lysholm decrease of 14 (4–46)) at the two stages of surgery (cartilage harvest and chondrocyte implantation). Label-free proteome profiling of dynamically compressed SFs was used to identify predictive markers of ACI success or failure and to investigate the biological pathways involved in the clinical response to ACI. <br> Results: Only 1 protein displayed a ≥2.0-fold differential abundance in the preclinical SF of ACI responders versus non-responders. However, there is a marked difference between these two groups with regard to their proteome shift in response to cartilage harvest, with 24 and 92 proteins showing ≥2.0-fold differential abundance between Stages I and II in responders and non-responders, respectively. Proteomic data has been uploaded to ProteomeXchange (identifier: PXD005220). We have validated two biologically relevant protein changes associated with this response, demonstrating that matrix metalloproteinase 1 was prominently elevated and S100 calcium binding protein A13 was reduced in response to cartilage harvest in non-responders. <br> Conclusions: The differential proteomic response to cartilage harvest noted in responders versus non-responders is completely novel. Our analyses suggest several pathways which appear to be altered in non-responders that are worthy of further investigation to elucidate the mechanisms of ACI failure. These protein changes highlight many putative biomarkers that may have potential for prediction of ACI treatment success."
+---
+

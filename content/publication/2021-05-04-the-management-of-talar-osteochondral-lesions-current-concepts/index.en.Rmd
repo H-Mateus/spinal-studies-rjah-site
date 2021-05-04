@@ -1,0 +1,28 @@
+---
+title: The management of talar osteochondral lesions - Current concepts
+author: Tian Lan
+date: '2021-05-04'
+slug: the-management-of-talar-osteochondral-lesions-current-concepts
+categories: []
+tags:
+  - Review
+  - Arthritis
+subtitle: ''
+summary: ''
+authors: ["Tian Lan", "Helen McCarthy", "Charlotte Hulme", "Karina Wright", "Nilesh Makwana"]
+lastmod: '2021-05-04T13:23:06+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.jajs.2021.04.002"
+publishDate: 2021-04-23T15:53:28.000Z
+url_pdf: "https://reader.elsevier.com/reader/sd/pii/S2214963521000390?token=42E56BA7E0E31D42CEA80F8AB13CCA7BC199847DD7EA63449BBF0FA60EEB33629798F9ADC9ED0BA70B661B10B59D4851&originRegion=eu-west-1&originCreation=20210504122628"
+publication_types:
+  - '2'
+publication: '*Journal of Arthroscopy and Joint Surgery*'
+publication_short: ''
+abstract: "Osteochondral lesions of the talus (OLTs) are a common complication following trauma, involving both the articular cartilage and the underlying subchondral bone, with variable aetiologies and often presenting with non-specific symptoms. Diagnosis of OLTs requires a combination of clinical assessment and imaging and despite many different treatment options, there is no generalised consensus regarding which option is the most effective. Left untreated, OLTs risk progressing to osteoarthritis. Acute non-displaced OLTs can be treated non-operatively. However, OLTs refractory to non-surgical care for three to six months may be suitable for surgical care. In these cases, conservative treatments are often unsuccessful, particularly for larger and more severe defects and so the majority require surgical intervention. Although bone marrow stimulation techniques remain the 'gold standard' for lesions <150 mm$^2$, there still requires a need for better long term clinical data and cost-benefit analyses compared with other treatment options. Biological attempts at either regenerating or replacing the articular cartilage are however demonstrating some promising results, but each with their own advantages and disadvantages. In this review, we summarise the clinical management of OLTs and present the current concepts of different treatment regimes."
+---

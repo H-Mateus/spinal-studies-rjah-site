@@ -1,0 +1,179 @@
+---
+title: Reproducible data analysis
+author: Gabriel Mateus Bernardo Harrington
+date: '2021-05-12'
+slug: reproducible-data-analysis
+categories:
+  - Methodology
+tags:
+  - Reproducible Research
+  - Methodology
+subtitle: 'Why all scientists should learn to code'
+summary: ''
+authors: []
+lastmod: '2021-05-12T10:35:05+01:00'
+featured: no
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/mDinBvq1Sfg)'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r, label='setup-options', include=FALSE}
+knitr::opts_chunk$set(
+  eval = TRUE, # eval code chunks
+  echo = FALSE, # include source code
+  #fig.width = 6, # set figure dims
+  #fig.height = 6
+  fig.align = 'center',
+  warning = FALSE, # exclude warnings
+  message = FALSE, # exclude messages
+  error = FALSE # exclude errors
+)
+```
+
+This post is a companion to the talk I'm due to give at the Joint CDT virtual conference this year.
+The goal of both is to outline the selfish benefits of working more reproducibly, particularly from a students perspective, focusing on data analysis.
+
+I hope to convince you that working this way will:
+
+- Save you a lot of time
+- Make you a better scientist
+- And perhaps most importantly, make you much more employable!
+
+Usually this topic is approached from a more ideological view, suggesting that we must do these things because science has a reproducibility problem.
+If the ideology interests you, I'll outline my own feelings on the problems with how science is done in my article [The Sovereign of Science](https://gmbernardoharrington.netlify.app/post/the-sovereign-of-science/), and I outline my ideas to address these issues in [How might science be done better?](https://gmbernardoharrington.netlify.app/post/how-might-science-be-done-better/).
+The short version is that I don't feel individual scientists are to blame, but rather the system we are subject to fails reward good science or punish bad practises.
+
+I also don't feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.
+
+# What's wrong with the way I currently do things?
+
+```{r, label='you-suck', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/KHaaHwAZ9LE)', out.width='80%'}
+knitr::include_graphics("you_suck.jpg")
+```
+
+I'm guessing you're a fairly typical scientist.
+You exclusively use proprietary closed-source graphical user interface (GUI) based software for all your work.
+Think Excel, SPSS and GraphPad.
+
+You use these tools not because you ever asked whether they were good at what you use them for, but rather because they are the defaults that are either provided for free, or what you university/colleagues taught you to use.
+
+The main issue with all these tools is that there is no record of what anyone has done with them or why.
+
+I think a fun story may illustrate this point
+
+# Story time
+
+```{r, label='story-time', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/aZ8G5l3VLkI)', out.width='60%'}
+knitr::include_graphics("story_time.jpg")
+```
+
+So imagine the following scenario:
+
+We have a research project we are conducting.
+A student has carried out the experiment and generated the data for analysis.
+After several iterations back and forth between Excel and SPSS, the file `finaldata9` is created, and several slightly different versions of this file exists between the supervisor, a postdoc and the student.
+The student graduates, and a new student comes in to finish the project.
+The original student has moved to another city and no longer cares about this project.
+
+There is no documentation to accompany `finaldata9` and so it contains several columns of unknown origin or purpose.
+The project is now being written up in Microsoft Word, with values being copied and pasted from the various iterations of `finaldata9`.
+After several months, the final draft is submitted to a journal for publication.
+
+Now, do you think this research group could reproduce the values they report in the results of this paper?
+Of course not.
+The raw experimental data has been completely mutilated.
+The is no record or documentation of who has done what, using which tools and when.
+And this is how most research is done.
+
+## The Excel mistake heard round the world
+
+To give a specific example, several years ago, a couple of Harvard economists [published a paper](https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/) suggesting that countries with debt over 90% of GDP would enter recession.
+They reported these findings to American senators, how decided to implement year of harsh austerity based on these finding.
+But it turned out they made a little goof with their Excel spreadsheets.
+When doing their calculations, they didn't quite drag a box down all the way, missing data from 5 countries.
+Redoing the analysis with these extra countries changes their results fairly dramatically.
+
+It took a few years before anyone noticed the mistake, and the only reason anyone did was because the data they used was publically available.
+The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and to miss during review.
+
+# Well what could I do differently?
+
+I'm glad you asked.
+
+There are lots of things you can and should do, but the most important one is to learn to code
+
+```{r, label='matrix', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/iar-afB0QQw)', out.width='80%'}
+knitr::include_graphics("matrix.jpg")
+```
+
+Now that may sound scary, but I promise it's a lot easier than you might think.
+Code is just a set of plain text instructions, written with a specific syntax, that the computer can then execute exactly.
+You can, and absolutely should, leave comments in your code as well.
+These are lines that are ignored by the computer, but are there to explain what your code is doing and why.
+This means that rerunning a particular analysis, from raw experimental data all the way through to publication quality plots and stats, is a simple as rerunning a script, and it can take mere seconds.
+
+## The benefits
+
+This is where the real time saving comes from.
+A lot of labs revolve around a few pieces of equipment, which generally will generate the same kind of data, that needs to be analyses in the same kind of way, regardless of the experimental specifics.
+When you use the GUI tools, you need to start from scratch each time.
+
+Imagine a particular assay.
+Even assay run has a standard curve and some experimental samples.
+With the data, you generate a standard curve, use it to estimate the concentration of your samples, maybe average some replicates, and do some stats to compare experimental groups.
+Let's same you run this assay a lot, so you can do these steps in 10 minutes in Excel.
+
+But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it was reach parity if you run the assay twice.
+All you change is the data you feed the script.
+Each additional time you run the assay you're saving 10 minutes of time, and you've eliminated the risk of making a mistake in subsequent analyses.
+You can also easily share your script with colleagues so they don't even need to spend 20 minutes to write it in the first place.
+
+If you did this for every major piece of equipment in your lab how much time could ***you*** save?
+How popular would you be in your group?
+How sexy would you look to prospective employers?
+
+And there are many other benefits to code.
+GUI tools don't scale to large datasets, and even include hard caps as to how much data they can hold.
+The British Government [learned this the hard way](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england) during the Covid-19 pandemic.
+Programming languages can handle data of any size, and it's no harder to with 10 rows of data than 100,000,000 rows.
+As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to been to be able to work with larger and larger datasets.
+
+Programming languages can do everything Excel, SPSS and GraphPad do, and so much more besides.
+Maybe you've heard of this machine learning lark?
+Well good luck doing that in SPSS or Excel.
+[R](https://www.r-project.org/) or [Python](https://www.python.org/) on the other hand?
+Easy-peasy.
+This means the skill will serve you extremely well in the job market, and if you're a fresh-faced student just starting out, it's fairly likely you'll be forced to learn these skills to stay in this field sooner or later.
+So why not start now?
+
+## A personal testimony on the employability benefits
+
+My saying coding makes you more employable is not without cause.
+I write this a third year PhD student who was scouted for a data science role, and secured a bioinformatics postdoc at a Russell Group university.
+This is in spite of me having never written a line of code prior to starting my PhD, and having no formal bioinformatics training.
+
+And there are loads of excellent free written and video guides to learn these skills.
+
+Some personal favourites for learning R (my first language, and the one I'd recommend you start with):
+
+1. The [R for Data Science](https://r4ds.had.co.nz/index.html) book
+1. The [freeCodeCamp Youtube video](https://www.youtube.com/watch?v=_V8eKsto3Ug&t=1241s)
+1. [RStudios documentation](https://education.rstudio.com/learn/beginner/)
+
+## Going further down the rabbit hole
+
+I hope I've convinced you that code is the best way to analyse data.
+But you probably use a lot of other suboptimal software in both your personal and professional life.
+If you interested in finder better alternatives, I would suggest a simple rule:
+
+- Stick to software that's [free and open-source](https://www.digitalocean.com/community/tutorials/free-vs-open-source-software)
+
+That way you don't waste time learning software that may be taken away from you if the price increased, your employer refused to provide it for you, etc.
+It means you can be sure you always have access to the tools you need, when you need them.
+And that anyone you want to work with can't say "sorry, I don't have access to that software, can't contribute".
+It also facilitates reproducibility, as anyone will be able to use the same tools.
+
+I will also write further article/s on how to make your [scientific writing more reproducible](https://rmarkdown.rstudio.com/), on using [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and touch on [containers](https://www.docker.com/resources/what-container), and link them here once done.

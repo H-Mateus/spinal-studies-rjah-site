@@ -40,10 +40,10 @@ I hope to convince you that working this way will:
 
 - Save you a lot of time
 - Make you a better scientist
-- And perhaps most importantly, make you much more employable!
+- And perhaps most importantly for any students, make you much more employable!
 
 Usually this topic is approached from a more ideological view, suggesting that we must do these things because science has a reproducibility problem.
-If the ideology interests you, I'll outline my own feelings on the problems with how science is done in my article [The Sovereign of Science](https://gmbernardoharrington.netlify.app/post/the-sovereign-of-science/), and I outline my ideas to address these issues in [How might science be done better?](https://gmbernardoharrington.netlify.app/post/how-might-science-be-done-better/).
+If the ideology interests you, I've outlined my own feelings on the problems with how science is done in my article [The Sovereign of Science](https://gmbernardoharrington.netlify.app/post/the-sovereign-of-science/), and I outline my ideas to address these issues in [How might science be done better?](https://gmbernardoharrington.netlify.app/post/how-might-science-be-done-better/).
 The short version is that I don't feel individual scientists are to blame, but rather the system we are subject to fails reward good science or punish bad practises.
 
 I also don't feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.
@@ -103,9 +103,9 @@ The lack of reproducibility of these GUI tools means these kinds of mistakes are
 
 I'm glad you asked.
 
-There are lots of things you can and should do, but the most important one is to learn to code
+There are lots of things you can and should do, but the most important one is to learn to code!
 
-```{r, label='matrix', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/iar-afB0QQw)', out.width='80%'}
+```{r, label='matrix', fig.cap='This is definitely exactly what code looks like. Image credit: [**Unsplash**](https://unsplash.com/photos/iar-afB0QQw)', out.width='80%'}
 knitr::include_graphics("matrix.jpg")
 ```
 

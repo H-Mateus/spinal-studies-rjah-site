@@ -1,5 +1,5 @@
 ---
-title: Reproducible data analysis
+title: Reproducible Research - Data analysis
 author: Gabriel Mateus Bernardo Harrington
 date: '2021-05-12'
 slug: reproducible-data-analysis
@@ -162,6 +162,7 @@ Some personal favourites for learning R (my first language, and the one I'd reco
 1. The [R for Data Science](https://r4ds.had.co.nz/index.html) book
 1. The [freeCodeCamp Youtube video](https://www.youtube.com/watch?v=_V8eKsto3Ug&t=1241s)
 1. [RStudios documentation](https://education.rstudio.com/learn/beginner/)
+1. For a more broad walkthrough of methods for reproducible research, [The Turing Way](https://the-turing-way.netlify.app/welcome.html) is a great guide
 
 ## Going further down the rabbit hole
 

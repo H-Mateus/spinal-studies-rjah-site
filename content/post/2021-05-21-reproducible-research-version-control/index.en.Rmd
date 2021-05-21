@@ -1,0 +1,122 @@
+---
+title: Reproducible Research - Version control
+author: ''
+date: '2021-05-21'
+slug: reproducible-research-version-control
+categories:
+  - Methodology
+tags:
+  - Reproducible Research
+  - Methodology
+  - Version Control
+  - Git
+subtitle: 'Better collaboration and transparency'
+summary: ''
+authors: []
+lastmod: '2021-05-21T14:34:07+01:00'
+featured: no
+image:
+  caption: 'Image credit: [**Flickr**](https://www.flickr.com/photos/18090920@N07/10788643606)'
+  focal_point: ''
+  preview_only: no
+projects: []
+diagram: true
+---
+
+```{r, label='setup-options', include=FALSE}
+knitr::opts_chunk$set(
+  eval = TRUE, # eval code chunks
+  echo = FALSE, # include source code
+  #fig.width = 6, # set figure dims
+  #fig.height = 6
+  fig.align = 'center',
+  warning = FALSE, # exclude warnings
+  message = FALSE, # exclude messages
+  error = FALSE # exclude errors
+)
+
+library(DiagrammeR)
+```
+
+As promised in the prior article on [reproducible data analysis](../../../../post/reproducible-data-analysis/), here I'd like to outline the concept of version control, and how it pertains to reproducible research.
+
+Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes.
+Many academics attempt a poor facsimile of this by using some flavour of "track changes" via software like Microsoft Word or [Google docs](https://docs.google.com/), and emailing these documents back an forth with varying file names.
+Particularly with the use of Microsoft Word, this can lead to having lots of slightly different versions of the same file, with no easy way of knowing what version contains which changes, and who made them.
+
+More advanced version control systems (VCS) such as [Git](https://en.wikipedia.org/wiki/Git), [SVN](https://subversion.apache.org/) and [Mercurial](https://www.mercurial-scm.org/) provide more powerful and elegant tools.
+Git was originally designed for large groups of developers to work on big software projects, but is now used for many other kinds of projects.
+
+As in the previous article, here is an overview of the benefits of using version control:
+
+- The process of creating work becomes more seamlessly integrated with organising, recording and disseminating said work, as opposed to additional burdens that may be neglected
+- More structured collaboration, with robust tools for asynchronous work and managing versions
+- Easy creation of a web presence for a given project (this website is on [GitHub](https://github.com/H-Mateus/spinal-studies-rjah-site)!)
+- It can also serve as an excellent tool to support teaching
+
+# Motivation
+
+```{r, label='git-mascot', fig.cap='A toy of the GitHub mascot. Image credit: [**Unslash**](https://unsplash.com/photos/wX2L8L-fGeA)'}
+knitr::include_graphics("git_mascot.jpg")
+```
+
+Version control allows us to understand the history of a piece of work (typically the writing of a paper for academics).
+This lets us and others understand what was done, when, and with the aid of well written comments/commit messages, ***why*** it was done.
+This greatly increases the transparency of the work, which is crucial for reproducibility.
+A version control system allows us to do this cleanly, with no debris from previous versions of files strewn about various folders which could confuse us or others trying to understand how we arrived at out final results.
+This can be especially useful with code, as we no longer need to keep large chunks of unused code commented out just in case we want it later.
+
+But perhaps the greatest benefit is the ease of collaboration good version control allows for.
+Particularly when combined with version control hosting services, such as [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/), version control allows many people, potential all over the world and in different time zones, to work on the same files.
+The changes from different people can be tracked separately, and there are powerful tools communicate in a more structured way, via pull requests, code reviews and issues for example.
+
+# Basic workflow
+
+A typical workflow using version control is as follows:
+
+1. Create files - these should be plain text, usually code and/or markup or some kind
+1. Work on these files - adding, deleting or changing content
+1. Create a snapshot - explicitly record the state of a file/s at that particular time, with a message summarising what was done
+
+```{r, fig.cap='test', eval=FALSE}
+mermaid("
+graph LR
+    A(Person 1 - Add a file) --> B(Make some changes)
+    B --> C(Person 1 - Further changes)
+    B --> D(Person 2 - makes their own changes)
+    D --> G(Further changes)
+    C --> E(Yet more changes)
+    E --> F(And so it goes on)
+    G --> H
+    F --> H(Merge changes)
+    H --> I(Onward and upwards!)
+
+    style A fill:#f9f;
+    style B fill:#f9f;
+    style C fill:#f9f;
+    style D fill:#c28711;
+    style E fill:#f9f;
+    style F fill:#f9f;
+    style G fill:#c28711;
+    ")
+```
+
+In Git, which I will focus on for the remainder of the article as it the most popular, these snapshots are called "commits".
+This can feel a little strange at first, but you quickly get used to it.
+Personally, I've found a nice added benefit to using Git as a tool for delimitating where my day ends.
+The last thing I do each day is commit all the work I've done, giving me a nice sense of accomplishment (or terrible shame if I've been unproductive...), and giving my brain a signal that work is over it's time to switch gears.
+
+# Learning resources
+
+```{r, label='learn', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/WE_Kv_ZB1l0)'}
+knitr::include_graphics("learn.jpg")
+```
+
+If I've managed to convince you to give version control a go then do be warned if you using Windows - getting things set up will be a bit ugly.
+Windows is a pretty terrible operating system for doing anything, but it's especially bad for these kinds of things.
+In an ideal world more children would be exposed to Linux growing up, and would therefore know how much better it is, thus using it as adults.
+That's not to say it can't be done of course.
+
+- A great resource for many facets of reproducible research is [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
+- Another great resource, particularly for integrating Git with R is [Happy Git with R](https://happygitwithr.com/index.html)
+- The [Pro Git](https://git-scm.com/book/en/v2) book is another great resource for a more in depth understanding of how Git works, and some of it's more advanced features

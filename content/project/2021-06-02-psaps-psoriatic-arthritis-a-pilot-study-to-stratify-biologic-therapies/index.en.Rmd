@@ -60,5 +60,4 @@ factors:
 Arrays allowing the detection of hundreds of pro inflammatory markers can
 also be used to analyze serum of patients at a large scale, and IL-17 pathway
 will be screen in detail to understand why some patients respond to IL-17
-inhibitors while they do not respond to TNF$α$-inhibitors.  
-
+inhibitors while they do not respond to TNF$α$-inhibitors.

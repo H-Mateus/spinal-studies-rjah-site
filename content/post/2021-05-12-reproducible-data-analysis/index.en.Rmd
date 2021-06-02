@@ -48,7 +48,7 @@ The short version is that I don't feel individual scientists are to blame, but r
 
 I also don't feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.
 
-# What's wrong with the way I currently do things?
+## What's wrong with the way I currently do things?
 
 ```{r, label='you-suck', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/KHaaHwAZ9LE)', out.width='80%'}
 knitr::include_graphics("you_suck.jpg")
@@ -64,7 +64,7 @@ The main issue with all these tools is that there is no record of what anyone ha
 
 I think a fun story may illustrate this point
 
-# Story time
+## Story time
 
 ```{r, label='story-time', fig.cap='Image credit: [**Unsplash**](https://unsplash.com/photos/aZ8G5l3VLkI)', out.width='60%'}
 knitr::include_graphics("story_time.jpg")
@@ -83,7 +83,7 @@ The project is now being written up in Microsoft Word, with values being copied 
 After several months, the final draft is submitted to a journal for publication.
 
 Now, do you think this research group could reproduce the values they report in the results of this paper?
-Of course not.
+***Of course not.***
 The raw experimental data has been completely mutilated.
 The is no record or documentation of who has done what, using which tools and when.
 And this is how most research is done.
@@ -97,9 +97,9 @@ When doing their calculations, they didn't quite drag a box down all the way, mi
 Redoing the analysis with these extra countries changes their results fairly dramatically.
 
 It took a few years before anyone noticed the mistake, and the only reason anyone did was because the data they used was publically available.
-The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and to miss during review.
+The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and miss during peer review.
 
-# Well what could I do differently?
+## Well what could I do differently?
 
 I'm glad you asked.
 
@@ -172,9 +172,19 @@ If you interested in finder better alternatives, I would suggest a simple rule:
 
 - Stick to software that's [free and open-source](https://www.digitalocean.com/community/tutorials/free-vs-open-source-software)
 
+```{r, label='open-source-alternatives', fig.cap='Free and open-source alternatives. The logos from left to right: [Ubuntu](https://ubuntu.com/), [Linux](https://en.wikipedia.org/wiki/Linux), [GIMP](https://www.gimp.org/), [Audacity](https://www.audacityteam.org/), [Firefox](https://www.mozilla.org/en-GB/firefox/new/), [LibreOffice](https://www.libreoffice.org/), [7-zip](https://www.7-zip.org/). Image credit: [**Flikr**](https://www.flickr.com/photos/26887294@N05/6846553672)'}
+knitr::include_graphics("open_source_alts.jpg")
+```
+
 That way you don't waste time learning software that may be taken away from you if the price increased, your employer refused to provide it for you, etc.
 It means you can be sure you always have access to the tools you need, when you need them.
 And that anyone you want to work with can't say "sorry, I don't have access to that software, can't contribute".
 It also facilitates reproducibility, as anyone will be able to use the same tools.
 
 I will also write further article/s on how to make your [scientific writing more reproducible](https://rmarkdown.rstudio.com/), on using [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and touch on [containers](https://www.docker.com/resources/what-container), and link them here once done.
+
+**Update**:
+
+As promised, some follow-up posts:
+
+- A brief explainer on the wonders of version control - [Reproducible Research - Version control](../../../../post/reproducible-research-version-control/)

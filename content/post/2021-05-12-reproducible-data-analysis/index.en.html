@@ -35,8 +35,8 @@ The goal of both is to outline the selfish benefits of working more reproducibly
 If the ideology interests you, I’ve outlined my own feelings on the problems with how science is done in my article <a href="https://gmbernardoharrington.netlify.app/post/the-sovereign-of-science/">The Sovereign of Science</a>, and I outline my ideas to address these issues in <a href="https://gmbernardoharrington.netlify.app/post/how-might-science-be-done-better/">How might science be done better?</a>.
 The short version is that I don’t feel individual scientists are to blame, but rather the system we are subject to fails reward good science or punish bad practises.</p>
 <p>I also don’t feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.</p>
-<div id="whats-wrong-with-the-way-i-currently-do-things" class="section level1">
-<h1>What’s wrong with the way I currently do things?</h1>
+<div id="whats-wrong-with-the-way-i-currently-do-things" class="section level2">
+<h2>What’s wrong with the way I currently do things?</h2>
 <div class="figure" style="text-align: center"><span id="fig:you-suck"></span>
 <img src="you_suck.jpg" alt="Image credit: [**Unsplash**](https://unsplash.com/photos/KHaaHwAZ9LE)" width="80%" />
 <p class="caption">
@@ -50,8 +50,8 @@ Think Excel, SPSS and GraphPad.</p>
 <p>The main issue with all these tools is that there is no record of what anyone has done with them or why.</p>
 <p>I think a fun story may illustrate this point</p>
 </div>
-<div id="story-time" class="section level1">
-<h1>Story time</h1>
+<div id="story-time" class="section level2">
+<h2>Story time</h2>
 <div class="figure" style="text-align: center"><span id="fig:story-time"></span>
 <img src="story_time.jpg" alt="Image credit: [**Unsplash**](https://unsplash.com/photos/aZ8G5l3VLkI)" width="60%" />
 <p class="caption">
@@ -68,10 +68,11 @@ The original student has moved to another city and no longer cares about this pr
 The project is now being written up in Microsoft Word, with values being copied and pasted from the various iterations of <code>finaldata9</code>.
 After several months, the final draft is submitted to a journal for publication.</p>
 <p>Now, do you think this research group could reproduce the values they report in the results of this paper?
-Of course not.
+<strong><em>Of course not.</em></strong>
 The raw experimental data has been completely mutilated.
 The is no record or documentation of who has done what, using which tools and when.
 And this is how most research is done.</p>
+</div>
 <div id="the-excel-mistake-heard-round-the-world" class="section level2">
 <h2>The Excel mistake heard round the world</h2>
 <p>To give a specific example, several years ago, a couple of Harvard economists <a href="https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/">published a paper</a> suggesting that countries with debt over 90% of GDP would enter recession.
@@ -80,11 +81,10 @@ But it turned out they made a little goof with their Excel spreadsheets.
 When doing their calculations, they didn’t quite drag a box down all the way, missing data from 5 countries.
 Redoing the analysis with these extra countries changes their results fairly dramatically.</p>
 <p>It took a few years before anyone noticed the mistake, and the only reason anyone did was because the data they used was publically available.
-The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and to miss during review.</p>
+The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and miss during peer review.</p>
 </div>
-</div>
-<div id="well-what-could-i-do-differently" class="section level1">
-<h1>Well what could I do differently?</h1>
+<div id="well-what-could-i-do-differently" class="section level2">
+<h2>Well what could I do differently?</h2>
 <p>I’m glad you asked.</p>
 <p>There are lots of things you can and should do, but the most important one is to learn to code!</p>
 <div class="figure" style="text-align: center"><span id="fig:matrix"></span>
@@ -98,6 +98,7 @@ Code is just a set of plain text instructions, written with a specific syntax, t
 You can, and absolutely should, leave comments in your code as well.
 These are lines that are ignored by the computer, but are there to explain what your code is doing and why.
 This means that rerunning a particular analysis, from raw experimental data all the way through to publication quality plots and stats, is a simple as rerunning a script, and it can take mere seconds.</p>
+</div>
 <div id="the-benefits" class="section level2">
 <h2>The benefits</h2>
 <p>This is where the real time saving comes from.
@@ -149,10 +150,20 @@ If you interested in finder better alternatives, I would suggest a simple rule:<
 <ul>
 <li>Stick to software that’s <a href="https://www.digitalocean.com/community/tutorials/free-vs-open-source-software">free and open-source</a></li>
 </ul>
+<div class="figure" style="text-align: center"><span id="fig:open-source-alternatives"></span>
+<img src="open_source_alts.jpg" alt="Free and open-source alternatives. The logos from left to right: [Ubuntu](https://ubuntu.com/), [Linux](https://en.wikipedia.org/wiki/Linux), [GIMP](https://www.gimp.org/), [Audacity](https://www.audacityteam.org/), [Firefox](https://www.mozilla.org/en-GB/firefox/new/), [LibreOffice](https://www.libreoffice.org/), [7-zip](https://www.7-zip.org/). Image credit: [**Flikr**](https://www.flickr.com/photos/26887294@N05/6846553672)" width="512" />
+<p class="caption">
+Figure 4: Free and open-source alternatives. The logos from left to right: <a href="https://ubuntu.com/">Ubuntu</a>, <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="https://www.gimp.org/">GIMP</a>, <a href="https://www.audacityteam.org/">Audacity</a>, <a href="https://www.mozilla.org/en-GB/firefox/new/">Firefox</a>, <a href="https://www.libreoffice.org/">LibreOffice</a>, <a href="https://www.7-zip.org/">7-zip</a>. Image credit: <a href="https://www.flickr.com/photos/26887294@N05/6846553672"><strong>Flikr</strong></a>
+</p>
+</div>
 <p>That way you don’t waste time learning software that may be taken away from you if the price increased, your employer refused to provide it for you, etc.
 It means you can be sure you always have access to the tools you need, when you need them.
 And that anyone you want to work with can’t say “sorry, I don’t have access to that software, can’t contribute”.
 It also facilitates reproducibility, as anyone will be able to use the same tools.</p>
 <p>I will also write further article/s on how to make your <a href="https://rmarkdown.rstudio.com/">scientific writing more reproducible</a>, on using <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a> and touch on <a href="https://www.docker.com/resources/what-container">containers</a>, and link them here once done.</p>
-</div>
+<p><strong>Update</strong>:</p>
+<p>As promised, some follow-up posts:</p>
+<ul>
+<li>A brief explainer on the wonders of version control - <a href="../../../../post/reproducible-research-version-control/">Reproducible Research - Version control</a></li>
+</ul>
 </div>

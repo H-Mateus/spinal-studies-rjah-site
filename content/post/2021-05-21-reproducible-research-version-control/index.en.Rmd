@@ -1,6 +1,6 @@
 ---
 title: Reproducible Research - Version control
-author: ''
+author: 'Gabriel Mateus Bernardo Harrington'
 date: '2021-05-21'
 slug: reproducible-research-version-control
 categories:

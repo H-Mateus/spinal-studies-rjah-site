@@ -1,0 +1,64 @@
+---
+title: 'PSAPS – Psoriatic Arthritis: a Pilot study to Stratify biologic therapies'
+author: Anaïs Makos
+date: '2021-06-02'
+slug: psaps-psoriatic-arthritis-a-pilot-study-to-stratify-biologic-therapies
+categories: []
+tags:
+  - Psoriatic Arthritis
+  - Biomarkers
+subtitle: ''
+summary: ''
+authors: [Anaïs Makos, Jan Herman Kuiper, Roshan Amarasena, Oksana Keohe]
+lastmod: '2021-06-02T11:03:42+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+geometry: margin=2cm
+projects: []
+---
+Psoriatic arthritis (PsA) is a chronic immune-mediated inflammatory disease
+and patients suffer from joint and spinal pain because of immune cell
+infiltration and expansion in skin and synovium. These cells release a large
+panel of pro inflammatory factors responsible for the inflammation, as
+cytokines and chemokines. We can cite for instance Tumor Necrosis Factor $α$
+(TNF$α$), Interleukin (IL)-17, IL-23 and IL-1$β$ released by Peripheral
+Blood Mononuclear Cells (PBMC) such as CD4+ and CD8+ T cells, neutrophils and
+macrophages.
+
+PsA occurs in 30% of people with psoriasis. It diminishes considerably the
+quality of life of patients and serious desabiliting effects are present on
+the peripheral joints, spine, tendon insertion and fingers. PsA accounts for
+20% of referrals to the early arthritis clinic and early recognition and
+intervention is crucial to patient outcome. Currently, diagnosis of PsA is
+not optimal because there are no precise tests available to detect or
+recognize the disease.
+
+No curative treatments are available for PsA. Non Steroidal Anti-Inflammatory
+drugs (NSAID) are used as first approach for topical therapy for psoriasis
+and to reduce pain; the next step is administration of Disease-Modifying
+Anti-Rheumatic Drugs (DMARDs) alone, and then in combination; and finally,
+biologic drugs targeting specific cytokines and signaling pathways, such as
+TNF$α$ inhibitors or IL-17 inhibitors, are administrated if patients fail to
+respond NSAID and DMARDs. However, at least 40% of patients with PsA have
+only a partial response or fail to respond to biologics.
+The aim of the PSAPS study is to investigate whether blood inflammatory
+markers can predict if patients with PsA will respond or not to TNF$α$
+inhibitors, and consequently to help choosing the optimal biologic therapy
+for patients, individually.
+
+First literature research has highlighted several promising inflammatory
+factors:
+
+- Human Serum Albumin and its receptor FcRn (Neonatal Fc Receptor)
+- Alarmins, such as S100 family members and HMGB1
+- Advanced Glycation End-products (AGEs)
+- Lymphotoxin α, the second ligand to TNF Receptor.
+
+Arrays allowing the detection of hundreds of pro inflammatory markers can
+also be used to analyze serum of patients at a large scale, and IL-17 pathway
+will be screen in detail to understand why some patients respond to IL-17
+inhibitors while they do not respond to TNF$α$-inhibitors.  
+

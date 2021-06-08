@@ -26,6 +26,12 @@ education:
     - course: PhD in Biochemistry
       institution: R.E.Kavetsky Institute of Experimental Pathology, Oncology and Radiobiology of NAS of Ukraine, Kyiv
       year: 1991-1995
+    - course: MSc in Immunology
+      institution: Taras Shevchenko National University of Kyiv, Ukraine
+      year: 1989-1990
+    - course: BSc in Immunology
+      institution: Taras Shevchenko National University of Kyiv, Ukraine
+      year: 1985-1989
 social:
   - icon: envelope
     icon_pack: fas

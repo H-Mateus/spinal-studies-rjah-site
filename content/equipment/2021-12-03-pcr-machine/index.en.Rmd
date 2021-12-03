@@ -1,0 +1,19 @@
+---
+title: PCR machine
+author: ''
+date: '2021-12-03'
+slug: pcr-machine
+categories: []
+tags:
+  - DNA
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-12-03T10:05:07Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---

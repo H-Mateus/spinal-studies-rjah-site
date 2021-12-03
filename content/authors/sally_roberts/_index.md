@@ -9,7 +9,7 @@ email: Sally.roberts4@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Principal Investigators
+  - Emeritus
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

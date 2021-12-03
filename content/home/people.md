@@ -13,7 +13,8 @@ user_groups = [
   "Grad Students",
   "Administration",
   "Visitors",
-  "Alumni"
+  "Alumni",
+  "Emeritus"
 ]
 
 [design]

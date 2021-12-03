@@ -3,9 +3,12 @@ title: PCR machine
 author: ''
 date: '2021-12-03'
 slug: pcr-machine
-categories: []
+categories:
+  - Equipment
 tags:
-  - DNA
+  - Assay
+  - Equipment
+  - Tissue Culture
 subtitle: ''
 summary: ''
 authors: []
@@ -17,7 +20,3 @@ image:
   preview_only: no
 projects: []
 ---
-
-<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
-
-

@@ -25,7 +25,7 @@ remotes::install_github("rstudio/blogdown")
 ### Install and set up Git
 
 - Make a github account [here](https://github.com/).
-- Ask Mateus ([g.m.bernardo.harrington@keele.ac.uk](mailto:g.m.bernardo.harrington@keele.ac.uk)) to be added as a collaborator to the repo.
+- Ask the current site admin to be added as a collaborator to the repo.
 - Make sure Git is installed on your machine (guide [here](https://happygitwithr.com/install-git.html))
 - Add your username and email to git:
 From the shell:

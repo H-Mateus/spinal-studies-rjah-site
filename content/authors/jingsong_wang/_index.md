@@ -12,7 +12,7 @@ email: wjsworkmail@gmail.com
 highlight_name: true
 superuser: false
 user_groups:
-  - Researchers
+  - Alumni
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

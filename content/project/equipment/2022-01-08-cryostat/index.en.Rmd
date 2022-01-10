@@ -1,5 +1,5 @@
 ---
-title: Agilent Tape Station
+title: PCR machine
 author: ''
 date: '2021-12-03'
 slug: pcr-machine
@@ -20,7 +20,3 @@ image:
   preview_only: no
 projects: []
 ---
-
-<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
-
-

@@ -1,6 +1,6 @@
 ---
 title: "Mike Williams"
-author: ["mateus"]
+author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2014
 role: Data Analyst

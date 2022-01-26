@@ -20,7 +20,7 @@ interests:
 - Biomarkers in Psoriatic Arthritis
 organizations:
   - name: Keele University
-    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
+    url: 'https://www.keele.ac.uk/medicine/'
 education:
   courses:
     - course: PhD in Biochemistry

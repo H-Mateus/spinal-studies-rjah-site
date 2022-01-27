@@ -1,8 +1,8 @@
 ---
-title: PCR machine
+title: Epredia Cryostat
 author: ''
 date: '2021-12-03'
-slug: pcr-machine
+slug: Epredia Cryostat
 categories:
   - Equipment
 tags:

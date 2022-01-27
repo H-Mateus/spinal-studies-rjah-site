@@ -1,22 +1,47 @@
 ---
-title: PCR machine
+title: Agilent Tape Station
 author: ''
 date: '2021-12-03'
-slug: pcr-machine
+draft: false
+weight: 2001
+slug: Agilent Tape Station
 categories:
   - Equipment
 tags:
   - Assay
   - Equipment
-  - Tissue Culture
-subtitle: ''
-summary: ''
+subtitle: 'Why all scientists should learn to code'
+summary: 'This is a plate'
 authors: []
-lastmod: '2021-12-03T10:05:07Z'
+lastmod: '2021-12-03T09:42:35Z'
 featured: no
+# Optional external URL for project (replaces project detail page).
+external_link: ""
+
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/gRTzhQsiVG0)"
+  focal_point: Smart
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CellTherapyRJAH
+- icon: hand-holding-usd
+  icon_pack: fas
+  name: Funder
+  url: https://epsrc.ukri.org
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
 ---
+
+This is a plate.

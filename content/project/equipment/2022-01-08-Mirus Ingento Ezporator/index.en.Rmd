@@ -1,8 +1,8 @@
 ---
-title: PCR machine
+title: Mirus Ingento Ezporator
 author: ''
 date: '2021-12-03'
-slug: pcr-machine
+slug: Mirus Ingento Ezporator
 categories:
   - Equipment
 tags:

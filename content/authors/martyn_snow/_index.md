@@ -3,7 +3,7 @@ title: "Martyn Snow"
 author: ["Anais Makos"]
 draft: false
 weight: 2002
-role: Professor
+role: Principal Investigator
 bio: One sentence summary goes here.
 interests:
   - Surgery

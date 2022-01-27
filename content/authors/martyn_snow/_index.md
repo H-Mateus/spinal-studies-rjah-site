@@ -12,7 +12,7 @@ email: martyn.snow@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Researchers
+  - Principal Investigators
 organizations:
   - name: RJAH Orthopaedic hospital
     url: 'https://www.rjah.nhs.uk/'

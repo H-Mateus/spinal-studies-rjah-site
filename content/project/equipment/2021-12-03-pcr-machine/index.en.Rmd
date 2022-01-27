@@ -1,47 +1,22 @@
 ---
-title: Agilent Tape Station
+title: Agilent tape station
 author: ''
 date: '2021-12-03'
-draft: false
-weight: 2001
-slug: Agilent Tape Station
+slug: Agilent tape station
 categories:
   - Equipment
 tags:
   - Assay
   - Equipment
-subtitle: 'Why all scientists should learn to code'
-summary: 'This is a plate'
+  - Tissue Culture
+subtitle: ''
+summary: ''
 authors: []
-lastmod: '2021-12-03T09:42:35Z'
+lastmod: '2021-12-03T10:05:07Z'
 featured: no
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/gRTzhQsiVG0)"
-  focal_point: Smart
-
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/CellTherapyRJAH
-- icon: hand-holding-usd
-  icon_pack: fas
-  name: Funder
-  url: https://epsrc.ukri.org
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
-
-This is a plate.

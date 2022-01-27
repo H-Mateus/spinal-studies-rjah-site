@@ -74,6 +74,7 @@ highlight_name: true
 user_groups:
 - Researchers
 ---
+
 I am currently a Research Associate at [Cardiff Univeristy](https://www.cardiff.ac.uk/), working as a bioinformatician at the Cardiff Dementia Research Institute on Alzheimer's disease.
 
 I undertook my PhD at [Keele Univeristy](https://www.keele.ac.uk/research/) funded by the [EPSRC](https://epsrc.ukri.org/) as part of the [Center for Doctoral Training in Regenerative Medicine](https://www.lboro.ac.uk/microsites/chemical/dtcregen-med/) whilst a part of OsKOR.

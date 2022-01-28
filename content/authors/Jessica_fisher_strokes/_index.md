@@ -1,5 +1,5 @@
 ---
-title: "Jessica Fisher-Strokes"
+title: "Jessica Fisher-Stokes"
 author: ["anais"]
 draft: false
 weight: 2017

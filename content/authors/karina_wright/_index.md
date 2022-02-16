@@ -30,7 +30,6 @@ social:
     icon_pack: fas
     link: mailto:karina.wright1@nhs.net
 ---
-
 I commenced my studies at the RJAH Orthopaedic Hospital Foundation Trust in 2005, and in 2009, was awarded a PhD in Biomedical Engineering from Keele University.
 Since then I have been employed as an academic researcher and senior lecturer at the RJAH/Keele and am also the current Keele’s stakeholder governor for the hospital.
 

@@ -41,7 +41,6 @@ social:
     icon_pack: fab
     link: 'https://www.linkedin.com/in/charlotte-hulme-27a08857/'
 ---
-
 I am a Research Associate based at the [Robert Jones and Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/).
 I am currently funded on a [Medical Research Council](https://mrc.ukri.org/) Industry Collaboration Grant (MICA) which aims to assess the potential of human chondrocytes from juvenile donor sources for the use in cell therapy approaches aimed at treating cartilage damage/early-OA.
 These sources include chondrocytes from extra digits surgically removed for the treatment of polydactyly, along with tissue from the iliac apophysis collected from consented patients being treated for hip dysplasia and from young adult amputee donors.

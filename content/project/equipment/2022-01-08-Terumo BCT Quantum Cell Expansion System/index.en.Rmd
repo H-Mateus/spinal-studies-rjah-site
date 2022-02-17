@@ -1,6 +1,6 @@
 ---
-title: PCR machine
-author: ''
+title: Terumo BCT Quantum Cell Expansion System
+author: 'Anais Makos'
 date: '2021-12-03'
 slug: pcr-machine
 categories:

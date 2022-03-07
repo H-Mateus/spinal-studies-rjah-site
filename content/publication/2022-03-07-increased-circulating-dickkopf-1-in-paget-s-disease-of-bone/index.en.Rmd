@@ -1,0 +1,27 @@
+---
+title: Increased circulating Dickkopf-1 in Paget's disease of bone
+author: anais
+date: '2009-07-04'
+slug: increased-circulating-dickkopf-1-in-paget-s-disease-of-bone
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Michael Marshall","Sally Evans", "Christopher Sharp","Diane Powell","Helen McCarthy","Michael Davie"]
+lastmod: '2022-03-07T15:33:56Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.clinbiochem.2009.04.007"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0009912009001866?via%3Dihub"
+publication_types:
+  - '2'
+publication: 'Clinical Biochemistry'
+publication_short: ''
+abstract: "Dickkopf-1 (Dkk-1) is a secreted inhibitor of Wnt signaling which in adults regulates bone turnover. Dkk-1 over-production is implicated in osteolytic disease where it inhibits bone formation and stimulates bone breakdown. Recently it was reported that osteoblastic cells from Paget's disease of bone (PDB) over-expressed Dkk-1."
+---

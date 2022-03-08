@@ -1,0 +1,33 @@
+---
+title: A histological comparison of the repair tissue formed when using either Chondrogide(®)
+  or periosteum during autologous chondrocyte implantation
+author: anais
+date: '2013-11-18'
+slug: a-histological-comparison-of-the-repair-tissue-formed-when-using-either-chondrogide-or-periosteum-during-autologous-chondrocyte-implantation
+categories:
+  - publication
+tags:
+  - Autologous chondrocyte implantation
+  - Cartilage repair
+  - Chondrogide(®)
+  - Histology
+  - Periosteum
+subtitle: ''
+summary: ''
+authors: ["Helen McCarthy","Sally Roberts"]
+lastmod: '2022-03-08T10:09:56Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.joca.2013.10.004"
+publishDate: 2013-03-08T15:53:28.000Z
+url_pdf: "https://www.oarsijournal.com/action/showPdf?pii=S1063-4584%2813%2900976-X"
+publication_types:
+  - '2'
+publication: '*Osteoarthritis and Cartilage*'
+publication_short: ''
+abstract: "Objective - In this study, we compare the clinical and histological outcome between periosteum and Chondrogide(®) during autologous chondrocyte implantation (ACI). Method - This study consisted of 88 patients having received ACI in the knee; 33 treated with Chondrogide(®) (ACI-C) and 55 with periosteum (ACI-P). Post-operative biopsies were taken at a mean of 16.6 ± 8 months (range 7-37 months) and 19 ± 18.4 months (range 4-114) for ACI-C and ACI-P respectively. Histological assessment was performed using the ICRS II and OsScore scoring systems. The immunolocalisation of elastin and collagen types I and II was analysed using specific antibodies. Lysholm scores, a measure of knee function, were obtained pre- and post-operatively at the time of biopsy and annually thereafter. Results - Compared with ACI-P, the repair tissue formed from patients treated with ACI-C demonstrated a significantly higher score for cellular morphology (ICRS II score), significantly better surface morphology from medial femoral condyle treated defects (ICRS II score) and a significantly higher proportion of hyaline cartilage formation (OsScore). Elastin fibres were present in both ACI-C and ACI-P samples, although their presence was very variable in quantity, distribution, orientation, thickness and length. Patients treated with ACI-C demonstrated significantly more collagen type II immunolocalisation compared with ACI-P. Both groups exhibited a significant increase in Lysholm score post-ACI. Conclusions - This study demonstrates a significantly better quality of repair tissue formed with ACI-C compared with ACI-P. Hence Chondrogide(®) is perhaps a better alternative to periosteum during ACI."
+---

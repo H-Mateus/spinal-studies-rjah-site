@@ -1,0 +1,34 @@
+---
+title: 'Evaluating Joint Morbidity after Chondral Harvest for Autologous Chondrocyte
+  Implantation (ACI): A Study of ACI-Treated Ankles and Hips with a Knee Chondral
+  Harvest'
+author: anais
+date: '2015-10-05'
+slug: evaluating-joint-morbidity-after-chondral-harvest-for-autologous-chondrocyte-implantation-aci-a-study-of-aci-treated-ankles-and-hips-with-a-knee-chondral-harvest
+categories:
+  - publication
+tags:
+  - autologous chondrocyte implantation
+  - Cartilage repair
+  - donor-site morbidity
+  - Histology
+  - osteoarthritis
+subtitle: ''
+summary: ''
+authors: ["Helen McCarthy","James Richardson","Jane Parker","Sally Roberts"]
+lastmod: '2022-03-08T10:17:42Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1177/1947603515607963"
+publishDate: 2013-03-08T15:53:28.000Z
+url_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1947603515607963"
+publication_types:
+  - '2'
+publication: '*Cartilage*'
+publication_short: ''
+abstract: "Objective - To establish if harvesting cartilage to source chondrocytes for autologous chondrocyte implantation (ACI) results in donor site morbidity. Design - Twenty-three patients underwent ACI for chondral defects of either the ankle or the hip. This involved cartilage harvest from the knee (stage I), chondrocyte expansion in the laboratory and implantation surgery (stage II) into the affected joint. Prior to chondral harvest, no patient had sought treatment for their knee. Lysholm knee scores were completed prior to chondral harvest and annually post-ACI. Histological analyses of the donor site were performed at 12.3 ± 1.5 months for 3 additional patients who had previously had ACI of the knee. Results - The median preoperative Lysholm score was 100, with no significant differences observed at either 13.7±1.7 months or 4.8±1.8 years postharvest (median Lysholm scores 91.7 and 87.5, respectively). Patients whose cartilage was harvested from the central or medial trochlea had a significantly higher median Lysholm score at latest follow-up (97.9 and 93.4, respectively), compared with those taken from the intercondylar notch (median Lysholm score 66.7). The mean International Cartilage Repair Society (ICRS) II histological score for the biopsies taken from the donor site of 3 additional knee ACI patients was 117 ± 10 (maximum score 140). Conclusions - This study suggests that the chondral harvest site in ACI is not associated with significant joint morbidity, at least up to 5 years postharvest. However, one should carefully consider the location for chondral harvest as this has been shown to affect knee function in the longer term."
+---

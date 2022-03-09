@@ -1,0 +1,25 @@
+---
+title: Pro-Inflammatory Priming of Umbilical Cord Mesenchymal Stromal Cells Alters
+  the Protein Cargo of Their Extracellular Vesicles
+author: anais
+date: '2020-03-16'
+slug: pro-inflammatory-priming-of-umbilical-cord-mesenchymal-stromal-cells-alters-the-protein-cargo-of-their-extracellular-vesicles
+categories:
+  - publication
+tags:
+  - Umbilical cord mesenchymal stromal cells
+  - Extracellular Vesicles
+  - Pro-inflammatory priming
+  - Hypoxia
+  - immunomodulation
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-03-09T21:57:18Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---

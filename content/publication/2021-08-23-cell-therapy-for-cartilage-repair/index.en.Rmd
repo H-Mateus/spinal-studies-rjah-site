@@ -1,0 +1,33 @@
+---
+title: Cell therapy for cartilage repair
+author: anais
+date: '2021-08-23'
+slug: cell-therapy-for-cartilage-repair
+categories:
+  - publication
+tags:
+  - Cartilage
+  - Cell therapy
+  - Chondrocyte
+  - Mesenchymal stem cells
+  - osteoarthritis
+  - Regenerative medicine
+subtitle: ''
+summary: ''
+authors: ["Charlotte Hulme","Jade Perry","Helen McCarthy","Karina Wright","Martyn Snow","Claire Mennan","Sally Roberts"]
+lastmod: '2022-03-09T21:38:39Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1042/ETLS20210015"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8589441/pdf/ETLS-5-575.pdf"
+publication_types:
+  - '2'
+publication: '*Emerging Topics in Life Sciences*'
+publication_short: ''
+abstract: "Regenerative medicine, using cells as therapeutic agents for the repair or regeneration of tissues and organs, offers great hope for the future of medicine. Cell therapy for treating defects in articular cartilage has been an exemplar of translating this technology to the clinic, but it is not without its challenges. These include applying regulations, which were designed for pharmaceutical agents, to living cells. In addition, using autologous cells as the therapeutic agent brings additional costs and logistical challenges compared with using allogeneic cells. The main cell types used in treating chondral or osteochondral defects in joints to date are chondrocytes and mesenchymal stromal cells derived from various sources such as bone marrow, adipose tissue or umbilical cord. This review discusses some of their biology and pre-clinical studies before describing the most pertinent clinical trials in this area."
+---

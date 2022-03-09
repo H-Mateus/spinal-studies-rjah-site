@@ -1,0 +1,32 @@
+---
+title: Mesenchymal stromal cells derived from whole human umbilical cord exhibit similar
+  properties to those derived from Wharton's jelly and bone marrow
+author: anais
+date: '2016-07-28'
+slug: mesenchymal-stromal-cells-derived-from-whole-human-umbilical-cord-exhibit-similar-properties-to-those-derived-from-wharton-s-jelly-and-bone-marrow
+categories:
+  - publication
+tags:
+  - allogeneic cell therapy
+  - bone marrow‐derived mesenchymal stromal cells
+  - immunomodulation
+  - umbilical cord‐derived mesenchymal stromal cells
+subtitle: ''
+summary: ''
+authors: ["Claire Mennan","Sharon Brown","Helen McCarthy","Eleni Mavrogonatou","Dimitris Kletsas","John Garcia","Birender Balain","James Richardson","Sally Roberts"]
+lastmod: '2022-03-09T18:09:19Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1002/2211-5463.12104"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095143/pdf/FEB4-6-1054.pdf"
+publication_types:
+  - '2'
+publication: '*FEBS Open Bio*'
+publication_short: ''
+abstract: "Mesenchymal stromal cells (MSC) can be isolated from several regions of human umbilical cords, including Wharton's jelly (WJ), artery, vein or cord lining. These MSC appear to be immune privileged and are promising candidates for cell therapy. However, isolating MSC from WJ, artery, vein or cord lining requires time-consuming tissue dissection. MSC can be obtained easily via briefly digesting complete segments of the umbilical cord, likely containing heterogenous or mixed populations of MSC (MC-MSC). MC-MSC are generally less well characterized than WJ-MSC, but nevertheless represent a potentially valuable population of MSC. This study aimed to further characterize MC-MSC in comparison to WJ-MSC and also the better-characterized bone marrow-derived MSC (BM-MSC). MC-MSC proliferated faster, with significantly faster doubling times reaching passage one 8.8 days sooner and surviving longer in culture than WJ-MSC. All MSC retained the safety aspect of reducing telomere length with increasing passage number. MSC were also assessed for their ability to suppress T-cell proliferation and for the production of key markers of pluripotency, embryonic stem cells, tolerogenicity (CD40, CD80, CD86 and HLA-DR) and immunomodulation (indoleamine 2,3-dioxygenase [IDO] and HLA-G). The MC-MSC population displayed all of the positive attributes of WJ-MSC and BM-MSC, but they were more efficient to obtain and underwent more population doublings than from WJ, suggesting that MC-MSC are promising candidates for allogeneic cell therapy in regenerative medicine."
+---

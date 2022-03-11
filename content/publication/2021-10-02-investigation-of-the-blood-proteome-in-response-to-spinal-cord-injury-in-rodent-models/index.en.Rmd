@@ -1,0 +1,28 @@
+---
+title: Investigation of the blood proteome in response to spinal cord injury in rodent
+  models
+author: R package build
+date: '2021-10-02'
+slug: investigation-of-the-blood-proteome-in-response-to-spinal-cord-injury-in-rodent-models
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Charlotte Hulme","Heidi Fuller","John Riddell","Sally Shirran","Catherine Botting","Aheed Osman","Karina Wright"]
+lastmod: '2022-03-11T15:04:50Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1038/s41393-021-00692-8"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.nature.com/articles/s41393-021-00692-8.pdf"
+publication_types:
+  - '2'
+publication: '*Spinal Cord*'
+publication_short: ''
+abstract: "Study design - Explanatory and mechanistic study. Objectives - A better understanding of the ‘whole-body’ response following spinal cord injury (SCI) is needed to guide future research aimed at developing novel therapeutic interventions and identifying prognostic indicators for SCI. This study aimed to characterise the blood proteome following contusion or complete SCI compared to a sham injury in rat models. Methods - Pooled blood samples from one and seven days after a contusion (serum; n = 5) or from 14 days and 112 days post-complete transection SCI (plasma; n = 8) and their sham-injured counterparts were subjected to independent iTRAQ nanoflow liquid chromatography tandem mass-spectrometry proteomic analyses. Pathway analyses of the proteins that were differentially abundant between SCI and their matched sham injured counterparts were completed to indicate biological pathways that may be changed in response to SCI. Results - Eleven and 42 proteins were differentially abundant (≥±2.0 FC; p ≤ 0.05) between the contusion SCI and sham injured animals at 24 h and seven days post-injury, respectively. Seven and tweleve proteins were differentially abundant between complete and sham injured rats at 14 and 112 days post-injury, respectively. Acute-phase response signalling and Liver X Receptor/Retinoic X Receptor activation were identified as differentially regulated pathways in both models of SCI. Conclusions - We have utilised longitudinal preclinical SCI models to provide an insight into the blood proteome changes that result following SCI and to highlight a number of biological pathways of interest for future studies."
+---

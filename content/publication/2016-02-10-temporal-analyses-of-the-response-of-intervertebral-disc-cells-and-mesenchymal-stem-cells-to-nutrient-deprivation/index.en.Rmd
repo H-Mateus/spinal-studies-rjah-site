@@ -1,0 +1,28 @@
+---
+title: Temporal Analyses of the Response of Intervertebral Disc Cells and Mesenchymal
+  Stem Cells to Nutrient Deprivation
+author: anais
+date: '2016-02-10'
+slug: temporal-analyses-of-the-response-of-intervertebral-disc-cells-and-mesenchymal-stem-cells-to-nutrient-deprivation
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Sarah A. Turner","Karina Wright","Philip N. Jones","Birender Balain","Sally Roberts"]
+lastmod: '2022-03-15T11:55:13Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1155/2016/5415901"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://downloads.hindawi.com/journals/sci/2016/5415901.pdf"
+publication_types:
+  - '2'
+publication: '*Stem Cells International*'
+publication_short: ''
+abstract: "Much emphasis has been placed recently on the repair of degenerate discs using implanted cells, such as disc cells or bone marrow derived mesenchymal stem cells (MSCs). This study examines the temporal response of bovine and human nucleus pulposus (NP) cells and MSCs cultured in monolayer following exposure to altered levels of glucose (0, 3.15, and 4.5 g/L) and foetal bovine serum (0, 10, and 20%) using an automated time-lapse imaging system. NP cells were also exposed to the cell death inducers, hydrogen peroxide and staurosporine, in comparison to serum starvation. We have demonstrated that human NP cells show an initial “shock” response to reduced nutrition (glucose). However, as time progresses, NP cells supplemented with serum recover with minimal evidence of cell death. Human NP cells show no evidence of proliferation in response to nutrient supplementation, whereas MSCs showed greater response to increased nutrition. When specifically inducing NP cell death with hydrogen peroxide and staurosporine, as expected, the cell number declined. These results support the concept that implanted NP cells or MSCs may be capable of survival in the nutrient-poor environment of the degenerate human disc, which has important clinical implications for the development of IVD cell therapies."
+---

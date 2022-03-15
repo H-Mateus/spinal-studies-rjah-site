@@ -1,0 +1,32 @@
+---
+title: 'Human mesenchymal stem cells stimulate EaHy926 endothelial cell migration:
+  combined proteomic and in vitro analysis of the influence of donor-donor variability'
+author: anais
+date: '2015-05-30'
+slug: human-mesenchymal-stem-cells-stimulate-eahy926-endothelial-cell-migration-combined-proteomic-and-in-vitro-analysis-of-the-influence-of-donor-donor-variability
+categories:
+  - publication
+tags:
+  - Angiogenesis
+  - Endothelial cells
+  - Mesenchymal stem cells
+  - Secretome
+subtitle: ''
+summary: ''
+authors: ["Merlin N.M. Walter","Nupur Kohli","Neelam Khan","Triin Major","Heidi Fuller","Karina Wright","Jan-Herman Kuiper","William E.B. Johnson"]
+lastmod: '2022-03-15T12:09:56Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.46582/jsrm.1101004"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4498319/pdf/jsrm_11_18.pdf"
+publication_types:
+  - '2'
+publication: '*Journal of Stem Cells and Regenerative Medicine*'
+publication_short: ''
+abstract: "Mesenchymal stem cells (MSCs) stimulate angiogenesis within a wound environment and this effect is mediated through paracrine interactions with the endothelial cells present. Here we report that human MSC-conditioned medium (n=3 donors) significantly increased EaHy-926 endothelial cell adhesion and cell migration, but that this stimulatory effect was markedly donor-dependent. MALDI-TOF/TOF mass spectrometry demonstrated that whilst collagen type I and fibronectin were secreted by all of the MSC cultures, the small leucine rich proteoglycan, decorin was secreted only by the MSC culture that was least effective upon EaHy-926 cells. These individual extracellular matrix components were then tested as culture substrata. EaHy-926 cell adherence was greatest on fibronectin-coated surfaces with least adherence on decorin-coated surfaces. Scratch wound assays were used to examine cell migration. EaHy-926 cell scratch wound closure was quickest on substrates of fibronectin and slowest on decorin. However, EaHy-926 cell migration was stimulated by the addition of MSC-conditioned medium irrespective of the types of culture substrates. These data suggest that whilst the MSC secretome may generally be considered angiogenic, the composition of the secretome is variable and this variation probably contributes to donor-donor differences in activity. Hence, screening and optimizing MSC secretomes will improve the clinical effectiveness of pro-angiogenic MSC-based therapies."
+---

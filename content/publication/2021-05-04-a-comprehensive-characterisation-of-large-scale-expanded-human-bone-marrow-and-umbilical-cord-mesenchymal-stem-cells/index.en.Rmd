@@ -2,7 +2,7 @@
 title: A comprehensive characterisation of large-scale expanded human bone marrow
   and umbilical cord mesenchymal stem cells
 author: Claire Mennan
-date: '2021-05-04'
+date: '2019-03-18'
 slug: a-comprehensive-characterisation-of-large-scale-expanded-human-bone-marrow-and-umbilical-cord-mesenchymal-stem-cells
 categories: []
 tags:

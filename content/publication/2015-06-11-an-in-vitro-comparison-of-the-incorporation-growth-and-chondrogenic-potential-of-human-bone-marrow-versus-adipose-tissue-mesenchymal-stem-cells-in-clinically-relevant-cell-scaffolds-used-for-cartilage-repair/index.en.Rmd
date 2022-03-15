@@ -1,0 +1,29 @@
+---
+title: An In Vitro Comparison of the Incorporation, Growth, and Chondrogenic Potential
+  of Human Bone Marrow versus Adipose Tissue Mesenchymal Stem Cells in Clinically
+  Relevant Cell Scaffolds Used for Cartilage Repair
+author: anais
+date: '2015-06-11'
+slug: an-in-vitro-comparison-of-the-incorporation-growth-and-chondrogenic-potential-of-human-bone-marrow-versus-adipose-tissue-mesenchymal-stem-cells-in-clinically-relevant-cell-scaffolds-used-for-cartilage-repair
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Nupur Kohli","Karina Wright","Rachel L. Sammons","Lee Jeys","Martyn Snow","William E. B. Johnson"]
+lastmod: '2022-03-15T12:55:10Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1177/1947603515589650"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1947603515589650"
+publication_types:
+  - '2'
+publication: '*Cartilage*'
+publication_short: ''
+abstract: "Aim - To compare the incorporation, growth, and chondrogenic potential of bone marrow (BM) and adipose tissue (AT) mesenchymal stem cells (MSCs) in scaffolds used for cartilage repair. <br> <br> Methods - Human BM and AT MSCs were isolated, culture expanded, and characterised using standard protocols, then seeded into 2 different scaffolds, Chondro-Gide or Alpha Chondro Shield. Cell adhesion, incorporation, and viable cell growth were assessed microscopically and following calcein AM/ethidium homodimer (Live/Dead) staining. Cell-seeded scaffolds were treated with chondrogenic inducers for 28 days. Extracellular matrix deposition and soluble glycosaminoglycan (GAG) release into the culture medium was measured at day 28 by histology/immunohistochemistry and dimethylmethylene blue assay, respectively. <br> <br> Results - A greater number of viable MSCs from either source adhered and incorporated into Chondro-Gide than into Alpha Chondro Shield. In both cell scaffolds, this incorporation represented less than 2% of the cells that were seeded. There was a marked proliferation of BM MSCs, but not AT MSCs, in Chondro-Gide. MSCs from both sources underwent chondrogenic differentiation following induction. However, cartilaginous extracellular matrix deposition was most marked in Chondro-Gide seeded with BM MSCs. Soluble GAG secretion increased in chondrogenic versus control conditions. There was no marked difference in GAG secretion by MSCs from either cell source. <br> <br> Conclusion - Chondro-Gide and Alpha Chondro Shield were permissive to the incorporation and chondrogenic differentiation of human BM and AT MSCs. Chondro-Gide seeded with BM MSCs demonstrated the greatest increase in MSC number and deposition of a cartilaginous tissue."
+---

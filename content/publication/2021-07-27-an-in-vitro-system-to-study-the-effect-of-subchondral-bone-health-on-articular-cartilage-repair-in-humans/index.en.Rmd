@@ -1,0 +1,31 @@
+---
+title: An In Vitro System to Study the Effect of Subchondral Bone Health on Articular
+  Cartilage Repair in Humans
+author: anais
+date: '2021-07-27'
+slug: an-in-vitro-system-to-study-the-effect-of-subchondral-bone-health-on-articular-cartilage-repair-in-humans
+categories:
+  - publication
+tags:
+  - Cartilage repair
+  - Osteoarthritis
+  - bone marrow‐derived mesenchymal stromal cells
+subtitle: ''
+summary: ''
+authors: ["Timothy Hopkins","Karina Wright","Nicola Kuiper","Sally Roberts","Paul Jermin","Pete Gallacher","Jan Herman Kuiper"]
+lastmod: '2022-03-15T10:24:58Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.3390/cells10081903"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.mdpi.com/2073-4409/10/8/1903"
+publication_types:
+  - '2'
+publication: '*Cells*'
+publication_short: ''
+abstract: "Chondrocyte-based cartilage repair strategies, such as articular chondrocyte implantation, are widely used, but few studies addressed the communication between native subchondral bone cells and the transplanted chondrocytes. An indirect co-culture model was developed, representing a chondrocyte/scaffold-construct repair of a cartilage defect adjoining bone, where the bone could have varying degrees of degeneration. Human BM-MSCs were isolated from two areas of subchondral bone in each of five osteochondral tissue specimens from five patients undergoing knee arthroplasty. These two areas underlaid the macroscopically and histologically best and worst cartilage, representing early and late-stage OA, respectively. BM-MSCs were co-cultured with normal chondrocytes suspended in agarose, with the two cell types separated by a porous membrane. After 0, 7, 14 and 21 days, chondrocyte–agarose scaffolds were assessed by gene expression and biochemical analyses, and the abundance of selected proteins in conditioned media was assessed by ELISA. Co-culture with late-OA BM-MSCs resulted in a reduction in GAG deposition and a decreased expression of genes encoding matrix-specific proteins (COL2A1 and ACAN), compared to culturing with early OA BM-MSCs. The concentration of TGF-β1 was significantly higher in the early OA conditioned media. The results of this study have clinical implications for cartilage repair, suggesting that the health of the subchondral bone may influence the outcomes of chondrocyte-based repair strategies."
+---

@@ -1,0 +1,33 @@
+---
+title: The Absence of Detectable ADAMTS-4 (Aggrecanase-1) Activity in Synovial Fluid
+  Is a Predictive Indicator of Autologous Chondrocyte Implantation Success
+author: anais
+date: '2017-03-09'
+slug: the-absence-of-detectable-adamts-4-aggrecanase-1-activity-in-synovial-fluid-is-a-predictive-indicator-of-autologous-chondrocyte-implantation-success
+categories:
+  - publication
+tags:
+  - Knee
+  - Articular cartilage
+  - Autologous chondrocyte implantation
+  - Predictive biomarkers
+  - Synovial Fluid
+subtitle: ''
+summary: ''
+authors: ["Karina Wright","Jan Herman Kuiper","James Bruce Richardson","Pete Gallacher","Sally Roberts"]
+lastmod: '2022-03-15T11:29:44Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1177/0363546517694027"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/0363546517694027"
+publication_types:
+  - '2'
+publication: '*The American Journal of Sports Medicine*'
+publication_short: ''
+abstract: "Background - Autologous chondrocyte implantation (ACI) is used worldwide in the treatment of cartilage defects in the knee. Several demographic and injury-specific risk factors have been identified that can affect the success of ACI treatment. However, the discovery of predictive biomarkers in this field has thus far been overlooked. <br> <br> Purpose - To identify potential biomarkers in synovial fluid and plasma that can be used in the preoperative setting to help optimize patient selection for cell-based cartilage repair strategies. <br> <br> Study Design - Controlled laboratory study. <br> <br> Methods - Fifty-four ACI-treated patients were included. Cartilage oligomeric matrix protein (COMP), hyaluronan, soluble CD14 levels, and aggrecanase-1 (ADAMTS-4) activity in synovial fluid and COMP and hyaluronan in plasma were measured. Baseline and postoperative functional outcomes were determined using the patient-reported Lysholm score. To find predictors of postoperative function, linear and logistic regression analyses were performed. The dependent variables were the baseline and postoperative Lysholm score; the independent variables were patient age and body mass index, defect location, defect area, having a bone-on-bone defect, type of defect patch (periosteum or collagen), requirement of an extra procedure, and baseline biomarker levels. <br> <br> Results - The mean baseline Lysholm score was 47.4 ± 17.0, which improved to 64.6 ± 21.7 postoperatively. The activity of ADAMTS-4 in synovial fluid was identified as an independent predictor of the postoperative Lysholm score. Indeed, simply the presence or absence of ADAMTS-4 activity in synovial fluid appeared to be the most important predictive factor. As determined by contingency analysis, when ADAMTS-4 activity was detectable, the odds of being a responder were 3 times smaller than when ADAMTS-4 activity was not detectable. Other predictive factors were the baseline Lysholm score, age at ACI, and defect patch type used. <br> <br> Conclusion - The absence of ADAMTS-4 activity in the synovial fluid of joints with cartilage defects may be used in conjunction with known demographic risk factors in the development of an ACI treatment algorithm to help inform the preclinical decision."
+---

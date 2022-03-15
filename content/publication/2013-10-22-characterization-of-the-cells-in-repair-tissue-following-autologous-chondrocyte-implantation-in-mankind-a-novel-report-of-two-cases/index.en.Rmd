@@ -1,0 +1,35 @@
+---
+title: 'Characterization of the cells in repair tissue following autologous chondrocyte
+  implantation in mankind: a novel report of two cases'
+author: anais
+date: '2013-10-22'
+slug: characterization-of-the-cells-in-repair-tissue-following-autologous-chondrocyte-implantation-in-mankind-a-novel-report-of-two-cases
+categories:
+  - publication
+tags:
+  - Autologous chondrocyte implantation
+  - Differentiation potential
+  - Growth kinetics
+  - Histochemical analysis
+  - Immunoprofile
+  - Morphology
+  - Repair cell characterization
+subtitle: ''
+summary: ''
+authors: ["Karina Wright","Claire Mennan","Hannah Fox","James B Richardson","Robin Banerjee","Sally Roberts"]
+lastmod: '2022-03-15T13:33:50Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.2217/rme.13.67"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.futuremedicine.com/doi/pdf/10.2217/rme.13.67"
+publication_types:
+  - '2'
+publication: '*Regenerative medicine*'
+publication_short: ''
+abstract: "Aim - Autologous chondrocyte implantation (ACI) is used worldwide for the treatment of cartilage defects. This study has aimed to assess for the first time the cells that are contained within human ACI repair tissues several years post-treatment. We have compared the phenotypic properties of cells from within the ACI repair with adjacent chondrocytes and subchondral bone-derived mesenchymal stromal/stem cells (MSCs). <br> <br> Materials & methods - Two patients undergoing arthroplasty of their ACI-treated joint were investigated. Tissue and cells were isolated from the repair site, adjacent macroscopically normal cartilage and MSCs from the subchondral bone were characterized for their growth kinetics, morphology, immunoprofile and differentiation capacity. <br> <br> Results - ACI repair tissue appeared fibrocartilaginous, and ACI repair cells were heterogeneous in morphology and size when freshly isolated, becoming more homogeneous, resembling chondrocytes from adjacent cartilage, after culture expansion. The same weight of ACI repair tissue resulted in less cells than macroscopically normal cartilage. During expansion, ACI repair cells proliferated faster than MSCs but slower than chondrocytes. ACI repair cell immunoprofiles resembled chondrocytes, but their differentiation capacity matched MSCs. <br> <br> Conclusion - This novel report demonstrates that human ACI repair cell phenotypes resemble both chondrocytes and MSCs but at different stages of their isolation and expansion in vitro."
+---

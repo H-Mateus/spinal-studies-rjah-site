@@ -2,7 +2,7 @@
 title: Two independent proteomic approaches provide a comprehensive analysis of the
   synovial fluid proteome response to Autologous Chondrocyte Implantation
 author: Charlotte Hulme
-date: '2021-05-04'
+date: '2018-05-02'
 slug: two-independent-proteomic-approaches-provide-a-comprehensive-analysis-of-the-synovial-fluid-proteome-response-to-autologous-chondrocyte-implantation
 categories: []
 tags:

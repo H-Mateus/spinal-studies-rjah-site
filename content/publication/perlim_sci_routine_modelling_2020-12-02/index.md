@@ -8,7 +8,7 @@ authors = [
   "Sharon Brown",
   "Charlotte Hulme",
   "Rachel Morris",
-  "Anna Bennett",
+  "Anna Stanley",
   "Wai-Hung Tsang",
   "Aheed Osman",
   "Joy Chowdhury",

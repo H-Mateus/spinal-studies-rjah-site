@@ -1,0 +1,33 @@
+---
+title: High content and high throughput screening to assess the angiogenic and neurogenic
+  actions of mesenchymal stem cells in vitro
+author: anais
+date: '2015-04-15'
+slug: high-content-and-high-throughput-screening-to-assess-the-angiogenic-and-neurogenic-actions-of-mesenchymal-stem-cells-in-vitro
+categories:
+  - publication
+tags:
+  - Mesenchymal stem cells
+  - Secretome
+  - Angiogenesis
+  - Conditioned media
+  - Neurogenesis
+subtitle: ''
+summary: ''
+authors: ["Jennifer J.Bara","Sarah Turner","Sally Roberts","Gareth Griffiths","Rod Benson","Jayesh  M.Trivedi","Karina Wright"]
+lastmod: '2022-03-15T13:11:55Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.yexcr.2014.12.019"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.nature.com/articles/s41393-021-00692-8.pdf"
+publication_types:
+  - '2'
+publication: '*Experimental Cell Research*'
+publication_short: ''
+abstract: "Mesenchymal stem cells are universally regarded across many fields of medicine, as one of the most promising cell types for use in cell-based therapies. Although not yet fully understood, the therapeutic effects of these cells are largely attributed to the trophic actions of growth factors and cytokines present in the cell secretome. Specifically, the angiogenic and neurogenic properties of these cells make them attractive for the repair of vascularised and innervated tissues. In this study, we investigate the effect of mesenchymal stem cell conditioned media on in vitro assays of angiogenesis and nerve growth. We describe the use of two state of the art high content and high throughput cell analysis systems and compare them against manual analysis techniques. Mesenchymal stem cell secretomes stimulated angiogenesis and nerve growth in vitro in a donor dependant manner. Levels of neuroregulin, platelet-derived growth factor-AA and glial-derived neurotrophic factor, positively correlated with the observed angiogenic effects of these cells. High content and high throughput cell analysis systems such as the ones used in this study, may provide rapid screening tools to assist not only with patient selection but the identification of predictive therapeutic markers to support clinical outcome monitoring for patients treated with stem cell therapies."
+---

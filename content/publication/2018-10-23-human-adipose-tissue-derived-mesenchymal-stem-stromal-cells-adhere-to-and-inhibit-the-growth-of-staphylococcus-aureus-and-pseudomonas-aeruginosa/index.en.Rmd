@@ -1,0 +1,31 @@
+---
+title: Human adipose tissue-derived mesenchymal stem/stromal cells adhere to and inhibit
+  the growth of Staphylococcus aureus and Pseudomonas aeruginosa
+author: anais
+date: '2018-10-23'
+slug: human-adipose-tissue-derived-mesenchymal-stem-stromal-cells-adhere-to-and-inhibit-the-growth-of-staphylococcus-aureus-and-pseudomonas-aeruginosa
+categories:
+  - publication
+tags:
+  - Adipose tissue
+  - Mesenchymal stem cells
+  - Mesenchymal stromal cells
+subtitle: ''
+summary: ''
+authors: ["Chelsea Rheannon Wood","Douaa Al Dhahri","Ibtesam Al Delfi","Neil Anthony Pickles","Rachel Sammons","Tony Worthington","Karina Wright","William Eustace Basil Johnson"]
+lastmod: '2022-03-15T11:14:27Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1099/jmm.0.000861"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.microbiologyresearch.org/docserver/fulltext/jmm/67/12/1789_jmm000861.pdf?expires=1647343876&id=id&accname=guest&checksum=D478BB28826642ECADD80E85F60C67B3"
+publication_types:
+  - '2'
+publication: '*Journal of Medical Microbiology*'
+publication_short: ''
+abstract: "We have cultured and phenotyped human adipose tissue-derived mesenchymal stem/stromal cells (AT MSCs) and inoculated these cultures with bacteria common to infected skin wounds, i.e. Staphylococcus aureus and Pseudomonas aeruginosa. Cell interactions were examined by scanning electron microscopy (SEM), whilst bacterial growth was measured by colony forming unit (c.f.u.) and biofilm assays. AT MSCs appeared to attach to the bacteria and to engulf S. aureus. Significantly fewer bacterial c.f.u. were present in AT MSC : bacterial co-cultures compared with bacteria cultured alone. Antibacterial activity, including an inhibition of P. aeruginosa biofilm formation, was observed when bacteria were treated with conditioned medium harvested from the AT MSC :  bacterial co-cultures, irrespective of the bacterial species to which the AT MSCs had been exposed to previously. Hence, we have demonstrated that AT MSCs inhibit the growth of two common bacterial species. This was associated with bacterial adhesion, potential engulfment or phagocytosis, and the secretion of antibacterial factors."
+---

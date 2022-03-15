@@ -1,0 +1,32 @@
+---
+title: ADAMTS-4 activity in synovial fluid as a biomarker of inflammation and effusion
+author: anais
+date: '2015-05-21'
+slug: adamts-4-activity-in-synovial-fluid-as-a-biomarker-of-inflammation-and-effusion
+categories:
+  - publication
+tags:
+  - ADAMTS-4 activity
+  - Synovial Fluid
+  - Inflammation
+  - Effusion
+  - Knee osteoarthritis
+subtitle: ''
+summary: ''
+authors: ["Sally Roberts","Helena Evans","Karina Wright","Louw van Niekerk","Bruce Caterson","James B Richardson","Karadi Hari Sunil Kumar","Jan Herman Kuiper"]
+lastmod: '2022-03-15T12:44:26Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.joca.2015.05.006"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://reader.elsevier.com/reader/sd/pii/S1063458415011632?token=5379508DFCE22D42AF7A7A961234F8E7F45AC012397B1E170BC7A71E4E39C4F2B7139D00B9B0693EC33C0E72B17CF3AF&originRegion=eu-west-1&originCreation=20220315124829"
+publication_types:
+  - '2'
+publication: '*osteoarthritis and cartilage*'
+publication_short: ''
+abstract: "Objective - To evaluate the potential of ADAMTS-4 (aggrecanase -1) activity in synovial fluid (SF) as a biomarker of knee injury and joint disease. <br> <br> Design - We have measured ADAMTS-4 activity in the synovial fluid of 170 orthopaedic patients with different degrees of joint pathology, using a commercial ADAMTS-4 fluorescence resonance energy transfer (FRET) substrate assay. Patients were classified at arthroscopy as (i) macroscopically normal, (ii) with an injury of the meniscus, anterior cruciate ligament or chondral/osteochondral defects or (iii) with osteoarthritis, and the influence of independent factors (age, patient group, effusion and synovial inflammation) on ADAMTS-4 activity levels was assessed. <br> <br> Results - In most patients (106/170) ADAMTS-4 activity was undetectable; ADAMTS-4 ranged from 0 to 2.8 ng/mL in synovial fluid from patients with an injury, 0–4.1 ng/mL in osteoarthritic patients and 4.0–12.3 ng/mL in patients with large effusions. Four independent variables each significantly influenced ADAMTS-4 activity in synovial fluid (all P < 0.001): age (concordance = 0.69), presence of osteoarthritis (OA) (concordance = 0.66), level of effusion (concordance = 0.78) and inflammation (concordance = 0.68). Not only did effusion influence the amount of ADAMTS-4 activity most strongly, but it also did this in an ordered manner (P < 0.001). <br> <br> Conclusions - The main finding of this study is that ADAMTS-4 levels in synovial fluid are most strongly correlated with inflammation and severity of effusion in the knee. Further study is required to determine if it could provide a useful tool to aid clinical diagnoses, indicate treatment, to monitor progression of joint degeneration or OA or alternatively the success of treatment."
+---

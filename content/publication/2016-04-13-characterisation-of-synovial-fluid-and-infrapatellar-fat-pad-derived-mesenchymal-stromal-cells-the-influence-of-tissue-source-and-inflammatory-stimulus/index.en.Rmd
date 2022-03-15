@@ -1,0 +1,28 @@
+---
+title: 'Characterisation of synovial fluid and infrapatellar fat pad derived mesenchymal
+  stromal cells: The influence of tissue source and inflammatory stimulus'
+author: anais
+date: '2016-04-13'
+slug: characterisation-of-synovial-fluid-and-infrapatellar-fat-pad-derived-mesenchymal-stromal-cells-the-influence-of-tissue-source-and-inflammatory-stimulus
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["John Garcia","Karina Wright","Sally Roberts","Jan Herman Kuiper","Chas Mangham","James Richardson","Claire Mennan"]
+lastmod: '2022-03-15T11:46:28Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1038/srep24295"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.nature.com/articles/srep24295.pdf"
+publication_types:
+  - '2'
+publication: '*Scientific reports*'
+publication_short: ''
+abstract: "The infrapatellar fat pad (FP) and synovial fluid (SF) in the knee serve as reservoirs of mesenchymal stromal cells (MSCs) with potential therapeutic benefit. We determined the influence of the donor on the phenotype of donor matched FP and SF derived MSCs and examined their immunogenic and immunomodulatory properties before and after stimulation with the pro-inflammatory cytokine interferon-gamma (IFN-γ). Both cell populations were positive for MSC markers CD73, CD90 and CD105 and displayed multipotency. FP-MSCs had a significantly faster proliferation rate than SF-MSCs. CD14 positivity was seen in both FP-MSCs and SF-MSCs and was positively correlated to donor age but only for SF-MSCs. Neither cell population was positive for the co-stimulatory markers CD40, CD80 and CD86, but both demonstrated increased levels of human leukocyte antigen-DR (HLA-DR) following IFN-γ stimulation. HLA-DR production was positively correlated with donor age for FP-MSCs but not SF-MSCs. The immunomodulatory molecule, HLA-G, was constitutively produced by both cell populations, unlike indoleamine 2, 3-dioxygenase which was only produced following IFN-γ stimulation. FP and SF are accessible cell sources which could be utilised in the treatment of cartilage injuries, either by transplantation following ex-vivo expansion or endogenous targeting and mobilisation of cells close to the site of injury."
+---

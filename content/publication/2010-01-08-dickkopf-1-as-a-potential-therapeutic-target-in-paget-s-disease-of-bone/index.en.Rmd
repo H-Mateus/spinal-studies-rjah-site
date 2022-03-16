@@ -21,7 +21,7 @@ publishDate: 2009-07-04T15:53:28.000Z
 url_pdf: "https://www.tandfonline.com/doi/abs/10.1517/14728220903525720?journalCode=iett20"
 publication_types:
   - '2'
-publication: 'Expert Opinion on Therapeutic Targets'
+publication: '*Expert Opinion on Therapeutic Targets*'
 publication_short: ''
 abstract: "Wnt signalling plays a role in maintaining healthy bone mass. Dickkopf-1 (DKK-1) is a soluble inhibitor of Wnt signalling and its excessive expression contributes to bone loss in rheumatoid arthritis and multiple myeloma. New therapeutics have been developed for treatment of these conditions that target DKK-1 expression. DKK-1 is elevated in serum of patients with Paget's disease of the bone (PDB) and evidence is accumulating for a role of DKK-1 in PDB."
 ---

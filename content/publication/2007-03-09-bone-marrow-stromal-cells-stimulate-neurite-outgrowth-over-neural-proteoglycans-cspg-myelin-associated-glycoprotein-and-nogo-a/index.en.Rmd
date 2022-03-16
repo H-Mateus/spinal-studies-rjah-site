@@ -1,0 +1,34 @@
+---
+title: Bone marrow stromal cells stimulate neurite outgrowth over neural proteoglycans
+  (CSPG), myelin associated glycoprotein and Nogo-A
+author: anais
+date: '2007-03-09'
+slug: bone-marrow-stromal-cells-stimulate-neurite-outgrowth-over-neural-proteoglycans-cspg-myelin-associated-glycoprotein-and-nogo-a
+categories:
+  - publication
+tags:
+  - Bone marrow stromal cells
+  - Spinal cord injury
+  - Cell transplantation
+  - CSPG
+  - Myelin inhibitors
+  - Neurite outgrowth
+subtitle: ''
+summary: ''
+authors: ["Karina Wright","Wagih El Masri","Aheed Osman","Sally Roberts","Giselle Chamberlain","Brian A.Ashton","William E.B.Johnson"]
+lastmod: '2022-03-16T12:58:19Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.bbrc.2007.01.013"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://pdf.sciencedirectassets.com/272308/1-s2.0-S0006291X07X12671/1-s2.0-S0006291X07000484/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCID2ryhilHk7fAVM2IWklfsnq0znAjq4BMdw1%2FBehW7g4AiEAnZ3iCEMQXrGtD3gWUtUjFEzD4zyXxMKaYfqe9gu0K3Aq%2BgMIFRAEGgwwNTkwMDM1NDY4NjUiDLOXrsilFxVIwJ%2Bx%2BCrXA7cV7aIz9%2FSJUO1dA2RyYbZNHCVS5lK93juWDnJjKbwUxIrGOeoXfHD8ZwdfRFnGpOTJ83aOo04HzoOMI4JHzFuvQ%2BbWm3sZKYfHjQRnT7wEAXY3A8kD%2BZeq0xUic0yB6A5rZN0Bo%2BcP9mrCd%2FviofnBTcTEamReWevtlnj88R8l6g0JqDy%2BM%2BVaDOxKtX8dvqjqbxLCy8cgzAqqWT1YdTi96fjlMKlczJO4TrOTxRgUIsIVBak0Ov5XMpqpxOnbtaQ5b6W8ou4EACKyzmVeM19PRLFjNHAIIXUiV8OqLcdzUCdEcKzBvugpdeb2e7YNYYeYa6JHxvlu8ujdesPRb5X2Y7aJV2yVPu1rjBTsTiMGfwceTy17YmehGQzRp2NACpL4qUys3%2Fv1%2FGQTBTk7u5EWz3AtUHMmDtpMDg9B0oz6XmP4EJjfbOzimligMZxYPLnYvmXtSBhBltFmO9qpI%2FxkEVFohbJDe0Za8a30tfNthdozBnN0KxbgkAfVeABkQS%2Bv2nZSJfr%2B0AYV5hdsTAlNmBTDZgzH%2FzhJe69IpZPd7bLpgLwIGavFHDYKg8FDFCBiUZGgpH960JeFLcKyRM1uZPfr1scN64ivopOK5zfwabe3KXButDCI5KyRBjqlAQ2kykB0OYaMspLTw%2BjIWb22y36s5pmZ2g3DgoZsYAqH2%2BQYuUsmKVLKqd0o8Z5jbudsWS5ncE1D8t7Zg690l4F6Jkg7NYDtffoq1aqLL6K36WMF4h0bzHHgMb6rAYNdk8yTXf%2BGtkS%2BR3PQ22w0pvsk3veoQ65poJIkwvl5PXrGD4b3p8lZivQ2dHwAVFIidauV7dPuWC1MnLW1bclZYHHruBni6A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220311T123151Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5WQPI4PS%2F20220311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1062f43b57afe75d409943f9dfb19819261c5f293ecb465b120ab2c2766caad7&hash=7121a908eab33107dcc6258cf0e4a5536c91a1c1590843ce0927ff681f431192&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0006291X07000484&tid=spdf-1d6b87fa-7c02-4e26-bd1c-102f8a9513b8&sid=8109529c5ec070407f798a141f4050d9daa1gxrqb&type=client&ua=4c000e545507540d&rr=6ea44f3c8bf672b5"
+publication_types:
+  - '2'
+publication: '*Biochemical and Biophysical Researh Communications*'
+publication_short: ''
+abstract: "In animal models, transplantation of bone marrow stromal cells (MSC) into the spinal cord following injury enhances axonal regeneration and promotes functional recovery. How these improvements come about is currently unclear. We have examined the interaction of MSC with neurons, using an established in vitro model of nerve growth, in the presence of substrate-bound extracellular molecules that are thought to inhibit axonal regeneration, i.e., neural proteoglycans (CSPG), myelin associated glycoprotein (MAG) and Nogo-A. Each of these molecules repelled neurite outgrowth from dorsal root ganglia (DRG) in a concentration-dependent manner. However, these nerve-inhibitory effects were much reduced in MSC/DRG co-cultures. Video microscopy demonstrated that MSC acted as “cellular bridges” and also “towed” neurites over the nerve-inhibitory substrates. Whereas conditioned medium from MSC cultures stimulated DRG neurite outgrowth over type I collagen, it did not promote outgrowth over CSPG, MAG or Nogo-A. These findings suggest that MSC transplantation may promote axonal regeneration both by stimulating nerve growth via secreted factors and also by reducing the nerve-inhibitory effects of the extracellular molecules present."
+---

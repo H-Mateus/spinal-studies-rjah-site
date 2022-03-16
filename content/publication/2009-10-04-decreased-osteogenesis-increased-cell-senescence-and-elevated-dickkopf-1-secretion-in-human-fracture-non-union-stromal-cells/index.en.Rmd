@@ -1,0 +1,33 @@
+---
+title: Decreased osteogenesis, increased cell senescence and elevated Dickkopf-1 secretion
+  in human fracture non union stromal cells
+author: anais
+date: '2009-10-04'
+slug: decreased-osteogenesis-increased-cell-senescence-and-elevated-dickkopf-1-secretion-in-human-fracture-non-union-stromal-cells
+categories:
+  - publication
+tags:
+  - Fracture non union
+  - Non union stromal cells
+  - Differentiation
+  - Cell senescence
+  - Dkk-1
+subtitle: ''
+summary: ''
+authors: ["StefanBajada","Michael J.Marshall","Karina Wright","James B.Richardson","William E.B.Johnson"]
+lastmod: '2022-03-16T11:52:10Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.bone.2009.06.015"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://pdf.sciencedirectassets.com/271131/1-s2.0-S8756328209X0013X/1-s2.0-S8756328209016639/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIHsmMuKeVh1vlobrthlQ4bB5ucpdK77beoebqsPgh0xhAiB7tOTeyY%2BN%2F54MCXIktxyse6MpkxVaiIcT79AISWUBSCr6AwgVEAQaDDA1OTAwMzU0Njg2NSIMof9B%2BX1TXBBfZAhyKtcD06XxNFIUm6JeekLpOFpCgQQJDk9bT2aTIJepIMDLcEwsDZnzXXBJ0xBZSnudB%2FmX5oBZ6OQ%2Fvp1batEMpzUSgBfC7X4EwwGAkANZQxZLS1TharXo6j%2B9lo1v1Ck2FLzaMCWcJ8YGnTfbRIL5rL1W7ZSg72EtNTUYtFwIIaP3LF6WBgibAGozqoQyY5fTqlqD3XomhzsoL5SVpZpJBvrasNDp0utnVkQhTf5AVE7RsVKduokG4%2B9KAxo6uzVXxe4pEFya6TDX6ytlTUN3XnIquVvVc7QHtZ7DdJ7fvavkBBK1pzu9%2BtBe5s2i2MdXBZo69TIeV1JwqYdjVx9PMEKEwugTskeS8xUT2UCg%2BGusrP2WL1ESRl7d5Hu8QekTLH2A8JUJCxjDJ0JcoB9iReUvAqvAEeA9SRNxPFf5p1zIZS4N%2FqoyBaMhVsFODVn7vnAg6W4L%2FwGGd19pzeb4r%2BV1PZxeSxa%2BAyAw3Y%2FSte2HuIg2%2FnaLfubRbd1mySwYEmnegJ%2FY4LBd9FvmiyCiYrp%2FVaYbRx0PBi4xL8je1PGmhCo7VSabXOmu7kILlL64YCvUF9%2BKqYu2G0p7nz9IrEY65KwKwXCPMRnCgA9Nml3fZ69QjzYz%2Ba%2BvMPLkrJEGOqYBVSONpIupMK32R7JQ4CH5LCv%2BJ9%2BjWBugtZN3tqSvvOU1fE8IO7cWrNrgeRVXOkeqhhz4EMKRyNvmEL4y%2BI62m1Ae%2FJIPTfomngNKl1Q6zR35wJn9zEp0ouQqN68OZ789lqC5vt9My31SxcbKSM2McCWV67aonGJedxgQQAO%2FOJruCNAqfrKXo9xM5OG7MOEHmjFeb0PN31%2F%2FECn8rxFc2hQw0DCChg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220311T122157Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY3NYYR6N7%2F20220311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=44db4d8846971e0af15cd7b19d5935de3d684bcad05acdbbf4152c6d6f1a6b46&hash=64dd4f2ab1050de9f15ab121cf4f539d3a444d9efd28d97345164f089d561fba&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S8756328209016639&tid=spdf-17470140-c627-48fd-8d06-7516436b73ef&sid=8109529c5ec070407f798a141f4050d9daa1gxrqb&type=client&ua=4c000e5455510556&rr=6ea440b80dd78889"
+publication_types:
+  - '2'
+publication: '*Bone*'
+publication_short: ''
+abstract: "The delicately orchestrated process of bone fracture healing is not always successful and long term non union of fractured bone occurs in 5–20% of all cases. Atrophic fracture non unions have been described as the most difficult to treat and this is thought to arise through a cellular and local failure of osteogenesis. However, little is known about the presence and osteogenic proficiency of cells in the local area of non union tissue. We have examined the growth and differentiation potential of cells isolated from human non union tissues compared with normal human bone marrow mesenchymal stromal cells (BMSC). We report the isolation and culture expansion of a population of non union stromal cells (NUSC) which have a CD profile similar to that of BMSC, i.e. CD34-ve, CD45-ve and CD105+ve. The NUSC demonstrated multipotentiality and differentiated to some extent along chondrogenic, adipogenic and osteogenic lineages. However, and importantly, the NUSC showed significantly reduced osteogenic differentiation and mineralization in vitro compared to BMSC. We also found increased levels of cell senescence in NUSC compared to BMSC based on culture growth kinetics and cell positivity for senescence associated beta galactosidase (SA-β-Gal) activity. The reduced capacity of NUSC to form osteoblasts was associated with significantly elevated secretion of Dickkopf-1 (Dkk-1) which is an important inhibitor of Wnt signalling during osteogenesis, compared to BMSC. Conversely, treating BMSC with levels of rhDkk-1 that were equivalent to those levels secreted by NUSC inhibited the capacity of BMSC to undergo osteogenesis. Treating BMSC with NUSC conditioned medium also inhibited the capacity of the BMSC to undergo osteogenic differentiation when compared to their treatment with BMSC conditioned medium. Our results suggest that the development of fracture non union is linked with a localised reduced capacity of cells to undergo osteogenesis, which in turn is associated with increased cell senescence and Dkk-1 secretion."
+---

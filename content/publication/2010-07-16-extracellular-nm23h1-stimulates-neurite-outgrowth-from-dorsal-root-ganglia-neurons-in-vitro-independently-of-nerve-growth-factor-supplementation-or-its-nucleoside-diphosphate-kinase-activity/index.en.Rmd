@@ -1,0 +1,33 @@
+---
+title: Extracellular Nm23H1 stimulates neurite outgrowth from dorsal root ganglia
+  neurons in vitro independently of nerve growth factor supplementation or its nucleoside
+  diphosphate kinase activity
+author: anais
+date: '2010-07-16'
+slug: extracellular-nm23h1-stimulates-neurite-outgrowth-from-dorsal-root-ganglia-neurons-in-vitro-independently-of-nerve-growth-factor-supplementation-or-its-nucleoside-diphosphate-kinase-activity
+categories:
+  - publication
+tags:
+  - Nm23H1
+  - Nerve growth
+  - Nucleoside diphosphate kinase
+  - Extracellular activity
+subtitle: ''
+summary: ''
+authors: ["Karina Wright","RJ.Seabright","A.Logan","AJ.Lilly","F.Khanim","C.M.Bunce","W.E.B.Johnson"]
+lastmod: '2022-03-16T11:31:15Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.bbrc.2010.06.039"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://pdf.sciencedirectassets.com/272308/1-s2.0-S0006291X10X00286/1-s2.0-S0006291X10011496/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIA2pMh50jzgPf0iZgWIFk%2F%2FWITPQqEWSFuNT5xYvdp2MAiEAme8HQZ1ql0YTbIoJB5vMS10WX9zIVN%2Ft%2Bk1HdDQ4zXoq%2BgMIFBAEGgwwNTkwMDM1NDY4NjUiDPo2JCKtZ3ThbZWUBSrXA7oXwutgWWiUVyZe7SFKup2iC9vdFNSs9aArQrazSJJphtJUqFeZhKPx2hQ0AUukFTn8Z5NgQYRN7pjBlBj2%2B0zN5MPowgE5%2Fj8TL1fMeHk5gK1OqQGGlnYdmUIL3NuHyitCQov40mB9%2FhWgsPXMGXDWOSK80VCtZUyfe%2B2f2O9XWRJaXsmgC45kK232nvWa%2BxZ2DZRfiB%2F7EfRVtGL5bQFhvpwOtZkl0EvWZkuMkpdj%2FfXRvZvFK9jn2QhG%2BVYB2CUA%2BY8E8nfIdhvmzEmjwzlByYrdtIbNcZJVQosSSV4CVkMClyvuoSz280spESO%2B0gQU2i28LpE8adSWC5D3MjuTcUavXrThkz0FPo%2BGifOUxwxizXYcTc7gq%2BswZPGTrWBRxQql%2FTS5kXc6vzSepXQaw6koIeZD1%2BbxR3xUkxikZqyLWatHMPdebCxk4ou6DGTmTxu7ZemJuOFvZHSe8vDroOp6i0cJejUOcg0TnhC9zK8526kBTGoShpmpbAqQrppiexN04IyNjUxQhP6yxA7RWzk1YXu06nAxGj7kt6RY5hbT7i8rJF%2Fg0yST8KgAcC4NTTHzCDIZIeY55Epc1kkKnsICU9v%2BwRXmMLdEff92MpIY6RA88jD936yRBjqlAVeTosamFkbSrcO7qwxlQ3E7oJ4PAhDjVobtfBwZ96%2BCzZ1A5q%2Fu00cmGPQqGtjPcj3BOJNDyPpoKuu7%2FL8Z3L3hocreh09GDPNrFWPZ4hiGRpCrnFlYN7NT9GG0drTCESamUcneHlkk%2FTs%2BLNdMr3J4BrFhqn91%2BJnEbSEw%2BEA8uN8LQAZxJA9zay94MF%2FbxZqfShAQMffx9jiOXEYvo3%2BpqMtqQQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220311T121235Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY534TURUU%2F20220311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b5af6ff16a817e663249b8f9cafe8119374e98319d94fd89e9246ac0664b1065&hash=615f165b965b339ed55ed2cf8ca5807e17dd1fb3f82b792d9d46a8a15ea6e7d7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0006291X10011496&tid=spdf-300088b8-774c-4081-a3d1-530f338b53b1&sid=8109529c5ec070407f798a141f4050d9daa1gxrqb&type=client&ua=4c000e545252575e&rr=6ea43300dad48889"
+publication_types:
+  - '2'
+publication: '*Biochemical and Biophysical Research Communications*'
+publication_short: ''
+abstract: "The nucleoside diphosphate (NDP) kinase, Nm23H1, is a highly expressed during neuronal development, whilst induced over-expression in neuronal cells results in increased neurite outgrowth. Extracellular Nm23H1 affects the survival, proliferation and differentiation of non-neuronal cells. Therefore, this study has examined whether extracellular Nm23H1 regulates nerve growth. We have immobilised recombinant Nm23H1 proteins to defined locations of culture plates, which were then seeded with explants of embryonic chick dorsal root ganglia (DRG) or dissociated adult rat DRG neurons. The substratum-bound extracellular Nm23H1 was stimulatory for neurite outgrowth from chick DRG explants in a concentration-dependent manner. On high concentrations of Nm23H1, chick DRG neurite outgrowth was extensive and effectively limited to the location of the Nm23H1, i.e. neuronal growth cones turned away from adjacent collagen-coated substrata. Nm23H1-coated substrata also significantly enhanced rat DRG neuronal cell adhesion and neurite outgrowth in comparison to collagen-coated substrata. These effects were independent of NGF supplementation. Recombinant Nm23H1 (H118F), which does not possess NDP kinase activity, exhibited the same activity as the wild-type protein. Hence, a novel neuro-stimulatory activity for extracellular Nm23H1 has been identified in vitro, which may function in developing neuronal systems."
+---

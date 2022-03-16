@@ -1,0 +1,32 @@
+---
+title: 'The cell culture expansion of bone marrow stromal cells from humans with spinal
+  cord injury: implications for future cell transplantation therapy'
+author: anais
+date: '2008-06-17'
+slug: the-cell-culture-expansion-of-bone-marrow-stromal-cells-from-humans-with-spinal-cord-injury-implications-for-future-cell-transplantation-therapy
+categories:
+  - publication
+tags:
+  - Spinal cord injury
+  - Cell transplantation
+  - Bone marrow stromal cells
+  - Cell proliferation
+subtitle: ''
+summary: ''
+authors: ["Karina Wright","Wagih EI Masri","Aheed Osman","Sally Roberts","Jayesh Trivedi","Brian A. Ashton","William E.B. Johnson"]
+lastmod: '2022-03-16T12:05:31Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1038/sc.2008.77"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.nature.com/articles/sc200877.pdf"
+publication_types:
+  - '2'
+publication: '*Spinal Cord*'
+publication_short: ''
+abstract: "Study design - Previous studies have shown that transplantation of bone marrow stromal cells (MSCs) in animal models of spinal cord injury (SCI) encourages functional recovery. Here, we have examined the growth in cell culture of MSCs isolated from individuals with SCI, compared with non-SCI donors. <br> <br> Setting - Centre for Spinal Studies, Midland Centre for Spinal Injuries, RJAH Orthopaedic Hospital, Oswestry, UK. <br> <br> Methods - Bone marrow was harvested from the iliac crest of donors with long-term SCI (>3 months, n=9) or from non-SCI donors (n=7). Mononuclear cells were plated out into tissue culture flasks and the adherent MSC population subsequently expanded in monolayer culture. MSC were passaged by trypsinization at 70% confluence and routinely seeded into new flasks at a density of 5 × 103 cells per cm2. Expanded cell cultures were phenotypically characterized by CD-immunoprofiling and by their differentiation potential along chondrocyte, osteoblast and adipocyte lineages. The influence of cell-seeding density on the rate of cell culture expansion and degree of cell senescence was examined in separate experiments. <br> <br> Results - In SCI, but not in non-SCI donors the number of adherent cells harvested at passage I was age-related. The proliferation rate (culture doubling times) between passages I and II was significantly greater in cultures from SCI donors with cervical lesions than in those with thoracic lesions. There was no significant difference, however, in either the overall cell harvests at passages I or II or in the culture doubling times between SCI and non-SCI donors. At passage II, more than 95% of cells were CD34−ve, CD45−ve and CD105+ve, which is characteristic of human MSC cultures. Furthermore, passage II cells differentiated along all three mesenchymal lineages tested. Seeding passage I–III cells at cell densities lower than 5 × 103 cells per cm2 significantly reduced culture doubling times and significantly increased overall cell harvests while having no effect on cell senescence. <br> <br> Conclusion - MSCs from individuals with SCI can be successfully isolated and expanded in culture; this is encouraging for the future development of MSC transplantation therapies to treat SCI. Age, level of spinal injury and cell-seeding density were all found to relate to the growth kinetics of MSC cultures in vitro, albeit in a small sample group. Therefore, these factors should be considered if either the overall number or the timing of MSC transplantations post-injury is found to relate to functional recovery."
+---

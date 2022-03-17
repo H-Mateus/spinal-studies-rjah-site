@@ -1,0 +1,28 @@
+---
+title: Therapeutic Benefit for Late, but Not Early, Passage Mesenchymal Stem Cells
+  on Pain Behaviour in an Animal Model of Osteoarthritis
+author: anais
+date: '2017-12-24'
+slug: therapeutic-benefit-for-late-but-not-early-passage-mesenchymal-stem-cells-on-pain-behaviour-in-an-animal-model-of-osteoarthritis
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Victoria Chapman","Hareklea Markides","Devi Rani Sagar","Luting Xu","James J Burston ","Paul Mapp","Alasdair Kay","Robert H Morris","Oksana Kehoe","Alicia J El Haj"]
+lastmod: '2022-03-17T13:46:15Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1155/2017/2905104"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://downloads.hindawi.com/journals/sci/2017/2905104.pdf"
+publication_types:
+  - '2'
+publication: '*Srem Cells International*'
+publication_short: ''
+abstract: "Mesenchymal stem cells (MSCs) have a therapeutic potential for the treatment of osteoarthritic (OA) joint pathology and pain. The aims of this study were to determine the influence of a passage number on the effects of MSCs on pain behaviour and cartilage and bone features in a rodent model of OA. Methods. Rats underwent either medial meniscal transection (MNX) or sham surgery under anaesthesia. Rats received intra-articular injection of either 1.5 × 106 late passage MSCs labelled with 10 μg/ml SiMAG, 1.5 × 106 late passage mesenchymal stem cells, the steroid Kenalog (200 μg/20 μL), 1.5 × 106 early passage MSCs, or serum-free media (SFM). Sham-operated rats received intra-articular injection of SFM. Pain behaviour was quantified until day 42 postmodel induction. Magnetic resonance imaging (MRI) was used to localise the labelled cells within the knee joint. Results. Late passage MSCs and Kenalog attenuated established pain behaviour in MNX rats, but did not alter MNX-induced joint pathology at the end of the study period. Early passage MSCs exacerbated MNX-induced pain behaviour for up to one week postinjection and did not alter joint pathology. Conclusion. Our data demonstrate for the first time the role of a passage number in influencing the therapeutic effects of MSCs in a model of OA pain."
+---

@@ -1,0 +1,33 @@
+---
+title: Soluble syndecan-3 binds chemokines, reduces leukocyte migration in vitro and
+  ameliorates disease severity in models of rheumatoid arthritis
+author: anais
+date: '2019-07-12'
+slug: soluble-syndecan-3-binds-chemokines-reduces-leukocyte-migration-in-vitro-and-ameliorates-disease-severity-in-models-of-rheumatoid-arthritis
+categories:
+  - publication
+tags:
+  - Syndecan-3
+  - Cell migration
+  - Therapeutic
+  - Chemokine
+  - Animal model
+subtitle: ''
+summary: ''
+authors: ["Andrew D. Eustace","Emily F. McNaughton","Sophie King","Oksana Kehoe","Andreas Kungl","Derek Mattey","Angela H. Nobbs","Neil Williams","Jim Middleton"]
+lastmod: '2022-03-17T13:16:49Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1186/s13075-019-1939-2"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://arthritis-research.biomedcentral.com/track/pdf/10.1186/s13075-019-1939-2.pdf" 
+publication_types:
+  - '2'
+publication: '*Arthritis Research & Therapy*'
+publication_short: ''
+abstract: "Background - Syndecans are heparan sulfate proteoglycans that occur in membrane-bound or soluble forms. Syndecan-3, the least well-characterised of the syndecan family, is highly expressed on synovial endothelial cells in rheumatoid arthritis patients. Here, it binds pro-inflammatory chemokines with evidence for a role in chemokine presentation and leukocyte trafficking into the joint, promoting the inflammatory response. In this study, we explored the role of soluble syndecan-3 as a binder of chemokines and as an anti-inflammatory and therapeutic molecule. <br> <br> Methods - A human monocytic cell line and CD14+ PBMCs were utilised in both Boyden chamber and trans-endothelial migration assays. Soluble syndecan-3 was tested in antigen-induced and collagen-induced in vivo arthritis models in mice. ELISA and isothermal fluorescence titration assays assessed the binding affinities. Syndecan-3 expression was identified by flow cytometry and PCR, and levels of shedding by ELISA. <br> <br> Results - Using in vitro and in vivo models, soluble syndecan-3 inhibited leukocyte migration in vitro in response to CCL7 and its administration in murine models of rheumatoid arthritis reduced histological disease severity. Using isothermal fluorescence titration, the binding affinity of soluble syndecan-3 to inflammatory chemokines CCL2, CCL7 and CXCL8 was determined, revealing little difference, with Kds in the low nM range. TNFα increased cell surface expression and shedding of syndecan-3 from cultured human endothelial cells. Furthermore, soluble syndecan-3 occurred naturally in the sera of patients with rheumatoid arthritis and periodontitis, and its levels correlated with syndecan-1. <br> <br> Conclusions - This study shows that the addition of soluble syndecan-3 may represent an alternative therapeutic approach in inflammatory disease."
+---

@@ -1,0 +1,28 @@
+---
+title: Mesenchymal Stem Cell-Conditioned Medium Reduces Disease Severity and Immune
+  Responses in Inflammatory Arthritis
+author: anais
+date: '2017-12-21'
+slug: mesenchymal-stem-cell-conditioned-medium-reduces-disease-severity-and-immune-responses-in-inflammatory-arthritis
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Alasdair G. Kay","Grace Long","George Tyler","Andrei Stefan","Stephen J. Broadfoot","Anna M. Piccinini","Jim Middleton","Oksana Kehoe"]
+lastmod: '2022-03-17T13:30:00Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1038/s41598-017-18144-w"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.nature.com/articles/s41598-017-18144-w.pdf"
+publication_types:
+  - '2'
+publication: '*Scientific Reports*'
+publication_short: ''
+abstract: "We evaluated the therapeutic potential of mesenchymal stem cell-conditioned medium (CM-MSC) as an alternative to cell therapy in an antigen-induced model of arthritis (AIA). Disease severity and cartilage loss were evaluated by histopathological analysis of arthritic knee joints and immunostaining of aggrecan neoepitopes. Cell proliferation was assessed for activated and naïve CD4+ T cells from healthy mice following culture with CM-MSC or co-culture with MSCs. T cell polarization was analysed in CD4+ T cells isolated from spleens and lymph nodes of arthritic mice treated with CM-MSC or MSCs. CM-MSC treatment significantly reduced knee-joint swelling, histopathological signs of AIA, cartilage loss and suppressed TNFα induction. Proliferation of CD4+ cells from spleens of healthy mice was not affected by CM-MSC but reduced when cells were co-cultured with MSCs. In the presence of CM-MSC or MSCs, increases in IL-10 concentration were observed in culture medium. Finally, CD4+ T cells from arthritic mice treated with CM-MSC showed increases in FOXP3 and IL-4 expression and positively affected the Treg:Th17 balance in the tissue. CM-MSC treatment reduces cartilage damage and suppresses immune responses by reducing aggrecan cleavage, enhancing Treg function and adjusting the Treg:Th17 ratio. CM-MSC may provide an effective cell-free therapy for inflammatory arthritis."
+---

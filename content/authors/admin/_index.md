@@ -8,7 +8,7 @@ superuser: true
 
 draft: false
 # Role/position
-role: PhD student
+role: Post-Doctoral Researcher
 
 # Organizations/Affiliations
 organizations:

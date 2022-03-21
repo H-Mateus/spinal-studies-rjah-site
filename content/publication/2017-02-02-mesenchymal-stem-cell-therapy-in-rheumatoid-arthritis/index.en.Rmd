@@ -1,0 +1,32 @@
+---
+title: Mesenchymal Stem Cell Therapy in Rheumatoid Arthritis
+author: anais
+date: '2017-02-02'
+slug: mesenchymal-stem-cell-therapy-in-rheumatoid-arthritis
+categories:
+  - publication
+tags:
+  - Rheumatoid Arthritis
+  - Mesenchymal stem cells
+  - Autoimmune
+  - Animal model
+  - Regenerative medicine
+subtitle: ''
+summary: ''
+authors: ["Alasdair G. Kay","Jim Middleton","Oksana Kehoe"]
+lastmod: '2022-03-21T10:14:24Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1007/978-3-319-40144-7_8"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: 
+publication_types:
+  - '2'
+publication: '*Bone and Cartilage Regeneration*'
+publication_short: ''
+abstract: "Rheumatoid arthritis (RA) is the second most common form of arthritis and the most common inflammatory joint disorder in the UK, affecting more than 400,000 people with around 12,000 new cases diagnosed every year. The condition is chronic and degenerative, causing pain and swelling, stiffness and fatigue. The disorder affects females to males at a ratio of approximately 3:1 with an overall incidence of around 1 in 100. It is most commonly reported in people aged >40 years with most first diagnoses occurring at age <60 years and life expectancy may be reduced by up to 18 years. With such high prevalence, extensive work has been done to investigate causes, early diagnosis and treatments for RA, yet much about the disease remains elusive, no cure currently exists and treatment options are limited. Drug treatment and physiotherapy are first line approaches. Non-steroidal anti-inflammatory drugs (NSAIDs) and disease-modifying antirheumatic drugs (DMARDs) are common treatments. Recent research for novel treatments has led to the introduction of biological antibodies, such as anti-tumour necrosis factor alpha (anti-TNF-α). Whilst significant impact has been made in alleviating symptoms, 50 % of RA sufferers prescribed with biological treatments discontinue the use after 2 years due to declining efficacy or adverse side effects. In untreatable cases, the last resort is joint replacement. It is advantageous in treating multifaceted disorders to utilise a multifaceted therapy and mesenchymal stem cells (MSC) infusion offers this potential. This chapter reviews the application of mesenchymal stem cells in the treatment of RA and current research perspectives. The advantages of MSC therapies are discussed alongside evaluation of optimum models for use in in vivo testing of novel treatments. Outcomes of both preclinical and the few clinical trials conducted to date are discussed to develop both the potential and future of stem cell therapy for autoimmune conditions such as RA."
+---

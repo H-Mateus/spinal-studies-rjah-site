@@ -1,0 +1,28 @@
+---
+title: Transparency of the bovine corneal stroma at physiological hydration and its
+  dependence on concentration of the ambient anion
+author: anais
+date: '2002-09-01'
+slug: transparency-of-the-bovine-corneal-stroma-at-physiological-hydration-and-its-dependence-on-concentration-of-the-ambient-anion
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Oksana Kostyuk","Oksana Kehoe","Turki M Mubard","Justyn W Regini","Keith M Meek","Andrew J Quantock","Gerald F Elliott","Stuart A Hodson"]
+lastmod: '2022-03-21T12:59:10Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1113/jphysiol.2002.021527"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2290503/pdf/tjp0543-0633.pdf"
+publication_types:
+  - '2'
+publication: '*Journal of Physiology*'
+publication_short: ''
+abstract: "De-epithelialised and de-endothelialised bovine corneal stromas with a hydration of 3.2 equilibrated at 154 mM NaCl and buffered at pH 7.4 had their optical density (400-750 nm) measured. Stromas equilibrated against 10, 20, 30, 50 or 100 mM NaCl made isotonic to 154 mM NaCl by supplementing with sorbitol were progressively more transparent as NaCl increased. Hypertonic equilibration against 300, 600 or 1000 mM NaCl resulted in a progressive loss of transparency compared with 154 mM NaCl. Light scattering as a function of wavelength fitted a lambda(-3) function well for 10, 30, 50, 100 and 154 mM NaCl preparations between 450 and 650 nm, but not at higher wavelengths. However, hypertonic 300, 600 and 1000 mM NaCl preparations showed a lambda(-2) dependence in the 450-750 nm range. Experiments with 154 mM NaCl and either 0 or 300 mM sorbitol suggested that the changes in light scattering in hypertonic preparations are unlikely to be caused by osmotic alterations to the stromal keratocytes. Psychophysical studies of the optical transmission function of preparations indicated that corneal stromas dialysed against 154 mM NaCl had usable optical properties, but preparations dialysed against 10 mM NaCl were effectively unable to transmit an image. The results are related to the known increase of fixed negative charge in the corneal matrix when chloride ions are adsorbed onto the matrix. It is suggested that the ordering force between corneal collagen fibrils, generated in part by anion binding, may be crucial to the physiological functioning of the visual system."
+---

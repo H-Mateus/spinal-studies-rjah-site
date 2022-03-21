@@ -1,0 +1,28 @@
+---
+title: A chemokine self-presentation mechanism involving formation of endothelial
+  surface microstructures
+author: anais
+date: '2013-02-15'
+slug: a-chemokine-self-presentation-mechanism-involving-formation-of-endothelial-surface-microstructures
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Catherine Whittall","Oksana Kehoe","Sophie King","Antal Rot","Angela Patterson","Jim Middleton"]
+lastmod: '2022-03-21T12:41:10Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.4049/jimmunol.1200867"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3672850/pdf/emss-50964.pdf"
+publication_types:
+  - '2'
+publication: '*The Journal of Immunology*'
+publication_short: ''
+abstract: "Endothelial surface microstructures have been described previously under inflammatory conditions; however, they remain ill-characterized. In this study, CXCL8, an inflammatory chemokine, was shown to induce the formation of filopodia-like protrusions on endothelial cells; the same effects were observed with CXCL10 and CCL5. Chemokines stimulated filopodia formation by both microvascular (from bone marrow and skin) and macrovascular (from human umbilical vein) endothelial cells. Use of blocking Abs and degradative enzymes demonstrated that CXCL8-stimulated filopodia formation was mediated by CXCR1 and CXCR2, Duffy Ag/receptor for chemokines, heparan sulfate (HS), and syndecans. HS was present on filopodial protrusions appearing as a meshwork on the cell surface, which colocalized with CXCL8, and this glycosaminoglycan was 2,6-O- and 3-O-sulfated. Transmission electron microscopy revealed that CXCL8-stimulated filopodial and microvilli-like protrusions that interacted with leukocytes before transendothelial migration and removal of HS reduced this migration. iTRAQ mass spectrometry showed that changes in the levels of cytoskeletal, signaling, and extracellular matrix proteins were associated with CXCL8-stimulated filopodia/microvilli formation; these included tropomyosin, fascin, and Rab7. This study suggests that chemokines stimulate endothelial filopodia and microvilli formation, leading to their presentation to leukocytes and leukocyte transendothelial migration."
+---

@@ -1,0 +1,32 @@
+---
+title: Novel Identification of LYVE-1 Positive Macrophages in Rheumatoid Synovial
+  Tissue
+author: anais
+date: '2016-08-17'
+slug: novel-identification-of-lyve-1-positive-macrophages-in-rheumatoid-synovial-tissue
+categories:
+  - publication
+tags: 
+  - LYVE-1
+  - Macrophage
+  - Rheumatoid Arthritis
+  - Endothelial, Lymphatic
+subtitle: ''
+summary: ''
+authors: ["Lisa J. M. Rump","Derek L. Mattey","Oksana Kehoe","Jim Middleton"]
+lastmod: '2022-03-21T10:21:06Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.4236/ojra.2016.63012"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.scirp.org/pdf/OJRA_2016081715191032.pdf"
+publication_types:
+  - '2'
+publication: '*Open Journal of Rheumatology and Autoimmune Diseases*'
+publication_short: ''
+abstract: "Objective: LYVE-1+ macrophages are observed in a range of cancers, where they play a role in tumour lymphangiogenesis. In rheumatoid arthritis (RA), lymphangiogenesis increases in the early stage of the disease and decreases as it progresses, potentially exacerbating inflammatory cell persistence. We investigated whether LYVE-1+ macrophages were present in RA synovium. Methods: Synovial tissue from RA patients was obtained at joint replacement surgery and immunohistochemistry was performed to visualise LYVE-1+ and CD68+ cells. Results: LYVE-1+ macrophages were present in rheumatoid synovial tissue, the first observation of this kind. Conclusion: Despite the reduction in lymphangiogenesis in chronic RA, LYVE-1 positive macrophages are present and there is a potential role for macrophages in the generation of lymphatic vessels."
+---

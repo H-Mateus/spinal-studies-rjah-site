@@ -1,0 +1,31 @@
+---
+title: An initial investigation into endothelial CC chemokine expression in the human
+  rheumatoid synovium
+author: R package build
+date: '2017-09-01'
+slug: an-initial-investigation-into-endothelial-cc-chemokine-expression-in-the-human-rheumatoid-synovium
+categories:
+  - publication
+tags:
+  - Chemokine
+  - Endothelial cells
+  - Rheumatoid Arthritis
+subtitle: ''
+summary: ''
+authors: ["Lisa Rump","Derek L Mattey","Oksana Kehoe","Jim Middleton"]
+lastmod: '2022-03-21T10:07:11Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1016/j.cyto.2017.05.023"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://reader.elsevier.com/reader/sd/pii/S1043466617301515?token=8C4AA0BFFEA31CE5EBAFA1D4FF33FCE686A1F4715722B4B93530DBF532412D19FEAA02CFF160758C531EA1D3D81CAAC4&originRegion=eu-west-1&originCreation=20220321100857"
+publication_types:
+  - '2'
+publication: '*Cytokine*'
+publication_short: ''
+abstract: "Rheumatoid arthritis (RA) is a destructive and chronic autoimmune inflammatory disease. Synovial inflammation is a major feature of RA and is associated with leukocyte recruitment. Leukocytes cross the endothelial cells (ECs) into the synovial tissue and fluid and this migration is mediated via a range of chemokines and adhesion molecules on the ECs. As important mediators of leukocyte extravasation, a number of chemokines from each of the chemokine families have been established as expressed in the RA joint. However, as little information is available on which chemokines are expressed/presented by the ECs themselves, the purpose of the study was to ascertain which of the CC chemokines were localised in RA ECs. Immunofluoresence was used to assess the presence of the CC-family chemokines in RA synovial ECs using von-Willebrand factor (VWF) as a pan-endothelial marker and a range of human chemokine antibodies. The percentage of VWF positive vessels which were positive for the chemokines was determined. The presence of the four most highly expressed novel chemokines were further investigated in non-RA synovial ECs and the sera and synovial fluid (SF) from patients with RA and osteoarthritis (OA). Statistical analysis of immunofluorescence data was carried out by Student's t-test. For analysis of ELISA data, Kruskal-Wallis ANOVA followed by Dunn's multiple comparison test was utilised to analyse differences in sera and SF levels for each chemokine between RA and OA. Spearman rank correlations of sera and SF chemokine levels with a range of clinical variables were also performed. Chemokine detection varied, the least abundant being CCL27 which was present in 8.3% of RA blood vessels and the most abundant being CCL19 which was present in 80%. Of the 26 chemokines studied, 19 have not been previously observed in RA ECs. Four of these novel chemokines, namely CCL7, CCL14, CCL16 and CCL22 were present on ≥60% of vessels. CCL14 and CCL22 were shown to be increased in RA ECs compared to non-RA ECs, p=0.0041 and p=0.014 respectively. EC chemokines CCL7, CCL14, CCL16 and CCL22 also occurred in RA synovial fluid and sera as established by ELISA. CCL7 was shown to be significantly increased in sera and SF from RA patients compared to that from osteoarthritis (OA) patients (p<0.01), and to have a highly significant correlation with the level of anti-CCP (R=0.93, p=0.001). Less abundant chemokines shown to be present in RA ECs were CCL1-3, CCL5, CCL10-13, CCL15, CCL17, CCL18, CCL20, CCL21 and CCL23-28. In conclusion, this initial study is the first to show the presence of a number of CC chemokines in RA ECs. It provides evidence that further validation and investigation into the presence and functionality of these novel chemokines expressed at RA synovial ECs may be warranted."
+---

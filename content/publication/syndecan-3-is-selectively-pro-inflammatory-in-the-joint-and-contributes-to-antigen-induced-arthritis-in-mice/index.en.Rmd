@@ -1,0 +1,31 @@
+---
+title: Syndecan-3 is selectively pro-inflammatory in the joint and contributes to
+  antigen-induced arthritis in mice
+author: anais
+date: NA
+slug: syndecan-3-is-selectively-pro-inflammatory-in-the-joint-and-contributes-to-antigen-induced-arthritis-in-mice
+categories:
+  - publication
+tags:
+  - Rheumatoid Arthritis
+  - Syndecan-3
+  - Animal model
+subtitle: ''
+summary: ''
+authors: ["Oksana Kehoe","Neena Kalia","Sophie King","Andrew Eustace","Charlotte Boyes","Ofer Reizes","Anwen Williams","Angela Patterson","Jim Middleton"]
+lastmod: '2022-03-21T12:02:19Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1186/ar4610"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://arthritis-research.biomedcentral.com/track/pdf/10.1186/ar4610.pdf"
+publication_types:
+  - '2'
+publication: '*Arthritis Research & Therapy*'
+publication_short: ''
+abstract: "Introduction - Syndecans are heparan sulphate proteoglycans expressed by endothelial cells. Syndecan-3 is expressed by synovial endothelial cells of rheumatoid arthritis (RA) patients where it binds chemokines, suggesting a role in leukocyte trafficking. The objective of the current study was to examine the function of syndecan-3 in joint inflammation by genetic deletion in mice and compare with other tissues. <br> <br> Methods - Chemokine C-X-C ligand 1 (CXCL1) was injected in the joints of syndecan-3−/−and wild-type mice and antigen-induced arthritis performed. For comparison chemokine was administered in the skin and cremaster muscle. Intravital microscopy was performed in the cremaster muscle. <br> <br> Results - Administration of CXCL1 in knee joints of syndecan-3−/−mice resulted in reduced neutrophil accumulation compared to wild type. This was associated with diminished presence of CXCL1 at the luminal surface of synovial endothelial cells where this chemokine clustered and bound to heparan sulphate. Furthermore, in the arthritis model syndecan-3 deletion led to reduced joint swelling, leukocyte accumulation, cartilage degradation and overall disease severity. Conversely, CXCL1 administration in the skin of syndecan-3 null mice provoked increased neutrophil recruitment and was associated with elevated luminal expression of E-selectin by dermal endothelial cells. Similarly in the cremaster, intravital microscopy showed increased numbers of leukocytes adhering and rolling in venules in syndecan-3−/−mice in response to CXCL1 or tumour necrosis factor alpha. <br> <br> Conclusions - This study shows a novel role for syndecan-3 in inflammation. In the joint it is selectively pro-inflammatory, functioning in endothelial chemokine presentation and leukocyte recruitment and cartilage damage in an RA model. Conversely, in skin and cremaster it is anti-inflammatory."
+---

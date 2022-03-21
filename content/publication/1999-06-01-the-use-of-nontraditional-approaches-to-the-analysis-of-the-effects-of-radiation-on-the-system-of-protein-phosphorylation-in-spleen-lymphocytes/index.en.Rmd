@@ -1,0 +1,28 @@
+---
+title: The use of nontraditional approaches to the analysis of the effects of radiation
+  on the system of protein phosphorylation in spleen lymphocytes
+author: anais
+date: '1999-06-01'
+slug: the-use-of-nontraditional-approaches-to-the-analysis-of-the-effects-of-radiation-on-the-system-of-protein-phosphorylation-in-spleen-lymphocytes
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["L I Ostapchenko","Oksana Kehoe","N E Kucherenko"]
+lastmod: '2022-03-21T14:35:27Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: 
+publication_types:
+  - '2'
+publication: '*Radiatsionnaia biologiia, radioecologiia*'
+publication_short: ''
+abstract: "Postradiation disturbances in functioning of Ca(2+)- and cyclic nucleotide-dependent protein kinase systems are established. Kinetic index of different protein kinases of spleen lymphocytes under irradiation with doses of 0.5 and 1 Gy are analysed using return-cards-construction and Lyapunov's-coefficient-determination methods. It is shown that determined disturbances can be considered as a part of general unspecific adaptational reaction of lymphocytes to irradiation. <br> <br> [Link](https://pubmed.ncbi.nlm.nih.gov/10366966/)"
+---

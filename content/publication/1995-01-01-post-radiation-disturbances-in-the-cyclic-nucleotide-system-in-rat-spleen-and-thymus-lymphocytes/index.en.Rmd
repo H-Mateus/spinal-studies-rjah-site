@@ -1,0 +1,28 @@
+---
+title: Post-radiation disturbances in the cyclic nucleotide system in rat spleen and
+  thymus lymphocytes
+author: anais
+date: '1995-01-01'
+slug: post-radiation-disturbances-in-the-cyclic-nucleotide-system-in-rat-spleen-and-thymus-lymphocytes
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["L I Ostapchenko","T I Parkhomets","Oksana Kehoe","N E Kucherenko"]
+lastmod: '2022-03-21T14:54:17Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: 
+publication_types:
+  - '2'
+publication: '*Ukrainskii Biokhimicheskii Zhurnal*'
+publication_short: ''
+abstract: "The changes in cAMP and cGMP content in rat spleen and thymus lymphocytes after irradiation in doses of 0.5 and 1 Gy, are determined, indicating to significant disturbances in the system of cyclic nucleotides. Radiation affected the functioning of enzymes both of synthesis and hydrolysis of cAMP and cGMP in spleen lymphocytes. The activity of adenylate cyclase and guanylate cyclase did not change in thymocytes after the exposure, while the activity of phosphodiesterase of cyclic nucleotides slightly increased. <br> <br> [Link](https://www.researchgate.net/publication/14612806_Post-radiation_disturbances_in_the_cyclic_nucleotide_system_in_rat_spleen_and_thymus_lymphocytes)"
+---

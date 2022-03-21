@@ -1,0 +1,33 @@
+---
+title: Whole body tracking of superparamagnetic iron oxide nanoparticle-labelled cells
+  – a rheumatoid arthritis mouse model
+author: anais
+date: '2013-10-17'
+slug: whole-body-tracking-of-superparamagnetic-iron-oxide-nanoparticle-labelled-cells-a-rheumatoid-arthritis-mouse-model
+categories:
+  - publication
+tags:
+  - Magnetic Resonance Imaging Contrast Agent
+  - Superparamagnetic Iron Oxide Nanoparticles
+  - Unlabelled Cell
+  - Post Implantation
+  - Prussian Blue Staining
+subtitle: ''
+summary: ''
+authors: ["Hareklea Markides","Oksana Kehoe","Robert H Morris","Alicia J El Haj"]
+lastmod: '2022-03-21T12:30:07Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1186/scrt337"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://stemcellres.biomedcentral.com/track/pdf/10.1186/scrt337.pdf"
+publication_types:
+  - '2'
+publication: '*Stem Cell Research & Therapy*'
+publication_short: ''
+abstract: "Introduction - The application of mesenchymal stem cells (MSCs) in treating rheumatoid arthritis (RA) has been made possible by the immunosuppressive and differentiation abilities of these cells. A non-invasive means of assessing cell integration and bio-distribution is fundamental in evaluating the risks and success of this therapy, thereby enabling clinical translation. This paper defines the use of superparamagnetic iron oxide nanoparticles (SPIONs) in conjunction with magnetic resonance imaging (MRI) to image and track MSCs in vivo within a murine model of RA. <br> <br> Methods - Murine MSCs (mMSCs) were isolated, expanded and labelled with SiMAG, a commercially available particle. In vitro MRI visibility thresholds were investigated by labelling mMSCs with SiMAG with concentrations ranging from 0 to 10 μg/ml and resuspending varying cell doses (103 to 5 × 105 cells) in 2 mg/ml collagen prior to MR-imaging. Similarly, in vivo detection thresholds were identified by implanting 3 × 105 mMSCs labelled with 0 to 10 μg/ml SiMAG within the synovial cavity of a mouse and MR-imaging. Upon RA induction, 300,000 mMSCs labelled with SiMAG (10 μg/ml) were implanted via intra-articular injection and joint swelling monitored as an indication of RA development over seven days. Furthermore, the effect of SiMAG on cell viability, proliferation and differentiation was investigated. <br> <br> Results - A minimum particle concentration of 1 μg/ml (300,000 cells) and cell dose of 100,000 cells (5 and 10 μg/ml) were identified as the in vitro MRI detection threshold. Cell viability, proliferation and differentiation capabilities were not affected, with labelled populations undergoing successful differentiation down osteogenic and adipogenic lineages. A significant decrease (P < 0.01) in joint swelling was measured in groups containing SiMAG-labelled and unlabelled mMSCs implying that the presence of SPIONs does not affect the immunomodulating properties of the cells. In vivo MRI scans demonstrated good contrast and the identification of SiMAG-labelled populations within the synovial joint up to 7 days post implantation. This was further confirmed using histological analysis. <br> <br> Conclusions - We have been able to monitor and track the migration of stem cell populations within the rheumatic joint in a non-invasive manner. This manuscript goes further to highlight the key characteristics (biocompatible and the ability to create significant contrast at realistic doses within a clinical relevant system) demonstrated by SiMAG that should be incorporated into the design of a new clinically approved tracking agent."
+---

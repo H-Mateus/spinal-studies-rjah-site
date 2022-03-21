@@ -1,0 +1,31 @@
+---
+title: Intra-articular injection of mesenchymal stem cells leads to reduced inflammation
+  and cartilage damage in murine antigen-induced arthritis
+author: R package build
+date: '2014-06-03'
+slug: intra-articular-injection-of-mesenchymal-stem-cells-leads-to-reduced-inflammation-and-cartilage-damage-in-murine-antigen-induced-arthritis
+categories:
+  - publication
+tags:
+  - Rheumatoid Arthritis
+  - Mesenchymal stem cells
+  - Knee
+subtitle: ''
+summary: ''
+authors: ["Oksana Kehoe","Alison Cartwright","Ayman Askari","Alicia J El Haj","Jim Middleton"]
+lastmod: '2022-03-21T11:55:28Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1186/1479-5876-12-157"
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053306/pdf/1479-5876-12-157.pdf"
+publication_types:
+  - '2'
+publication: '*Journal of Translational Medicine*'
+publication_short: ''
+abstract: "Background - Rheumatoid arthritis (RA) is a debilitating and painful disease leading to increased morbidity and mortality and novel therapeutic approaches are needed. The purpose of this study was to elucidate if mesenchymal stem cells (MSCs) injected in the joints of mice with arthritis are therapeutic, reducing joint swelling and cartilage destruction. <br> <br> Methods - Murine mesenchymal stem cells (mMSCs) were isolated from bone marrow of C57Bl/6 mice and expanded in culture. Cells were tested for immunophenotype and their ability to form colonies and to differentiate into chondrocytes, osteocytes and adipocytes. Antigen-induced arthritis (AIA) was induced by intra-articular injection of methylated bovine serum albumin into the knee joints of preimmunized C57Bl/6 mice. After one day, when peak swelling occurs, 500,000 mMSCs labelled with red fluorescent cell tracker CM-DiI were injected intra-articularly in the right knee joint. Left knee joints were treated as controls by receiving PBS injections. Differences between groups were calculated by Mann Whitney U test or unpaired t tests using GraphPad Prism software version 5. <br> <br> Results - Knee joint diameter (swelling) was measured as a clinical indication of joint inflammation and this parameter was significantly less in MSC-treated mice compared to control-treated animals 48 hours after arthritis induction. This difference continued for ~7 days. CM-DiI-labelled MSCs were clearly visualised in the lining and sublining layers of synovium, in the region of the patella and femoral and tibial surfaces. By day 3, parameters indicative of disease severity, including cartilage depletion, inflammatory exudate and arthritic index were shown to be significantly reduced in MSC-treated animals. This difference continued for 7 days and was further confirmed by histological analysis. The serum concentration of tumour necrosis factor α was significantly decreased following MSC administration. <br> <br> Conclusions - Our results reveal that MSCs injected in the joints of mice with AIA are therapeutic, reducing inflammation, joint swelling and cartilage destruction. These cells also integrate into the synovium in AIA."
+---

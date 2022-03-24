@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Gabriel Mateus Bernardo Harrington
+title: "Gabriel Mateus Bernardo Harrington"
 author: ["Gabriel Mateus Bernardo Harrington"]
 
 # Is this the primary user of the site?

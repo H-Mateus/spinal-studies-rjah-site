@@ -2,7 +2,7 @@
 title: "Charlotte Hulme"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
-weight: 2002
+weight: 2001
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
 interests:

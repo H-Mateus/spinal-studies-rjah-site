@@ -2,7 +2,7 @@
 title: "Lauren Tierney"
 author: ["mateus"]
 draft: false
-weight: 2015
+weight: 2008
 role: PhD Student
 bio: Transcriptome analysis of stem cell and chondrocyte therapies
 email: l.tierney@keele.ac.uk

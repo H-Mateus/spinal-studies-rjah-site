@@ -2,7 +2,7 @@
 title: "Larissa Rix"
 author: ["mateus"]
 draft: false
-weight: 2016
+weight: 2009
 role: PhD Student
 bio: One sentence summary goes here.
 interests:

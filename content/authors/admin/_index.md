@@ -8,6 +8,7 @@ superuser: true
 
 draft: false
 # Role/position
+weight: 2006
 role: Post-Doctoral Researcher
 
 # Organizations/Affiliations

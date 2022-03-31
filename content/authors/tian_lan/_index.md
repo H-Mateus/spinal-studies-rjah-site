@@ -2,7 +2,7 @@
 title: "Tian Lan"
 author: ["mateus"]
 draft: false
-weight: 2017
+weight: 2012
 role: PhD Student
 bio: One sentence summary goes here.
 interests:

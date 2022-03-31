@@ -2,7 +2,7 @@
 title: "Claire Mennan"
 author: ["mateus"]
 draft: false
-weight: 2005
+weight: 2004
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
 email: claire.mennan@nhs.net

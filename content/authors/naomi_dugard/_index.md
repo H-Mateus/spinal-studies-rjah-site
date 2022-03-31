@@ -2,7 +2,7 @@
 title: "Naomi Dugard"
 author: ["mateus"]
 draft: false
-weight: 2006
+weight: 2005
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
 interests:

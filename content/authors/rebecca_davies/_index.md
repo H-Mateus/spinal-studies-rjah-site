@@ -2,7 +2,7 @@
 title: "Rebecca Davies"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
-weight: 2011
+weight: 2010
 role: PhD Student
 bio: A PhD Student at Keele University, interested in MSC-derived extracellular vesicles.
 interests:

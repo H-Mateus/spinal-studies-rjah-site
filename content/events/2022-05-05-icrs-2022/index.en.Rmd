@@ -55,7 +55,7 @@ List of abstract (posters):
 
 Special aknowledgment to Professor Sally Roberts who received a Lifetime recognition award, and to Dr Timothy Hopkins who received the poster award.
 
-```{r, label='awards_icrs'}
+```{r echo=FALSE, label='awards_icrs'}
 knitr::include_graphics("awards_icrs.jpg")
 ```
 

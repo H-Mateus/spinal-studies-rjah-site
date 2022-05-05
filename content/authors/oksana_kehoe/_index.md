@@ -41,7 +41,6 @@ social:
 body {
 text-align: justify}
 </style>
-
 Dr Oksana Kehoe is a Lecturer in Inflammation Biology at the School of Medicine and Head of Rheumatology Research laboratory in the Robert Jones & Agnes Hunt Orthopaedic Hospital at Oswestry.
 
 The research within our laboratory is focused on understanding mechanisms of rheumatoid arthritis progression and possible treatments using specific type of stem cells known as mesenchymal stem cells found in the bone marrow and umbilical cord.

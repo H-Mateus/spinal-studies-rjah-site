@@ -1,0 +1,28 @@
+---
+title: Development of a Human Synovial Joint-on-a-Chip Model
+author: anais
+date: '2022-04-11'
+slug: development-of-a-human-synovial-joint-on-a-chip-model
+categories: []
+tags:
+  - Synovial Fluid
+  - Joint-on-a-Chip Model
+subtitle: ''
+summary: ''
+authors: ["Clare Thompson","Timothy Hopkins","Karina Wright","Martin Knight"]
+lastmod: '2022-05-05T12:57:46+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Purpose - There is an unmet need for novel, disease-modifying pharmaceuticals for the treatment of osteoarthritis (OA). The development of such therapeutics is hampered by a lack of physiologically relevant preclinical models, which contributes to significant attrition in the drug development pipeline. Organ-on-a-chip technology can be utilised to generate new in vitro models with a greater capacity to replicate human physiology in health and disease. Our aim is to develop an organ-on-a-chip model of the human synovial joint. <br><br> Methods and Materials - A commercially available, two-channel, microfluidic chip (Chip-S1®, Emulate Inc) was used to develop the joint-on-a-chip model (Figure 1A). Primary human fibroblast-like synoviocytes (FLS) were cultured in the top channel within 10% Matrigel to replicate the intimal synovial lining layer, and primary human chondrocytes were cultured in the bottom channel within 2% agarose to mimic the articular cartilage (Figure 1A). After 24h, cell viability in the chip was assessed by live/dead (calcein AM/ethidium homodimer 1) staining. After 72 hours, cell morphology and cytoskeletal architecture was assessed by actin labelling. <br><br> Results - FLS and chondrocyte viability was maintained at 24h (Figure 1B) and exhibited appropriate cytoskeletal architecture at 72h (Figure 2). Chondrocytes demonstrated a characteristic spherical morphology and were distributed evenly throughout the agarose. FLS were fibroblastic and formed a single layer of cells within the top channel of the chip, over the dividing membrane (Figure 2). <br><br> Conclusion - The work presented here represents the early stages of development of a human synovial joint-on-a-chip and suggests that this model, built upon the Emulate Chip-S1®, is viable. Further validation of the model is currently ongoing. The Emulate system allows for the application of mechanical stimulation in the form of fluid shear and tensile strain and has numerous potential applications. For example, synovial inflammation can be mimicked through the addition of pro-inflammatory cytokines and drug (e.g. steroid) therapeutic efficacy can be screened."
+---

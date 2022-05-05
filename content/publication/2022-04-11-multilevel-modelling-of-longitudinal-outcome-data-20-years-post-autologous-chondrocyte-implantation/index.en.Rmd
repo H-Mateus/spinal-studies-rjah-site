@@ -1,0 +1,27 @@
+---
+title: Multilevel Modelling of Longitudinal Outcome Data 20 Years Post-Autologous
+  Chondrocyte Implantation
+author: anais
+date: '2022-04-11'
+slug: multilevel-modelling-of-longitudinal-outcome-data-20-years-post-autologous-chondrocyte-implantation
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Karina Wright","Lauren Tierney","Mike Williams","Mateus Harrington","Jan Herman Kuiper","Peter Denis Gallacher","Paul Jermin","Martyn Snow","Sally Roberts"]
+lastmod: '2022-05-05T12:36:46+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Purpose - Autologous chondrocyte implantation (ACI) has been used to treat cartilage defects in the knee for over 25 years. It is successful at restoring function and alleviating pain in the short and mid-term, but there is limited longer-term data. We have examined follow-up data from patients treated in our centre over the past two decades, the aim being to investigate demographic, injury and surgery/treatment-associated factors that can influence clinical outcome (via Lysholm score), following ACI in a large, “real-world”, non-uniform, longitudinally collected clinical data set. <br><br> Methods and Materials - Multilevel (mixed) modelling was conducted using the programming language R. Of the 429 knee ACI procedures performed in our centre during the study period, 363 were suitable for model inclusion. All longitudinal post-operative Lysholm scores collected after ACI treatment and before a second procedure (such as knee arthroplasty but excluding minor procedures such as arthroscopy, debridement or biopsy for research) were included. Any patients requiring a bone graft at the time of ACI were also excluded. Potential predictors of ACI outcome explored in the model were age at the time of ACI, gender, smoker status, pre-operative Lysholm score, time from surgery, defect location, number of defects, patch type, previous operations, undergoing parallel procedure(s) at the time of ACI, cell count prior to implantation and cell passage number. <br><br> Results - Pre-operative Lysholm score, time from surgery, age at the time of ACI, defect location and undergoing a parallel procedure at the time of ACI were found to influence Lysholm scores post-ACI (but prior to a further surgical procedure). <br><br> Conclusion - We have developed a multilevel (mixed) model using a large database of non-uniform, longitudinally collected, longer-term ACI outcome data. The predictors identified agree with some of the previous findings reported from our centre (and others) based on smaller short and mid-term follow-up cohort studies, supporting this model as useful to other centres and patient cohorts."
+---

@@ -1,0 +1,27 @@
+---
+title: Assessing Allogeneic Chondroprogenitor Manufacture in Xeno-free and Serum-free
+  Media
+author: anais
+date: '2022-04-11'
+slug: assessing-allogeneic-chondroprogenitor-manufacture-in-xeno-free-and-serum-free-media
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Charlotte Hulme","Sophie Bailey","Timothy Hopkins","Helen McCarthy","Ilyas Khan","Martyn Snow","Karina Wright","*SB and CHH joint first authors"]
+lastmod: '2022-05-05T12:47:43+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Purpose - Autologous Chondrocyte Implantation (ACI) requires a cartilage harvest and a subsequent cell implantation. There is a need to move towards therapies which are less invasive for patients and more cost-effective for health service providers. Allogeneic cells are one potential solution, but in order to manufacture them, alternatives for the autologous serum currently used in ACI protocols must be sought. To future-proof this process, a move towards xeno-free and serum-free protocols is also needed. <br><br> Methods and Materials - Chondroprogenitors were isolated from full depth human knee cartilage using selective adhesion to fibronectin and cryopreserved at passage 2-3 prior to use in these experiments. One ‘healthy’ cadaveric donor (a 22yo with no history of osteoarthritis/injury) and n=3 arthroplasty donors (mean 72yo) were included. Two xeno-free and serum-free GMP compliant culture media were tested for chondroprogenitors expanded on vitronectin (StemMacs MSC Expansion (media A; Miltenyi Biotech) and StemPro MSC Expansion (media B; Gibco)) cf. standard culture in DMEM/F12 with foetal bovine serum (FBS). Growth kinetics, immunoprofiling, gene expression analysis (RT-PCR) (n=4 donors) and chondrogenic analyses (n=2 donors) were performed for chondroprogenitors grown over passages 3 and 4. <br><br> Results - Chondroprogenitor manufacture in xeno-free and serum-free media does not significantly impact on their growth kinetics (population doubling level), immunoprofile (CD90, 73, 105, 44, 49c, 151, 29, 19, 34, 45, 49b, 14, 49a, 39 and HLA-DR) and, crucially, chondrogenic potential (GAG/DNA content), compared to FBS supplemented cultures. When expressed relative to FBS cultures, SOX-9 was significantly higher in media A cf. media B at passage 3. No other differences were found between expression levels in media A cf. B for any of the other genes tested (COLII, ACAN, COLX and ALK-1). <br><br> Conclusion - Our preliminary data suggests that xeno-free and serum-free media can be used to manufacture allogeneic chondroprogenitors without negatively altering their growth or phenotype."
+---

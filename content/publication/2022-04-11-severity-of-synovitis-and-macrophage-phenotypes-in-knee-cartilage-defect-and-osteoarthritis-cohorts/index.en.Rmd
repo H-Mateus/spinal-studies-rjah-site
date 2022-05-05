@@ -1,0 +1,30 @@
+---
+title: Severity of Synovitis and Macrophage Phenotypes in Knee Cartilage Defect and
+  Osteoarthritis Cohorts
+author: anais
+date: '2022-04-11'
+slug: severity-of-synovitis-and-macrophage-phenotypes-in-knee-cartilage-defect-and-osteoarthritis-cohorts
+categories: []
+tags:
+  - Knee
+  - Cartilage defect
+  - Macrophage
+subtitle: ''
+summary: ''
+authors: ["Timothy Hopkins","Karina Wright","John Garcia","Jade Perry","Paul Jermin","Peter Denis Gallacher","Sally Roberts"]
+lastmod: '2022-05-05T13:24:35+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Purpose - Growing evidence suggests that the synovium is important in the pathogenesis of osteoarthritis (OA). Synovial macrophages demonstrate considerable plasticity in mediating joint inflammation and OA progression. In this study we examined the synovia from patients with either cartilage defects or end-stage OA in the knee. <br><br> Methods and Materials - Synovial tissues were obtained from patients undergoing cell therapy to treat cartilage defects (at time of cell implantation, ~3 weeks post cell harvest) or arthroplasty surgery. Haematoxylin and eosin-stained sections of synovial tissue were assessed for synovitis using a histological scoring system (Krenn score). Pan-macrophage (CD68) and polarisation markers (CD86:M1 and CD206:M2) were assessed by immunohistochemical staining and subsequent semi-quantitative analysis. <br><br> Results - Samples of synovium were collected during surgery from 15 cell therapy (6 female, 9 male; 39.2±2.18SEM years) and 15 arthroplasty patients (8 female, 7 male; 67.3±2.80SEM years). Mean synovitis scores were significantly higher in the cell therapy group cf. the arthroplasty group (Table 1). The mean intensity of CD68, CD86 and CD206 immunostaining was also significantly higher in the cell therapy group cf. the arthroplasty group. The ratio of CD86 to CD206 was significantly higher in the cartilage injury synovia cf. OA synovia. Linear regression analysis of the full dataset indicated that CD86 intensity was a significant predictor of synovitis severity (cor.coeff.=0.052, p=0.016, 95% CI [0.036-0.234]). <br><br> Conclusion - Increased synovitis, abundance of macrophages (CD68, CD86 and CD206 positive) and increased CD86:CD206 staining ratio (indicative of M1 favoured polarisation) in synovia from patients undergoing cell therapy for cartilage defects is suggestive of a macrophage-mediated, pro-inflammatory immune response. Whether this response relates to the harvest stage of cell therapy or cartilage defect pathology warrants further investigation. Conversely, the reduced abundance of macrophages in arthroplasty synovia suggests a reduced ability of the synovium to mount an immune response at the end-stage of OA, indicative of organ-level failure within the joint."
+---

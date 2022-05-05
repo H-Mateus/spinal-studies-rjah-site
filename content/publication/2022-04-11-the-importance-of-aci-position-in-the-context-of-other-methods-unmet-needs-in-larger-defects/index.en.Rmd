@@ -1,0 +1,29 @@
+---
+title: The Importance of ACI-Position in the context of other methods/unmet needs
+  in larger defects
+author: anais
+date: '2022-04-11'
+slug: the-importance-of-aci-position-in-the-context-of-other-methods-unmet-needs-in-larger-defects
+categories:
+  - 
+tags:
+  - Autologous chondrocyte implantation
+subtitle: ''
+summary: ''
+authors: ["Martyn Snow"]
+lastmod: '2022-05-05T12:25:46+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Introduction - Autologous chondrocyte implantation (ACI) is an established technique for the treatment of cartilage lesions, particularly those greater than 2cm in size. <br><br> Content - ACI is classified as an Advanced Medicinal Therapeutic Product (ATMP) and as such its use is associated with a significant regulatory and economic burden, which is the main barrier to use. Consequently, the indications for alternate techniques (usually confined to the treatment of smaller lesions) is extended e.g AMIC, or more latterly the use of osteochondral allograft (OCA) has increased. Based on the available literature, ACI is the only technique with level one evidence demonstrating short to mid-term clinical and cost-effectiveness for the treatment of chondral lesions. Thus, ACI should be considered as the first line treatment for chondral lesions greater than 2cm. <br><br> The level of evidence available for the use of ACI in osteochondral lesions is more limited. The clinical effectiveness of ACI is known to be dependent on the integrity of subchondral bone, with inferior outcomes following previous microfracture. A number of case series have reported good outcomes with the use of ACI and bone graft (sandwich technique) for the treatment of osteochondritis dissecans, however no comparative studies currently exist. Large osteochondral lesions pose a significant clinical challenge, with some lesions unreconstructible with ACI. Excellent results for OCA have been reported for the treatment of osteochondral lesions out to 20years, however its use is largely limited by its availability. The chondrocyte viability of OCA grafts is predictive of clinical outcome, however concerns regarding the viability of grafts transported long distances from central tissue banks exist. Consequently, osteochondral lesions amenable to ACI should be treated with ACI and bone graft with OCA reserved for lesions unreconstructible with ACI or lesions known to have a poor prognosis e.g. previous microfracture."
+---

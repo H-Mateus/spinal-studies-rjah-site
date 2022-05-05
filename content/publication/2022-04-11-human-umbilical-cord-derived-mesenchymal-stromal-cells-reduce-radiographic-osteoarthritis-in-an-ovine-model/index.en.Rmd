@@ -1,0 +1,29 @@
+---
+title: Human Umbilical Cord-Derived Mesenchymal Stromal Cells Reduce Radiographic
+  Osteoarthritis in an Ovine Model
+author: anais
+date: '2022-04-11'
+slug: human-umbilical-cord-derived-mesenchymal-stromal-cells-reduce-radiographic-osteoarthritis-in-an-ovine-model
+categories: []
+tags:
+  - Mesenchymal stem cells
+  - Osteoarthritis
+subtitle: ''
+summary: ''
+authors: ["Jade Perry","Claire Mennan","Paul Cool","Helen McCarthy","Karin Newell","Timothy Hopkins","Charlotte Hulme","Karina Wright","Frances Henson","Sally Roberts"]
+lastmod: '2022-05-05T12:39:28+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Purpose - This study investigated the effect of human umbilical cord-derived mesenchymal stromal cells (hUC-MSCs) in an ovine model of early osteoarthritis (OA). <br><br> Methods and Materials - Fourteen female, 3-4 year old Welsh Mountain sheep underwent medial meniscal transection in their left stifle joints. Four weeks post-surgery, 107 Quantum® bioreactor-culture expanded hUC-MSCs (pooled from 3 donors) in 50µL PBS (n=7) or PBS alone (n=7, vehicle control group) were injected into the knees. Joints were harvested 12-weeks post-surgery and underwent X-ray and Magnetic Resonance Imaging (MRI) and histological processing. Scoring was performed via a macroscopic OA score, Kellgren-Lawrence score (X-ray), sMOAKS (whole joint on MRI) and pyKNEEr (cartilage thickness on MRI), and cartilage and synovitis histology scores (Table 1). <br><br> Results - There was an improved macroscopic OA joint score in sheep receiving hUC-MSCs (11±4) cf. control (14±6), but this did not quite reach significance (p=0.054; Table 1). Kellgren-Lawrence X-ray scores in joints treated with hUC-MSCs were significantly improved (2.0±0) cf. control (3.0±0; p=0.028). No significant difference in sMOAKS (hUC-MSCs 18±10 vs. no cells 22±9; p=0.784) or PyKneer (hUC-MSCs 0.8±0.42mm vs. no cells 0.67±0.33mm; p=0.628) was observed between the treatment groups. Histological scoring demonstrated improved cartilage in sheep receiving hUC-MSCs (37±6) cf. control (41±13), but again, not quite significantly (p=0.064). A low level of synovitis was seen in both treatment groups (hUC-MSCs: 3.0±0.5 vs. no cells 3.0±2.5; p=0.900), i.e. typical of post-surgery, but with no increase caused by injecting xenogeneic cells. <br><br> Conclusion - There was significantly less OA observed on X-rays in sheep treated with hUC-MSCs than vehicle control, with no indication of an inflammatory response to the cells at the time-point studied. Whilst corroborating suggestions from previous murine models of OA and injury, that hUC-MSCs have benefit as an allogeneic treatment for early OA, this study would perhaps have benefitted from an increase in numbers or timescale."
+---

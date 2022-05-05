@@ -1,0 +1,28 @@
+---
+title: 'Juvenile Chondrocytes: Novel Alternatives for Allogeneic Cell Therapy?'
+author: anais
+date: '2022-04-11'
+slug: juvenile-chondrocytes-novel-alternatives-for-allogeneic-cell-therapy
+categories: []
+tags:
+  - Chondrocyte
+  - Allogenic cell therapy
+subtitle: ''
+summary: ''
+authors: ["Charlotte Hulme","John Garcia","Robert Freeman","Nigel Kiely","Derfel Williams","Jonathan Wright","Karina Wright"]
+lastmod: '2022-05-05T12:44:52+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf:
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "Purpose - Development of novel allogeneic chondrocyte therapies are needed to provide a more widespread, cost-effective cartilage treatment option. Here we investigate the potential of juvenile cartilage sources for allogeneic chondrocyte manufacture. <br><br> Methods and Materials - Juvenile polydactyly digit (PD; n=4; aged 1±1 years (med±IQR)) or iliac apophysis cartilage (IA; n=6; aged 1±0.5years (med±IQR)) was used to derive chondrocyte cultures. Juvenile chondrocyte growth was compared to adult chondrocytes used for Autologous Chondrocyte Implantation (n=11; aged 41±9 years (med±IQR)). Further, juvenile chondrocytes (PD, n=2; IA, n=3) were up-scale manufactured using the Quantum® hollow-fibre bioreactor and compared to traditional tissue culture plastic (TCP) methods. All data are mean±SD. <br><br> Results - Comparable chondrocyte yields were obtained from juvenile (IA: 4.3±3.8x103 cells/mg tissue; polydactyly: 4.2±4.2x103 cells/mg tissue) and adult (2.6±0.1x103 cells/mg tissue; p>0.05; One-Way Anova) sources. In contrast, doubling time (DT) (passage 1-3) for PD chondrocytes grown on TCP (2.66±1.57days) was significantly lower than IA (5.17±2.66 days) and adult chondrocytes (9.98±10.29 days) (Paired t-tests; p<0.05). Up-scale bioreactor expansion yielded 74.5±30 x106 PD and 76±14x106 IA chondrocytes in 11±1 days. DT was longer in the bioreactor cf. TCP (IA: bioreactor DT= 3.9±0.2 days, TCP DT= 2.0±0.3 days, t-test, p<0.05; PD: bioreactor DT=3.8±1.0 days, TCP DT=1.3±0.0 days). Juvenile chondrocytes were immunopositive (>95%) for CD90, CD73, CD44, CD166 and CD151 and immunonegative (<2%) for CD19, CD34, and CD45 and no difference in immunoprofile was observed cf. TCP expansion (One-Way ANOVA). <br><br> Conclusion - Juvenile chondrocytes represent attractive allogeneic cells sources, yielding large numbers of chondrocytes. However, our preliminary analyses indicate that their growth may be slowed upon hollow-fibre bioreactor expansion. Further analysis of key chondrogenic genes and in vitro cartilage forming capacity needs to be conducted in more donors to determine whether chondrogenic potential is influenced by up-scale manufacture."
+---

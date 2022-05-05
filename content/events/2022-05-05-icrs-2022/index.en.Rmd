@@ -35,20 +35,20 @@ historical sights of Berlin.
 
 List of abstract (oral presentations):
 
-  - Martyn Snow - "The Importance of ACI-Position in the context of other methods/unmet needs in larger defects"
-  - Martyn Snow - "Review of Outcomes Surrounding Meniscal Allograft Transplantation"
-  - Karina Wright, Jingsong Wang, Peter Denis Gallacher, Zhanfeng Cui, Sally Roberts - "Phenotypic Characterisation of Regional Human Meniscus Progenitor Cells"
-  - Karina Wright, Lauren Tierney, Mike Williams, Mateus Harrington, Jan Herman Kuiper, Peter Denis Gallacher, Paul Jermin, Martyn Snow, Sally Roberts - "Multilevel Modelling of Longitudinal Outcome Data 20 Years Post-Autologous Chondrocyte Implantation"
-  - Jade Perry, Claire Mennan, Paul Cool, Helen McCarthy, Karin Newell, Timothy Hopkins, Charlotte Hulme, Karina Wright, Frances Henson, Sally Roberts - "Human Umbilical Cord-Derived Mesenchymal Stromal Cells Reduce Radiographic Osteoarthritis in an Ovine Model"
+  - Martyn Snow - ["The Importance of ACI-Position in the context of other methods/unmet needs in larger defects"](https://oskor.netlify.app/publication/the-importance-of-aci-position-in-the-context-of-other-methods-unmet-needs-in-larger-defects/)
+  - Martyn Snow - ["Review of Outcomes Surrounding Meniscal Allograft Transplantation"](https://oskor.netlify.app/publication/review-of-outcomes-surrounding-meniscal-allograft-transplantation/)
+  - Karina Wright, Jingsong Wang, Peter Denis Gallacher, Zhanfeng Cui, Sally Roberts - ["Phenotypic Characterisation of Regional Human Meniscus Progenitor Cells"](https://oskor.netlify.app/publication/phenotypic-characterisation-of-regional-human-meniscus-progenitor-cells/)
+  - Karina Wright, Lauren Tierney, Mike Williams, Mateus Harrington, Jan Herman Kuiper, Peter Denis Gallacher, Paul Jermin, Martyn Snow, Sally Roberts - ["Multilevel Modelling of Longitudinal Outcome Data 20 Years Post-Autologous Chondrocyte Implantation"](https://oskor.netlify.app/publication/multilevel-modelling-of-longitudinal-outcome-data-20-years-post-autologous-chondrocyte-implantation/)
+  - Jade Perry, Claire Mennan, Paul Cool, Helen McCarthy, Karin Newell, Timothy Hopkins, Charlotte Hulme, Karina Wright, Frances Henson, Sally Roberts - ["Human Umbilical Cord-Derived Mesenchymal Stromal Cells Reduce Radiographic Osteoarthritis in an Ovine Model"](https://oskor.netlify.app/publication/human-umbilical-cord-derived-mesenchymal-stromal-cells-reduce-radiographic-osteoarthritis-in-an-ovine-model/)
   
 List of abstract (posters):
 
-  - Karina Wright, Jingsong Wang, Sally Roberts - "A novel Tissue Engineering Approach for Meniscus Replacement Evaluated Utilising an Ovine Explant Model"
-  - Charlotte Hulme, John Garcia, Robert Freeman, Nigel Kiely, Derfel Williams, Jonathan Wright, Karina Wright - "Juvenile Chondrocytes: Novel Alternatives for Allogeneic Cell Therapy?"
-  - Charlotte Hulme, Sophie Bailey, Timothy Hopkins, Helen McCarthy, Ilyas Khan, Martyn Snow, Karina Wright - "Assessing Allogeneic Chondroprogenitor Manufacture in Xeno-free and Serum-free Media"
-  - Tian Lan, Karina Wright, Nilesh Makwana, Andrew Bing, Charlotte Hulme, Helen McCarthy - "Characterisation of mesenchymal stromal cells isolated from bone marrow aspirate concentrate"
-  - Clare Thompson, Timothy Hopkins, Karina Wright, Martin Knight - "Development of a Human Synovial Joint-on-a-Chip Model"
-  - Timothy Hopkins, Karina Wright, Sally Roberts, Paul Jermin, Peter Denis Gallacher, Jan Herman Kuiper - "Macroscopic Assessment of Articular Cartilage Quality Correlates with Histological Assessment of Subchondral Bone Health"
-  - Timothy Hopkins, Karina Wright, John Garcia, Jade Perry, Paul Jermin, Peter Denis Gallacher, Sally Roberts - "Severity of Synovitis and Macrophage Phenotypes in Knee Cartilage Defect and Osteoarthritis Cohorts"
-  - Jan Herman Kuiper, Adam Devany, Nilesh Makwana, Anup Pradhan, Caroline Lever, Patrick Laing, Sally Roberts, James Richardson - "Autologous Chondrocyte Implantation in Osteochondral Defects of the Talus: Two to Fourteen Year Follow-up Study"
+  - Karina Wright, Jingsong Wang, Sally Roberts - ["A novel Tissue Engineering Approach for Meniscus Replacement Evaluated Utilising an Ovine Explant Model"](https://oskor.netlify.app/publication/a-novel-tissue-engineering-approach-for-meniscus-replacement-evaluated-utilising-an-ovine-explant-model/)
+  - Charlotte Hulme, John Garcia, Robert Freeman, Nigel Kiely, Derfel Williams, Jonathan Wright, Karina Wright - ["Juvenile Chondrocytes: Novel Alternatives for Allogeneic Cell Therapy?"](https://oskor.netlify.app/publication/juvenile-chondrocytes-novel-alternatives-for-allogeneic-cell-therapy/)
+  - Charlotte Hulme, Sophie Bailey, Timothy Hopkins, Helen McCarthy, Ilyas Khan, Martyn Snow, Karina Wright - ["Assessing Allogeneic Chondroprogenitor Manufacture in Xeno-free and Serum-free Media"](https://oskor.netlify.app/publication/assessing-allogeneic-chondroprogenitor-manufacture-in-xeno-free-and-serum-free-media/)
+  - Tian Lan, Karina Wright, Nilesh Makwana, Andrew Bing, Charlotte Hulme, Helen McCarthy - ["Characterisation of mesenchymal stromal cells isolated from bone marrow aspirate concentrate"](https://oskor.netlify.app/publication/characterisation-of-mesenchymal-stromal-cells-isolated-from-bone-marrow-aspirate-concentrate/)
+  - Clare Thompson, Timothy Hopkins, Karina Wright, Martin Knight - ["Development of a Human Synovial Joint-on-a-Chip Model"](https://oskor.netlify.app/publication/development-of-a-human-synovial-joint-on-a-chip-model/)
+  - Timothy Hopkins, Karina Wright, Sally Roberts, Paul Jermin, Peter Denis Gallacher, Jan Herman Kuiper - ["Macroscopic Assessment of Articular Cartilage Quality Correlates with Histological Assessment of Subchondral Bone Health"](https://oskor.netlify.app/publication/macroscopic-assessment-of-articular-cartilage-quality-correlates-with-histological-assessment-of-subchondral-bone-health/)
+  - Timothy Hopkins, Karina Wright, John Garcia, Jade Perry, Paul Jermin, Peter Denis Gallacher, Sally Roberts - ["Severity of Synovitis and Macrophage Phenotypes in Knee Cartilage Defect and Osteoarthritis Cohorts"](https://oskor.netlify.app/publication/severity-of-synovitis-and-macrophage-phenotypes-in-knee-cartilage-defect-and-osteoarthritis-cohorts/)
+  - Jan Herman Kuiper, Adam Devany, Nilesh Makwana, Anup Pradhan, Caroline Lever, Patrick Laing, Sally Roberts, James Richardson - ["Autologous Chondrocyte Implantation in Osteochondral Defects of the Talus: Two to Fourteen Year Follow-up Study"](https://oskor.netlify.app/publication/autologous-chondrocyte-implantation-in-osteochondral-defects-of-the-talus-two-to-fourteen-year-follow-up-study/)
 

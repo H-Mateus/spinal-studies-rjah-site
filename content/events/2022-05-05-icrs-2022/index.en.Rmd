@@ -1,0 +1,54 @@
+---
+title: ICRS 2022
+author: anais
+date: '2022-04-12'
+slug: icrs-2022
+categories: [Events]
+tags:
+  - Research
+subtitle: ''
+summary: ''
+authors: ["Martyn Snow","Pete Gallacher","Paul Jermin","Karina Wright","Charlotte Hulmes","Jade Perry","Timothy Hopkins","Larissa Rix","Tian Lan"]
+lastmod: '2022-05-05T10:51:00+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+In April, 11 members of [RJAH Orthopaedic hospital](https://www.rjah.nhs.uk/), inclusive of surgeons and researchers, attended the [ICRS world congress conference](https://cartilage.org/event/icrs-2021-16th-world-congress-2/) in the
+bustling city of Berlin, Germany. The meeting offered an opportunity to listen to
+thought provoking talks varying from surgery techniques, current and emerging cell
+therapies, to industry talks and application of products. Armed with 7 talks and 8
+posters between us, we showcased some of our outstanding research to members of the
+conference and were met with positive, encouraging responses. A very proud moment of
+the conference was witnessing one of the special members of our team, Professor Sally
+Roberts, achieving the lifetime recognition award. As well as Dr Timothy Hopkins
+awarded a poster prize for his research ‘initial development of a synovial joint on a
+chip model’. Alongside the conference, there were many social events and networking
+opportunities to get involved in, including a next generation ‘happy hour’, in which
+new scientists and experienced minds came together to gain new knowledge and
+partnerships. Whilst not forgetting to put a little time aside to explore the
+historical sights of Berlin.
+
+
+List of abstract (oral presentations):
+
+  - Martyn Snow - "The Importance of ACI-Position in the context of other methods/unmet needs in larger defects"
+  - Martyn Snow - "Review of Outcomes Surrounding Meniscal Allograft Transplantation"
+  - Karina Wright, Jingsong Wang, Peter Denis Gallacher, Zhanfeng Cui, Sally Roberts - "Phenotypic Characterisation of Regional Human Meniscus Progenitor Cells"
+  - Karina Wright, Lauren Tierney, Mike Williams, Mateus Harrington, Jan Herman Kuiper, Peter Denis Gallacher, Paul Jermin, Martyn Snow, Sally Roberts - "Multilevel Modelling of Longitudinal Outcome Data 20 Years Post-Autologous Chondrocyte Implantation"
+  - Jade Perry, Claire Mennan, Paul Cool, Helen McCarthy, Karin Newell, Timothy Hopkins, Charlotte Hulme, Karina Wright, Frances Henson, Sally Roberts - "Human Umbilical Cord-Derived Mesenchymal Stromal Cells Reduce Radiographic Osteoarthritis in an Ovine Model"
+  
+List of abstract (posters):
+
+  - Karina Wright, Jingsong Wang, Sally Roberts - "A novel Tissue Engineering Approach for Meniscus Replacement Evaluated Utilising an Ovine Explant Model"
+  - Charlotte Hulme, John Garcia, Robert Freeman, Nigel Kiely, Derfel Williams, Jonathan Wright, Karina Wright - "Juvenile Chondrocytes: Novel Alternatives for Allogeneic Cell Therapy?"
+  - Charlotte Hulme, Sophie Bailey, Timothy Hopkins, Helen McCarthy, Ilyas Khan, Martyn Snow, Karina Wright - "Assessing Allogeneic Chondroprogenitor Manufacture in Xeno-free and Serum-free Media"
+  - Tian Lan, Karina Wright, Nilesh Makwana, Andrew Bing, Charlotte Hulme, Helen McCarthy - "Characterisation of mesenchymal stromal cells isolated from bone marrow aspirate concentrate"
+  - Clare Thompson, Timothy Hopkins, Karina Wright, Martin Knight - "Development of a Human Synovial Joint-on-a-Chip Model"
+  - Timothy Hopkins, Karina Wright, Sally Roberts, Paul Jermin, Peter Denis Gallacher, Jan Herman Kuiper - "Macroscopic Assessment of Articular Cartilage Quality Correlates with Histological Assessment of Subchondral Bone Health"
+  - Timothy Hopkins, Karina Wright, John Garcia, Jade Perry, Paul Jermin, Peter Denis Gallacher, Sally Roberts - "Severity of Synovitis and Macrophage Phenotypes in Knee Cartilage Defect and Osteoarthritis Cohorts"
+  - Jan Herman Kuiper, Adam Devany, Nilesh Makwana, Anup Pradhan, Caroline Lever, Patrick Laing, Sally Roberts, James Richardson - "Autologous Chondrocyte Implantation in Osteochondral Defects of the Talus: Two to Fourteen Year Follow-up Study"
+

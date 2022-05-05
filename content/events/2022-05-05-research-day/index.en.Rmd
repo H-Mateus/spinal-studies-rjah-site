@@ -1,0 +1,20 @@
+---
+title: Research Day
+author: anais
+date: '2022-04-29'
+slug: research-day
+categories: [Events]
+tags:
+  - Research
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-05-05T10:35:52+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+

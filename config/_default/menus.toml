@@ -33,6 +33,11 @@
   url = "equipment/"
   weight = 60
 
+[[main]]
+  name = "Events"
+  url = "events/"
+  weight = 70
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
 # [[main]]

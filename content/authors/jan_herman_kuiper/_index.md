@@ -22,6 +22,10 @@ social:
     icon_pack: fas
     link: mailto:j.h.kuiper@keele.ac.uk
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I trained as a mechanical engineer at [The University of Twente](https://www.utwente.nl/en/) and received a PhD in Medical Sciences from [Radboud University](https://www.ru.nl/english/) Nijmegen, both in the Netherlands. In 2001, I was appointed as lecturer at Keele, where I teach Biomechanics and Applied Statistics for Postgraduates. 
 

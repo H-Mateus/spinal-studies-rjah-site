@@ -33,6 +33,11 @@ social:
     icon_pack: fas
     link: mailto:t.hopkins@keele.ac.uk
 ---
+<style>
+body {
+text-align: justify}
+</style>
+
 I am a cell and tissue engineer with an interest in the development of biomimetic, in-vitro models of musculoskeletal tissues.
 I am currently working as a postdoctoral research associate at Keele University.
 

@@ -24,6 +24,10 @@ social:
     icon_pack: fab
     link: 'https://uk.linkedin.com/in/martyn-snow-71794833'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am a consultant knee and shoulder surgeon at [The Royal Orthopaedic Hospital](https://www.roh.nhs.uk/) in Birmingham and now [The RJAH Orthopaedic Hospital](https://www.rjah.nhs.uk/) in Oswestry, which are 2 of only 5 purely Orthopaedic Hospitals in the country.
 

@@ -31,6 +31,10 @@ social:
     icon_pack: fas
     link: mailto:m.hyland@keele.ac.uk
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am a 2nd year PhD student based at [RJAH, Oswestry](https://www.rjah.nhs.uk/).
 My research involves studying the immunomodulatory potential of extracellular vesicles derived from umbilical cord mesenchymal stem cells.

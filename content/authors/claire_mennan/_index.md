@@ -26,6 +26,10 @@ social:
     icon_pack: fas
     link: mailto:claire.mennan@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am based at the [Robert Jones & Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/) in Oswestry.  I work on a grant funded by [Versus Arthritis](https://www.versusarthritis.org/) as part of the [Tissue Engineering Centre](http://arthritistissueengineering.org.uk). The focus of my research has been to isolate and characterise Mesenchymal stromal cells from human umbilical cords as an allogeneic source of cells for regenerative cell therapies for the treatment of diseases such as Osteoarthritis (OA).  We have used these cells in two pre-clinical models of OA and grown them successfully in the [Quantum® bioreactor](https://www.terumobct.com/quantum) for large-scale cell expansion.
 

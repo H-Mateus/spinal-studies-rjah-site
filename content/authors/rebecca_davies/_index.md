@@ -34,6 +34,10 @@ social:
     icon_pack: fab
     link: 'www.linkedin.com/in/rebecca-davies-17383a116'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am a 2nd year PhD student in the Rheumatology Research department based at RJAH, Oswestry. My research centres around umbilical cord mesenchymal stem cell (UC-MSC) derived extracellular vesicles (EVs), with a particular focus on their anti-inflammatory properties. This work will comprise of three main research objectives:
 

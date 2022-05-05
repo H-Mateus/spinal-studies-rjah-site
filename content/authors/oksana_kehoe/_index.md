@@ -37,6 +37,10 @@ social:
     icon_pack: fas
     link: mailto:oksana.kehoe@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 Dr Oksana Kehoe is a Lecturer in Inflammation Biology at the School of Medicine and Head of Rheumatology Research laboratory in the Robert Jones & Agnes Hunt Orthopaedic Hospital at Oswestry.
 

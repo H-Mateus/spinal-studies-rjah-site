@@ -26,6 +26,10 @@ social:
     icon_pack: fas
     link: mailto:Sally.roberts4@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 -   What you are working on?
 

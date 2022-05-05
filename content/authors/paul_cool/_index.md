@@ -38,6 +38,11 @@ social:
     icon_pack: fab
     link: 'https://www.linkedin.com/in/paul-cool-4a884340/'
 ---
+<style>
+body {
+text-align: justify}
+</style>
+
 Following surgical training in Birmingham and orthopaedic training in Oswestry, Paul has been
 appointed as an orthopaedic surgeon at [the Robert Jones and Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/) in 2000. In addition, he is director of the histopathology
 laboratories, biobank for health and disease and genomic lead. Paul is past president of [the British Orthopaedic Oncology Society](https://www.boos.org.uk/), board member of the British

@@ -31,6 +31,10 @@ social:
     icon_pack: fas
     link: mailto:naomi.dugard@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am currently employed at the [Robert Jones & Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/) in Oswestry as a Consenting Research Officer.
 Within this role I am the main interface between Keele Researchers (based at the RJAH), hospital clinicians and clinic staff, and importantly the patients attending pre-operative clinics at the hospital.

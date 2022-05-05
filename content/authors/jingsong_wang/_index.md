@@ -35,6 +35,10 @@ social:
     icon_pack: fab
     link: 'https://www.linkedin.com/in/jingsong-wang-37822a178/'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I was awarded a MD in Clinical Medicine from Dalian Medical University in 2016.
 I got an PhD offer from Keele University in Cell and Tissue Engineering in 2017.

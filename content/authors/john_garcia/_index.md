@@ -38,6 +38,10 @@ social:
     icon_pack: fab
     link: 'https://twitter.com/J_kgarcia'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 My research is based at the [Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry](https://www.rjah.nhs.uk/) and focused on understanding the role of inflammation in the pathophysiology of Osteoarthritis (OA).
 This work is in an attempt to harness specific features of the immune system to help drive tissue regeneration in damaged human articular joints.

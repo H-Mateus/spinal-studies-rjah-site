@@ -42,6 +42,10 @@ social:
     icon_pack: fab
     link: 'https://www.linkedin.com/in/jade-perry-8982991a0/'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am a Research Associate based at [the Robert Jones and Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/). I completed my PhD, titled, ‘Human cell therapies in preclinical and clinical studies of cartilage repair’ under Professor Sally Roberts in June 2020. Currently, I am funded on a [Medical Research Council](https://www.ukri.org/councils/mrc/) Biomedical catalyst (DPFS) grant which aims to manufacture and implant an allogeneic chondrocyte progenitor advanced therapy medicinal products (ATMP) for cartilage repair in a phase II trial.
 

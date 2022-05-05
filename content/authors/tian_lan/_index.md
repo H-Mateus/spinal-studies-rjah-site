@@ -31,6 +31,11 @@ social:
     icon_pack: fas
     link: mailto:tian.lan@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
+
 I am a first year PhD student at [Keele University](https://www.keele.ac.uk/) and [The Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry](https://www.rjah.nhs.uk/).
 
 I was awarded a BSc in Biological science in 2019 from Yangzhou University, China. In 2020, I was awarded a MSc in Cell and Tissue Engineering with distinction from Keele University.

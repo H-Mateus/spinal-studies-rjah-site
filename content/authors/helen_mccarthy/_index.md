@@ -39,6 +39,10 @@ social:
     icon_pack: fab
     link: 'https://www.linkedin.com/in/helen-mccarthy-32076616/'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 My research interests revolve around the biology & pathology of musculoskeletal disorders.
 I began my career at the RJAH in 2006 as a Research Assistant prior to embarking on my PhD studies in the Charles Salt Centre for Metabolic Research investigating the role of osteoprotegerin in osteoblastic cells.

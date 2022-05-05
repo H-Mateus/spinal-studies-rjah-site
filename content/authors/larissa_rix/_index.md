@@ -34,6 +34,10 @@ social:
     icon_pack: fab
     link: 'https://www.linkedin.com/in/larissa-rix-b527b382'
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am a current PhD student at [Keele University](https://www.keele.ac.uk/) and [The Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry](https://www.rjah.nhs.uk/).
 

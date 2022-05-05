@@ -26,5 +26,9 @@ social:
     icon_pack: fas
     link: mailto:mike.williams17@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 Reporting to Prof Sally Roberts, I am responsible for the maintenance and development of the OsCell Research Database and for the extraction, manipulation and presentation of data to the research team as required. I also carry out other ad hoc data analysis work, and input of patient data related to the ASCOT and REACT studies.

@@ -75,6 +75,10 @@ highlight_name: true
 user_groups:
 - Researchers
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am currently a Research Associate at [Cardiff Univeristy](https://www.cardiff.ac.uk/), working as a bioinformatician at the Cardiff Dementia Research Institute on Alzheimer's disease.
 

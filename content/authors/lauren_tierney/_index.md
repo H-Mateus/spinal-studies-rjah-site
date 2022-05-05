@@ -26,6 +26,10 @@ social:
     icon_pack: fas
     link: mailto:l.tierney@keele.ac.uk
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 I am a PhD student working at both Keele University and [The Robert hunt and Agnes Jones Orthopaedic hospital in Oswestry](https://www.rjah.nhs.uk/).
 

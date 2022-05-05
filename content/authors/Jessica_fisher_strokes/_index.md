@@ -30,6 +30,11 @@ social:
     icon_pack: fas
     link: mailto:jessica.fisher-strokes@nhs.net
 ---
+<style>
+body {
+text-align: justify}
+</style>
+
 I am a first year PhD student working at [The Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry](https://www.rjah.nhs.uk/).
 
 My research project, started in January 2022, is “An Investigation into the Identification, Validation and Biological Understanding of Biomarkers Post-Spinal Cord Injury” and is aimed at identifying and developing a prognostic biomarker panel for spinal cord injury.

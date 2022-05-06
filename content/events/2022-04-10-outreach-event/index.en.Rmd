@@ -41,6 +41,6 @@ They hoped that this encouraged students to consider the benefits of science in
 general, broaden their knowledge about science-orientated careers, and convince them
 that science can be an interesting career choice that benefits the general public.
 
-```{r echo=FALSE, label='outreach'}
+```{r echo=FALSE, fig.height=4, fig.width=4, label='outreach'}
 knitr::include_graphics("outreach.jpg")
 ```

@@ -33,7 +33,7 @@ partnerships. Whilst not forgetting to put a little time aside to explore the
 historical sights of Berlin.
 
 
-List of abstract (oral presentations):
+List of abstracts (oral presentations):
 
   - Martyn Snow - ["The Importance of ACI-Position in the context of other methods/unmet needs in larger defects"](https://oskor.netlify.app/publication/the-importance-of-aci-position-in-the-context-of-other-methods-unmet-needs-in-larger-defects/)
   - Martyn Snow - ["Review of Outcomes Surrounding Meniscal Allograft Transplantation"](https://oskor.netlify.app/publication/review-of-outcomes-surrounding-meniscal-allograft-transplantation/)
@@ -41,7 +41,7 @@ List of abstract (oral presentations):
   - Karina Wright, Lauren Tierney, Mike Williams, Mateus Harrington, Jan Herman Kuiper, Peter Denis Gallacher, Paul Jermin, Martyn Snow, Sally Roberts - ["Multilevel Modelling of Longitudinal Outcome Data 20 Years Post-Autologous Chondrocyte Implantation"](https://oskor.netlify.app/publication/multilevel-modelling-of-longitudinal-outcome-data-20-years-post-autologous-chondrocyte-implantation/)
   - Jade Perry, Claire Mennan, Paul Cool, Helen McCarthy, Karin Newell, Timothy Hopkins, Charlotte Hulme, Karina Wright, Frances Henson, Sally Roberts - ["Human Umbilical Cord-Derived Mesenchymal Stromal Cells Reduce Radiographic Osteoarthritis in an Ovine Model"](https://oskor.netlify.app/publication/human-umbilical-cord-derived-mesenchymal-stromal-cells-reduce-radiographic-osteoarthritis-in-an-ovine-model/)
   
-List of abstract (posters):
+List of abstracts (posters):
 
   - Karina Wright, Jingsong Wang, Sally Roberts - ["A novel Tissue Engineering Approach for Meniscus Replacement Evaluated Utilising an Ovine Explant Model"](https://oskor.netlify.app/publication/a-novel-tissue-engineering-approach-for-meniscus-replacement-evaluated-utilising-an-ovine-explant-model/)
   - Charlotte Hulme, John Garcia, Robert Freeman, Nigel Kiely, Derfel Williams, Jonathan Wright, Karina Wright - ["Juvenile Chondrocytes: Novel Alternatives for Allogeneic Cell Therapy?"](https://oskor.netlify.app/publication/juvenile-chondrocytes-novel-alternatives-for-allogeneic-cell-therapy/)
@@ -55,7 +55,7 @@ List of abstract (posters):
 
 Special aknowledgment to Professor Sally Roberts who received a Lifetime recognition award, and to Dr Timothy Hopkins who received the poster award.
 
-```{r echo=FALSE, label='awards_icrs'}
+```{r echo=FALSE, fig.height=4, fig.width=4, label='awards_icrs'}
 knitr::include_graphics("awards_icrs.jpg")
 ```
 

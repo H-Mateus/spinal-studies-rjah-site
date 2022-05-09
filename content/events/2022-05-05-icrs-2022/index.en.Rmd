@@ -17,6 +17,10 @@ image:
   preview_only: no
 projects: []
 ---
+```{r echo=FALSE, out.width= "75%"}
+knitr::include_graphics("featured.jpg")
+```
+
 In April, 11 members of [RJAH Orthopaedic hospital](https://www.rjah.nhs.uk/), inclusive of surgeons and researchers, attended the [ICRS world congress conference](https://cartilage.org/event/icrs-2021-16th-world-congress-2/) in the
 bustling city of Berlin, Germany. The meeting offered an opportunity to listen to
 thought provoking talks varying from surgery techniques, current and emerging cell
@@ -55,7 +59,7 @@ List of abstracts (posters):
 
 Special aknowledgment to Professor Sally Roberts who received a Lifetime recognition award, and to Dr Timothy Hopkins who received the poster award.
 
-```{r echo=FALSE, fig.height=4, fig.width=4, label='awards_icrs'}
+```{r echo=FALSE, out.width= "80%"} 
 knitr::include_graphics("awards_icrs.jpg")
 ```
 

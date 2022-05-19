@@ -46,7 +46,8 @@ text-align: justify}
 
 My research interests revolve around the biology & pathology of musculoskeletal disorders.
 I began my career at the RJAH in 2006 as a Research Assistant prior to embarking on my PhD studies in the Charles Salt Centre for Metabolic Research investigating the role of osteoprotegerin in osteoblastic cells.
-Since completing my studies in 2010, I have been employed by Keele University as a Research Associate, based in the Centre for Spinal Studies and Cartilage Research group at the RJAH. I am also a visiting lecturer for University Centre Shrewsbury.
+Since completing my studies in 2010, I have been employed by Keele University as a Research Associate, based in the Centre for Spinal Studies and Cartilage Research group at the RJAH. 
+I am also a visiting lecturer for University Centre Shrewsbury.
 
 I was initially funded on a Versus Arthritis programme grant with Prof Sally Roberts, investigating cell therapy treatments such as autologous chondrocyte implantation (ACI) for osteoarthritis and played a large part in the development of the current clinical trial ASCOT (Autologous Stem Cells, Chondrocytes or the Two?).
 A secondary outcome measure of the trial, part funded by the Medical Research Council (MRC), is the assessment of the quality of the repair tissue formed following cell therapy, of which I am jointly responsible for alongside Prof Roberts; this also involves studying the production and expression of extracellular matrix components and associated cellular signalling pathways.

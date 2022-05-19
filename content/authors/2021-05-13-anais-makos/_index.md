@@ -1,5 +1,5 @@
 ---
-title: "Anais Makos"
+title: "Anaïs Makos"
 author: ["Anais Makos"]
 draft: false
 weight: 2011
@@ -43,9 +43,9 @@ text-align: justify}
 </style>
 
 I am a PhD student at Keele University, in the Rheumatology Research department based at [ The Robert Jones and Agnes Hunt Orthopaedic Hospital](https://www.rjah.nhs.uk/), Oswestry.
-I study Psoriatic Arthritis (PsA), a chronic immune-mediated inflammatory disease characterized by widespread musculoskeletal inflammation, which affects approximately 30% of patients with psoriasis. Currently, PsA patients are treated with Non Steroidal Anti-Inflammatory drugs (NSAID) used as first approach for topical therapy for psoriasis and to reduce pain. The next step is the administration of Disease-Modifying Anti-Rheumatic Drugs (DMARDs) alone, and then in combination. Finally, biologic drugs such as Tumor Necrosis Factor alpha (TNFa) inhibitors or Interleukin-17 (IL-17) inhibitors are administered if patients fail to respond NSAID and DMARDs. Nevertheless, about 40% of PsA patients only partially respond or fail to respond to biologic treatments.
+I study Psoriatic Arthritis (PsA), a chronic immune-mediated inflammatory disease characterised by widespread musculoskeletal inflammation, which affects approximately 30% of patients with psoriasis. Currently, PsA patients are treated with Non Steroidal Anti-Inflammatory drugs (NSAID) used as first approach for topical therapy for psoriasis and to reduce pain. The next step is the administration of Disease-Modifying Anti-Rheumatic Drugs (DMARDs) alone, and then in combination. Finally, biologic drugs such as Tumor Necrosis Factor alpha (TNF$\alpha$) inhibitors or Interleukin-17 (IL-17) inhibitors are administered if patients fail to respond NSAID and DMARDs. Nevertheless, about 40% of PsA patients only partially respond or fail to respond to biologic treatments.
 
-I am working on a clinical project in order to find biomarkers that will predict if PsA patients will respond or will not respond to anti-TNFa treatment. The main objectives of my work are:
--	Find biomarkers in literature research that could predict the response of patients to TNFα inhibitors;
+I am working on a clinical project in order to find biomarkers that will predict if PsA patients will respond or will not respond to anti-TNF$\alpha$ treatment. The main objectives of my work are:
+-	Find biomarkers in literature research that could predict the response of patients to TNF$\alpha$ inhibitors;
 -	Get the consent of patients with PsA in order to collect a blood sample before and after treatment; 
 -	Verify if biomarkers found in literature research can predict patient response in the blood samples. 

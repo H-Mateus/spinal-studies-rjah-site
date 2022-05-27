@@ -178,7 +178,7 @@
   translation: Uncategorized
 
 - id: pub_conf
-  translation: Conference paper
+  translation: Conference abstract
 
 - id: pub_journal
   translation: Journal article

@@ -6,6 +6,7 @@ slug: faculty-pgr-symposium
 categories: [Events]
 tags:
   - Research
+  - Event
 subtitle: ''
 summary: ''
 authors: ["Oksana Kehoe","Charlotte Hulme","Larissa Rix","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes"]

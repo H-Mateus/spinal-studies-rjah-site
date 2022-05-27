@@ -4,7 +4,9 @@ author: anais
 date: '2022-04-10'
 slug: outreach-event
 categories: [Events]
-tags: []
+tags:
+  - Research
+  - Event
 subtitle: ''
 summary: ''
 authors: []
@@ -16,6 +18,7 @@ image:
   preview_only: no
 projects: []
 ---
+
 ```{r fig.height=3, fig.width=6, include=FALSE, label='setup-options'}
 knitr::opts_chunk$set(
   eval = TRUE, # eval code chunks
@@ -42,5 +45,7 @@ general, broaden their knowledge about science-orientated careers, and convince 
 that science can be an interesting career choice that benefits the general public.
 
 ```{r echo=FALSE, fig.height=4, fig.width=4, label='outreach'}
+# I think something is wrong with this image
+# double check that it isn't supposed to a .png or some other file type
 knitr::include_graphics("outreach.jpg")
 ```

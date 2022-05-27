@@ -6,6 +6,7 @@ slug: research-day
 categories: [Events]
 tags:
   - Research
+  - Event
 subtitle: ''
 summary: ''
 authors: ["Oksana Kehoe","Karina Wright","Jan Herman Kuiper","Charlotte Hulmes","Jade Perry","Helen McCarthy","Claire Mennan","Timothy Hopkins","Lauren Tierney","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes","John Garcia"]

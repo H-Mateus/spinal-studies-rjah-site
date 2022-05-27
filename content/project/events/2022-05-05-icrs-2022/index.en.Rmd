@@ -6,6 +6,7 @@ slug: icrs-2022
 categories: [Events]
 tags:
   - Research
+  - Event
 subtitle: ''
 summary: ''
 authors: ["Martyn Snow","Pete Gallacher","Paul Jermin","Karina Wright","Charlotte Hulmes","Jade Perry","Timothy Hopkins","Larissa Rix","Tian Lan"]
@@ -18,7 +19,7 @@ image:
 projects: []
 ---
 ```{r echo=FALSE, out.width= "75%"}
-knitr::include_graphics("featured.jpg")
+#knitr::include_graphics("featured.jpg")
 ```
 
 In April, 11 members of [RJAH Orthopaedic hospital](https://www.rjah.nhs.uk/), inclusive of surgeons and researchers, attended the [ICRS world congress conference](https://cartilage.org/event/icrs-2021-16th-world-congress-2/) in the
@@ -57,10 +58,10 @@ List of abstracts (posters):
   - Jan Herman Kuiper, Adam Devany, Nilesh Makwana, Anup Pradhan, Caroline Lever, Patrick Laing, Sally Roberts, James Richardson - ["Autologous Chondrocyte Implantation in Osteochondral Defects of the Talus: Two to Fourteen Year Follow-up Study"](https://oskor.netlify.app/publication/autologous-chondrocyte-implantation-in-osteochondral-defects-of-the-talus-two-to-fourteen-year-follow-up-study/)
 
 
-Special aknowledgment to Professor Sally Roberts who received a Lifetime recognition award, and to Dr Timothy Hopkins who received the poster award.
+Special acknowledgement to Professor Sally Roberts who received a Lifetime recognition award, and to Dr Timothy Hopkins who received the poster award.
 
 ```{r echo=FALSE, out.width= "80%"} 
-knitr::include_graphics("awards_icrs.jpg")
+#knitr::include_graphics("awards_icrs.jpg")
 ```
 
 

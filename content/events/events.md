@@ -11,6 +11,9 @@ subtitle = ""
 [content]
   # Page type to display. E.g. project.
   page_type = "project"
+  # Field to sort by, such as Date or Title
+  sort_by = "Date"
+  sort_ascending = false
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -21,17 +24,19 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-   [[content.filter_button]]
-     name = "All"
-     tag = "Event"
-  
-   #[[content.filter_button]]
-   #  name = "Assay"
-   #  tag = "Assay"
-  
-   #[[content.filter_button]]
-   #  name = "TC"
-   #  tag = "Tissue Culture"
+  [content.filters]
+  # Folders to display content from
+  # may be able to use this to avoid having to include the tag, should experiment
+  folders = [ "project/events/" ]
+  kinds = [ "page" ]
+
+  [[content.filter_button]]
+  name = "All"
+  tag = "Event"
+
+  #[[content.filter_button]]
+  #  name = "Assay"
+  #  tag = "Assay"
    
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -73,43 +78,5 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-
 +++
 
-<!-- +++ -->
-<!-- widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/ -->
-<!-- headless = true  # This file represents a page section. -->
-<!-- active = true  # Activate this widget? true/false -->
-<!-- weight = 65  # Order that this section will appear. -->
-
-<!-- title = "Events" -->
-<!-- subtitle = "" -->
-
-<!-- [content] -->
-<!-- # Choose which content to display in the widget -->
-<!--   # Page type to display. E.g. project. -->
-<!--   page_type = "events" -->
-<!-- # Field to sort by, such as Date or Title -->
-<!-- sort_by = "Date" -->
-<!-- sort_ascending = false -->
-<!-- # Default filter toolbar button (e.g. 0 corresponds to the first `filter_button` instance above) -->
-<!-- filter_default = 0 -->
-
-<!--   [content.filters] -->
-<!--   # Folders to display content from -->
-<!--   folders = [ "events/" ] -->
-<!--   #kinds = [ "page" ] -->
-
-<!--    [[content.filter_button]] -->
-<!--      name = "All" -->
-<!--      tag = "Event" -->
-
-<!-- [design] -->
-<!-- # Choose how many columns the section has. Valid values: '1' or '2'. -->
-<!-- columns = "1" -->
-<!-- # Choose a listing view -->
-<!-- view = "masonry" -->
-<!-- #view = 3 -->
-<!-- # For Showcase view, flip alternate rows? -->
-<!-- flip_alt_rows = false -->
-<!-- +++ -->

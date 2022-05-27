@@ -83,7 +83,9 @@ The project is now being written up in Microsoft Word, with values being copied 
 After several months, the final draft is submitted to a journal for publication.
 
 Now, do you think this research group could reproduce the values they report in the results of this paper?
-***Of course not.***
+
+<p style="text-align: center;">***Of course not.***</p>
+
 The raw experimental data has been completely mutilated.
 The is no record or documentation of who has done what, using which tools and when.
 And this is how most research is done.
@@ -91,7 +93,7 @@ And this is how most research is done.
 ## The Excel mistake heard round the world
 
 To give a specific example, several years ago, a couple of Harvard economists [published a paper](https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/) suggesting that countries with debt over 90% of GDP would enter recession.
-They reported these findings to American senators, how decided to implement year of harsh austerity based on these finding.
+They reported these findings to American senators, who decided to implement year of harsh austerity based on these finding.
 But it turned out they made a little goof with their Excel spreadsheets.
 When doing their calculations, they didn't quite drag a box down all the way, missing data from 5 countries.
 Redoing the analysis with these extra countries changes their results fairly dramatically.
@@ -101,7 +103,7 @@ The lack of reproducibility of these GUI tools means these kinds of mistakes are
 
 ## Well what could I do differently?
 
-I'm glad you asked.
+I'm so glad you asked.
 
 There are lots of things you can and should do, but the most important one is to learn to code!
 
@@ -124,10 +126,10 @@ When you use the GUI tools, you need to start from scratch each time.
 Imagine a particular assay.
 Even assay run has a standard curve and some experimental samples.
 With the data, you generate a standard curve, use it to estimate the concentration of your samples, maybe average some replicates, and do some stats to compare experimental groups.
-Let's same you run this assay a lot, so you can do these steps in 10 minutes in Excel.
+Let's say you run this assay a lot, so you can do these steps in 10 minutes in Excel.
 
-But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it was reach parity if you run the assay twice.
-All you change is the data you feed the script.
+But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it will reach parity if you run the assay twice.
+All you change is the data you feed to the script.
 Each additional time you run the assay you're saving 10 minutes of time, and you've eliminated the risk of making a mistake in subsequent analyses.
 You can also easily share your script with colleagues so they don't even need to spend 20 minutes to write it in the first place.
 
@@ -138,7 +140,7 @@ How sexy would you look to prospective employers?
 And there are many other benefits to code.
 GUI tools don't scale to large datasets, and even include hard caps as to how much data they can hold.
 The British Government [learned this the hard way](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england) during the Covid-19 pandemic.
-Programming languages can handle data of any size, and it's no harder to with 10 rows of data than 100,000,000 rows.
+Programming languages can handle data of any size, and it's no harder to deal with 10 rows of data than 100,000,000 rows.
 As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to been to be able to work with larger and larger datasets.
 
 Programming languages can do everything Excel, SPSS and GraphPad do, and so much more besides.

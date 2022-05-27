@@ -20,7 +20,6 @@ image:
 projects: []
 ---
 
-<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
 
 
 <p>This post is a companion to the talk I’m due to give at the Joint CDT virtual conference this year.
@@ -37,7 +36,7 @@ The short version is that I don’t feel individual scientists are to blame, but
 <p>I also don’t feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.</p>
 <div id="whats-wrong-with-the-way-i-currently-do-things" class="section level2">
 <h2>What’s wrong with the way I currently do things?</h2>
-<div class="figure" style="text-align: center"><span id="fig:you-suck"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:you-suck"></span>
 <img src="you_suck.jpg" alt="Image credit: [**Unsplash**](https://unsplash.com/photos/KHaaHwAZ9LE)" width="80%" />
 <p class="caption">
 Figure 1: Image credit: <a href="https://unsplash.com/photos/KHaaHwAZ9LE"><strong>Unsplash</strong></a>
@@ -52,7 +51,7 @@ Think Excel, SPSS and GraphPad.</p>
 </div>
 <div id="story-time" class="section level2">
 <h2>Story time</h2>
-<div class="figure" style="text-align: center"><span id="fig:story-time"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:story-time"></span>
 <img src="story_time.jpg" alt="Image credit: [**Unsplash**](https://unsplash.com/photos/aZ8G5l3VLkI)" width="60%" />
 <p class="caption">
 Figure 2: Image credit: <a href="https://unsplash.com/photos/aZ8G5l3VLkI"><strong>Unsplash</strong></a>
@@ -67,16 +66,18 @@ The original student has moved to another city and no longer cares about this pr
 <p>There is no documentation to accompany <code>finaldata9</code> and so it contains several columns of unknown origin or purpose.
 The project is now being written up in Microsoft Word, with values being copied and pasted from the various iterations of <code>finaldata9</code>.
 After several months, the final draft is submitted to a journal for publication.</p>
-<p>Now, do you think this research group could reproduce the values they report in the results of this paper?
+<p>Now, do you think this research group could reproduce the values they report in the results of this paper?</p>
+<p style="text-align: center;">
 <strong><em>Of course not.</em></strong>
-The raw experimental data has been completely mutilated.
+</p>
+<p>The raw experimental data has been completely mutilated.
 The is no record or documentation of who has done what, using which tools and when.
 And this is how most research is done.</p>
 </div>
 <div id="the-excel-mistake-heard-round-the-world" class="section level2">
 <h2>The Excel mistake heard round the world</h2>
 <p>To give a specific example, several years ago, a couple of Harvard economists <a href="https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/">published a paper</a> suggesting that countries with debt over 90% of GDP would enter recession.
-They reported these findings to American senators, how decided to implement year of harsh austerity based on these finding.
+They reported these findings to American senators, who decided to implement year of harsh austerity based on these finding.
 But it turned out they made a little goof with their Excel spreadsheets.
 When doing their calculations, they didn’t quite drag a box down all the way, missing data from 5 countries.
 Redoing the analysis with these extra countries changes their results fairly dramatically.</p>
@@ -85,9 +86,9 @@ The lack of reproducibility of these GUI tools means these kinds of mistakes are
 </div>
 <div id="well-what-could-i-do-differently" class="section level2">
 <h2>Well what could I do differently?</h2>
-<p>I’m glad you asked.</p>
+<p>I’m so glad you asked.</p>
 <p>There are lots of things you can and should do, but the most important one is to learn to code!</p>
-<div class="figure" style="text-align: center"><span id="fig:matrix"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:matrix"></span>
 <img src="matrix.jpg" alt="This is definitely exactly what code looks like. Image credit: [**Unsplash**](https://unsplash.com/photos/iar-afB0QQw)" width="80%" />
 <p class="caption">
 Figure 3: This is definitely exactly what code looks like. Image credit: <a href="https://unsplash.com/photos/iar-afB0QQw"><strong>Unsplash</strong></a>
@@ -107,9 +108,9 @@ When you use the GUI tools, you need to start from scratch each time.</p>
 <p>Imagine a particular assay.
 Even assay run has a standard curve and some experimental samples.
 With the data, you generate a standard curve, use it to estimate the concentration of your samples, maybe average some replicates, and do some stats to compare experimental groups.
-Let’s same you run this assay a lot, so you can do these steps in 10 minutes in Excel.</p>
-<p>But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it was reach parity if you run the assay twice.
-All you change is the data you feed the script.
+Let’s say you run this assay a lot, so you can do these steps in 10 minutes in Excel.</p>
+<p>But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it will reach parity if you run the assay twice.
+All you change is the data you feed to the script.
 Each additional time you run the assay you’re saving 10 minutes of time, and you’ve eliminated the risk of making a mistake in subsequent analyses.
 You can also easily share your script with colleagues so they don’t even need to spend 20 minutes to write it in the first place.</p>
 <p>If you did this for every major piece of equipment in your lab how much time could <strong><em>you</em></strong> save?
@@ -118,7 +119,7 @@ How sexy would you look to prospective employers?</p>
 <p>And there are many other benefits to code.
 GUI tools don’t scale to large datasets, and even include hard caps as to how much data they can hold.
 The British Government <a href="https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england">learned this the hard way</a> during the Covid-19 pandemic.
-Programming languages can handle data of any size, and it’s no harder to with 10 rows of data than 100,000,000 rows.
+Programming languages can handle data of any size, and it’s no harder to deal with 10 rows of data than 100,000,000 rows.
 As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to been to be able to work with larger and larger datasets.</p>
 <p>Programming languages can do everything Excel, SPSS and GraphPad do, and so much more besides.
 Maybe you’ve heard of this machine learning lark?
@@ -150,8 +151,8 @@ If you interested in finder better alternatives, I would suggest a simple rule:<
 <ul>
 <li>Stick to software that’s <a href="https://www.digitalocean.com/community/tutorials/free-vs-open-source-software">free and open-source</a></li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:open-source-alternatives"></span>
-<img src="open_source_alts.jpg" alt="Free and open-source alternatives. The logos from left to right: [Ubuntu](https://ubuntu.com/), [Linux](https://en.wikipedia.org/wiki/Linux), [GIMP](https://www.gimp.org/), [Audacity](https://www.audacityteam.org/), [Firefox](https://www.mozilla.org/en-GB/firefox/new/), [LibreOffice](https://www.libreoffice.org/), [7-zip](https://www.7-zip.org/). Image credit: [**Flikr**](https://www.flickr.com/photos/26887294@N05/6846553672)" width="512" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:open-source-alternatives"></span>
+<img src="open_source_alts.jpg" alt="Free and open-source alternatives. The logos from left to right: [Ubuntu](https://ubuntu.com/), [Linux](https://en.wikipedia.org/wiki/Linux), [GIMP](https://www.gimp.org/), [Audacity](https://www.audacityteam.org/), [Firefox](https://www.mozilla.org/en-GB/firefox/new/), [LibreOffice](https://www.libreoffice.org/), [7-zip](https://www.7-zip.org/). Image credit: [**Flikr**](https://www.flickr.com/photos/26887294@N05/6846553672)" width="400" />
 <p class="caption">
 Figure 4: Free and open-source alternatives. The logos from left to right: <a href="https://ubuntu.com/">Ubuntu</a>, <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, <a href="https://www.gimp.org/">GIMP</a>, <a href="https://www.audacityteam.org/">Audacity</a>, <a href="https://www.mozilla.org/en-GB/firefox/new/">Firefox</a>, <a href="https://www.libreoffice.org/">LibreOffice</a>, <a href="https://www.7-zip.org/">7-zip</a>. Image credit: <a href="https://www.flickr.com/photos/26887294@N05/6846553672"><strong>Flikr</strong></a>
 </p>

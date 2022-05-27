@@ -47,5 +47,5 @@ that science can be an interesting career choice that benefits the general publi
 ```{r echo=FALSE, fig.height=4, fig.width=4, label='outreach'}
 # I think something is wrong with this image
 # double check that it isn't supposed to a .png or some other file type
-knitr::include_graphics("outreach.jpg")
+knitr::include_graphics("outreach.png")
 ```

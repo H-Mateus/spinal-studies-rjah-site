@@ -29,6 +29,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jessica.fisher-strokes@nhs.net
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/jessica-fisher-stokes-2a2466201
 ---
 <style>
 body {

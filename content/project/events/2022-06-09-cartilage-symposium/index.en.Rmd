@@ -29,7 +29,7 @@ During these two days, speakers focus on “Influencing factors in cartilage rep
 “Current trends in cartilage repair”, “Next generation biological repair”, “Pain in
 Osteoarthritis”, and “Biomarkers for monitoring knee diseases and treatments”
 
-```{r echo=FALSE, out.width="50%"}
+```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("session1.png")
 ```
 
@@ -43,7 +43,7 @@ Abstracts:
 
 An early career session was also organised to allow PhD student and post-docs to introduce their projects to experts in the field.
 
-```{r echo=FALSE, out.width="50%"}
+```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("session2.png")
 ```
 

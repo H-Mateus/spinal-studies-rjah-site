@@ -10,8 +10,8 @@ categories:
 tags:
   - Assay
   - Equipment
-subtitle: 'Why all scientists should learn to code'
-summary: 'This is a plate'
+subtitle:
+summary: 
 authors: []
 lastmod: '2021-12-03T09:42:35Z'
 featured: no
@@ -43,5 +43,26 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+The FLUOstar® Omega is a multi-mode microplate reader with six detection modes:
 
+  -   Fluorescence intensity (including FRET), 
+  -   Luminescence (including BRET), 
+  -   UV/vis absorbance, 
+  -   Time-resolved fluorescence, 
+  -   TR-FRET, 
+  -   AlphaScreen®/AlphaLISA®.
+  
+It utilizes an ultra-fast UV/vis spectrometer or filters for absorbance as well as
+highly sensitive filters for all other detection modes. The LVis Plate is suitable for
+quick and easy low-volume concentration measurements of up to 16 DNA, RNA, protein
+samples, or spectral scanning. The Atmospheric Control Unit (ACU) enables live
+cell-based applications, from standard proliferation to hypoxic or cytotoxicity assays
+by independently regulating both O2 and CO2 gas levels within the microplate reader
+chamber.
+
+It was funded by the Higher Education Funding Council for England (HEFCE).
+
+```{r echo=FALSE, out.width="50%"}
+knitr::include_graphics("hefce.png")
+```
 

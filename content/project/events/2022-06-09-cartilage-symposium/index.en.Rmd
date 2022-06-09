@@ -65,5 +65,3 @@ Thank you to all the presenters for being with us and for sharing their hard wor
 ```{r echo=FALSE, out.width="80%"}
 knitr::include_graphics("sponsor.png")
 ```
-
-

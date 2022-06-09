@@ -9,7 +9,7 @@ tags:
   - Event
 subtitle: ''
 summary: ''
-authors: ["Helen McCarthy","Karina Wright","Martyn Snow","Paul Jermin","Jan Herman Kuiper","Oksana Kehoe","Charlotte Hulmes","Jade Perry","Claire Mennan","Larissa Rix","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes"]
+authors: ["Helen McCarthy","Karina Wright","Martyn Snow","Paul Jermin","Jan Herman Kuiper","Oksana Kehoe","Charlotte Hulme","Jade Perry","Claire Mennan","Larissa Rix","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes"]
 lastmod: '2022-05-05T10:35:52+01:00'
 featured: no
 image:

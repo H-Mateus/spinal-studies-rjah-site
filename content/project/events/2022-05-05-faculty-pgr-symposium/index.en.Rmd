@@ -30,7 +30,7 @@ Three PhD students from our department participated to this symposium:
 
 The oral presentation runner up prize went to Rebecca Davis for her presentation of extracellular vesicles (EV) “The therapeutic effect of umbilical cord mesenchymal stromal cell extracellular vesicles in inflammatory arthritis”.
 
-```{r echo=FALSE, out.width="50%"}
-knitr::include_graphics("logo.jpg")
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("prize.png")
 ```
 

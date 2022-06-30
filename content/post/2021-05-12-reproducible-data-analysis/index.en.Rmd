@@ -87,13 +87,13 @@ Now, do you think this research group could reproduce the values they report in 
 <p style="text-align: center;">***Of course not.***</p>
 
 The raw experimental data has been completely mutilated.
-The is no record or documentation of who has done what, using which tools and when.
+There is no record or documentation of who has done what, using which tools and when.
 And this is how most research is done.
 
 ## The Excel mistake heard round the world
 
 To give a specific example, several years ago, a couple of Harvard economists [published a paper](https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/) suggesting that countries with debt over 90% of GDP would enter recession.
-They reported these findings to American senators, who decided to implement year of harsh austerity based on these finding.
+They reported these findings to American senators, who decided to implement years of harsh austerity based on these findings.
 But it turned out they made a little goof with their Excel spreadsheets.
 When doing their calculations, they didn't quite drag a box down all the way, missing data from 5 countries.
 Redoing the analysis with these extra countries changes their results fairly dramatically.
@@ -124,7 +124,7 @@ A lot of labs revolve around a few pieces of equipment, which generally will gen
 When you use the GUI tools, you need to start from scratch each time.
 
 Imagine a particular assay.
-Even assay run has a standard curve and some experimental samples.
+Every assay run has a standard curve and some experimental samples.
 With the data, you generate a standard curve, use it to estimate the concentration of your samples, maybe average some replicates, and do some stats to compare experimental groups.
 Let's say you run this assay a lot, so you can do these steps in 10 minutes in Excel.
 
@@ -141,7 +141,7 @@ And there are many other benefits to code.
 GUI tools don't scale to large datasets, and even include hard caps as to how much data they can hold.
 The British Government [learned this the hard way](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england) during the Covid-19 pandemic.
 Programming languages can handle data of any size, and it's no harder to deal with 10 rows of data than 100,000,000 rows.
-As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to been to be able to work with larger and larger datasets.
+As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to need to be able to work with larger and larger datasets.
 
 Programming languages can do everything Excel, SPSS and GraphPad do, and so much more besides.
 Maybe you've heard of this machine learning lark?

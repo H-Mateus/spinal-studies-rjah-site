@@ -1,0 +1,34 @@
+---
+title: ISEV
+author: anais
+date: '2022-05-18'
+slug: isev
+categories: [Events]
+tags:
+  - Research
+  - Event
+subtitle: ''
+summary: ''
+authors: ["Oksana Kehoe","Rebecca Davies"]
+lastmod: '2022-05-05T10:35:52+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+In May, Dr Oksana Kehoe and Becky Davies (3rd Year PhD student) attended the International
+Society for Extracellular Vesicles Annual Meeting (ISEV2022) at the [Centre des Congrès of Lyon, France](https://www.eventscribe.net/2022/ISEV2022/).
+
+The annual meeting offered an unparalleled opportunity to learn from, teach, and network with,
+leading and emerging experts in EV research.
+
+This event featured the best in vesicle science, covering all aspects of fundamental,
+translational, and clinical research, disseminating cutting-edge developments in EV research.
+ISEV2022 brought together scientists from academic, clinics, and industry, who have a common
+goal of understanding EVs and applying this knowledge for societal and economic benefit.
+
+Becky Davies is the winner of the ISEV2022 Scholarship and was selected for oral presentation with her abstract: 
+
+Rebecca Davies, Mairead Hyland, Claire Mennan, Karina Wright, Mark Platt, Oksana Kehoe ‘The therapeutic effect of umbilical cord mesenchymal stromal cell extracellular vesicles in inflammatory arthritis’. 

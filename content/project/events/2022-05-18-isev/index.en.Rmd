@@ -1,8 +1,8 @@
 ---
-title: ISEV
+title: International Society for Extracellular Vesicles
 author: anais
 date: '2022-05-18'
-slug: isev
+slug: international-society-extracellular-vesicles
 categories: [Events]
 tags:
   - Research

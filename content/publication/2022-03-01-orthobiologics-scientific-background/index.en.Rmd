@@ -1,0 +1,26 @@
+---
+title: 'Orthobiologics: Scientific background'
+author: anais
+date: '2022-03-01'
+slug: orthobiologics-scientific-background
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Iain R Murray","Martyn Snow","Cosimo De Bari","Andrew W McCaskie"]
+lastmod: '2022-07-14T09:36:03+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: ""
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: "https://www.boa.ac.uk/resources/knowledge-hub/jto-march-2022.html"
+publication_types:
+  - '2'
+publication: '*Journal of Trauma & Orthopaedics*'
+publication_short: ''
+abstract: "Tissue engineering is a term popularised in the 1990s and familiar to orthopaedic surgeons, developed on a paradigm of interplay between cells, materials, and molecules. The paradigm is a useful way to consider regenerative medicine, as it is thought that many future therapeutics will be developed from combinations of the three areas e.g. a scaffold impregnated with specific molecules can be seeded with cells. The term orthobiologics can be considered in this context, with a definition based around ‘ortho’, meaning an application in musculoskeletal tissue, and ‘biologic’ which is typically used to mean a naturally occurring substance with the ability to heal. However, the term should not be confused with a ‘biologic medicine’ or disease modification therapy. "
+---

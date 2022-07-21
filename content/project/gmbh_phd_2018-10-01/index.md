@@ -10,6 +10,7 @@ tags:
 - Biomarkers
 - Biomarker discovery
 - Biology
+- Current projects
 date: "2018-10-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

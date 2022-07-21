@@ -26,28 +26,16 @@ subtitle = ""
      tag = "Biology"
   
    [[content.filter_button]]
-     name = "Autologous Chondrocyte Implantation"
-     tag = "Autologous Chondrocyte Implantation"
+     name = "Completed projects"
+     tag = "Completed projects"
   
    [[content.filter_button]]
-     name = "Spinal cord injury"
-     tag = "Spinal cord injury"
+     name = "Current projects"
+     tag = "Current projects"
      
  [[content.filter_button]]
-     name = "Cartilage"
-     tag = "Cartilage"   
-     
-   [[content.filter_button]]
-     name = "Biomarkers"
-     tag = "Biomarkers"
-     
-   [[content.filter_button]]
-     name = "Mesenchymal Stem Cells"
-     tag = "Mesenchymal Stem Cells"
-
-  [[content.filter_button]]
-     name = "Extracellular Vesicles"
-     tag = "Extracellular Vesicles"     
+     name = "Future projects"
+     tag = "Future projects"   
      
 
 [design]

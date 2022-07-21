@@ -13,7 +13,7 @@ tags:
   - Biology
 subtitle: ''
 summary: 'Funded by the Orthopaedic Institute'
-authors: []
+authors: ["Tian Lan","Charlotte Hulme","Helen McCarthy","Karina Wright","Nilesh Makwana","Andrew Bing"]
 lastmod: '2021-05-12T14:10:23+01:00'
 featured: no
 image:

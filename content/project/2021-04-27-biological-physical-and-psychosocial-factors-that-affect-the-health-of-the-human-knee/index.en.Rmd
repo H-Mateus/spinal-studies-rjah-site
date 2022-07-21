@@ -37,7 +37,7 @@ In this part of the project, a series of experiments are being performed to test
 Subsequently, we are investigating whether cells from these different regions have different effects on the characteristics of cells isolated from the cartilage (chondrocytes). This is carried out using a 'co-culture' model (figure 4), in which the cells from the SB and cells from the AC are grown together but separated by a membrane that prevents contact but allows communication between the cells. 
 The aim of this part of the project is to try and characterise the relationship between the AC and SB and the part that this relationship plays on the onset and progression of OA in the knee.  
 ```{r, echo=FALSE, fig.cap='Schematic illustrating the co-culture system of bone and cartilage cells.'}
-knitr::include_graphics("fig1.png")
+knitr::include_graphics("featured.png")
 ```
 
 Another part of this project is based in the clinic. 

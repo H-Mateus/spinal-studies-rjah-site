@@ -36,7 +36,7 @@ The overarching aim of this proposal is to define the feasibility of using Tregs
 
  - Isolate and investigate phenotypic and functional properties of ex vivo expanded Tregs from the peripheral blood of RA patients and healthy volunteers.
 
- -Isolate Tregs-derived EVs and define their vesicular properties according to internationally agreed criterion (ISEV 2019).
+ - Isolate Tregs-derived EVs and define their vesicular properties according to internationally agreed criterion (ISEV 2019).
 
  - Quantify and compare the suppressive efficacy of EVs derived from disease or healthy donors.
 

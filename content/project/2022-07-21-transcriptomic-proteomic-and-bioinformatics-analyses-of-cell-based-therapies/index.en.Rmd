@@ -1,0 +1,39 @@
+---
+title: Transcriptomic, proteomic and bioinformatics analyses of cell-based therapies
+author: anais
+date: '2022-07-21'
+slug: transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies
+categories: []
+tags:
+  - Biology
+  - Future projects
+subtitle: ''
+summary: 'Funded by Versus arthritis'
+authors: []
+lastmod: '2022-07-21T14:17:48+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+**PhD project**: TRANSCRIPTOMIC, PROTEOMIC AND BIOINFORMATICS ANALYSES OF CELL-BASED THERAPIES FOR CARTILAGE INJURIES IN HUMANS
+
+Application closed
+
+Supervisors: Dr Karina Wright, Prof Mandy Peffers, Dr Dan Tonge, Dr Helen McCarthy , Dr Charlotte Hulme, Dr Jan Herman Kuiper and Professor Martyn Snow.
+
+Background: The RJAH orthopaedic hospital and Keele University have used a cell-based therapy (autologous chondrocyte implantation or ACI) to treat damaged cartilage in knees and other joints for over 20 years. Since 2016 Drs Wright, Kuiper, McCarthy and Hulme have been involved in a clinical trial to determine if cells from the bone marrow (mesenchymal stromal cells, BM-MSCs) may produce superior results compared to chondrocytes, either alone or in combination (ASCOT: Autologous Stem cells, Chondrocytes or the Two) (Eudract number 2010-022072-31). Clinical benefit in terms of functional recovery is the primary outcome, but the team also have approval to undertake considerable exploratory research alongside the trial itself, for example to determine if the implanted cells have particular ‘markers’ on their surface or within their transcriptome/proteome which could help predict their efficacy or ‘potency.’
+
+Preliminary work: A powered half-way mRNA and miRNA-sequencing analysis of the implanted cellular therapies (66 patients) has recently been completed (funded by the Medical Research Council (MRC)) and has formed the basis of a bioinformatics-focused PhD studentship, in part funded by the Versus Arthritis Tissue Engineering and Regenerative Therapies (VA-TERT) Centre and Keele University. This studentship is expected to complete within the next 12 months and has already highlighted a series of individual markers (e.g. cartilage matrix molecules, catabolic enzymes and cytokines) and biological pathways (e.g. TGF-b signalling, cell adhesion and toll-like receptor signalling) that relate to outcome for each cell-based therapy.
+
+The objectives of the current studentship are to (1) complete the mRNA and miRNA (transcriptome) sequencing for all 114 patients, (2) undertake paired label-free proteomic analysis, (3) carry out a systems bioinformatics analysis (to interrelate transcriptome and proteome data) and (4) to determine identifiable markers that relate to outcomes. The studentship will leverage the transcriptomic and bioinformatics methodologies developed in Dr Wright and Tonge’s interim analysis and those established for proteomics in Prof Peffers and Dr Wright’s groups.
+
+Methods and Training: The planned RNA-sequencing is being carried out by a sequencing service provider (funded by the MRC) and is anticipated to be complete within the first four months of the studentship. Meanwhile the PhD candidate will undertake training in the preparation of samples for label free proteomics analysis with Drs Wright, Hulme and Prof Peffers and the validation of transcriptome data with Drs Tonge and McCarthy. Statistical guidance will be provided by Dr Kuiper and clinical input from Prof Snow. A patient representative (Ms Gracey-McMinn) will also have an integral role, steering the studentship from a patient perspective.
+
+On receiving the transcriptomic and proteomic data, the candidate will aim to (1) identify a set of genes/proteins that are significantly differentially expressed between the treatment groups or that correlate to specific outcome measures and (2) condense these into meaningful biological pathways/networks. These two steps will be used to determine, at the molecular level, the mechanisms responsible for mediating the effects of each transplanted cell population. Together, these analyses will aim to identify molecular profiles which can help to predict clinical efficacy.
+
+A wealth of clinical data is collected throughout the ASCOT trial. Lysholm score (a patient-reported functional score) and a series of imaging scores will be available at 12-months post-operatively for comparative expression analyses. Further, histological assessments of repair site biopsies also taken at 12-months will also be available.
+
+Implanted cells have already been characterised by determining their surface marker immunoprofile as part of the ASCOT trial. The candidate will interrogate transcriptome, proteome and immunoprofile data to identify whether gene/protein signatures of interest relate to a more easily measurable cell surface marker signature, of use for future cell release and potency assessment criteria. In addition, the student will bioinformatically compare cell types across donors and within donor-matched groups. Further demographic comparisons of transcriptome and proteome data will focus on features such as gender, age and BMI which are known to influence the outcome of orthopaedic cell-based therapies.

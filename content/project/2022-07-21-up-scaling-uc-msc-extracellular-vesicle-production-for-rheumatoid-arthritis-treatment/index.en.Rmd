@@ -5,6 +5,7 @@ author: Anais
 date: '2019-09-25'
 slug: up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment
 categories: []
+weight:
 tags:
   - Current projects
   - Biology

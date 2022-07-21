@@ -4,6 +4,7 @@ author: ["Jade Perry", "Claire Mennan", "Helen McCarthy", "George Bou-Gharios", 
 date: '2021-04-27'
 slug: can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis
 categories: []
+weight:
 tags:
   - Cartilage
   - Mesenchymal Stem Cells

@@ -4,6 +4,7 @@ author: 'Claire Mennan'
 date: '2021-04-27'
 slug: transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy
 categories: []
+weight:
 tags:
   - Mesenchymal Stem Cells
   - Transcriptome

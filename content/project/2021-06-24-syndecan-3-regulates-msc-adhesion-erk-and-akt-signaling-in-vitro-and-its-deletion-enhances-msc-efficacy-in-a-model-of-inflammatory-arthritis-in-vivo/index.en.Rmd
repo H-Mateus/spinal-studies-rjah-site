@@ -4,6 +4,7 @@ author: ''
 date: '2021-06-24'
 slug: syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo
 categories: []
+weight:
 tags:
   - Mesenchymal Stem Cells
   - Inflammatory Arthritis

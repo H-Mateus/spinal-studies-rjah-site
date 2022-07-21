@@ -7,7 +7,7 @@ categories: []
 tags:
   - Future projects
 subtitle: ''
-summary: ''
+summary: 'Funded by Versus arthritis'
 authors: []
 lastmod: '2022-07-21T11:04:01+01:00'
 featured: no
@@ -19,7 +19,7 @@ projects: []
 ---
 **PhD project**: TRANSCRIPTOMIC, PROTEOMIC AND BIOINFORMATICS ANALYSES OF CELL-BASED THERAPIES FOR CARTILAGE INJURIES IN HUMANS
 
-Application open until Friday, July 01, 2022
+Application closed
 
 Supervisors: Dr Karina Wright, Prof Mandy Peffers, Dr Dan Tonge, Dr Helen McCarthy , Dr Charlotte Hulme, Dr Jan Herman Kuiper and Professor Martyn Snow.
 

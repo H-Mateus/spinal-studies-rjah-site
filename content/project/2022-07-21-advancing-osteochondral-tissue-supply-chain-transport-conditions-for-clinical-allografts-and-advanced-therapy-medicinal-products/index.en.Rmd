@@ -8,7 +8,7 @@ categories: []
 tags:
   - Future projects
 subtitle: ''
-summary: ''
+summary: 'Funded by'
 authors: []
 lastmod: '2022-07-21T10:44:41+01:00'
 featured: no
@@ -19,13 +19,9 @@ image:
 projects: []
 links:
 - icon: Calendar
-  icon_pack: fab
+  icon_pack: fas
   name: Apply here
   url: https://www.findaphd.com/phds/project/advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts-and-advanced-therapy-medicinal-products/?p145925
-- icon: hand-holding-usd
-  icon_pack: fas
-  name: Funder
-  url:
 ---
 **PhD project**: "Advancing Osteochondral Tissue Supply Chain Transport Conditions for Clinical Allografts and Advanced Therapy Medicinal Products"
 

@@ -11,6 +11,7 @@ tags:
   - Transcriptome
   - Allogeneic therapy
   - Biology
+  - Current projects
 subtitle: ''
 summary: 'Funded by Versus Arthritis and the Orthopaedic Institute'
 authors: ["Claire Mennan", "Helen McCarthy", "Daniel Tonge", "Sally Roberts"]

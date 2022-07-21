@@ -11,6 +11,7 @@ tags:
   - Autologous Chondrocyte Implantation
   - Cartilage
   - Biology
+  - Current projects
 subtitle: ''
 summary: 'Funded by Versus Arthritis'
 authors: ["Charlotte Hulme", "Heidi Fuller", "Sally Roberts", "Peter Gallacher", "Karina Wright"]

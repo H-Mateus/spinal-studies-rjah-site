@@ -11,7 +11,7 @@ tags:
   - Mesenchymal Stem Cells
   - Arthritis
   - Biology
-  - Current projects
+  - Completed projects
 subtitle: ''
 summary: 'Funded by the Orthopaedic Institute and Keele University'
 authors: ["Rebecca Davies","Mairead Hyland","Claire Mennan","Karina Wright","Mark Platt","Oksana Kehoe"]

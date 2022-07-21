@@ -9,6 +9,7 @@ tags:
   - Clinical trial
   - Cartilage
   - Biology
+  - Current projects
 subtitle: ''
 summary: 'Funded by the Medical Research Council (UKRI)'
 authors: ["Garcia J", "Roberts S", "Tins B", "Jermin P", "Gallacher P", "Kehoe O", "Wright K", "Stewart C", "Kuiper JH"]

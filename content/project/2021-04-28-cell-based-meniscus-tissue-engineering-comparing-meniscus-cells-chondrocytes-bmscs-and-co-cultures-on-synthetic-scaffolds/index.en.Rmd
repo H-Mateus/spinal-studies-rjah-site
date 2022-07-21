@@ -11,6 +11,7 @@ tags:
   - Cartilage
   - Mesenvhymal Stem Cells
   - Biology
+  - Completed projects
 subtitle: ''
 summary: 'Funded by the Orthopaedic Institute'
 authors: ["Jingsong Wang", "Sally Roberts", "Bernhard Tins", "James Richardson", "Karina Wright"]

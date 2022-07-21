@@ -9,8 +9,11 @@ tags:
   - Cell therapy
   - Meniscus
   - Knee
+  - Cartilage
+  - Mesenvhymal Stem Cells
+  - Biology
 subtitle: ''
-summary: ''
+summary: 'Funded by the Orthopaedic Institute'
 authors: ["Jingsong Wang", "Sally Roberts", "Bernhard Tins", "James Richardson", "Karina Wright"]
 lastmod: '2021-04-28T15:57:40+01:00'
 featured: no

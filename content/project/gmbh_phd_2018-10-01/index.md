@@ -1,13 +1,15 @@
 ---
-title: "Biomarkers and prognostic modelling in SCI"
+title: "Biomarkers and prognostic modelling in SCI using proteomics, bioinformatics and in vitro models"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2001
-summary: "Exploring the serum proteome of spinal cord injured patients: Identifying prognostic biomarkers and new treatment targets"
+summary: "Funded by the EPSRC (UKRI)"
+authors: ["Karina Wright","Charlotte Hulme","Paul Cool","Mateus Harrington","Jessica Fisher-Stokes"]
 tags:
 - Spinal cord injury
 - Biomarkers
 - Biomarker discovery
+- Biology
 date: "2018-10-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -1,14 +1,15 @@
 ---
-title: 'PSAPS – Psoriatic Arthritis: a Pilot study to Stratify biologic therapies'
+title: 'PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study'
 author: Anaïs Makos
 date: '2021-06-02'
-slug: psaps-psoriatic-arthritis-a-pilot-study-to-stratify-biologic-therapies
+slug: paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study
 categories: []
 tags:
   - Psoriatic Arthritis
   - Biomarkers
+  - Biology
 subtitle: ''
-summary: ''
+summary: 'Funded by the Robert Jones and Agnes Hunt (RJAH) Hospital Charitable Fund.'
 authors: [Anaïs Makos, Jan Herman Kuiper, Roshan Amarasena, Oksana Keohe]
 lastmod: '2021-06-02T11:03:42+02:00'
 featured: no

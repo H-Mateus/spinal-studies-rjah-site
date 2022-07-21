@@ -7,9 +7,10 @@ slug: biological-physical-and-psychosocial-factors-that-affect-the-health-of-the
 categories: []
 tags:
   - Knee
-  - Arthritis
+  - Cartilage
+  - Biology
 subtitle: ''
-summary: ''
+summary: 'Funded by the Orthopaedic Institute'
 authors: ["Timothy Hopkins", "Karina Wright", "Sally Roberts", "Nicola Kuiper", "Jan Herman Kuiper"]
 lastmod: '2021-04-27T10:58:27+01:00'
 featured: no

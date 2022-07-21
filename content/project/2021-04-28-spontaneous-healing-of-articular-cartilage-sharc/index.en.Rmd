@@ -7,8 +7,10 @@ categories: []
 tags:
   - Arthritis
   - Clinical trial
+  - Cartilage
+  - Biology
 subtitle: ''
-summary: ''
+summary: 'Funded by the Medical Research Council (UKRI)'
 authors: ["John Garcia", "Sally Roberts", "Bernhard Tins", "Paul Jermin", "Peter Gallacher", "Oksana Kehoe", "Karina Wright", "Caroline Stewart", "Jan Herman Kuiper"]
 lastmod: '2021-04-28T16:02:23+01:00'
 featured: no

@@ -26,20 +26,29 @@ subtitle = ""
      tag = "Biology"
   
    [[content.filter_button]]
-     name = "ACI"
+     name = "Autologous Chondrocyte Implantation"
      tag = "Autologous Chondrocyte Implantation"
   
    [[content.filter_button]]
      name = "Spinal cord injury"
      tag = "Spinal cord injury"
-   
+     
+ [[content.filter_button]]
+     name = "Cartilage"
+     tag = "Cartilage"   
+     
    [[content.filter_button]]
      name = "Biomarkers"
      tag = "Biomarkers"
      
    [[content.filter_button]]
-     name = "Arthritis"
-     tag = "Arthritis"
+     name = "Mesenchymal Stem Cells"
+     tag = "Mesenchymal Stem Cells"
+
+  [[content.filter_button]]
+     name = "Extracellular Vesicles"
+     tag = "Extracellular Vesicles"     
+     
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

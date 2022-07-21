@@ -7,10 +7,12 @@ draft: false
 weight: 2001
 categories: []
 tags:
-  - Biomarker discovery
   - Biomarkers
+  - Autologous Chondrocyte Implantation
+  - Cartilage
+  - Biology
 subtitle: ''
-summary: ''
+summary: 'Funded by Versus Arthritis'
 authors: ["Charlotte Hulme", "Heidi Fuller", "Sally Roberts", "Peter Gallacher", "Karina Wright"]
 lastmod: '2021-04-27T10:34:05+01:00'
 featured: no

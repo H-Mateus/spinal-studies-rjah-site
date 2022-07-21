@@ -8,8 +8,10 @@ categories: []
 tags:
   - Bioreactor
   - Arthritis
+  - Cartilage
+  - Biology
 subtitle: ''
-summary: ''
+summary: 'Funded by the Medical Research Council (UKRI) and Versus Arthritis'
 authors: ["John Garcia", "Charlotte Hulme", "Claire Mennan", "Sally Roberts", "Karina Wright"]
 lastmod: '2021-04-28T16:07:04+01:00'
 featured: no

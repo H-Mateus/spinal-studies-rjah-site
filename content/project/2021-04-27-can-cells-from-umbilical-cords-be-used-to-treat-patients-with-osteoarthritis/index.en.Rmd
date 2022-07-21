@@ -12,7 +12,7 @@ tags:
   - Current projects
 subtitle: ''
 summary: 'Funded by Versus Arthritis and Keele University'
-authors: ["Jade Perry", "Claire Mennan", "Helen McCarthy", "George Bou-Gharios", "Rob Van'T Hof", "Peter Milner", "Cosimo De Bari", "Anke Roelofs", "Karina Wright", "James Richardson", "Sally Roberts"]
+authors: ["Perry J", "Mennan C", "McCarthy H", "Bou-Gharios G", "Van'T Hof R", "Milner P", "De Bari C", "Roelofs A", "Wright K", "Richardson J", "Roberts S"]
 lastmod: '2021-04-27T11:24:55+01:00'
 featured: no
 image:

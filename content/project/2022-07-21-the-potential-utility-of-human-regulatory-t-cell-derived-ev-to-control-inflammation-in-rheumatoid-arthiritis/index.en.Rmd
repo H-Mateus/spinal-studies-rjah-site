@@ -2,7 +2,7 @@
 title: The potential utility of human regulatory T cell-derived EV to control inflammation
   in RA
 author: anais
-date: '2022-07-21'
+date: '2022-09-01'
 slug: the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-rheumatoid-arthiritis
 categories: []
 tags:

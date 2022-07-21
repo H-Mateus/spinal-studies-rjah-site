@@ -21,9 +21,9 @@ image:
   preview_only: no
 projects: []
 links:
-- icon: Calendar
+- icon: twitter
   icon_pack: fab
-  name: Apply here
+  name: Follow
   url: https://twitter.com/CellTherapyRJAH
 - icon: hand-holding-usd
   icon_pack: fas

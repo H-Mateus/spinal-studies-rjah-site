@@ -2,7 +2,7 @@
 title: Advancing Osteochondral Tissue Supply Chain Transport Conditions for Clinical
   Allografts
 author: anais
-date: '2022-09-01'
+date: '2022-09-02'
 slug: advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts-and-advanced-therapy-medicinal-products
 categories: []
 tags:

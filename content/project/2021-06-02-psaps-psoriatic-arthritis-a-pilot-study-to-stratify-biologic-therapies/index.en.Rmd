@@ -1,5 +1,5 @@
 ---
-title: 'PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study'
+title: 'Biomarkers for the PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study'
 author: Anaïs Makos
 date: '2021-06-02'
 slug: paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study

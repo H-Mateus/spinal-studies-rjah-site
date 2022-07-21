@@ -1,0 +1,38 @@
+---
+title: The potential utility of human regulatory T cell-derived EV to control inflammation
+  in RA
+author: anais
+date: '2022-07-21'
+slug: the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-rheumatoid-arthiritis
+categories: []
+tags:
+  - Future projects
+subtitle: ''
+summary: 'Funded by Versus Arthritis'
+authors: []
+lastmod: '2022-07-21T11:22:27+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+
+---
+**PhD project**:"The potential utility of human regulatory T cell-derived ExtraCellular Vesicles to control inflammation in Rheumatoid Arthritis"
+
+Application open until Monday, August 15, 2022
+
+Supervisors: Dr Oksana Kehoe
+
+One in every 16 of people in the UK live with an autoimmune condition causing them pain, difficulty, lost opportunities in work and in life, and in many cases placing them at risk of early death. Autoimmunity occurs when the immune system attacks the body. Regulatory cells (also called Tregs) are cells of immune system which have a role in regulating or suppressing other cells in the immune system. Tregs control the immune response to self and foreign particles and help prevent autoimmune disease. Understanding how Tregs supress cells in the immune system could help improve treatments for people with autoimmune conditions including lupus, type 1 diabetes, Sjögren syndrome, multiple sclerosis and rheumatoid arthritis. In rheumatoid arthritis, the immune system destroys the lining of the joints. At present, autoimmune conditions cannot be cured. Tregs communicate with other cells in the immune system by producing the little particles called extracellular vesicles. This project will explore these particles to find out what’s inside them and how they differ in healthy people and patients with rheumatoid arthritis using a variety of different tests. Next, this project will explore how the extracellular vesicles function. We will add the particles into a dish with immune cells from patients with rheumatoid arthritis. These cells are overactive, which causes the pain, inflammation and swelling in the joints, so we want to see if our extracellular vesicles can suppress these immune cells. If these experiments are successful and the extracellular vesicles contain anti-inflammatory properties, then they have the potential to be applied to many different autoimmune conditions.  
+
+The overarching aim of this proposal is to define the feasibility of using Tregs-derived EVs as a biological therapeutic for RA patients. The project will meet this aim through the achievement of four primary objectives:
+
+ - Isolate and investigate phenotypic and functional properties of ex vivo expanded Tregs from the peripheral blood of RA patients and healthy volunteers.
+
+ -Isolate Tregs-derived EVs and define their vesicular properties according to internationally agreed criterion (ISEV 2019).
+
+ - Quantify and compare the suppressive efficacy of EVs derived from disease or healthy donors.
+
+ - Identify the differentially-expressed vesicular factors that are potentially responsible for their suppressive effects.

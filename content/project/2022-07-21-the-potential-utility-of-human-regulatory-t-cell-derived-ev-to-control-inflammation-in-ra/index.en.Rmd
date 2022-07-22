@@ -9,7 +9,7 @@ tags:
   - Biology
   - Future projects
 subtitle: ''
-summary: 'Funded by Versus Arthritis'
+summary: 'Funded by the Orthopaedic Institute ad Keele University'
 authors: ["Oksana Kehoe"]
 lastmod: '2022-07-21T14:23:03+01:00'
 featured: no

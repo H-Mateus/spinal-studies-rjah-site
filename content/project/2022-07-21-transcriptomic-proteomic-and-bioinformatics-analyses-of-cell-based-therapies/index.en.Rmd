@@ -9,7 +9,7 @@ tags:
   - Future projects
 subtitle: ''
 summary: 'Funded by Versus arthritis'
-authors: []
+authors: ["Karina Wright","Mandy Peffers","Dan Tonge","Helen McCarthy","Charlotte Hulme","Jan Kuiper","Martyn Snow"]
 lastmod: '2022-07-21T14:17:48+01:00'
 featured: no
 image:

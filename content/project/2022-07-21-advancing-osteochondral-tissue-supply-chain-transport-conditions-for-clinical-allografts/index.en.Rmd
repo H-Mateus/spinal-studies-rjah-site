@@ -18,15 +18,10 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-links:
-- icon: Calendar
-  icon_pack: fas
-  name: Apply here
-  url: https://www.findaphd.com/phds/project/advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts-and-advanced-therapy-medicinal-products/?p145925
 ---
 **PhD project**: "Advancing Osteochondral Tissue Supply Chain Transport Conditions for Clinical Allografts and Advanced Therapy Medicinal Products"
 
-Application open until Friday, August 12, 2022
+Application closed
 
 Supervisors: Dr Karina Wright and Prof Martyn Snow
 

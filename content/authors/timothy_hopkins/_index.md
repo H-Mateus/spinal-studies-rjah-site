@@ -31,7 +31,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:t.hopkins@keele.ac.uk
+    link: mailto:tim.hopkins@qmul.ac.uk
+  - icon: linkedin
+    icon_pack: fab
+    link: www.linkedin.com/in/hopkins20
+  - icon: twitter
+    icon_pack: fab
+    link: 'https://twitter.com/DrTimHopkins'
 ---
 <style>
 body {
@@ -55,3 +61,5 @@ I have also been collaborating with a number of centres to decellularise human s
 I will soon be moving to Queen Mary University of London, where I will be working with Dr Clare Thompson to develop disease-relevant, in vitro models of the human synovium, built upon her synovium-on-a-chip model.
 We plan to develop early- and late-stage OA synovium-on-a-chip models by introducing relevant primary synovial fibroblasts and macrophages.
 Subsequently, we will use these models to assess the response of the synovium, at these disease stages, to biologically relevant disease and treatment stimuli.
+
+Now working at Queen Mary University of London - [Profile](https://www.sems.qmul.ac.uk/staff/tim.hopkins)

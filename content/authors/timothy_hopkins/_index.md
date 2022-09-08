@@ -34,7 +34,7 @@ social:
     link: mailto:tim.hopkins@qmul.ac.uk
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/hopkins20
+    link: https://www.linkedin.com/in/hopkins20/
   - icon: twitter
     icon_pack: fab
     link: 'https://twitter.com/DrTimHopkins'

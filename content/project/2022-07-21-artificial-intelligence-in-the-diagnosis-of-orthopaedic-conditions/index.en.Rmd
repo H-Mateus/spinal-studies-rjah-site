@@ -7,10 +7,10 @@ categories: []
 weight:
 tags: 
  - Biology
- - Future projects
+ - Current projects
 subtitle: ''
 summary: 'Funded by the RJAH Orthopaedic and District...'
-authors: ["Karina Wright","Paul Cool"]
+authors: ["Karina Wright","Paul Cool","Helen McCarthy","Jade Perry","Hollie Wilkinson"]
 lastmod: '2022-07-21T20:24:56+01:00'
 featured: no
 image:

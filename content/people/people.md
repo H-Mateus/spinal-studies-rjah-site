@@ -25,6 +25,7 @@ content:
   - Visitors
   - Alumni
   - Emeritus
+  - Student placements & internships
 design:
   show_interests: true
   show_role: true

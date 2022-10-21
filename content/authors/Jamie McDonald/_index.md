@@ -9,7 +9,7 @@ email: jamie.mcdonald4@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Student placements & internships
+  - Student Placements & Internships
 organizations:
   - name: Cardiff University
     url: 'https://www.cardiff.ac.uk/'

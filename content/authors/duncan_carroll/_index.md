@@ -9,7 +9,7 @@ email: duncan.carroll@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Student Placements & Internships
+  - Student Placements and Internships
 organizations:
   - name: Cardiff University
     url: 'https://www.cardiff.ac.uk/'

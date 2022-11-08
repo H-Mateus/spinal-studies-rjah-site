@@ -20,12 +20,13 @@ content:
   - Researchers
   - PhD Students
   - Post-Doctoral Researchers
+  - Student Placements & Internships
   - Grad Students
   - Administration
   - Visitors
   - Alumni
   - Emeritus
-  - Student placements & internships
+ 
 design:
   show_interests: true
   show_role: true

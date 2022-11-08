@@ -33,4 +33,4 @@ research project involves finding the best clinically relevant technique for see
 scaffolds with cells for surgical implantation in cartilage defects, and assessing seeded
 scaffolds for cell viability. As well as the scaffold project I am also involved in Tim’s
 synovium-on-a-chip project by isolating cells from waste synovium and cartilage, collecting and
-organising data, and scoring synovium histological samples.
+organising data, and scoring synovium histological samples. 

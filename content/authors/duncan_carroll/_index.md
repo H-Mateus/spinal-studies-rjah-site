@@ -9,7 +9,7 @@ email:
 highlight_name: true
 superuser: false
 user_groups:
-  - Student Placements and Internships
+  - Student Placements & Internships
 organizations:
   - name: Cardiff University
     url: 'https://www.cardiff.ac.uk/'

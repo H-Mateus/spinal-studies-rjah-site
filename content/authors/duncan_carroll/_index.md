@@ -5,7 +5,7 @@ draft: false
 weight: 2016
 role: Student
 bio: One sentence summary goes here.
-email:
+email:duncan.carroll@nhs.net
 highlight_name: true
 superuser: false
 user_groups:

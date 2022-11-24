@@ -20,8 +20,6 @@ projects: []
 ---
 **PhD project**: TRANSCRIPTOMIC, PROTEOMIC AND BIOINFORMATICS ANALYSES OF CELL-BASED THERAPIES FOR CARTILAGE INJURIES IN HUMANS
 
-Application closed
-
 Supervisors: Dr Karina Wright, Prof Mandy Peffers, Dr Dan Tonge, Dr Helen McCarthy , Dr Charlotte Hulme, Dr Jan Herman Kuiper and Professor Martyn Snow.
 
 Background: The RJAH orthopaedic hospital and Keele University have used a cell-based therapy (autologous chondrocyte implantation or ACI) to treat damaged cartilage in knees and other joints for over 20 years. Since 2016 Drs Wright, Kuiper, McCarthy and Hulme have been involved in a clinical trial to determine if cells from the bone marrow (mesenchymal stromal cells, BM-MSCs) may produce superior results compared to chondrocytes, either alone or in combination (ASCOT: Autologous Stem cells, Chondrocytes or the Two) (Eudract number 2010-022072-31). Clinical benefit in terms of functional recovery is the primary outcome, but the team also have approval to undertake considerable exploratory research alongside the trial itself, for example to determine if the implanted cells have particular ‘markers’ on their surface or within their transcriptome/proteome which could help predict their efficacy or ‘potency.’

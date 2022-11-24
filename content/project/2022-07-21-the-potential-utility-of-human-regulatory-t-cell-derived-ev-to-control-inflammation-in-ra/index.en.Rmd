@@ -7,10 +7,10 @@ slug: the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inf
 categories: []
 tags:
   - Biology
-  - Future projects
+  - Current projects
 subtitle: ''
 summary: 'Funded by the Orthopaedic Institute and Kee...'
-authors: ["Oksana Kehoe"]
+authors: ["Henry","Oksana Kehoe"]
 lastmod: '2022-07-21T14:23:03+01:00'
 featured: no
 image:
@@ -20,8 +20,6 @@ image:
 projects: []
 ---
 **PhD project**:"The potential utility of human regulatory T cell-derived ExtraCellular Vesicles to control inflammation in Rheumatoid Arthritis"
-
-Application closed
 
 Supervisors: Dr Oksana Kehoe
 

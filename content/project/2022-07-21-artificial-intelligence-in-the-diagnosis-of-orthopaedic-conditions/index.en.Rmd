@@ -21,8 +21,6 @@ projects: []
 ---
 **PhD project**:"Artificial Intelligence in the diagnosis of orthopaedic conditions"
 
-Applications closed
-
 Supervisors: Dr Karina Wright and Dr Paul Cool
 
 

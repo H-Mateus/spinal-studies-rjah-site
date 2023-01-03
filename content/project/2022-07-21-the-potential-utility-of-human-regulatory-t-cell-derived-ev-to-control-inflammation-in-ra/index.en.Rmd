@@ -10,7 +10,7 @@ tags:
   - Current projects
 subtitle: ''
 summary: 'Funded by the Orthopaedic Institute and Kee...'
-authors: ["Henry","Oksana Kehoe"]
+authors: ["HenryBarrett","Oksana Kehoe","L. Smyth","M.A De Lima","A. Clayton","N. Telling","R. Amarasena"]
 lastmod: '2022-07-21T14:23:03+01:00'
 featured: no
 image:

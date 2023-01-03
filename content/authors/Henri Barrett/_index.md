@@ -28,7 +28,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: h.barrett@keele.ac.uk
+    link: mailto:h.barrett@keele.ac.uk
 
 ---
 <style>

@@ -1,5 +1,5 @@
 ---
-title: "Henri Barrett"
+title: "Henry Barrett"
 author: ["anais"]
 draft: false
 weight: 2016

@@ -7,7 +7,7 @@ role: PhD Student
 bio: One sentence summary goes here.
 interests:
   - Extracellular vesicles
-  - Cell therapies
+  - Cell therapy
   - Autoimmune disorders
 email: h.barrett@keele.ac.uk
 highlight_name: true
@@ -16,15 +16,12 @@ user_groups:
   - Researchers
 organizations:
   - name: Keele University
-    url: 'https://www.keele.ac.uk/medicine/'
+    url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: MSc in Cell and tissue engineering
-      institution: Keele University  
-      year: 2019-2020
-    - course: BSc in Neuroscience 
-      institution: Keele University
-      year: 2015-2019
+    - course: 
+    - course: 
+    - course: 
 social:
   - icon: envelope
     icon_pack: fas
@@ -36,10 +33,9 @@ body {
 text-align: justify}
 </style>
 
-I am a first year PhD student with [Keele university](https://www.keele.ac.uk/). I am based at
-the [Robert Jones and Agnes Hunt Orthopaedic hospital](https://www.rjah.nhs.uk/), Oswestry. My
-project aims to compare Treg-derived extracellular vesicles (EV) from rheumatoid arthritis (RA)
-patients to healthy donors.
+I am a first year PhD student with Keele university. I am based at the Robert Jones and Agnes
+Hunt Orthopaedic hospital, Oswestry. My project aims to compare Treg-derived extracellular
+vesicles (EV) from rheumatoid arthritis (RA) patients to healthy donors.
 
 Current Treatments for autoimmune disorders like RA can be poorly tolerated, ineffective, and
 lead to the development of opportunistic infections. Comparing the different immuno-suppressive

@@ -22,10 +22,6 @@ education:
     - course: 
     - course: 
     - course: 
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:h.barrett@keele.ac.uk
 
 ---
 <style>

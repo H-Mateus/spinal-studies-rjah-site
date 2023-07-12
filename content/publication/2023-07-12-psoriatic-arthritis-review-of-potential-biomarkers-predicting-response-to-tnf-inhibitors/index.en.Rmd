@@ -11,20 +11,12 @@ tags:
   - Psoriatic Arthritis
 subtitle: ''
 summary: ''
-authors: ["Anais Makos","Jan Herman Kuiper","Oksana Kehoe","Roshan Amarasena"]
-lastmod: '2023-07-12T11:24:14+01:00'
+authors: []
+lastmod: '2023-07-12T15:24:32+01:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
-doi: 
-publishDate: 2009-07-04T15:53:28.000Z
-url_pdf:
-publication_types:
-  - '1'
-publication: 
-publication_short: ''
-abstract:"Psoriatic arthritis (PsA) is a chronic and painful inflammatory immune-mediated disease. It affects up to 40% of people with psoriasis and it is associated with several comorbidities such as obesity, diabetes, metabolic syndrome, and hypertension. PsA is difficult to diagnose because of its diverse symptoms, namely axial and peripheral arthritis, enthesitis, dactylitis, skin changes, and nail dystrophy. Different drugs exist to treat the inflammation and pain. When patients do not respond to conventional drugs, they are treated with biologic drugs. Tumour necrosis factor inhibitors (TNFi’s) are commonly given as the first biologic drug; beside being expensive, they also lack efficacy in 50% of patients. A biomarker predicting individual patient’s response to TNFi would help treating them earlier with an appropriate biologic drug. This study aimed to review the literature to identify potential biomarkers that should be investigated for their predictive ability. Several such biomarkers were identified, namely transmembrane TNFa (tmTNF), human serum albumin (HSA) and its half-life receptor, the neonatal Fc receptor (FcRn) which is also involved in IgG lifespan; calprotectin, high mobility group protein B1 (HMGB1) and advanced glycation end products (AGEs) whose overexpression lead to excessive production of pro-inflammatory cytokines; lymphotoxin a (LTa) which induces inflammation by binding to TNF receptor (TNFR); and T helper 17 (Th17) cells which induce inflammation by IL-17A secretion."
 ---

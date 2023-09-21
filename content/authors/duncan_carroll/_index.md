@@ -24,7 +24,7 @@ body {
 text-align: justify}
 </style>
 
-I am currently studying BSc Biomedical Sciences at Cardiff University, and this academic year
+I am currently studying a BSc in Biomedical Sciences at Cardiff University, and this academic year
 I’m on my professional training year at the Robert Jones and Agnes Hunt Orthopaedic Hospital.
 
 The professional training year allows me to be trained in tissue culture, flow cytometry and

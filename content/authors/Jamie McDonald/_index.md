@@ -24,7 +24,7 @@ body {
 text-align: justify}
 </style>
 
-I am a Cardiff University student, on a placement year at Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry.
+A Cardiff University student, on a placement year at Robert Jones and Agnes Hunt Orthopaedic Hospital in Oswestry.
 
 My research project is currently based on proteomic analysis of biomarkers with the aim of identifying biomarkers for prognostic outlook of patients.
 

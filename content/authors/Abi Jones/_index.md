@@ -6,8 +6,8 @@ weight: 2015
 role:
 bio: One sentence summary goes here.
 interests:
-  - Transcriptomic
-  - Proteomic
+  - Transcriptomics
+  - Proteomics
   - Bioinformatics
   - Cell-based therapies
 email: abi.jones7@nhs.net

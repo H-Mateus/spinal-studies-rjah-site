@@ -1,5 +1,5 @@
 ---
-title: "Duncan Carroll"
+title: "Thavisha Ranasinghe"
 author: ["anais"]
 draft: false
 weight: 2016
@@ -16,7 +16,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:duncan.carroll@nhs.net
+    link: mailto:thavisha.ranasinghe@nhs.net
 
 ---
 <style>
@@ -24,13 +24,10 @@ body {
 text-align: justify}
 </style>
 
-I am currently studying a BSc in Biomedical Sciences at Cardiff University, and this academic year
-I’m on my professional training year at the Robert Jones and Agnes Hunt Orthopaedic Hospital.
+I am a current Bsc Biomedical sciences student in Cardiff university and I am on my professional training year at the Robert Jones and Agnes Hunt hospital for the year 2023/24. 
 
-The professional training year allows me to be trained in tissue culture, flow cytometry and
-other lab techniques for my degree, as well as undertaking a research project in the lab. My
-research project involves finding the best clinically relevant technique for seeding collagen
-scaffolds with cells for surgical implantation in cartilage defects, and assessing seeded
-scaffolds for cell viability. As well as the scaffold project I am also involved in Tim’s
-synovium-on-a-chip project by isolating cells from waste synovium and cartilage, collecting and
-organising data, and scoring synovium histological samples. 
+The professional training year will allow me to learn necessary skills such as tissue culture,
+flow cytometry, PCR and other laboratory techniques which would help me in the long term. My
+research project is based on identifying biomarkers for prognostic outlook of patients and I also
+will be helping with Tims organ on a chip project by isolating cells from human cartilage and
+synovium and scoring histology samples.

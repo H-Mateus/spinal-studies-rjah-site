@@ -18,6 +18,7 @@ content:
   user_groups:
   - Principal Investigators
   - Researchers
+  - Data analyst
   - PhD Students
   - Post-Doctoral Researchers
   - Student Placements & Internships

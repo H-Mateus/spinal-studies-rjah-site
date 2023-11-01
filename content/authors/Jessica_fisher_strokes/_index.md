@@ -12,7 +12,7 @@ email: jessica.fisher-strokes@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Researchers
+  - PhD Students
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

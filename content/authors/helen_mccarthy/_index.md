@@ -2,7 +2,7 @@
 title: "Helen McCarthy"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
-weight: 2003
+weight: 2002
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
 interests:

@@ -9,7 +9,7 @@ email: mike.williams17@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Researchers
+  - Data analyst
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

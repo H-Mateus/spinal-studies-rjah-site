@@ -2,7 +2,7 @@
 title: "Jade Perry"
 author: ["anais"]
 draft: false
-weight: 2002
+weight: 2003
 role: Post-Doctoral Researcher
 bio: One sentence summary goes here.
 interests:

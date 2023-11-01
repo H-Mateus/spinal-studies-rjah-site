@@ -1,0 +1,36 @@
+---
+title: Snowpaedic challenge 2022
+author: anais
+date: '2022-10-11'
+slug: snowpaedic-challenge-2022
+categories:
+  - Events
+tags: 
+  - Research 
+  - Event
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-10-11T14:24:29+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+On Saturday the 10th of September 2022, our research team participated to the annual Snowpaedic challenge, a sponsored walk organized by the Orthopaedic Institute Charity to support research and education at the RJAH Orthopaedic Hospital.
+
+This year, the Orthopaedic Institute Charity raised fund to support a research study into the Charcot-Marie-Tooth(CMT) disease, a hereditary motor and sensitive neuropathy of the Peripheral Nervous System (PNS). The disease is characterized by progressive loss of muscle tissue and touch sensation across diverse parts of the body.
+
+The Orthopaedic Institute Charity has supported research and educational project at the RJAH Hospital for over 50 years to benefit patients with musculo-skeletal conditions such as arthritis, rheumatism and spinal cord injuries. It also support joint replacement and cell therapy for repair and healing.
+
+```{r echo=FALSE, out.width="30%"}
+knitr::include_graphics("logo.jpg")
+```
+
+Pictures:
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("pictures.png")
+```

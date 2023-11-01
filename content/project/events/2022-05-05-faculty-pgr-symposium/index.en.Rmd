@@ -1,0 +1,36 @@
+---
+title: Faculty PGR Symposium
+author: anais
+date: '2022-05-04'
+slug: faculty-pgr-symposium
+categories: [Events]
+tags:
+  - Research
+  - Event
+subtitle: ''
+summary: ''
+authors: ["Oksana Kehoe","Charlotte Hulme","Larissa Rix","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes"]
+lastmod: '2022-05-05T10:53:18+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+On the 29th of April was held the Faculty of Medicine and Health Sciences 2022 PGR Symposium at Keele University. PhD students from faculty of Medicine and Health Sciences gathered to share their project in the form of 3 minutes presentation (3-minute thesis), 10 minutes presentation and poster presentation.
+
+Three PhD students from our department participated to this symposium: 
+
+  - Rebecca Davis: “The therapeutic effect of umbilical cord mesenchymal stromal cell extracellular vesicles in inflammatory arthritis”
+  
+  - Anaïs makos: “Immune cell profile in patient with Psoriatic Arthritis”
+  
+  - Tian Lan: “Characterisation of mesenchymal stromal cells isolated from autologous bone marrow aspirate concentrates used clinically in the treatment of cartilage defects in the ankle”
+
+The oral presentation runner up prize went to Rebecca Davis for her presentation of extracellular vesicles (EV) “The therapeutic effect of umbilical cord mesenchymal stromal cell extracellular vesicles in inflammatory arthritis”.
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("prize.png")
+```
+

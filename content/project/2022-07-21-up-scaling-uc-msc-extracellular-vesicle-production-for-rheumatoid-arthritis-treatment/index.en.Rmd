@@ -1,0 +1,30 @@
+---
+title: Up-scaling UC-MSC extracellular vesicle production for rheumatoid arthritis
+  treatment
+author: Anais
+date: '2019-09-25'
+slug: up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment
+categories: []
+weight:
+tags:
+  - Current projects
+  - Biology
+  - Mesenchymal Stem Cells
+subtitle: ''
+summary: 'Funded by James Richardson Studentship, Ort...'
+authors: ["Rebecca Davies","Mairead Hyland","Claire Mennan","Karina Wright","Mark Platt","Oksana Kehoe"]
+lastmod: '2022-07-21T12:55:56+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+The anti-inflammatory properties of umbilical cord mesenchymal stromal cells (UC-MSCs) make them an attractive source for cells therapies of inflammatory based disorders, including rheumatoid arthritis (RA). Yet, extracellular vesicles, which are small membrane bound particles, can recapitulate these advantageous properties through the delivery of biological cargo (protein and RNA) thereby removing concerns with safety and practicality associated with cell therapy. 
+
+This project aims to tackle some of the challenges of EV research by up-scaling UC-MSC vesicle production and exploring their subsequent characteristics and immunomodulatory potential, with particular attention given to their ability to treat RA. To do this, we will:
+Determine the optimal conditions to harvest and enrich UC-MSC EVs, in which a comparison of EV collection media was performed to investigate resulting cellular attributes and EV production before conducting a trial of three EV enrichment protocols (ultracentrifugation, sucrose cushion and size exclusion chromatography).
+Characterise single donor UC-MSC EVs to compare to an allogeneic strategy of EV production, to explore whether combining donors changes the resulting EV profile, with particular attention paid to their protein cargo and immunomodulatory properties.
+Compare the ability of UC-MSC EVs to treat an inflammatory model of arthritis with their parental cells, by assessing their resulting histology and T-cell subsets.
+Achieve the large-scale production of UC-MSC EVs using the Quantum cell expansion system, to see how this changes EV characteristics assessed previously, and how effective these EVs are at promoting an anti-inflammatory phenotype in RA derived PBMCs.

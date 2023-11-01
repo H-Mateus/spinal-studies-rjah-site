@@ -1,0 +1,49 @@
+---
+title: 'Tissue engineering of meniscus cells, bmscs, chondrocytes and co-cultures on a scaffolds'
+author: 'Jingsong Wang'
+date: '2021-04-28'
+slug: cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds
+categories: []
+weight:
+tags:
+  - Cell therapy
+  - Meniscus
+  - Knee
+  - Cartilage
+  - Mesenvhymal Stem Cells
+  - Biology
+  - Completed projects
+subtitle: ''
+summary: 'Funded by the Orthopaedic Institute'
+authors: ["Jingsong Wang", "Sally Roberts", "Bernhard Tins", "James Richardson", "Karina Wright"]
+lastmod: '2021-04-28T15:57:40+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CellTherapyRJAH
+- icon: hand-holding-usd
+  icon_pack: fas
+  name: Funder
+  url: https://www.orthopaedic-institute.org/
+---
+
+Menisci play an important role in force transmission, shock absorption, joint stability, lubrication, and proprioception of the knee joint. 
+Meniscus tears are the most commonly observed intra-articular knee injury. In the UK, there are 60-70 meniscal injuries each year per 100,000 people. 
+When the irreparable meniscus (the inner avascular zone with no blood vessels in) is damaged, the articular cartilage of the knee joint is exposed to excessive loading, which eventually increases the risk of early osteoarthritis. 
+Currently, two scaffolds are used in clinic in a cell-free approach as replacement menisci: CMI® (collagen scaffold) and Actifit® (polyurethane scaffold). 
+Though both scaffolds sometimes show some clinical benefit, there remain limitations: the grafts shrink, do not integrate well with the patients' own tissues and they have a fairly high failure rate. 
+Therefore, we aim to see if adding cells to these scaffolds would improve things. Meniscal cells, cartilage cells (chondrocytes) and mesenchymal stromal/stem cells (MSCs) from bone marrow are being studied in this project as potential cell sources.  
+This work is forming a PhD for a Chinese orthopaedic surgeon (Jingsong Wang) who is in his second year. 
+He aims to develop ways of seeding cells into the synthetic scaffolds and see how effective they will be at synthesising the molecules needed for a healthy meniscus. 
+Currently he is testing different formulations of fibrin glue for this purpose. 
+The results of this study will hopefully determine whether this approach can be applied in the clinic.
+
+Jingsong, with other members of the team have also just published a case report looking at 2 patients (A and B) who have previously been treated by Prof Richardson with a combination of cells (both autologous chondrocytes and MSCs from the patients' bone marrow), 8 and 9 years ago.
+Interestingly both patients appear to have improved for longer than might be expected, with defects or lesions seen on MRI in their bone beneath the cartilage appearing less obvious with time (Figure 8).

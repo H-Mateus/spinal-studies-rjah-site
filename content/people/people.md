@@ -25,8 +25,9 @@ content:
   - Grad Students
   - Administration
   - Visitors
-  - Alumni
   - Emeritus
+  - Alumni
+
  
 design:
   show_interests: false

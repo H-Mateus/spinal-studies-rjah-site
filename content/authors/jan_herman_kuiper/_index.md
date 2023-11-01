@@ -2,7 +2,7 @@
 title: "Jan Herman Kuiper"
 author: ["Anais Makos"]
 draft: false
-weight: 2007
+weight: 2006
 role: Principal Investigator
 bio: One sentence summary goes here.
 interests:

@@ -2,7 +2,7 @@
 title: "Karina Wright"
 author: ["mateus"]
 draft: false
-weight: 2007
+weight: 2003
 role: Principal Investigator
 bio: One sentence summary goes here.
 interests:

@@ -24,7 +24,7 @@ publishDate: 2009-07-04T15:53:28.000Z
 url_pdf: file:///Users/anaismakos/Downloads/s12015-023-10618-x.pdf
 publication_types:
   - '2'
-publication: 
+publication: "*Stem Cell Reviews and Reports*"
 publication_short: ''
 abstract: "Conditioned medium obtained from bone marrow-derived stem cells has been proposed as a
 novel cell-free therapy in spinal cord injury and neuropathic pain, yet the direct effect on

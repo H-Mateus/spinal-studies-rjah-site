@@ -24,7 +24,7 @@ publishDate: 2009-07-04T15:53:28.000Z
 url_pdf: hhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC9957889/pdf/10787_2022_Article_1092.pdf
 publication_types:
   - '2'
-publication: 
+publication: "*Inflammopharmacology*"
 publication_short: ''
 abstract: "Psoriatic arthritis (PsA) is a chronic and painful inflammatory immune-mediated
 disease. It affects up to 40% of people with psoriasis and it is associated with several

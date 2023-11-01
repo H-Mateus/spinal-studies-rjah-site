@@ -3,7 +3,7 @@ title: "Larissa Rix"
 author: ["mateus"]
 draft: false
 weight: 2009
-role: PhD Student
+role:
 bio: One sentence summary goes here.
 interests:
   - Patellofemoral joint

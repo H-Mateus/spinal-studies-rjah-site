@@ -3,7 +3,7 @@ title: "Karina Wright"
 author: ["mateus"]
 draft: false
 weight: 2003
-role: Principal Investigator
+role: 
 bio: One sentence summary goes here.
 interests:
   - Neuromusculoskeletal injury/disease

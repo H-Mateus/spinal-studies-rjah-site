@@ -3,7 +3,7 @@ title: "John Garcia"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2010
-role: Post-Doctoral Researcher
+role:
 bio: One sentence summary goes here.
 interests:
   - Mesenchymal stromal cells

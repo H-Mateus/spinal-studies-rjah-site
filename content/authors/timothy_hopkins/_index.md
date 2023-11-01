@@ -3,7 +3,7 @@ title: "Timothy Hopkins"
 author: ["mateus"]
 draft: false
 weight: 2006
-role: Post-Doctoral Researcher
+role:
 bio: One sentence summary goes here.
 email: t.hopkins@keele.ac.uk
 highlight_name: true

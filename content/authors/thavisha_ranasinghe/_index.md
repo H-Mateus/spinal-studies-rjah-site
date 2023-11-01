@@ -3,7 +3,7 @@ title: "Thavisha Ranasinghe"
 author: ["anais"]
 draft: false
 weight: 2016
-role: Student
+role: 
 bio: One sentence summary goes here.
 email:
 highlight_name: true

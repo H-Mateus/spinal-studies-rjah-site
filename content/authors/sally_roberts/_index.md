@@ -3,7 +3,7 @@ title: "Sally Roberts"
 author: ["mateus"]
 draft: false
 weight: 2009
-role: Principal Investigator
+role: 
 bio: One sentence summary goes here.
 email: Sally.roberts4@nhs.net
 highlight_name: true

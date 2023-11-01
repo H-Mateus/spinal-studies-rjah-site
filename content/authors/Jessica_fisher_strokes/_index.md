@@ -3,7 +3,7 @@ title: "Jessica Fisher-Stokes"
 author: ["anais"]
 draft: false
 weight: 2013
-role: PhD Student
+role:
 bio: One sentence summary goes here.
 interests:
   - Prognostic Biomarkers

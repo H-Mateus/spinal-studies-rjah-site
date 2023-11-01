@@ -3,7 +3,7 @@ title: "Tian Lan"
 author: ["mateus"]
 draft: false
 weight: 2012
-role: PhD Student
+role: 
 bio: One sentence summary goes here.
 interests:
   - Ankle joint

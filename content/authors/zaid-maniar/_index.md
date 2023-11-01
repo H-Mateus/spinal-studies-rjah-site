@@ -3,7 +3,7 @@ title: "Zaid Maniar"
 author: ["anais"]
 draft: false
 weight: 2015
-role: Student
+role: 
 bio: One sentence summary goes here.
 email: zaid.maniar@nhs.net
 highlight_name: true

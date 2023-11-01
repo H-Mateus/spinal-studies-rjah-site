@@ -3,7 +3,7 @@ title: "Anaïs Makos"
 author: ["Anais Makos"]
 draft: false
 weight: 2011
-role: PhD Student
+role:
 bio: One sentence summary goes here.
 interests:
   - Psoriatic Arthritis

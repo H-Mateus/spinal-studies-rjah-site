@@ -3,7 +3,7 @@ title: "Mike Williams"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2007
-role: Data Analyst
+role: 
 bio: One sentence summary goes here.
 email: mike.williams17@nhs.net
 highlight_name: true

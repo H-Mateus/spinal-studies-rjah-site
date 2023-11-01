@@ -3,7 +3,7 @@ title: "Hollie Wilkinson"
 author: ["anais"]
 draft: false
 weight: 2014
-role: PhD Student
+role:
 bio: One sentence summary goes here.
 interests:
   - Genetics

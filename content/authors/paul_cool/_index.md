@@ -3,7 +3,7 @@ title: "Paul Cool"
 author: ["anais"]
 draft: false
 weight: 2004
-role: Principal Investigator
+role:
 bio: One sentence summary goes here.
 interests:
   - Diagnostics

@@ -3,7 +3,7 @@ title: "Oksana Kehoe"
 author: ["mateus"]
 draft: false
 weight: 2005
-role: Principal Investigator
+role: 
 bio: One sentence summary goes here.
 email: oksana.kehoe@nhs.net
 highlight_name: true

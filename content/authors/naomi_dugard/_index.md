@@ -3,7 +3,7 @@ title: "Naomi Dugard"
 author: ["mateus"]
 draft: false
 weight: 2005
-role: Post-Doctoral Researcher
+role: 
 bio: One sentence summary goes here.
 interests:
   - Cartilage repair

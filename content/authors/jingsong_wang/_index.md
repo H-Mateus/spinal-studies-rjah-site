@@ -3,7 +3,7 @@ title: "Jingsong Wang"
 author: ["mateus"]
 draft: false
 weight: 2004
-role: Post-Doctoral Researcher
+role: 
 bio: One sentence summary goes here.
 interests:
   - Meniscus tissue engineering

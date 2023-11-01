@@ -3,7 +3,7 @@ title: "Abi Jones"
 author: ["anais"]
 draft: false
 weight: 2015
-role: PhD Student
+role:
 bio: One sentence summary goes here.
 interests:
   - Transcriptomic

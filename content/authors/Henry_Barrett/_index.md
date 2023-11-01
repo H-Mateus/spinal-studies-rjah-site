@@ -3,7 +3,7 @@ title: "Henry Barrett"
 author: ["anais"]
 draft: false
 weight: 2016
-role: PhD Student
+role:
 bio: One sentence summary goes here.
 interests:
   - Extracellular vesicles

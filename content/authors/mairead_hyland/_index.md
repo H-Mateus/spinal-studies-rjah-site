@@ -3,7 +3,7 @@ title: "Mairead Hyland"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2009
-role: Post-Doctoral Researcher
+role: 
 bio: One sentence summary goes here.
 interests:
   - Mesenchymal stromal cells

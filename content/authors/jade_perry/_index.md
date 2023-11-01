@@ -3,7 +3,7 @@ title: "Jade Perry"
 author: ["anais"]
 draft: false
 weight: 2003
-role: Post-Doctoral Researcher
+role:
 bio: One sentence summary goes here.
 interests:
   - Tissue engineering

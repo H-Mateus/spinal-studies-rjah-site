@@ -3,7 +3,7 @@ title: "Jan Herman Kuiper"
 author: ["Anais Makos"]
 draft: false
 weight: 2006
-role: Principal Investigator
+role:
 bio: One sentence summary goes here.
 interests:
   - Regenerative medicine

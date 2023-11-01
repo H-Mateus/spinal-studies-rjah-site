@@ -3,7 +3,7 @@ title: "Charlotte Hulme"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2007
-role: Principal Investigator
+role:
 bio: One sentence summary goes here.
 interests:
   - Osteoarthritis

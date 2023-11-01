@@ -3,13 +3,13 @@ title: "Lauren Tierney"
 author: ["mateus"]
 draft: false
 weight: 2008
-role: PhD Student
+role: Post-Doctoral Researcher
 bio: Transcriptome analysis of stem cell and chondrocyte therapies
 email: l.tierney@keele.ac.uk
 highlight_name: true
 superuser: false
 user_groups:
-  - Researchers
+  - Alumni
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

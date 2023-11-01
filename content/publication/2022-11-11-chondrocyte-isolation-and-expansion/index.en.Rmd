@@ -1,0 +1,38 @@
+---
+title: ' Chondrocyte Isolation and Expansion'
+author: anais
+date: '2022-11-11'
+slug: chondrocyte-isolation-and-expansion
+categories:
+  - publication
+tags:
+  - Cartilage
+  - Chondrocyte
+  - Tissue Culture
+subtitle: ''
+summary: ''
+authors: ["Paul Harrison", "Timothy Hopkins", "Charlotte Hulme", "Helen McCarthy", "Karina Wright"]
+lastmod: '2023-11-01T14:32:13Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: https://doi.org/10.1007/978-1-0716-2839-3_2
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: 
+publication_types:
+  - '2'
+publication: "*Cartilage Tissue Engineering. Methods in Molecular Biology, vol 2598. Humana, New York, NY*"
+publication_short: ''
+abstract: "PChondrocyte isolation requires a combination of enzymatic and mechanical digestion of
+cartilaginous tissues in order to release the chondrocytes. Extracted primary chondrocytes will
+then adhere to standard tissue culture plastics, typically in small clusters, over a period of a
+few days in monolayer culture. Chondrocyte populations are expanded in a basal medium containing
+serum, supplemented with ascorbic acid, antibiotics, and sometimes antifungal agents and growth
+factors. Here we describe the standard research grade and good manufacturing practice (GMP)
+protocols used for the isolation and expansion of chondrocytes by the Oswestry/Keele University
+Orthopaedic Research (OsKOR) group and John Charnley GMP and MHRA licensed laboratory, both based
+at the RJAH Orthopaedic Hospital, Oswestry, UK."
+---

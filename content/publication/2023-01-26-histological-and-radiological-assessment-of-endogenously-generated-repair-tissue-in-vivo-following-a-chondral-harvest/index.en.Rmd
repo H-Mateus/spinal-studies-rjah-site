@@ -1,0 +1,48 @@
+---
+title: Histological and Radiological Assessment of Endogenously Generated Repair Tissue
+  In Vivo Following a Chondral Harvest
+author: anais
+date: '2023-01-26'
+slug: histological-and-radiological-assessment-of-endogenously-generated-repair-tissue-in-vivo-following-a-chondral-harvest
+categories:
+  - publication
+tags:
+  - Cartilage
+  - Cartilage Regeneration
+  - Osteoarthritis
+subtitle: ''
+summary: ''
+authors: ["Helen McCarthy", "Bernhard Tins", "Peter Gallacher", "Paul Jermin", "James Richardson", "Jan Herman Kuiper", "Sally Roberts"]
+lastmod: '2023-11-01T14:37:48Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: 10.1177/19476035221149523
+publishDate: 2009-07-04T15:53:28.000Z
+url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10076898/pdf/10.1177_19476035221149523.pdf
+publication_types:
+  - '2'
+publication: "*Cartilage*"
+publication_short: ''
+abstract: "Objective - To examine repair tissue formed approximately 15 months after a chondral
+harvest in the human knee.  <br><br> Design - Sixteen individuals (12 males, 4 females, mean age
+36 ± 9 years) underwent a chondral harvest in the trochlea as a pre-requisite for autologous
+chondrocyte implantation (ACI) treatment. The harvest site was assessed via MRI at 14.3 ± 3.2
+months and arthroscopy at 15 ± 3.5 months (using the Oswestry Arthroscopy Score [O-AS] and the
+International Cartilage Repair Society Arthroscopy Score [ICRS-AS]). Core biopsies (1.8 mm
+diameter, n = 16) of repair tissue obtained at arthroscopy were assessed histologically (using
+the ICRS II and OsScore histology scores) and examined via immunohistochemistry for the presence
+of collagen types I and II.  <br><br> Results - The mean O-AS and ICRS-AS of the repaired harvest
+sites were 7.2 ± 3.2 and 10.1 ± 3.5, respectively, with 80.3% ± 26% repair fill depth on MRI. The
+histological quality of the repair tissue formed was variable, with some hyaline cartilage
+present in 50% of the biopsies; where this occurred, it was associated with a significantly
+higher ICRS-AS than those with no hyaline cartilage present (median 11 vs. 7.5, P = 0.049).
+Collagen types I and II were detected in 12/14 and 10/13 biopsies, respectively.  <br><br> Conclusions - We demonstrate good-quality structural repair tissue formed following cartilage
+harvest in ACI, suggesting this site can be useful to study endogenous cartilage repair in
+humans. The trochlea is less commonly affected by osteoarthritis; therefore, location may be
+critical for spontaneous repair. Understanding the mechanisms and factors influencing this could
+improve future treatments for cartilage defects."
+---

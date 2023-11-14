@@ -18,6 +18,7 @@ content:
   user_groups:
   - Principal Investigators
   - Researchers
+  - Support team
   - Data analyst
   - PhD Students
   - Post-Doctoral Researchers

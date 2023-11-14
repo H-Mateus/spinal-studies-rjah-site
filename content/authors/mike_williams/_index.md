@@ -3,13 +3,13 @@ title: "Mike Williams"
 author: ["Gabriel Mateus Bernardo Harrington"]
 draft: false
 weight: 2007
-role: 
+role: Data analyst
 bio: One sentence summary goes here.
 email: mike.williams17@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - Data analyst
+  - Support team
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

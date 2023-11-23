@@ -24,4 +24,5 @@ body {
 text-align: justify}
 </style>
 
-
+I am a placement student at RJAH from Cardiff university and I assist With the OOAC project culturing and banking
+Chondrocytes, I am also working on the scaffold project which looks at improving the ACI treatment offered at RJAH

@@ -1,5 +1,5 @@
 ---
-title: "Tomas Linkt"
+title: "Tomas Link"
 author: ["anais"]
 draft: false
 weight: 2017

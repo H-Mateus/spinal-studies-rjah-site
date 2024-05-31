@@ -1,0 +1,29 @@
+---
+title: Using Nanopore sequencing to identify bacterial infection in joint replacements,
+  preliminary study.
+author: Package Build
+date: '2024-05-31'
+slug: using-nanopore-sequencing-to-identify-bacterial-infection-in-joint-replacements-preliminary-study
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Hollie Wilkinson", "Jamie McDonald", "Helen McCarthy", "Jade Perry", "Karina Wright", "Charlotte Hulme", "Paul Cool"]
+lastmod: '2024-05-31T13:31:54+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi: "10.1093/bfgp/elae008"
+publishDate: 2024-03-30
+url_pdf: "https://watermark.silverchair.com/elae008.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA2AwggNcBgkqhkiG9w0BBwagggNNMIIDSQIBADCCA0IGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhTT8_S8To7Nq4VmlAgEQgIIDEz8v-MdjxAfhxwke4zExe5WzTgHkExIdtUeRfkwpvyfLnTRMxoTw-XwdUDVeZGIXKR96_-ljSGC7pmLlH_285izTUzcfoNr-Akjm_rSQ6-MgW8gGMnukaXIyU3ZV8K21XpLXAWShcTDqhMTDXrBHhZpzHaZrrDHLdHWAAgJpnDmu_Ztom-KlUM5U6xr11gcqM58V2J9XsO4EDoG8-OBWO8DX_-3ocwPGHJG4spB6KHPmHFaK01gOGHKbULWZz-mszJNtjo1Ah1C-1TGSVK-VAh1c41-Ha4weSCwQXPHmDltZk9QDXJwQJh-kGYNjNfXO0gf7T7nkuyVnwi-yDcdQn6tBSW6tTt00lQt2rPU0ju-DOQzIxjU1cjGeGNXtHCUrPsHJTgPjMlew6P29XVLTZ3XUDFYnyzptsJGwVghRBWpltwdUvLr7Oqhp-CkJp5FYO726lD_RbbvJ34rBcbH7yJMUuJj3tkSLO5p9wMY4anNnz63vTlj7rIX11s8JYk0m6JK9Qtg_uY4krv0PjWWpK3wS-SVCel0yqYHAhXA96CJerjOjh2vQHyeSUAceqsO_V1_tdIszKmjNLv1iQ0ECBR9O-XK535WGG470IjQSPWwJeVVrVrWGrTUhe3-ThleuZqTN_HJd8QbFs9M21R1oP13NR6d3GSwyGKEiR565n9XzSp3MoB3pplw9CYcbd5zabzvrTX_NZcDF2BNZY2kEb9AVBKyLSs8COaDN3QHs0tJqLmdEopdVNOhwKk_qj9-2Jk7Wxr7kjdBCCbIeHRYGOg8yIcDcaCaHpbtaZB7fTKuANgpuQPvMAnqbF0oN7zbqJ8PIuBBFNZNUfTCoqHBPwpyNc97o_Ur8oOFx38JvGJp6NwElWzSmC3Z8f_xzpHKwrXrnhAazMWq-x60l1wTOlzLIdgnHo7M376FMC4aNPiRcETeASNi4tSs1zfG_qSgXuyMkfR5zaznWxSYUM_IsqP7cvfmBwec3VtRC_nNgiuXDqWw1TLLjr0tLVpYWa5EZF5X0QSO4eW43fT4WkT7NMD6REaI"
+publication_types:
+  - '1'
+publication: 
+publication_short: ''
+abstract: "This project investigates if third-generation genomic sequencing can be used to identify the species of bacteria causing prosthetic joint infections (PJIs) at the time of revision surgery. Samples of prosthetic f luid were taken during revision surgery from patients with known PJIs. Samples from revision surgeries from non-infected patients acted as negative controls. Genomic sequencing was performed using the MinION device and the rapid sequencing kit from Oxford Nanopore Technologies. Bioinformatic analysis pipelines to identify bacteria included Basic Local Alignment Search Tool, Kraken2 and MinION Detection Software, and the results were compared with standard of care microbiological cultures. Furthermore, there was an attempt to predict antibiotic resistance using computational tools including ResFinder, AMRFinderPlus and Comprehensive Antibiotic Resistance Database. Bacteria identified using microbiological cultures were successfully identified using bioinformatic analysis pipelines. Nanopore sequencing and genomic classification could be completed in the time it takes to perform joint revision surgery (2–3 h). Genomic sequencing in this study was not able to predict antibiotic resistance in this time frame, this is thought to be due to a short-read length and low read depth. It can be concluded that genomic sequencing can be useful to identify bacterial species in infected joint replacements. However, further work is required to investigate if it can be used to predict antibiotic resistance within clinically relevant timeframes."
+---
+---

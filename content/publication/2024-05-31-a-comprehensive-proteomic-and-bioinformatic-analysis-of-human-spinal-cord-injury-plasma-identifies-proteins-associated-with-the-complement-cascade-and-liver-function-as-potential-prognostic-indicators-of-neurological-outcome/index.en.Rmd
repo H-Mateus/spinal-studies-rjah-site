@@ -1,0 +1,30 @@
+---
+title: A comprehensive proteomic and bioinformatic analysis of human spinal cord injury
+  plasma identifies proteins associated with the complement cascade and liver function
+  as potential prognostic indicators of neurological outcome.
+author: Package Build
+date: '2024-05-31'
+slug: a-comprehensive-proteomic-and-bioinformatic-analysis-of-human-spinal-cord-injury-plasma-identifies-proteins-associated-with-the-complement-cascade-and-liver-function-as-potential-prognostic-indicators-of-neurological-outcome
+categories:
+  - publication
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2024-05-31T14:09:45+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+doi:
+publishDate:
+url_pdf: ""
+publication_types:
+  - '2'
+publication: 
+publication_short: ''
+abstract: "Spinal Cord Injury (SCI) is a major cause of disability, with complications post-injury often leading to life-long health issues with need of extensive treatment. Neurological outcome post-SCI can be variable and difficult to predict, particularly in incomplete injured patients. The identification of specific SCI biomarkers in blood, may be able to improve prognostics in the field. This study has utilised proteomic and bioinformatics methodologies to investigate differentially expressed proteins in plasma samples across human SCI cohorts with the aim of identifying candidate prognostic biomarkers and biological pathway alterations that relate to neurological outcome.
+The data demonstrated proteomic differences between the SCI improver and non-improver cohorts, with the results from two independent approaches supporting each other and identifying 79 and 87 differences in total between the groups. Bioinformatics analyses revealed that the majority of differentially abundant proteins were components of the complement cascade and most interacted directly with the liver. Additional investigations into the chronology of these proteins, and their levels in other tissues (cerebrospinal fluid in particular) are needed to better understand the underlying pathophysiology, including any potentially modifiable targets. "
+---

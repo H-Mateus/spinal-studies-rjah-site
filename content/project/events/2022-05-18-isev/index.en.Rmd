@@ -18,8 +18,18 @@ image:
   preview_only: no
 projects: []
 ---
-- [International Society of Extracellular Vesicles 2022](#isev-2022)  
+- [International Society of Extracellular Vesicles 2022](#isev-2022), [2023](#isev-2023) 
 - [EV consultation in Vietnam](#ev-cons-2022)
+<br><br>
+
+<h2 id="isev-2023">International Society of Extracellular Vesicles 2023</h2>
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("isev-2023.png")
+```
+
+Ms Rebecca Davies recently attended the International Society for Extracellular Vesicle's Annual Meeting (ISEV2023) in Seattle, Washington, as part of her final year PhD on mesenchymal stromal cell extracellular vesicles (MSC EVs). Here, she got a chance to see the forefront of EV research, new EV technologies and discuss upcoming regulations with scientists in the field. She also presented my own work in the poster session, giving her a chance to discuss my PhD with like-minded scientists to gain their opinion and expertise. She said that "Overall, it was a valuable experience and one that will greatly enhance my approach to EV research."
+
 <br><br>
 
 <h2 id="isev-2022">International Society of Extracellular Vesicles 2022</h2>

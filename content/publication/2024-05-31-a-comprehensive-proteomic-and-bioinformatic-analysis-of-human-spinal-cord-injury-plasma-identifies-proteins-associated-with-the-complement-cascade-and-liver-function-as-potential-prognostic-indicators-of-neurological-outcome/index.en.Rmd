@@ -1,7 +1,7 @@
 ---
 title: A comprehensive proteomic and bioinformatic analysis of human spinal cord injury
   plasma identifies proteins associated with the complement cascade and liver function
-  as potential prognostic indicators of neurological outcome.
+  as potential prognostic indicators of neurological outcome
 author: Package Build
 date: '2024-05-31'
 slug: a-comprehensive-proteomic-and-bioinformatic-analysis-of-human-spinal-cord-injury-plasma-identifies-proteins-associated-with-the-complement-cascade-and-liver-function-as-potential-prognostic-indicators-of-neurological-outcome

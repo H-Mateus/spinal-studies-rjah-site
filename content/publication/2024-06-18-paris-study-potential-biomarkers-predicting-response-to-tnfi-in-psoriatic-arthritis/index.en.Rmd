@@ -19,7 +19,7 @@ image:
   preview_only: no
 projects: []
 doi: "10.1136/annrheumdis-2024-eular.2980"
-publishDate: 
+publishDate: 2024-06-12
 url_pdf:"https://ard.bmj.com/content/83/Suppl_1/710.2"
 publication_types:
   - '2'

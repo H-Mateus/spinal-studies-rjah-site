@@ -10,7 +10,7 @@ categories:
 tags: []
 subtitle: ''
 summary: ''
-authors: []
+authors: ["Mateus Harrington",  "Paul Cool",  "Charlotte Hulme", "Jessica Fisher-Stokes", "Mandy Peffers", "Wagih El Masri", "Aheed Osman", "Joy Roy Chowdhury", "Naveen Kumar", "Srinivasa Budithi", "Karina Wright"]
 lastmod: '2024-05-31T14:09:45+01:00'
 featured: no
 image:

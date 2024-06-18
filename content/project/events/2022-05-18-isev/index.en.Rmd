@@ -1,5 +1,5 @@
 ---
-title: ISEV
+title: Extracellular vesicle events
 author: anais
 date: '2022-05-18'
 slug: international-society-extracellular-vesicles
@@ -18,7 +18,17 @@ image:
   preview_only: no
 projects: []
 ---
-In May, Dr Oksana Kehoe and Becky Davies (3rd Year PhD student) attended the International
+- [International Society of Extracellular Vesicles 2022](#isev-2022)  
+- [EV consultation in Vietnam](#ev-cons-2022)
+<br><br>
+
+<h2 id="isev-2022">International Society of Extracellular Vesicles 2022</h2>
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("isev.jpg")
+```
+
+In May 2022, Dr Oksana Kehoe and Becky Davies (3rd Year PhD student) attended the International
 Society for Extracellular Vesicles Annual Meeting (ISEV2022) at the [Centre des Congrès of Lyon, France](https://www.eventscribe.net/2022/ISEV2022/).
 
 The annual meeting offered an unparalleled opportunity to learn from, teach, and network with,
@@ -39,4 +49,13 @@ knitr::include_graphics("Fig1.jpg")
 
 ```{r echo=FALSE, out.width="60%"}
 knitr::include_graphics("Fig2.jpg")
+```
+
+<br><br>
+
+<h2 id="ev-cons-2022">EV consultation in Vietnam</h2>
+In summer 2022, a member of the OsKoR research team, Rebecca Davies, travelled to Hanoi, Vietnam where she acted as a consultant for [the Vinmec Healthcare System]('https://www.vinmec.com/en/'). Here, our knowledge of mesenchymal stromal cell extracellular vesicles (MSC EVs) was used to assist the Vinmec team on enrichment and characterisation of their GMP grade MSC EVs for future use in animal studies and clinical trials.
+
+```{r echo=FALSE, out.width="60%"}
+knitr::include_graphics("ev-cons.jpg")
 ```

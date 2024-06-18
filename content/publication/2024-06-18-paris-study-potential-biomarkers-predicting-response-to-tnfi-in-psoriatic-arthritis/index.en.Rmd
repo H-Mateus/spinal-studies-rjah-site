@@ -1,6 +1,5 @@
 ---
-title: 'PARIS Study: Potential biomarkers predicting response to TNFi in Psoriatic
-  Arthritis'
+title: 'PARIS Study: Potential biomarkers predicting response to TNFi in Psoriatic Arthritis'
 author: anais makos
 date: '2024-06-18'
 slug: paris-study-potential-biomarkers-predicting-response-to-tnfi-in-psoriatic-arthritis

@@ -1,5 +1,5 @@
 ---
-title: ICRS 2022
+title: International Cartilage Regeneration Society
 author: anais
 date: '2022-04-12'
 slug: icrs-2022
@@ -18,6 +18,21 @@ image:
   preview_only: no
 projects: []
 ---
+- [ICRS Focus Meeting: Allografts & Synthetics](#focus-icrs)
+- [ICRS 2022](#icrs-2022)
+
+
+<h2 id="focus-icrs">**ICRS Focus Meeting: Allografts & Synthetics (Nice, France) - April 27-29 2023**</h2>
+
+
+```{r echo=FALSE, out.width= "80%"} 
+knitr::include_graphics("icrs-jade.png")
+```
+
+Dr Jade Perry was awarded a prestigious travel scholarship to attend the Allograft and Synthetics focus meeting in Nice. The exciting program explored the knee joint as a whole organ, focusing not only on the treatment of articular cartilage but also other issues such as meniscal allografts and malalignment. The conference effectively brought together everything from diagnostics to imaging, to conservative and surgical treatments, as well as basic science (biological approaches). Due to the international nature of the conference, it was a great opportunity to hear from a diverse range of speakers and network with experts from across the globe. 
+<br><br>
+
+<h2 id="icrs-2022">**ICRS - April 2022**</h2>
 
 ```{r echo=FALSE, out.width= "75%"}
 # MH: I've comment this out as it's redundant with the featured image

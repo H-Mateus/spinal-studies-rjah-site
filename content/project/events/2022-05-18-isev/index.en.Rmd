@@ -1,5 +1,5 @@
 ---
-title: International Society for Extracellular Vesicles
+title: ISEV
 author: anais
 date: '2022-05-18'
 slug: international-society-extracellular-vesicles

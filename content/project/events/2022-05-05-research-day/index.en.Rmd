@@ -26,7 +26,3 @@ Award for the best scientific poster went to Dr Karina Wright for her poster pre
 
 Award for the best clinical presentation was conferred on Dr Jan Herman Kuiper for his presentation “Autologous chondrocyte implantation in osteochondral defects of the talus: Two to Fourteen Year Follow-up study”.
 
-```{r echo=FALSE, out.width="50%"}
-knitr::include_graphics("logo.jpg")
-```
-

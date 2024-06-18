@@ -10,7 +10,7 @@ tags:
   - Biomarkers
 subtitle: ''
 summary: ''
-authors: ["Anaïs Makos","Harry Grime","Roshan Amarasena","Jan Herman Kuiper","Oksana Kehoe"]
+authors: ["Anaïs Makos", "Harry Grime", "Roshan Amarasena", "Jan Herman Kuiper", "Oksana Kehoe"]
 lastmod: '2024-06-18T10:28:17+01:00'
 featured: no
 image:

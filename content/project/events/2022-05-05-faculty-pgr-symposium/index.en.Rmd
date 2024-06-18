@@ -1,5 +1,5 @@
 ---
-title: Keele conferences
+title: Keele courses and conferences
 author: anais
 date: '2022-05-04'
 slug: faculty-pgr-symposium
@@ -18,9 +18,7 @@ image:
   preview_only: no
 projects: []
 ---
-Blablabla Keele hold courses and conferences enhancing visibility and collaboration...
-<br><br>
-## Keele courses and conferences  
+Keele courses and conferences  
 
 - [PGR Symposium 2022](#pgr-symposium-2022), [2023](#pgr-symposium-2023), [2024](#pgr-symposium-2024)   
 
@@ -34,10 +32,16 @@ Blablabla Keele hold courses and conferences enhancing visibility and collaborat
 
 <h2 id="pgr-symposium-2024">PGR Symposium 2024</h2>
 
-Dr Jade Perry gave a career talk
-Final years PhD students Anaïs Makos and Tian Lan gave excellent 15 minute talk and highlight findings of thesis.
-Poster: Henry Barrett, Hollie Wilkinson, Abi Jones, Tom Link, Yumna Ladha.
-3-minute thesis: Larissa Rix
+The PGR Symposium 2024 had been held in Keele campus on the 17th and the 18th of June 2024.  
+On the 17th of June,Dr Jade Perry gave an excellent career talk title 10 years in 15 minutes, where she explained her journey through research to the audiance, giving tips and advices to current and future PhD students attending the symposium.  
+
+Two final years PhD students Anaïs Makos and Tian Lan gave a 15 minute talk summarizing their thesis and highlighting their findings:  
+- Anaïs Makos: Potential biomarkers predicting response to TNF-blockers in Psoriatic Arthritis  
+- Tian Lan: Cell therapy for repair of cartilage defects in the ankle - A PhD summary  
+
+On the 18th of June, Larissa Rix participated to the 3-minute thesis and gave us a summary of her PhD project.  
+
+Abi Jones, Henry Barrett, Hollie Wilkinson, Ton Link and Yumna Ladha displayed their academic posters to share their work with all PhD students and supervisors attending the symposium.
 
 <br><br>
 

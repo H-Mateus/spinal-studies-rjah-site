@@ -8,8 +8,8 @@ tags:
   - Research
   - Event
 subtitle: ''
-summary: '.'
-authors: ["Oksana Kehoe","Karina Wright","Jan Herman Kuiper","Charlotte Hulmes","Jade Perry","Helen McCarthy","Claire Mennan","Timothy Hopkins","Lauren Tierney","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes","John Garcia"]
+summary: ' '
+authors: ["Oksana Kehoe","Karina Wright","Jan Herman Kuiper","Charlotte Hulmes","Jade Perry","Helen McCarthy","Claire Mennan","Timothy Hopkins","Lauren Tierney","Rebecca Davis","Anaïs Makos","Tian Lan","Jessica Fisher-Stokes","John Garcia","Abi Jones","Hollie Wilkinson","Tom Link","Yumna Ladha"]
 lastmod: '2022-05-05T10:35:52+01:00'
 featured: no
 image:

@@ -18,6 +18,44 @@ image:
   preview_only: no
 projects: []
 ---
+- [Researh day 2022](#rjah-2022), [2023](#rjah-2023), [2024](#rjah-2024)  
+
+<h2 id="rjah-2024">**RJAH Research day 2024**</h2>
+In June 2024 was held the 25th annual research day at the RJAH Orthopaedic hospital in Oswestry.
+Surgeons, clinicians, researchers and students shared and discusses their work with other professionals. Research day was a great day to enhance collaboraion and discussion between labs and theatres.
+
+The OSKOR groups presented several project in the science session:
+- Dr Charlotte Hulme - Identification of Synovial Fluid Proteins as Candidate Biomarkers of Cartilage Repair Tissue Quality Following Autologous Chondrocyte Implantation  
+- Dr Jan Herman Kuiper - Mathematical model of signalling molecule-mediated processes during repair of osteochondral defects after cell therapy 
+- Dr Jade Perry - Whole-Organ Computed Tomography Score (WOCT) of the Knee 
+- Ms Larissa Rix - An Investigation into The Patellofemoral Joint: Improving Diagnostics, Prognostics and Cell-Based Therapies  
+- Mr Thavisha Ranasinghe - Developing up-scale allogeneic chondrocyte therapies using juvenile donor cartilage  
+- Mr Henry Barrett - The potential utility of human regulatory T cell-deriVed ExtRacellular veSicles to control inflammation in rheUmatoid arthritiS (VERSUS)  
+
+And in the combined science and clinic session:
+- Dr Sharon Owen - Preliminary investigation of the potential of ‘old’ drugs for treatment use in adults with Spinal Muscular Atrophy  
+- Ms Tian Lan - Cell Therapy for Repair of Cartilage Defects in the Ankle - A PhD summary 
+- Ms Amaïs Makos - PARIS study - Potential biomarkers to predict response to TNF inhibitors in psoriatic arthritis  
+- Ms Hollie Wilkinson - Using nanopore sequencing to diagnose prosthetic joint infections: an update on the methodology
+
+Dr Jan Herman Kuiper won the golden tube and was awareded with the best scientific presentation.
+
+The OSKOR group also presented their work in interesting poster:
+- Ms Abi Jones
+- Mr Tom Link
+- Ms Yumna Ladha
+- Mr Zaid Maniar
+
+Congratulation to Mr Zaid Maniar who won the best poster presentation of the day.
+
+<br><br>
+<h2 id="rjah-2023">**RJAH Research day 2023**</h2>
+
+The RJAH held its annual research day on Friday 28th April. The exciting programme saw separate scientific and clinical sessions in the morning and a combined session in the afternoon. OsKOR showcased their recent results with many students, post-docs and group leads presenting their work as oral and poster presentations. We also had a number Keele staff and colleagues joining the day and a highlight was the keynote talk from Dr Dan Tonge, who gave us a fascinating insight on his experiences that have taken him from a wet lab scientist to a bioinformatician. Ms Hollie Wilkinson (1st year PhD student) won the ‘Golden Test Tube’ for best scientific talk, again! And Miss Jessica Fisher-Stokes and Ms Abi Jones shared the best poster prize! 
+
+<br><br>
+<h2 id="rjah-2022">**RJAH Research day 2022**</h2>
+
 In April 2022, surgeons and researchers of the RJAH Orthopaedic Hospital gathered to share their latest developments in term of surgery, treatments and research for the 23rd Research Day. The day began with a Q&A session led by Mr Andrew Roberts, Director of Research and Ms Stacy Keegan, Acting Chief Executive. Scientists and surgeons presented their projects, and a one-hour session was dedicated to poster presentation during lunch time. 
 
 We must thank our judge Dr John Garcia who was also our guest lecturer this year, with his lecture on advances in CAR T cell therapy.

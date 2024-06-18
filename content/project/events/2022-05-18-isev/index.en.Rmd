@@ -25,7 +25,7 @@ projects: []
 <h2 id="isev-2022">International Society of Extracellular Vesicles 2022</h2>
 
 ```{r echo=FALSE, out.width="80%"}
-knitr::include_graphics("isev.jpg")
+knitr::include_graphics("group.jpg")
 ```
 
 In May 2022, Dr Oksana Kehoe and Becky Davies (3rd Year PhD student) attended the International

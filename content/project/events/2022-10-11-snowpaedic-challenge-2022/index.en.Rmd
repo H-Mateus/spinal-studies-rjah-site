@@ -21,7 +21,7 @@ projects: []
 ---
 - [Sponsored walk - 2023](#walk-2023)  
 - [Snowpaedic challende - 2022](#snowpaedic-2022)  
-- [London Marathon - 2021](#marathon-2021). 
+- [London Marathon - 2021](#marathon-2021) 
 
 <h2 id="walk-2023">**Sponsord walk at the Llyn Brenig Lake**</h2>
 

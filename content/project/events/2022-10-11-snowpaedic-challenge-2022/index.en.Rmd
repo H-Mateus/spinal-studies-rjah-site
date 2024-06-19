@@ -26,7 +26,7 @@ projects: []
 <h2 id="walk-2023">**Sponsord walk at the Llyn Brenig Lake**</h2>
 
 ```{r echo=FALSE, out.width="100%"}
-knitr::include_graphics("walk.png")
+knitr::include_graphics("walk.jpeg")
 ```
 
 On the 16th of September 2023, researchers and students of the OSKOR groups participated in a walk around the beautiful Llyn Brenig Lake, and raised money to improve research in Duchenne Muscular Dystrophy.

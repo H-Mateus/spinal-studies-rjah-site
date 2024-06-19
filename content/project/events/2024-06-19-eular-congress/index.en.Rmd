@@ -1,0 +1,40 @@
+---
+title: EULAR congress
+author: anais makos
+date: '2024-06-19'
+slug: eular-congress
+categories:
+  - Events
+tags: []
+subtitle: ''
+summary: ''
+authors: ["Anaïs Makos", "Oksana Kehoe", "Jan Herman Kuiper", "Roshan Amarasena"]
+lastmod: '2024-06-19T11:42:46+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+The European Alliance od Association for Rheumatology (EULAR) hold a congress in Europe every year to share new discovery and advancement in rheumatic disease pathogenesis, diagnosis, prognosis and treatments. The congress encourage collaboration between scientists and consultants and organises networking events to stimulate discussion.
+
+[EULAR congress - 2023](#eular-2023), [2024](#eular-2024)
+
+<h2 id="eular-2024">**EULAR congress 2024**</h2>
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("picture2.png")
+```
+
+Dr Oksana Kehoe, Ms Anaïs Makos and Dr Roshan Amarasena attended the EULAR congress 2024 in Vienna where their abstract “PARIS Study: Potential biomarkers predicting response to TNFi in Psoriatic Arthritis” was accepted for publication and for poster view.  
+
+<br><br> 
+
+<h2 id="eular-2023">**EULAR congress 2023**</h2>
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("picture1.jpg")
+```
+
+Dr Oksana Kehoe, Ms Anaïs Makos and Dr Roshan Amarasena attended the EULAR congress 2023 in Milan where their abstract “Potential biomarkers to predict TNF inhibitor outcome in psoriatic arthritis” was accepted for publication. They heard scientific and clinical talks from international speakers and were particularly proud to attend Prof Sally Roberts’ talk who had been invited to talk about cell therapy for cartilage repair and osteoarthritis. Dr Amarasena and Dr Askari, consultant rheumatologists at the Robert Jones and Agnes Hunt (RJAH) Orthopaedic hospital were also in attendance. 

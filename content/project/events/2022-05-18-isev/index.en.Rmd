@@ -1,7 +1,7 @@
 ---
 title: Extracellular vesicle events
 author: anais
-date: '2022-05-18'
+date: '2024-06-17'
 slug: international-society-extracellular-vesicles
 categories: [Events]
 tags:

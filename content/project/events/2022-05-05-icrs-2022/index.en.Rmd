@@ -1,7 +1,7 @@
 ---
 title: ICRS
 author: anais
-date: '2022-04-12'
+date: '2024-06-16'
 slug: icrs-2022
 categories: [Events]
 tags:

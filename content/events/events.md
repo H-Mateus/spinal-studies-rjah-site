@@ -12,7 +12,7 @@ subtitle = ""
   # Page type to display. E.g. project.
   page_type = "project"
   # Field to sort by, such as Date or Title
-  sort_by = "Title"
+  sort_by = "Date"
   sort_ascending = false
   
   # Filter toolbar (optional).

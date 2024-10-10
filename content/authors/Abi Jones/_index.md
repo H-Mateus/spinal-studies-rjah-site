@@ -20,9 +20,15 @@ organizations:
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
 education:
   courses:
-    - course: 
-    - course: 
-    - course: 
+    - course: PhD in Regenerative Medicine
+    institution: Keele University
+    year: 2022-2026
+    - course: MSc in Biomedical Engineering
+    institution: Keele University
+    year: 2019-2020
+    - course: BSc in Biomedical Science 
+    institution: Keele University
+    year: 2015-2018
 social:
   - icon: envelope
     icon_pack: fas

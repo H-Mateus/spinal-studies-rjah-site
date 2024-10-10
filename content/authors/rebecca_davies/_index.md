@@ -14,7 +14,7 @@ email: r.l.davies@keele.ac.uk
 highlight_name: true
 superuser: false
 user_groups:
-  - PhD Students
+  - Alumni
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

@@ -9,7 +9,7 @@ tags:
   - Event
 subtitle: ''
 summary: ' '
-authors: ["Oksana Kehoe","Rebecca Davies"]
+authors: ["Oksana Kehoe","Rebecca Davies","Anais Makos","Henry Barrett"]
 lastmod: '2022-05-05T10:35:52+01:00'
 featured: no
 image:
@@ -18,8 +18,24 @@ image:
   preview_only: no
 projects: []
 ---
+- [UKEV forum 2024](#ukev-2024)
 - [International Society of Extracellular Vesicles 2022](#isev-2022), [2023](#isev-2023) 
 - [EV consultation in Vietnam](#ev-cons-2022)
+<br><br>
+
+<h2 id="ukev-2024">UKEV forum 2024</h2>
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("ukev-24.png")
+```
+
+Our group had the pleasure of participating in the UKEV Forum 2024, a premier event focused on extracellular vesicle
+(EV) research and innovation. The forum provided a fantastic opportunity to present our latest work, connect with
+leading companies, and explore exciting new technologies in the EV field.
+We showcased two posters, highlighting recent advancements in our research, which received great interest from the
+community. The event also offered a platform for valuable networking. We engaged with ONI, who performed some imaging
+for us, and nanoFCM, whose cutting-edge nanoparticle analysis technology we plan to implement in our work next year.
+
 <br><br>
 
 <h2 id="isev-2023">International Society of Extracellular Vesicles 2023</h2>

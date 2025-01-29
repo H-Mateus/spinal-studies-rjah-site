@@ -23,6 +23,7 @@ content:
   - PhD Students
   - Post-Doctoral Researchers
   - Student Placements & Internships
+  - MPhil students
   - Grad Students
   - Administration
   - Visitors

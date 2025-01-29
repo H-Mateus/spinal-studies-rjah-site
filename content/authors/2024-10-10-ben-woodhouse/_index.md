@@ -11,7 +11,7 @@ email: ben.woodhouse3@nhs.net
 highlight_name: true
 superuser: false
 user_groups:
-  - MPhil Students
+  - Student Placements & Internships
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'

@@ -17,9 +17,7 @@ user_groups:
 organizations:
   - name: Keele University
     url: 'https://www.keele.ac.uk/pharmacy-bioengineering/'
-education:
-  courses:
-    - fill in later
+
 
 ---
 <style>

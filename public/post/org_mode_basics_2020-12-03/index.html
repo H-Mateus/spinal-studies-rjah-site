@@ -1,0 +1,1756 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Gabriel Mateus Bernardo Harrington" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Brief introduction to org-mode formatting" />
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://oskor.netlify.app/post/org_mode_basics_2020-12-03/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171428188-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-171428188-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://oskor.netlify.app/post/org_mode_basics_2020-12-03/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@CellTherapyRJAH" />
+    <meta property="twitter:creator" content="@CellTherapyRJAH" />
+  
+  <meta property="og:site_name" content="Oswestry Keele Orthopaedic Research group - OsKOR" />
+  <meta property="og:url" content="https://oskor.netlify.app/post/org_mode_basics_2020-12-03/" />
+  <meta property="og:title" content="Org-mode basics | Oswestry Keele Orthopaedic Research group - OsKOR" />
+  <meta property="og:description" content="Brief introduction to org-mode formatting" /><meta property="og:image" content="https://oskor.netlify.app/post/org_mode_basics_2020-12-03/featured.png" />
+    <meta property="twitter:image" content="https://oskor.netlify.app/post/org_mode_basics_2020-12-03/featured.png" /><meta property="og:locale" content="en-gb" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-12-03T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-12-03T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://oskor.netlify.app/post/org_mode_basics_2020-12-03/"
+  },
+  "headline": "Org-mode basics",
+  
+  "image": [
+    "https://oskor.netlify.app/post/org_mode_basics_2020-12-03/featured.png"
+  ],
+  
+  "datePublished": "2020-12-03T00:00:00Z",
+  "dateModified": "2020-12-03T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Gabriel Mateus Bernardo Harrington"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Group name (placeholder)",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "Brief introduction to org-mode formatting"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Org-mode basics | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="89d49e610cbf48bac43984876762dfdf" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_0x70_resize_lanczos_3.png" alt="Oswestry Keele Orthopaedic Research group - OsKOR"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_0x70_resize_lanczos_3.png" alt="Oswestry Keele Orthopaedic Research group - OsKOR"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people/"><span>Team</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/projects/"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/equipment/"><span>Equipment</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/post/"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/events/"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/vacancies/"><span>Vacancies</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Org-mode basics</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 3, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/guides/">Guides</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header container-fluid featured-image-wrapper mt-4 mb-4" style="max-width: 1280px; max-height: 640px;">
+  <div style="position: relative">
+    <img src="/post/org_mode_basics_2020-12-03/featured.png" width="1280" height="640" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://orgmode.org/" target="_blank" rel="noopener"><strong>orgmode.org</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
+<ul>
+<li><a href="#why-org-mode">Why org-mode?</a>
+<ul>
+<li><a href="#a-note-on-working-with-org-mode-files">A note on working with org-mode files</a></li>
+<li><a href="#an-alternative-rmarkdown">An alternative: RMarkdown</a></li>
+</ul>
+</li>
+<li><a href="#formatting">Formatting</a></li>
+<li><a href="#headings-and-lists">Headings and lists</a></li>
+<li><a href="#links-and-images">Links and images</a></li>
+<li><a href="#symbols-and-equations">Symbols and equations</a></li>
+<li><a href="#code-and-foldable-blocks">Code and foldable blocks</a></li>
+<li><a href="#diagrams">Diagrams</a></li>
+<li><a href="#todo-lists">Todo lists</a></li>
+<li><a href="#tables">Tables</a></li>
+<li><a href="#callouts">Callouts</a></li>
+<li><a href="#spoilers">Spoilers</a></li>
+<li><a href="#icons">Icons</a></li>
+</ul>
+</div>
+<!--endtoc-->
+<p>This is a brief introduction to formatting in <a href="https://orgmode.org/" target="_blank" rel="noopener">org-mode</a> made mostly to help my dear colleagues with writing content for the site</p>
+<h2 id="why-org-mode">Why org-mode?</h2>
+<p>This website uses a single <a href="https://orgmode.org/" target="_blank" rel="noopener">org-mode</a> file to manage most of the content.
+Org-mode is an example of a <a href="https://en.wikipedia.org/wiki/Markup%5Flanguage" target="_blank" rel="noopener">markup language</a>, which means the text formating is described in the text itself.
+This is in contrast to a &ldquo;<a href="https://en.wikipedia.org/wiki/WYSIWYG" target="_blank" rel="noopener">what you see is what you get</a>&rdquo; system where the formatting information is hidden from the user and stored in the file data somehow, as Microsoft Word does with it&rsquo;s proprietary file formats.</p>
+<p>There are several advantages to using plain text.
+Perhaps the most important of which is transportability and reproducibility.
+You can&rsquo;t view or edit a .doc file without special software (which you often have to pay for), whereas plain text files can be viewed an edited on any computer, regardless of operating system, and with thousands of text editors to choose from.</p>
+<p>The only real disadvantage to markup languages is that you have to learn their syntax.
+This is only really an issue for some languages though, <a href="https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20%28HTML%29%20is,scripting%20languages%20such%20as%20JavaScript." target="_blank" rel="noopener">html</a> (the language website are written in) is fairly complicated and fiddly, but languages like <a href="https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown" target="_blank" rel="noopener">markdown</a> and org-mode were made to be simple and easy to learn.
+And this post is going to demonstrate the basics, so read on!</p>
+<p>Plus, with a bit of magic from <a href="https://pandoc.org/" target="_blank" rel="noopener">pandoc</a> you can convert pretty much any markup language to any other markup language.
+This lets us do things like export a markdown file to a really nice pdf, or html document!</p>
+<h3 id="a-note-on-working-with-org-mode-files">A note on working with org-mode files</h3>
+<p>Org-mode is made to be used with the wonderful <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener">Emacs</a>, which sells itself as an extensible text editor, but it&rsquo;s really just an elisp interpreter geared towards text editing.
+Emacs makes working with org-mode files a joy, though it has a bit of a learning curve itself.
+There are plenty of great <a href="https://www.gnu.org/software/emacs/tour/" target="_blank" rel="noopener">guides</a> and <a href="https://www.youtube.com/watch?v=49kBWM3RQQ8&amp;list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg" target="_blank" rel="noopener">videos</a> for getting to grips with emacs, but you can of course use whatever plain text editor you like!</p>
+<h3 id="an-alternative-rmarkdown">An alternative: RMarkdown</h3>
+<p>I&rsquo;m using org-mode because I like emacs, but you can also use the wonderful <a href="https://rmarkdown.rstudio.com/" target="_blank" rel="noopener">RMarkdown</a> to create posts, and if you&rsquo;re a fan of <a href="https://www.rstudio.com/" target="_blank" rel="noopener">RStudio</a>, there&rsquo;s a neat package called <a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">blogdown</a> to make adding content super easy.
+I suspect some of you may prefer that, it is probably easier to get up an running with compared to emacs&hellip;</p>
+<h2 id="formatting">Formatting</h2>
+<p>For example, if you would like <strong>bold text</strong>, you simply wrap the text with * like so: <code>*bold*</code>
+similarly, we can have:</p>
+<div class="table-caption">
+  <span class="table-number">Table 1</span>:
+  If you're wondering how I'm able to show the formatting without it rendering have a look at this .org file on the <a href="https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org">git repository</a>
+</div>
+<table>
+<thead>
+<tr>
+<th>Rendered text</th>
+<th>Raw text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><code>/italics/</code></td>
+</tr>
+<tr>
+<td><code>monospace</code></td>
+<td><code>=monospace=</code></td>
+</tr>
+<tr>
+<td><code>code</code></td>
+<td><code>~code~</code></td>
+</tr>
+<tr>
+<td><del>strike-through</del></td>
+<td><code>+strike-through+</code></td>
+</tr>
+<tr>
+<td><span class="underline">underlined</span></td>
+<td><code>_underlined_</code></td>
+</tr>
+</tbody>
+</table>
+<p>If you want a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> use <code>[fn:: footnote text goes here]</code>.
+It even comes with a helpful return link!</p>
+<h2 id="headings-and-lists">Headings and lists</h2>
+<p>For headings org-mode uses *:</p>
+<ul>
+<li><code>* Level one header</code></li>
+<li><code>** Level two header</code></li>
+<li><code>*** Level three header</code></li>
+</ul>
+<p>and so on. Org-mode will automatically scale the text to the size of the level of the header.</p>
+<p>For bullet point lists use <code>-</code> or <code>+</code> or numbers <code>1.</code>
+The following:</p>
+<ul>
+<li>using <code>-</code></li>
+</ul>
+<p><code>- item 1</code> <br />
+<code>- item 2</code></p>
+<ul>
+<li>using <code>+</code></li>
+</ul>
+<p><code>+ item 1</code> <br />
+<code>+ item 2</code></p>
+<ul>
+<li>using numbers</li>
+</ul>
+<p><code>1. numbered list 1</code> <br />
+<code>2. numbered list 2</code></p>
+<p>Renders to:</p>
+<ol>
+<li>
+<p>using <code>-</code></p>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+</ul>
+</li>
+<li>
+<p>using <code>+</code></p>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+</ul>
+</li>
+<li>
+<p>using numbers</p>
+<ol>
+<li>numbered list 1</li>
+<li>numbered list 2</li>
+</ol>
+</li>
+</ol>
+<h2 id="links-and-images">Links and images</h2>
+<p>To insert <a href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank" rel="noopener">links</a> use square brackets like so: <code>[[link_address_goes_here][text_goes_here]]</code>
+The link in the previous sentence looks like this:
+<code>[[https://en.wikipedia.org/wiki/Hyperlink][links]]</code></p>
+<p>To insert images we do the same, but the link has to point to an image in the static/images directory of the site.
+So <code>[[/images/red_panda.jpeg]]</code>
+Results in the following image being embedded:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-1-i-know-the-feeling-panda-image-credit-unsplashhttpsunsplashcomphotosqzwf5ynopuo">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/images/red_panda.jpeg" alt="Figure 1: I know the feeling panda... Image credit: [Unsplash](https://unsplash.com/photos/QZwf5yNopUo)" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure 1: I know the feeling panda&hellip; Image credit: <a href="https://unsplash.com/photos/QZwf5yNopUo" target="_blank" rel="noopener">Unsplash</a>
+    </figcaption></figure>
+<p>And if you&rsquo;re wondering about the captions, just add header on the line above whatever you want caption:</p>
+<p><code>#+CAPTION: caption text goes here</code> <br />
+<code>thing you want a caption on goes here(normally an image or table)</code></p>
+<h2 id="symbols-and-equations">Symbols and equations</h2>
+<p>For things like Greek letters just type the letter after a <code>\</code> like so:</p>
+<table>
+<thead>
+<tr>
+<th>α</th>
+<th><code>\alpha</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>β</td>
+<td><code>\beta</code></td>
+</tr>
+<tr>
+<td>γ</td>
+<td><code>\gamma</code></td>
+</tr>
+<tr>
+<td>±</td>
+<td><code>\pm</code></td>
+</tr>
+<tr>
+<td>≥</td>
+<td><code>\ge</code></td>
+</tr>
+<tr>
+<td>≠</td>
+<td><code>\neq</code></td>
+</tr>
+</tbody>
+</table>
+<p>For more complex equations we can use <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener">latex math</a> syntax and wrap in single <code>$</code> for inline equations, and double <code>$$</code> for equation blocks.
+So <code>$a=+\sqrt{2}$</code> renders to \(a=+\sqrt{2}\).</p>
+<p>And <code>$$P\left(A=2\middle|\frac{A^2}{B}&gt;4\right)$$</code> renders to</p>
+<p>\[P\left(A=2\middle|\frac{A^2}{B}&gt;4\right)\]</p>
+<p>We can also wrap in <code>\(</code> and close with <code>\)</code> for inline and <code>\[</code> <code>\]</code> for blocks to produce the same effect</p>
+<h2 id="code-and-foldable-blocks">Code and foldable blocks</h2>
+<p>So there&rsquo;s this awesome package called <a href="https://orgmode.org/worg/org-contrib/babel/" target="_blank" rel="noopener">org-babel</a> that let you include code from pretty much any widely used language in org-mode files.
+I won&rsquo;t go into depth on org-babel here as there&rsquo;s a lot to it, but I&rsquo;ll use it to demonstrate folding blocks (click on the line bellow with the triangle to expand or collapse the block)</p>
+<details>
+<summary>
+A little R code
+</summary>
+<p class="details">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#75715e">## notice we get nice code highlighting to boot</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">head</span>(mtcars)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">3</span>){
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;code&#34;</span>)}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+</span></span><span style="display:flex;"><span>Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+</span></span><span style="display:flex;"><span>Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+</span></span><span style="display:flex;"><span>Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+</span></span><span style="display:flex;"><span>Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+</span></span><span style="display:flex;"><span>Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+</span></span><span style="display:flex;"><span>Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+</span></span><span style="display:flex;"><span>[1] &#34;code&#34;
+</span></span><span style="display:flex;"><span>[1] &#34;code&#34;
+</span></span><span style="display:flex;"><span>[1] &#34;code&#34;
+</span></span></code></pre></div></p>
+</details>
+<p>So there are three parts here:</p>
+<p><code>#+begin_details</code> <br />
+<code>#+begin_summary</code> <br />
+<code>A little R code</code> <br />
+<code>#+end_summary</code> <br />
+<code>#+begin_src</code> <br />
+<code>## notice we get nice code highlighting to boot</code> <br />
+<code>head(mtcars)</code> <br />
+<code>for(i in 1:3){</code> <br />
+<code>print(&quot;code&quot;)}</code> <br />
+<code>#+end_src</code> <br />
+<code>#+end_details</code> <br /></p>
+<p>The whole thing is wrapped in the <code>begin_details</code> block, the text next the triangle is defined in the <code>begin_summary</code>, and the code is in the <code>begin_src</code> block.
+Note that each block must be closed, and that code doesn&rsquo;t have to be run, the output with be produced during export</p>
+<h2 id="diagrams">Diagrams</h2>
+<p>We can use the <a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">mermaid</a> markup syntax to add nice diagrams too.</p>
+<p>An example <strong>flowchart</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+begin_src mermaid
+</span></span><span style="display:flex;"><span>graph TD
+</span></span><span style="display:flex;"><span>A[Hard] --&gt;|Text| B(Round)
+</span></span><span style="display:flex;"><span>B --&gt; C{Decision}
+</span></span><span style="display:flex;"><span>C --&gt;|One| D[Result 1]
+</span></span><span style="display:flex;"><span>C --&gt;|Two| E[Result 2]
+</span></span><span style="display:flex;"><span>#+end_src
+</span></span></code></pre></div><p>renders as</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+</code></pre><p>An example <strong>sequence diagram</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+begin_src mermaid
+</span></span><span style="display:flex;"><span>sequenceDiagram
+</span></span><span style="display:flex;"><span>Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span style="display:flex;"><span>loop Healthcheck
+</span></span><span style="display:flex;"><span>    John-&gt;&gt;John: Fight against hypochondria
+</span></span><span style="display:flex;"><span>end
+</span></span><span style="display:flex;"><span>Note right of John: Rational thoughts!
+</span></span><span style="display:flex;"><span>John--&gt;&gt;Alice: Great!
+</span></span><span style="display:flex;"><span>John-&gt;&gt;Bob: How about you?
+</span></span><span style="display:flex;"><span>Bob--&gt;&gt;John: Jolly good!
+</span></span><span style="display:flex;"><span>#+end_src
+</span></span></code></pre></div><p>renders as</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+</code></pre><p>An example <strong>Gnatt diagram</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+begin_src mermaid
+</span></span><span style="display:flex;"><span>gantt
+</span></span><span style="display:flex;"><span>section Section
+</span></span><span style="display:flex;"><span>Completed :done,    des1, 2014-01-06,2014-01-08
+</span></span><span style="display:flex;"><span>Active        :active,  des2, 2014-01-07, 3d
+</span></span><span style="display:flex;"><span>Parallel 1   :         des3, after des1, 1d
+</span></span><span style="display:flex;"><span>Parallel 2   :         des4, after des1, 1d
+</span></span><span style="display:flex;"><span>Parallel 3   :         des5, after des3, 1d
+</span></span><span style="display:flex;"><span>Parallel 4   :         des6, after des4, 1d
+</span></span><span style="display:flex;"><span>#+end_src
+</span></span></code></pre></div><p>renders as</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+</code></pre><p>An example <strong>class diagram</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+begin_src mermaid
+</span></span><span style="display:flex;"><span>    classDiagram
+</span></span><span style="display:flex;"><span>    Class01 &lt;|-- AveryLongClass : Cool
+</span></span><span style="display:flex;"><span>    &lt;&lt;interface&gt;&gt; Class01
+</span></span><span style="display:flex;"><span>    Class09 --&gt; C2 : Where am i?
+</span></span><span style="display:flex;"><span>    Class09 --* C3
+</span></span><span style="display:flex;"><span>    Class09 --|&gt; Class07
+</span></span><span style="display:flex;"><span>    Class07 : equals()
+</span></span><span style="display:flex;"><span>    Class07 : Object[] elementData
+</span></span><span style="display:flex;"><span>    Class01 : size()
+</span></span><span style="display:flex;"><span>    Class01 : int chimp
+</span></span><span style="display:flex;"><span>    Class01 : int gorilla
+</span></span><span style="display:flex;"><span>    class Class10 {
+</span></span><span style="display:flex;"><span>      &lt;&lt;service&gt;&gt;
+</span></span><span style="display:flex;"><span>      int id
+</span></span><span style="display:flex;"><span>      size()
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>#+end_src
+</span></span></code></pre></div><p>renders as</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+&lt;&lt;interface&gt;&gt; Class01
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &lt;&lt;service&gt;&gt;
+  int id
+  size()
+}
+</code></pre><p>An example <strong>state diagram</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+begin_src mermaid
+</span></span><span style="display:flex;"><span>    stateDiagram
+</span></span><span style="display:flex;"><span>    [*] --&gt; Still
+</span></span><span style="display:flex;"><span>    Still --&gt; [*]
+</span></span><span style="display:flex;"><span>    Still --&gt; Moving
+</span></span><span style="display:flex;"><span>    Moving --&gt; Still
+</span></span><span style="display:flex;"><span>    Moving --&gt; Crash
+</span></span><span style="display:flex;"><span>    Crash --&gt; [*]
+</span></span><span style="display:flex;"><span>#+end_src
+</span></span></code></pre></div><p>renders as</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+</code></pre><h2 id="todo-lists">Todo lists</h2>
+<p>You can even write your todo lists in Academic too:</p>
+<p><code>- [X] Write math example</code> <br />
+<code>- [X] Write diagram example</code> <br />
+<code>- [ ] Do something else</code></p>
+<p>renders as</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Write math example</li>
+<li><input checked="" disabled="" type="checkbox"> Write diagram example</li>
+<li><input disabled="" type="checkbox"> Do something else</li>
+</ul>
+<h2 id="tables">Tables</h2>
+<p>Represent your data in tables:</p>
+<p><code>| First Header | Second Header |</code> <br />
+<code>|--------------+---------------|</code> <br />
+<code>| Content Cell | Content Cell  |</code> <br />
+<code>| Content Cell | Content Cell  |</code> <br /></p>
+<p>renders as</p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<h2 id="callouts">Callouts</h2>
+<p>Academic supports a <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts" target="_blank" rel="noopener">shortcode for callouts</a>, also referred to as <strong>asides</strong>, <strong>hints</strong>, or <strong>alerts</strong>. By wrapping a paragraph in <code>{{% callout note %}} ... {{% /callout %}}</code>, it will render as an aside.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{% callout note %}}
+</span></span><span style="display:flex;"><span>A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+</span></span><span style="display:flex;"><span>{{% /callout %}}
+</span></span></code></pre></div><p>renders as</p>
+<div class="alert alert-note">
+  <div>
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  </div>
+</div>
+<h2 id="spoilers">Spoilers</h2>
+<p>Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">spoiler</span> <span style="color:#a6e22e">text</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Click to view the spoiler&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>You found me!
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">spoiler</span> &gt;}}
+</span></span></code></pre></div><p>renders as</p>
+<details class="spoiler "  id="spoiler-2">
+  <summary>Click to view the spoiler</summary>
+  <p>You found me!</p>
+</details>
+<h2 id="icons">Icons</h2>
+<p>Academic enables you to use a wide range of <a href="https://sourcethemes.com/academic/docs/page-builder/#icons" target="_blank" rel="noopener">icons from <span class="underline">Font Awesome</span> and _Academicons_</a> in addition to <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis" target="_blank" rel="noopener">emojis</a>.</p>
+<p>Here are some examples using the `icon` shortcode to render icons:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">icon</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;terminal&#34;</span> <span style="color:#a6e22e">pack</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fas&#34;</span> &gt;}} Terminal
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">icon</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;python&#34;</span> <span style="color:#a6e22e">pack</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fab&#34;</span> &gt;}} Python
+</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">icon</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;r-project&#34;</span> <span style="color:#a6e22e">pack</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fab&#34;</span> &gt;}} R
+</span></span></code></pre></div><p>renders as</p>
+<p>
+  <i class="fas fa-terminal  pr-1 fa-fw"></i> Terminal
+
+  <i class="fab fa-python  pr-1 fa-fw"></i> Python
+
+  <i class="fab fa-r-project  pr-1 fa-fw"></i> R</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>org-mode sure is neat!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/orgmode/">orgmode</a>
+  
+  <a class="badge badge-light" href="/tag/tutorials/">tutorials</a>
+  
+  <a class="badge badge-light" href="/tag/emacs/">emacs</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://oskor.netlify.app/post/org_mode_basics_2020-12-03/&amp;text=Org-mode%20basics" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://oskor.netlify.app/post/org_mode_basics_2020-12-03/&amp;t=Org-mode%20basics" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Org-mode%20basics&amp;body=https://oskor.netlify.app/post/org_mode_basics_2020-12-03/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://oskor.netlify.app/post/org_mode_basics_2020-12-03/&amp;title=Org-mode%20basics" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Org-mode%20basics%20https://oskor.netlify.app/post/org_mode_basics_2020-12-03/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://oskor.netlify.app/post/org_mode_basics_2020-12-03/&amp;title=Org-mode%20basics" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/gabriel-mateus-bernardo-harrington/"><img class="avatar mr-3 avatar-circle" src="/author/gabriel-mateus-bernardo-harrington/avatar_hu4d67782d496a3ef7da3e607db294fa94_177713_270x270_fill_lanczos_center_3.png" alt="Gabriel Mateus Bernardo Harrington"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/gabriel-mateus-bernardo-harrington/">Gabriel Mateus Bernardo Harrington</a></h5>
+      
+      <p class="card-text">My research interests include spinal cord injury, bioinformatics, statistical modelling and reproducible research.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:g.m.bernardo.harrington@keele.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Hmateus4" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/H-Mateus" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/mateus-harrington-33657b68/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-6075-3619" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/post/reproducible-research-version-control/" rel="prev">Reproducible Research - Version control</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2025
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.0047d4febf356e7f0b988e541f50b065.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.8d464630e57565cec18d704bd3ef621f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

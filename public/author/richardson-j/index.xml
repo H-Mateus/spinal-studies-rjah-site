@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Richardson J | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/richardson-j/</link>
+      <atom:link href="https://oskor.netlify.app/author/richardson-j/index.xml" rel="self" type="application/rss+xml" />
+    <description>Richardson J</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Richardson J</title>
+      <link>https://oskor.netlify.app/author/richardson-j/</link>
+    </image>
+    
+    <item>
+      <title>The suitability of pre-operative MRI in predicting accurate cartilage defect sizes in cell therapy</title>
+      <link>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</guid>
+      <description>
+
+
+&lt;p&gt;Clinicians are given guidance as to appropriate sizes of cartilage defects to treat with cell therapy.
+However, estimating the size of a defect using scans such as magnetic resonance imaging (MRI) may in fact differ from the ‘real-life’ situation.
+We performed a retrospective study to evaluate the accuracy of MRI scans to predict the size of articular cartilage lesions in the knee and compared them against actual defect sizes recorded surgically.&lt;/p&gt;
+&lt;p&gt;We included 64 patients, all of whom underwent autologous cell implantation (ACI) performed by two different RJAH surgeons (PDG and JBR).
+Each patient received a pre-operative MRI approximately 6 weeks prior to cell implantation.
+MRIs were analysed by a Consultant radiologist (BT) and a research PhD student (JP) trained by the radiologist to ascertain the full-thickness defect measurement and the total abnormal defect area that they believed would require debridement (removal of damaged/ unhealthy tissue).
+At the time of cell implantation, the Consultant orthopaedic surgeon measured the defect sizes pre- and post-debridement.
+The post-debridement surgical measurements have been used as the ‘gold standard’ in this study.
+All measurements were further assessed according to defect location within the knee (patella, trochlea, medial or lateral femoral condyle (MFC and LFC)).&lt;/p&gt;
+&lt;p&gt;We assessed a total of 92 cartilage defects and, as expected, found them to be significantly smaller pre-debridement than post-debridement when measured during arthroscopy.
+To date, from a radiological perspective (BT), MRI scans significantly underestimated the (pre-debridement) defect size but not the total abnormal area (so this was found to be similar and not significantly different to the post-debridement size measured surgically).&lt;br /&gt;
+When considering defect location, MRI still significantly underestimated pre-debridement defect sizes on the patella and MFC but not the LFC and trochlea.
+Total abnormal area assessment on MRI was not affected by defect location.&lt;/p&gt;
+&lt;p&gt;This preliminary data indicates that measuring only the full-thickness component of a cartilage defect on MRI will significantly underestimate the area to treat for ACI; evaluating the whole abnormal area will provide a more accurate estimate of the actual defect size requiring treatment. This is critical for surgical planning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

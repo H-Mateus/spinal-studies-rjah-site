@@ -1,0 +1,4303 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Gabriel Mateus Bernardo Harrington" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://oskor.netlify.app/projects/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171428188-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-171428188-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://oskor.netlify.app/projects/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@CellTherapyRJAH" />
+    <meta property="twitter:creator" content="@CellTherapyRJAH" />
+  
+  <meta property="og:site_name" content="Oswestry Keele Orthopaedic Research group - OsKOR" />
+  <meta property="og:url" content="https://oskor.netlify.app/projects/" />
+  <meta property="og:title" content="Oswestry Keele Orthopaedic Research group - OsKOR" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-gb" />
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Oswestry Keele Orthopaedic Research group - OsKOR</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="6087c0ef875554f4409ac52928d79279" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_0x70_resize_lanczos_3.png" alt="Oswestry Keele Orthopaedic Research group - OsKOR"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_0x70_resize_lanczos_3.png" alt="Oswestry Keele Orthopaedic Research group - OsKOR"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people/"><span>Team</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/projects/" data-target="[]"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/equipment/"><span>Equipment</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post/"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/events/"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/vacancies/"><span>Vacancies</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="projects" class="home-section wg-portfolio  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Projects</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+
+    <span class="d-none default-project-filter">.js-id-Biology</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Biology" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Completed-projects" class="btn btn-primary btn-lg">Completed projects</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Current-projects" class="btn btn-primary btn-lg">Current projects</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Future-projects" class="btn btn-primary btn-lg">Future projects</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container js-layout-masonry ">
+
+    
+    
+      
+    
+
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Assay js-id-Equipment">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 3, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/equipment/">Equipment</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/equipment/fluostar-omega-plate-reader/" >
+    <div class="img-hover-zoom">
+      <img src="/project/equipment/fluostar-omega-plate-reader/featured_hudc37f4318ea0563e16c5d1e8985ff03c_1986566_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Fluostar Omega Plate Reader" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/equipment/fluostar-omega-plate-reader/" >Fluostar Omega Plate Reader</a>
+  </div>
+
+  
+  <a href="/project/equipment/fluostar-omega-plate-reader/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by &ldquo;Higher Education Funding Council for England&rdquo;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Biomarkers js-id-Autologous-Chondrocyte-Implantation js-id-Cartilage js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/charlotte-hulme/">Charlotte Hulme</a></span>, <span >
+      <a href="/author/heidi-fuller/">Heidi Fuller</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>, <span >
+      <a href="/author/peter-gallacher/">Peter Gallacher</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 27, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/" >
+    <div class="img-hover-zoom">
+      <img src="/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/featured_hu4064760a0c302efed2f8db1bdcfb3820_40620_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Biomarker discovery in orthopaedics: Matching patients to the best treatment" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/" >Biomarker discovery in orthopaedics: Matching patients to the best treatment</a>
+  </div>
+
+  
+  <a href="/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by Versus Arthritis</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Autologous-Chondrocyte-Implantation js-id-Clinical-outcomes js-id-Cartilage js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/iain-mccall/">Iain McCall</a></span>, <span >
+      <a href="/author/claire-mennan/">Claire Mennan</a></span>, <span >
+      <a href="/author/mike-williams/">Mike Williams</a></span>, <span >
+      <a href="/author/james-richardson/">James Richardson</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 27, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/aci_mri_prediction_2021-04-27/" >
+    <div class="img-hover-zoom">
+      <img src="/project/aci_mri_prediction_2021-04-27/featured_hua750365a3fedeb4fff6e07bf1971d252_9266473_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Prediction of clinical outcome following ACI by magnetic resonance imaging" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/aci_mri_prediction_2021-04-27/" >Prediction of clinical outcome following ACI by magnetic resonance imaging</a>
+  </div>
+
+  
+  <a href="/project/aci_mri_prediction_2021-04-27/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by Versus Arthritis and the UKRI</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Spinal-cord-injury js-id-Biomarkers js-id-Biomarker-discovery js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/charlotte-hulme/">Charlotte Hulme</a></span>, <span >
+      <a href="/author/paul-cool/">Paul Cool</a></span>, <span >
+      <a href="/author/mateus-harrington/">Mateus Harrington</a></span>, <span >
+      <a href="/author/jessica-fisher-stokes/">Jessica Fisher-Stokes</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 1, 2018
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/gmbh_phd_2018-10-01/" >
+    <div class="img-hover-zoom">
+      <img src="/project/gmbh_phd_2018-10-01/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_433645_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Biomarkers and prognostic modelling in SCI using proteomics, bioinformatics and in vitro models" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/gmbh_phd_2018-10-01/" >Biomarkers and prognostic modelling in SCI using proteomics, bioinformatics and in vitro models</a>
+  </div>
+
+  
+  <a href="/project/gmbh_phd_2018-10-01/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the EPSRC (UKRI)</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Oct 11, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/snowpaedic-challenge-2022/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/snowpaedic-challenge-2022/featured_hu97d061de95afac90ca03bfd8d919a16b_116184_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Charity events" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/snowpaedic-challenge-2022/" >Charity events</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Oct 11, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/eular-congress/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/eular-congress/featured_hu1c7047259d764d1c4ec4ed3436f9fcc5_82779_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="EULAR congress" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/eular-congress/" >EULAR congress</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>, <span >
+      <a href="/author/rebecca-davies/">Rebecca Davies</a></span>, <span >
+      <a href="/author/anais-makos/">Anaïs Makos</a></span>, <span >
+      <a href="/author/henry-barrett/">Henry Barrett</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 5, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/international-society-extracellular-vesicles/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/international-society-extracellular-vesicles/featured_hu97d061de95afac90ca03bfd8d919a16b_358904_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Extracellular vesicle events" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/international-society-extracellular-vesicles/" >Extracellular vesicle events</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/martyn-snow/">Martyn Snow</a></span>, <span >
+      <a href="/author/pete-gallacher/">Pete Gallacher</a></span>, <span >
+      <a href="/author/paul-jermin/">Paul Jermin</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/charlotte-hulmes/">Charlotte Hulmes</a></span>, <span >
+      <a href="/author/jade-perry/">Jade Perry</a></span>, <span >
+      <a href="/author/timothy-hopkins/">Timothy Hopkins</a></span>, <span >
+      <a href="/author/larissa-rix/">Larissa Rix</a></span>, <span >
+      <a href="/author/tian-lan/">Tian Lan</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 5, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/icrs-2022/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/icrs-2022/featured_hued32ec724bbea209290ad00b7b470eb0_17591_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="ICRS" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/icrs-2022/" >ICRS</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>, <span >
+      <a href="/author/charlotte-hulme/">Charlotte Hulme</a></span>, <span >
+      <a href="/author/larissa-rix/">Larissa Rix</a></span>, <span >
+      <a href="/author/rebecca-davis/">Rebecca Davis</a></span>, <span >
+      <a href="/author/anais-makos/">Anaïs Makos</a></span>, <span >
+      <a href="/author/tian-lan/">Tian Lan</a></span>, <span >
+      <a href="/author/jessica-fisher-stokes/">Jessica Fisher-Stokes</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 5, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/faculty-pgr-symposium/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/faculty-pgr-symposium/featured_hu686b16c44f77b4a993aafb538c899068_35931_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Keele courses and conferences" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/faculty-pgr-symposium/" >Keele courses and conferences</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 5, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/outreach-event/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/outreach-event/featured_hu53957a85f7ff073d3db133ef4bbe6dc8_491856_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Outreach event" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/outreach-event/" >Outreach event</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Research js-id-Event">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/jan-herman-kuiper/">Jan Herman Kuiper</a></span>, <span >
+      <a href="/author/charlotte-hulmes/">Charlotte Hulmes</a></span>, <span >
+      <a href="/author/jade-perry/">Jade Perry</a></span>, <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/claire-mennan/">Claire Mennan</a></span>, <span >
+      <a href="/author/timothy-hopkins/">Timothy Hopkins</a></span>, <span >
+      <a href="/author/lauren-tierney/">Lauren Tierney</a></span>, <span >
+      <a href="/author/rebecca-davis/">Rebecca Davis</a></span>, <span >
+      <a href="/author/anais-makos/">Anaïs Makos</a></span>, <span >
+      <a href="/author/tian-lan/">Tian Lan</a></span>, <span >
+      <a href="/author/jessica-fisher-stokes/">Jessica Fisher-Stokes</a></span>, <span >
+      <a href="/author/john-garcia/">John Garcia</a></span>, <span >
+      <a href="/author/abi-jones/">Abi Jones</a></span>, <span >
+      <a href="/author/hollie-wilkinson/">Hollie Wilkinson</a></span>, <span >
+      <a href="/author/tom-link/">Tom Link</a></span>, <span >
+      <a href="/author/yumna-ladha/">Yumna Ladha</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 5, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/events/">Events</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/events/research-day/" >
+    <div class="img-hover-zoom">
+      <img src="/project/events/research-day/featured_hud23dec148f303c3b69da5842f87a421f_37420_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Research Day" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/events/research-day/" >Research Day</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Cartilage-repair js-id-Arthritis js-id-Osteoarthritis js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/nicola-kuiper/">Nicola Kuiper</a></span>, <span >
+      <a href="/author/charlotte-hume/">Charlotte Hume</a></span>, <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>, <span >
+      <a href="/author/mike-williams/">Mike Williams</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 15, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/does-knee-cartilage-repair-surgery-prevent-arthritis-or-the-need-for-a-joint-replacement/" >
+    <div class="img-hover-zoom">
+      <img src="/project/does-knee-cartilage-repair-surgery-prevent-arthritis-or-the-need-for-a-joint-replacement/featured_hu0c955bd702e9829d172468a3f849deb7_34401_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Does knee cartilage repair surgery prevent arthritis or the need for a joint replacement?" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/does-knee-cartilage-repair-surgery-prevent-arthritis-or-the-need-for-a-joint-replacement/" >Does knee cartilage repair surgery prevent arthritis or the need for a joint replacement?</a>
+  </div>
+
+  
+  <a href="/project/does-knee-cartilage-repair-surgery-prevent-arthritis-or-the-need-for-a-joint-replacement/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Daphne Jackson Trust, the Orthopaedic Research UK and the Medical Research Council</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Biology js-id-Future-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/martyn-snow/">Martyn Snow</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jul 21, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts/" >
+    <div class="img-hover-zoom">
+      <img src="/project/advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts/featured_hu578b4b1f537f2d7a5adc56f775f6a1d9_2407357_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Advancing Osteochondral Tissue Supply Chain Transport Conditions for Clinical Allografts" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts/" >Advancing Osteochondral Tissue Supply Chain Transport Conditions for Clinical Allografts</a>
+  </div>
+
+  
+  <a href="/project/advancing-osteochondral-tissue-supply-chain-transport-conditions-for-clinical-allografts/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/paul-cool/">Paul Cool</a></span>, <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/jade-perry/">Jade Perry</a></span>, <span >
+      <a href="/author/hollie-wilkinson/">Hollie Wilkinson</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jul 21, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/artificial-intelligence-in-the-diagnosis-of-orthopaedic-conditions/" >
+    <div class="img-hover-zoom">
+      <img src="/project/artificial-intelligence-in-the-diagnosis-of-orthopaedic-conditions/featured_huf20eb3ff733d915027cff8012914584a_2322872_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Artificial Intelligence in the diagnosis of orthopaedic conditions (Bone Tumours and Infection)" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/artificial-intelligence-in-the-diagnosis-of-orthopaedic-conditions/" >Artificial Intelligence in the diagnosis of orthopaedic conditions (Bone Tumours and Infection)</a>
+  </div>
+
+  
+  <a href="/project/artificial-intelligence-in-the-diagnosis-of-orthopaedic-conditions/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the RJAH Orthopaedic and District&hellip;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/henry-barrett/">Henry Barrett</a></span>, <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>, <span >
+      <a href="/author/c.-hulmes/">C. Hulmes</a></span>, <span >
+      <a href="/author/l.-smyth/">L. Smyth</a></span>, <span >
+      <a href="/author/m.a-de-lima/">M.A De Lima</a></span>, <span >
+      <a href="/author/a.-clayton/">A. Clayton</a></span>, <span >
+      <a href="/author/n.-telling/">N. Telling</a></span>, <span >
+      <a href="/author/r.-amarasena/">R. Amarasena</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jul 21, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-ra/" >
+    <div class="img-hover-zoom">
+      <img src="/project/the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-ra/featured_hu399f22f9887a73da19b60883c5150744_2322579_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="The potential utility of human regulatory T cell-derived EV to control inflammation in RA" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-ra/" >The potential utility of human regulatory T cell-derived EV to control inflammation in RA</a>
+  </div>
+
+  
+  <a href="/project/the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-ra/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute and Kee&hellip;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/charlotte-hulme/">Charlotte Hulme</a></span>, <span >
+      <a href="/author/jan-kuiper/">Jan Kuiper</a></span>, <span >
+      <a href="/author/martyn-snow/">Martyn Snow</a></span>, <span >
+      <a href="/author/abi-jones/">Abi Jones</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jul 21, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies/" >
+    <div class="img-hover-zoom">
+      <img src="/project/transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies/featured_hu81c64b635c5827e7d5d2874152e0689d_2831349_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Transcriptomic, proteomic and bioinformatics analyses of cell-based therapies" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies/" >Transcriptomic, proteomic and bioinformatics analyses of cell-based therapies</a>
+  </div>
+
+  
+  <a href="/project/transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by Versus arthritis</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Assay js-id-Equipment js-id-Tissue-Culture">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 3, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/equipment/">Equipment</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/equipment/agilent-tape-station/" >
+    <div class="img-hover-zoom">
+      <img src="/project/equipment/agilent-tape-station/featured_hu934a7fa99122fb635655792ccfa2624c_1572364_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Agilent tape station" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/equipment/agilent-tape-station/" >Agilent tape station</a>
+  </div>
+
+  
+  <a href="/project/equipment/agilent-tape-station/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Assay js-id-Equipment js-id-Tissue-Culture">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 3, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/equipment/">Equipment</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/equipment/epredia-cryostat/" >
+    <div class="img-hover-zoom">
+      <img src="/project/equipment/epredia-cryostat/featured_hudefc3bfaa460371e9177d6d4ca09dadd_1075769_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Epredia HM525 NX Cryostat" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/equipment/epredia-cryostat/" >Epredia HM525 NX Cryostat</a>
+  </div>
+
+  
+  <a href="/project/equipment/epredia-cryostat/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Assay js-id-Equipment js-id-Tissue-Culture">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 3, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/equipment/">Equipment</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/equipment/mirus-ingento-ezporator/" >
+    <div class="img-hover-zoom">
+      <img src="/project/equipment/mirus-ingento-ezporator/featured_hu212b3156385394d1186506e8577b38d2_2320025_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Mirus Ingento Ezporator" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/equipment/mirus-ingento-ezporator/" >Mirus Ingento Ezporator</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Assay js-id-Equipment js-id-Tissue-Culture">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Dec 3, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/equipment/">Equipment</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/equipment/pcr-machine/" >
+    <div class="img-hover-zoom">
+      <img src="/project/equipment/pcr-machine/featured_hue424a5e657cabb48fc8d8f5a2f4de7e3_1890541_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Terumo BCT Quantum Cell Expansion System" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/equipment/pcr-machine/" >Terumo BCT Quantum Cell Expansion System</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Extracellular-Vesicles js-id-Inflammatory-Arthritis js-id-Mesenchymal-Stem-Cells js-id-Arthritis js-id-Biology js-id-Completed-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/rebecca-davies/">Rebecca Davies</a></span>, <span >
+      <a href="/author/mairead-hyland/">Mairead Hyland</a></span>, <span >
+      <a href="/author/claire-mennan/">Claire Mennan</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/mark-platt/">Mark Platt</a></span>, <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 24, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/mscs-evs-inlfamm-arthritis/" >
+    <div class="img-hover-zoom">
+      <img src="/project/mscs-evs-inlfamm-arthritis/featured_hu8ac4be74e6fdbc0d89760a642b2a0e1d_16420_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="MSCs-Derived Extracellular Vesicles Attenuate Disease Severity in Inflammatory Arthritis" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/mscs-evs-inlfamm-arthritis/" >MSCs-Derived Extracellular Vesicles Attenuate Disease Severity in Inflammatory Arthritis</a>
+  </div>
+
+  
+  <a href="/project/mscs-evs-inlfamm-arthritis/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute and K&hellip;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Mesenchymal-Stem-Cells js-id-Inflammatory-Arthritis js-id-Arthritis js-id-Biology js-id-Completed-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/jones-f/">Jones F</a></span>, <span >
+      <a href="/author/stefan-a/">Stefan A</a></span>, <span >
+      <a href="/author/kay-a/">Kay A</a></span>, <span >
+      <a href="/author/mairead-hyland/">Mairead Hyland</a></span>, <span >
+      <a href="/author/morgan-r/">Morgan R</a></span>, <span >
+      <a href="/author/forsyth-n/">Forsyth N</a></span>, <span >
+      <a href="/author/pisconti-a/">Pisconti A</a></span>, <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 24, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo/" >
+    <div class="img-hover-zoom">
+      <img src="/project/syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo/featured_huf6b8e9cf638b8ae1692ac37b230c9444_47287_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Syndecan-3 plays a role in MSC adhesion and efficacy in an in vivo model of inflammatory arthritis" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo/" >Syndecan-3 plays a role in MSC adhesion and efficacy in an in vivo model of inflammatory arthritis</a>
+  </div>
+
+  
+  <a href="/project/syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the EPSRC &amp; MRC, Oswestry Rheu&hellip;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Arthritis js-id-Clinical-trial js-id-Cartilage js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/garcia-j/">Garcia J</a></span>, <span >
+      <a href="/author/roberts-s/">Roberts S</a></span>, <span >
+      <a href="/author/tins-b/">Tins B</a></span>, <span >
+      <a href="/author/jermin-p/">Jermin P</a></span>, <span >
+      <a href="/author/gallacher-p/">Gallacher P</a></span>, <span >
+      <a href="/author/kehoe-o/">Kehoe O</a></span>, <span >
+      <a href="/author/wright-k/">Wright K</a></span>, <span >
+      <a href="/author/stewart-c/">Stewart C</a></span>, <span >
+      <a href="/author/kuiper-jh/">Kuiper JH</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/spontaneous-healing-of-articular-cartilage-sharc/" >
+    <div class="img-hover-zoom">
+      <img src="/project/spontaneous-healing-of-articular-cartilage-sharc/featured_huc4ce7a29c58393027a57c7603606beee_976871_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="A 12-month clinical study. Spontaneous healing of articular cartilage (SHARC study)" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/spontaneous-healing-of-articular-cartilage-sharc/" >A 12-month clinical study. Spontaneous healing of articular cartilage (SHARC study)</a>
+  </div>
+
+  
+  <a href="/project/spontaneous-healing-of-articular-cartilage-sharc/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Medical Research Council (UKRI)</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Bioreactor js-id-Arthritis js-id-Cartilage js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/john-garcia/">John Garcia</a></span>, <span >
+      <a href="/author/charlotte-hulme/">Charlotte Hulme</a></span>, <span >
+      <a href="/author/claire-mennan/">Claire Mennan</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/" >
+    <div class="img-hover-zoom">
+      <img src="/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/featured_hub85146ec2fbf8ef83c7e636eb14c7794_1737127_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Human chondrocytes expanded in the Quantum® hollow-fibre bioreactor system" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/" >Human chondrocytes expanded in the Quantum® hollow-fibre bioreactor system</a>
+  </div>
+
+  
+  <a href="/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the MRC (UKRI) and Versus Arthritis</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Arthritis js-id-Cell-therapy js-id-Autologous-Chondrocyte-Implantation js-id-Cartilage js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/jade-perry/">Jade Perry</a></span>, <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>, <span >
+      <a href="/author/jermin-p/">Jermin P</a></span>, <span >
+      <a href="/author/gallacher-p/">Gallacher P</a></span>, <span >
+      <a href="/author/richardson-j/">Richardson J</a></span>, <span >
+      <a href="/author/williams-m/">Williams M</a></span>, <span >
+      <a href="/author/tins-b/">Tins B</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/" >
+    <div class="img-hover-zoom">
+      <img src="/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/featured_hu806ab21b1d009c89ecbfcfc4a88536c6_10842781_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="The suitability of pre-operative MRI in predicting accurate cartilage defect sizes in cell therapy" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/" >The suitability of pre-operative MRI in predicting accurate cartilage defect sizes in cell therapy</a>
+  </div>
+
+  
+  <a href="/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by Versus Arthritis and Keele University</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Cell-therapy js-id-Meniscus js-id-Knee js-id-Cartilage js-id-Mesenvhymal-Stem-Cells js-id-Biology js-id-Completed-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/jingsong-wang/">Jingsong Wang</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>, <span >
+      <a href="/author/bernhard-tins/">Bernhard Tins</a></span>, <span >
+      <a href="/author/james-richardson/">James Richardson</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds/" >
+    <div class="img-hover-zoom">
+      <img src="/project/cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds/featured_hud3fc168e7d49d253b4b488c952e33fc8_2009710_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Tissue engineering of meniscus cells, bmscs, chondrocytes and co-cultures on a scaffolds" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds/" >Tissue engineering of meniscus cells, bmscs, chondrocytes and co-cultures on a scaffolds</a>
+  </div>
+
+  
+  <a href="/project/cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Knee js-id-Cartilage js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/timothy-hopkins/">Timothy Hopkins</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>, <span >
+      <a href="/author/nicola-kuiper/">Nicola Kuiper</a></span>, <span >
+      <a href="/author/jan-herman-kuiper/">Jan Herman Kuiper</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 27, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/" >
+    <div class="img-hover-zoom">
+      <img src="/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/featured_hu5da8d73bf9558b8cc67f59ad3ee7b418_38024_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Biological, physical and psychosocial factors that affect the health of the human knee" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/" >Biological, physical and psychosocial factors that affect the health of the human knee</a>
+  </div>
+
+  
+  <a href="/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Cartilage js-id-Mesenchymal-Stem-Cells js-id-Knee js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/perry-j/">Perry J</a></span>, <span >
+      <a href="/author/mennan-c/">Mennan C</a></span>, <span >
+      <a href="/author/mccarthy-h/">McCarthy H</a></span>, <span >
+      <a href="/author/bou-gharios-g/">Bou-Gharios G</a></span>, <span >
+      <a href="/author/vant-hof-r/">Van&#39;T Hof R</a></span>, <span >
+      <a href="/author/milner-p/">Milner P</a></span>, <span >
+      <a href="/author/de-bari-c/">De Bari C</a></span>, <span >
+      <a href="/author/wright-k/">Wright K</a></span>, <span >
+      <a href="/author/roberts-s/">Roberts S</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 27, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/" >
+    <div class="img-hover-zoom">
+      <img src="/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/featured_hud872468dc67ac08b69810bb6830d37d8_1189784_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Can cells from umbilical cords be used to treat patients with osteoarthritis?" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/" >Can cells from umbilical cords be used to treat patients with osteoarthritis?</a>
+  </div>
+
+  
+  <a href="/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by Versus Arthritis and Keele University</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Mesenchymal-Stem-Cells js-id-Transcriptome js-id-Allogeneic-therapy js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/claire-mennan/">Claire Mennan</a></span>, <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/daniel-tonge/">Daniel Tonge</a></span>, <span >
+      <a href="/author/sally-roberts/">Sally Roberts</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 27, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy/" >
+    <div class="img-hover-zoom">
+      <img src="/project/transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy/featured_hu221dfa8f612834238d78c3a47b5e4d42_3091717_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Transcriptome analysis of the umbilical cord-MSCs&#39; therapeutic response to inflammation" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy/" >Transcriptome analysis of the umbilical cord-MSCs&#39; therapeutic response to inflammation</a>
+  </div>
+
+  
+  <a href="/project/transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by Versus Arthritis and the Orthopaed&hellip;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Ankle js-id-Cell-therapy js-id-Biomarkers js-id-Mesenchymal-Stem-Cells js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/tian-lan/">Tian Lan</a></span>, <span >
+      <a href="/author/charlotte-hulme/">Charlotte Hulme</a></span>, <span >
+      <a href="/author/helen-mccarthy/">Helen McCarthy</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/nilesh-makwana/">Nilesh Makwana</a></span>, <span >
+      <a href="/author/andrew-bing/">Andrew Bing</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 12, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/" >
+    <div class="img-hover-zoom">
+      <img src="/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/featured_hub4a0023b81b9530ad2fc7df5fdcff259_4675397_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Cell therapy for repair of cartilage defects in the ankle - how does it work and who should we treat?" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/" >Cell therapy for repair of cartilage defects in the ankle - how does it work and who should we treat?</a>
+  </div>
+
+  
+  <a href="/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the Orthopaedic Institute</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Psoriatic-Arthritis js-id-Biomarkers js-id-Biology js-id-Current-projects">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/anais-makos/">Anaïs Makos</a></span>, <span >
+      <a href="/author/jan-herman-kuiper/">Jan Herman Kuiper</a></span>, <span >
+      <a href="/author/roshan-amarasena/">Roshan Amarasena</a></span>, <span >
+      <a href="/author/oksana-keohe/">Oksana Keohe</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 2, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/" >
+    <div class="img-hover-zoom">
+      <img src="/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/featured_hu1720124b97c2798d6014ed96448997ec_559217_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+           class="article-banner" alt="Biomarkers for the PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/" >Biomarkers for the PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study</a>
+  </div>
+
+  
+  <a href="/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by the RJAH Hospital Charitable Fund</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+      
+        
+          <div class="project-card project-item isotope-item js-id-Current-projects js-id-Biology js-id-Mesenchymal-Stem-Cells">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple view-card">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/rebecca-davies/">Rebecca Davies</a></span>, <span >
+      <a href="/author/mairead-hyland/">Mairead Hyland</a></span>, <span >
+      <a href="/author/claire-mennan/">Claire Mennan</a></span>, <span >
+      <a href="/author/karina-wright/">Karina Wright</a></span>, <span >
+      <a href="/author/mark-platt/">Mark Platt</a></span>, <span >
+      <a href="/author/oksana-kehoe/">Oksana Kehoe</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jul 21, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/project/up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment/" >
+    <div class="img-hover-zoom">
+      <img src="/project/up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment/featured_hucde9565ee402215cd754f5fbf8521c6b_366936_808x455_fill_q75_h2_lanczos_smart1.webp" height="455" width="808"
+           class="article-banner" alt="Up-scaling UC-MSC extracellular vesicle production for rheumatoid arthritis treatment" loading="lazy">
+    </div>
+  </a>
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/project/up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment/" >Up-scaling UC-MSC extracellular vesicle production for rheumatoid arthritis treatment</a>
+  </div>
+
+  
+  <a href="/project/up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment/"  class="summary-link">
+    <div class="article-style">
+      <p>Funded by James Richardson Studentship, Ort&hellip;</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+      </div>
+    
+
+  </div>
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2025
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.0047d4febf356e7f0b988e541f50b065.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.8d464630e57565cec18d704bd3ef621f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

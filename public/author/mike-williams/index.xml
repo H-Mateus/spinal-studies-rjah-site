@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mike Williams | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/mike-williams/</link>
+      <atom:link href="https://oskor.netlify.app/author/mike-williams/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mike Williams</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/mike-williams/avatar_hud97e1cdb5a2156d4f1debd353ad42c58_62244_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Mike Williams</title>
+      <link>https://oskor.netlify.app/author/mike-williams/</link>
+    </image>
+    
+  </channel>
+</rss>

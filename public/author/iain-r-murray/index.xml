@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iain R Murray | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/iain-r-murray/</link>
+      <atom:link href="https://oskor.netlify.app/author/iain-r-murray/index.xml" rel="self" type="application/rss+xml" />
+    <description>Iain R Murray</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Iain R Murray</title>
+      <link>https://oskor.netlify.app/author/iain-r-murray/</link>
+    </image>
+    
+    <item>
+      <title>Orthobiologics: Osteoarthritis</title>
+      <link>https://oskor.netlify.app/publication/orthobiologics-osteoarthritis/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/orthobiologics-osteoarthritis/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Orthobiologics: Scientific background</title>
+      <link>https://oskor.netlify.app/publication/orthobiologics-scientific-background/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/orthobiologics-scientific-background/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

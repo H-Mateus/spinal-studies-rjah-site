@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henry Barrett | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/henry-barrett/</link>
+      <atom:link href="https://oskor.netlify.app/author/henry-barrett/index.xml" rel="self" type="application/rss+xml" />
+    <description>Henry Barrett</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/henry-barrett/avatar_hub1a20b7d674e117e4e1172b05fd32cf1_1292093_270x270_fill_lanczos_center_3.png</url>
+      <title>Henry Barrett</title>
+      <link>https://oskor.netlify.app/author/henry-barrett/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biomarkers | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/biomarkers/</link>
+      <atom:link href="https://oskor.netlify.app/tag/biomarkers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Biomarkers</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Biomarkers</title>
+      <link>https://oskor.netlify.app/tag/biomarkers/</link>
+    </image>
+    
+    <item>
+      <title>Biomarker discovery in orthopaedics: Matching patients to the best treatment</title>
+      <link>https://oskor.netlify.app/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/</guid>
+      <description>
+
+
+&lt;p&gt;As in all treatments, a few patients who have their osteoarthritis treated using biological approaches, such as cell therapies, osteotomy or microfracture, do not respond so well as others, though we do not know why.
+Our previous work has identified particular molecules in synovial fluid or blood known as ‘biomarkers’ that have the potential to identify which patients are unlikely to improve clinically following the cell therapy known as autologous chondrocyte implantation (ACI).
+These investigations focussed on protein markers whose biology is known to relate to poor repair of cartilage or general inflammation e.g. an enzyme, aggrecanase-1, and another molecule involved in the immune system, CD14.
+Our recent work, however, has used a highly specialised technique called proteomics to identify larger numbers of proteins which are altered within the synovial fluid in the knee of patients who either do or do not respond well to ACI.
+The proteins identified using this approach include many that have never been investigated before and which therefore provide attractive new candidates.
+To date, we have confirmed that four of these proteins, S100A13, MMP1, Complement C1S and MMP3, have the potential to inform us of whether or not a patient is suitable to continue through the ACI procedure.
+In addition, the MMP candidates have recently been validated in an independent group of patients using a different multi-plex discovery platform, providing added confidence to our results.&lt;/p&gt;
+&lt;p&gt;In addition, we have used ‘bioinformatic’ analysis, using complex computer programmes, to inform us of how the ACI procedure may be affecting different biological mechanisms, such as ‘acute phase response signalling’ in individuals who improve following ACI compared to those who do not (Figure 1).
+These studies may help us identify ways to improve ACI outcomes for patients in which it would not currently be successful.&lt;/p&gt;
+&lt;p&gt;We have gone on to see if any of these ‘biomarkers’ can help us predict what the outcome might be following other treatments, such as osteotomy or microfracture.
+We have shown that the amount of both S100A13 and the total amount of protein within the synovial fluid before an operation relates to the clinical functional scores that patients achieve a year after their osteotomy.
+We hope that this work will help us to identify a reliable panel of molecular markers which can be used to help the surgeon and patient decide on what is the best treatment for that particular person.
+This would not only save the health service money, but most importantly get people pain free and back to their normal lives quicker.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:proj-fig&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;**Acute Phase Signalling is an example of a biological pathway that is altered in people who do poorly following ACI.** Proteins in red were increased and proteins in green were decreased following initial ACI surgery compared to pre-operative levels. This signalling pathway is therefore likely to be a good target for new drugs to improve the outcome for individuals who currently do not benefit from ACI.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: &lt;strong&gt;Acute Phase Signalling is an example of a biological pathway that is altered in people who do poorly following ACI.&lt;/strong&gt; Proteins in red were increased and proteins in green were decreased following initial ACI surgery compared to pre-operative levels. This signalling pathway is therefore likely to be a good target for new drugs to improve the outcome for individuals who currently do not benefit from ACI.
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biomarkers and prognostic modelling in SCI using proteomics, bioinformatics and in vitro models</title>
+      <link>https://oskor.netlify.app/project/gmbh_phd_2018-10-01/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/gmbh_phd_2018-10-01/</guid>
+      <description>&lt;p&gt;The focus of this project is to develop a prognostic biomarker panel for spinal cord injury (SCI) and to enhance our understanding of the mechanisms involved in nerve injury in order to identify new targets with potential for nerve repair.&lt;/p&gt;
+&lt;p&gt;The student will use proteomic (iTRAQ), biochemical and bioinformatic analyses to investigate the serum proteome. iTRAQ proteomics analyses will be used to identify potential prognostic indicators/new targets in models of SCI. The student will utilise bioinformatics tools to identify biological pathways and networks.&lt;/p&gt;
+&lt;p&gt;We anticipate that the student will have generated an extensive list of potential prognostic indicators/novel targets for the treatment of SCI. We will focus our attention on proteins which: (1) have the greatest significant (i.e., lowest p-value) difference in expression (between the groups tested i.e. acute vs. subacute or complete vs. incomplete; and (2) are known to be involved in axon guidance or growth. The student will validate the proteins of interest identified via ELISA, where ELISAs are not available; he will validate the proteomic findings via Western Blot analyses.&lt;/p&gt;
+&lt;p&gt;The student will use in vitro models of nerve growth and SCI to conduct preliminary functional studies and to determine how manipulating the expression of these proteins can affect nerve growth. We have a good track record of examining the effects that proteins and drug compounds have on cells grown in culture (Bara et al., 2015; Wright et al., 2014; Wright et al., 2010; Wright et al., 2010; Wright et al., 2007).&lt;/p&gt;
+&lt;p&gt;Novel engineering science: the design, implementation and validation of an in vitro model of a contusion (blunt force) spinal cord injury.&lt;/p&gt;
+&lt;p&gt;Novel bio-engineering science: the manipulation of mechanistically important proteins (determined from the bioinformatics analysis) in established contusion injury models.&lt;/p&gt;
+&lt;p&gt;This project is funded by the &lt;a href=&#34;https://epsrc.ukri.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPSRC&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PARIS Study: Potential biomarkers predicting response to TNFi in Psoriatic Arthritis</title>
+      <link>https://oskor.netlify.app/publication/paris-study-potential-biomarkers-predicting-response-to-tnfi-in-psoriatic-arthritis/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/paris-study-potential-biomarkers-predicting-response-to-tnfi-in-psoriatic-arthritis/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Psoriatic arthritis: review of potential biomarkers predicting response to TNF inhibitors</title>
+      <link>https://oskor.netlify.app/publication/psoriatic-arthritis-review-of-potential-biomarkers-predicting-response-to-tnf-inhibitors/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/psoriatic-arthritis-review-of-potential-biomarkers-predicting-response-to-tnf-inhibitors/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Identification of Candidate Synovial Fluid Biomarkers for the Prediction of Patient Outcome After Microfracture or Osteotomy</title>
+      <link>https://oskor.netlify.app/publication/identification-of-candidate-synovial-fluid-biomarkers-for-the-prediction-of-patient-outcome-after-microfracture-or-osteotomy/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/identification-of-candidate-synovial-fluid-biomarkers-for-the-prediction-of-patient-outcome-after-microfracture-or-osteotomy/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/identification-of-candidate-synovial-fluid-biomarkers-for-the-prediction-of-patient-outcome-after-microfracture-or-osteotomy/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Cell therapy for repair of cartilage defects in the ankle - how does it work and who should we treat?</title>
+      <link>https://oskor.netlify.app/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/</guid>
+      <description>
+
+
+&lt;p&gt;Untreated cartilage defects in the ankle can lead to osteoarthritis (OA).
+Various versions of a cell therapy, using a one-step arthroscopic technique to deliver bone-marrow aspirate concentrate (BMAC) into a cartilage defect to delay the development of OA have been used in the ankle at RJAH.
+Previously used to treat cartilage defects in the knee1, one such technique called Complete Cartilage Repair (CCR) has been used at RJAH for the treatment of cartilage defects in the ankle (n=62)2.
+Preliminary data from our laboratory using such patients BMAC samples have demonstrated that not all cells adhere to a traditional mesenchymal stem cell (MSC) phenotype, thus questioning the suggested mechanism of action.
+This reverse-translational study aims to establish the exact cell population/s obtained via BMAC (in both commercially available normal and patient samples); we aim to assess their chondrogenic potency and phenotype and how these cells might relate to a good clinical outcome.
+Furthermore, we will aim to identify biomarkers within the synovial fluid and bloods which may predict which patients are most likely to benefit from this treatment.&lt;/p&gt;
+&lt;p&gt;Commercially-available bone marrow aspirate from young, healthy donors will be concentrated via centrifugation using the three BMAC preparation kits trialled clinically in our centre (Complete Cartilage Repair (CCR), RegenGlobal; Heragen® Maxx, Heraeus; and Angel® BMC, Arthrex).
+Flow cytometry and qRT-PCR will be used to characterise the cell phenotype/s and assess their chondrogenic potency.
+Additionally, how BMAC cells respond to the environment within the scaffold used in the CCR kit is unknown.
+Therefore, cells will be seeded within this scaffold in the laboratory and their viability and chondrogenic potency assessed by live/dead assays and qRT-PCR, respectively.
+Synovial fluid and bloods will be collected from patients at the time of BMAC (CCR) implantation and a panel of protein markers, found to predict clinical outcome following knee surgery3-5, will be assessed to identify proteins that may predict clinical outcome following treatment.
+At 6 and 12 months post-treatment, clinical outcome and general well-being of the patients enrolled in this study will be assessed using a validated foot and ankle questionnaire (MOXFQ) and the EQ5D questionnaire, respectively.&lt;/p&gt;
+&lt;p&gt;The comparison of the three different preparation kits will indicate which preparation yields the most suitable cell type/s for cartilage repair.
+This will provide clinically relevant information which could contribute to a clinical trial application and for seeking more substantive scientific funding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biomarkers for the PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study</title>
+      <link>https://oskor.netlify.app/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/</guid>
+      <description>
+
+
+&lt;p&gt;Psoriatic arthritis (PsA) is a chronic immune-mediated inflammatory disease
+and patients suffer from joint and spinal pain because of immune cell
+infiltration and expansion in skin and synovium. These cells release a large
+panel of pro inflammatory factors responsible for the inflammation, as
+cytokines and chemokines. We can cite for instance Tumor Necrosis Factor &lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;
+(TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;), Interleukin (IL)-17, IL-23 and IL-1&lt;span class=&#34;math inline&#34;&gt;\(β\)&lt;/span&gt; released by Peripheral
+Blood Mononuclear Cells (PBMC) such as CD4+ and CD8+ T cells, neutrophils and
+macrophages.&lt;/p&gt;
+&lt;p&gt;PsA occurs in 30% of people with psoriasis. It diminishes considerably the
+quality of life of patients and serious desabiliting effects are present on
+the peripheral joints, spine, tendon insertion and fingers. PsA accounts for
+20% of referrals to the early arthritis clinic and early recognition and
+intervention is crucial to patient outcome. Currently, diagnosis of PsA is
+not optimal because there are no precise tests available to detect or
+recognize the disease.&lt;/p&gt;
+&lt;p&gt;No curative treatments are available for PsA. Non Steroidal Anti-Inflammatory
+drugs (NSAID) are used as first approach for topical therapy for psoriasis
+and to reduce pain; the next step is administration of Disease-Modifying
+Anti-Rheumatic Drugs (DMARDs) alone, and then in combination; and finally,
+biologic drugs targeting specific cytokines and signaling pathways, such as
+TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt; inhibitors or IL-17 inhibitors, are administrated if patients fail to
+respond NSAID and DMARDs. However, at least 40% of patients with PsA have
+only a partial response or fail to respond to biologics.
+The aim of the PSAPS study is to investigate whether blood inflammatory
+markers can predict if patients with PsA will respond or not to TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;
+inhibitors, and consequently to help choosing the optimal biologic therapy
+for patients, individually.&lt;/p&gt;
+&lt;p&gt;First literature research has highlighted several promising inflammatory
+factors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Human Serum Albumin and its receptor FcRn (Neonatal Fc Receptor)&lt;/li&gt;
+&lt;li&gt;Alarmins, such as S100 family members and HMGB1&lt;/li&gt;
+&lt;li&gt;Advanced Glycation End-products (AGEs)&lt;/li&gt;
+&lt;li&gt;Lymphotoxin α, the second ligand to TNF Receptor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Arrays allowing the detection of hundreds of pro inflammatory markers can
+also be used to analyze serum of patients at a large scale, and IL-17 pathway
+will be screen in detail to understand why some patients respond to IL-17
+inhibitors while they do not respond to TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;-inhibitors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficacy and safety of autologous cell therapies for knee cartilage defects (autologous stem cells, chondrocytes or the two): randomized controlled trial design</title>
+      <link>https://oskor.netlify.app/publication/efficacy-and-safety-of-autologous-cell-therapies-for-knee-cartilage-defects-autologous-stem-cells-chondrocytes-or-the-two-randomized-controlled-trial-design/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/efficacy-and-safety-of-autologous-cell-therapies-for-knee-cartilage-defects-autologous-stem-cells-chondrocytes-or-the-two-randomized-controlled-trial-design/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/efficacy-and-safety-of-autologous-cell-therapies-for-knee-cartilage-defects-autologous-stem-cells-chondrocytes-or-the-two-randomized-controlled-trial-design/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claire Mennan | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/claire-mennan/</link>
+      <atom:link href="https://oskor.netlify.app/author/claire-mennan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Claire Mennan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/claire-mennan/avatar_hu978751ed0db5552a70d5a326da4ee6e3_1406890_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Claire Mennan</title>
+      <link>https://oskor.netlify.app/author/claire-mennan/</link>
+    </image>
+    
+  </channel>
+</rss>

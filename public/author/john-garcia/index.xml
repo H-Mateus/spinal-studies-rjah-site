@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Garcia | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/john-garcia/</link>
+      <atom:link href="https://oskor.netlify.app/author/john-garcia/index.xml" rel="self" type="application/rss+xml" />
+    <description>John Garcia</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/john-garcia/avatar_hu11816dc8cca4d079dd770dd7377a0bde_226601_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>John Garcia</title>
+      <link>https://oskor.netlify.app/author/john-garcia/</link>
+    </image>
+    
+  </channel>
+</rss>

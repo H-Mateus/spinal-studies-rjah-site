@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Cool | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/paul-cool/</link>
+      <atom:link href="https://oskor.netlify.app/author/paul-cool/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paul Cool</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/paul-cool/avatar_hu25985fda6319d51dfdffc25b55956dbc_2179795_270x270_fill_lanczos_center_3.png</url>
+      <title>Paul Cool</title>
+      <link>https://oskor.netlify.app/author/paul-cool/</link>
+    </image>
+    
+  </channel>
+</rss>

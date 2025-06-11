@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Current projects | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/current-projects/</link>
+      <atom:link href="https://oskor.netlify.app/tag/current-projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Current projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Current projects</title>
+      <link>https://oskor.netlify.app/tag/current-projects/</link>
+    </image>
+    
+    <item>
+      <title>Biomarker discovery in orthopaedics: Matching patients to the best treatment</title>
+      <link>https://oskor.netlify.app/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/</guid>
+      <description>
+
+
+&lt;p&gt;As in all treatments, a few patients who have their osteoarthritis treated using biological approaches, such as cell therapies, osteotomy or microfracture, do not respond so well as others, though we do not know why.
+Our previous work has identified particular molecules in synovial fluid or blood known as ‘biomarkers’ that have the potential to identify which patients are unlikely to improve clinically following the cell therapy known as autologous chondrocyte implantation (ACI).
+These investigations focussed on protein markers whose biology is known to relate to poor repair of cartilage or general inflammation e.g. an enzyme, aggrecanase-1, and another molecule involved in the immune system, CD14.
+Our recent work, however, has used a highly specialised technique called proteomics to identify larger numbers of proteins which are altered within the synovial fluid in the knee of patients who either do or do not respond well to ACI.
+The proteins identified using this approach include many that have never been investigated before and which therefore provide attractive new candidates.
+To date, we have confirmed that four of these proteins, S100A13, MMP1, Complement C1S and MMP3, have the potential to inform us of whether or not a patient is suitable to continue through the ACI procedure.
+In addition, the MMP candidates have recently been validated in an independent group of patients using a different multi-plex discovery platform, providing added confidence to our results.&lt;/p&gt;
+&lt;p&gt;In addition, we have used ‘bioinformatic’ analysis, using complex computer programmes, to inform us of how the ACI procedure may be affecting different biological mechanisms, such as ‘acute phase response signalling’ in individuals who improve following ACI compared to those who do not (Figure 1).
+These studies may help us identify ways to improve ACI outcomes for patients in which it would not currently be successful.&lt;/p&gt;
+&lt;p&gt;We have gone on to see if any of these ‘biomarkers’ can help us predict what the outcome might be following other treatments, such as osteotomy or microfracture.
+We have shown that the amount of both S100A13 and the total amount of protein within the synovial fluid before an operation relates to the clinical functional scores that patients achieve a year after their osteotomy.
+We hope that this work will help us to identify a reliable panel of molecular markers which can be used to help the surgeon and patient decide on what is the best treatment for that particular person.
+This would not only save the health service money, but most importantly get people pain free and back to their normal lives quicker.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:proj-fig&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;**Acute Phase Signalling is an example of a biological pathway that is altered in people who do poorly following ACI.** Proteins in red were increased and proteins in green were decreased following initial ACI surgery compared to pre-operative levels. This signalling pathway is therefore likely to be a good target for new drugs to improve the outcome for individuals who currently do not benefit from ACI.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: &lt;strong&gt;Acute Phase Signalling is an example of a biological pathway that is altered in people who do poorly following ACI.&lt;/strong&gt; Proteins in red were increased and proteins in green were decreased following initial ACI surgery compared to pre-operative levels. This signalling pathway is therefore likely to be a good target for new drugs to improve the outcome for individuals who currently do not benefit from ACI.
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction of clinical outcome following ACI by magnetic resonance imaging</title>
+      <link>https://oskor.netlify.app/project/aci_mri_prediction_2021-04-27/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/aci_mri_prediction_2021-04-27/</guid>
+      <description>&lt;p&gt;Since 2010, we have been collating data from a Retrospective study of Autologous Cell Therapy (REACT), using a postal questionnaire completed by patients who have previously received this treatment here at this hospital for cartilage defects of their knee.
+We have assessed the quality of the repair tissue which forms in the treated defect using magnetic resonance imaging (MRI) to see if it correlates with clinical outcomes.&lt;/p&gt;
+&lt;p&gt;We found that certain features identifiable on the MRIs correlated significantly with how well the patient felt at a year after treatment (eg the amount and composition of repair tissue which had formed, how well it was integrated with the adjacent cartilage and bone, how smooth the surface was and if there were no cysts in the bone beneath).
+What may be particularly useful is that 3 of these parameters at 1 year after treatment (how much tissue, its composition and the smoothness of the surface) all affected the clinical outcome in the long term (up to 17 years after treatment).
+This could be particularly useful for clinical trials, meaning that long term follow up such as is ongoing in the Oswestry led multicentre trial of Autologous Chondrocyte Implantation (ACI) in ACTIVE, could be avoided.
+Instead of following patients up for 10 years in person, an MRI at 1 year could predict how well those patients would do with this treatment, which could be a huge cost-saving in running such trials. (&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6081761/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McCarthy et al (2018) Orthop J Sports Med. 2018 Aug; 6(8): 325967118788280&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biomarkers and prognostic modelling in SCI using proteomics, bioinformatics and in vitro models</title>
+      <link>https://oskor.netlify.app/project/gmbh_phd_2018-10-01/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/gmbh_phd_2018-10-01/</guid>
+      <description>&lt;p&gt;The focus of this project is to develop a prognostic biomarker panel for spinal cord injury (SCI) and to enhance our understanding of the mechanisms involved in nerve injury in order to identify new targets with potential for nerve repair.&lt;/p&gt;
+&lt;p&gt;The student will use proteomic (iTRAQ), biochemical and bioinformatic analyses to investigate the serum proteome. iTRAQ proteomics analyses will be used to identify potential prognostic indicators/new targets in models of SCI. The student will utilise bioinformatics tools to identify biological pathways and networks.&lt;/p&gt;
+&lt;p&gt;We anticipate that the student will have generated an extensive list of potential prognostic indicators/novel targets for the treatment of SCI. We will focus our attention on proteins which: (1) have the greatest significant (i.e., lowest p-value) difference in expression (between the groups tested i.e. acute vs. subacute or complete vs. incomplete; and (2) are known to be involved in axon guidance or growth. The student will validate the proteins of interest identified via ELISA, where ELISAs are not available; he will validate the proteomic findings via Western Blot analyses.&lt;/p&gt;
+&lt;p&gt;The student will use in vitro models of nerve growth and SCI to conduct preliminary functional studies and to determine how manipulating the expression of these proteins can affect nerve growth. We have a good track record of examining the effects that proteins and drug compounds have on cells grown in culture (Bara et al., 2015; Wright et al., 2014; Wright et al., 2010; Wright et al., 2010; Wright et al., 2007).&lt;/p&gt;
+&lt;p&gt;Novel engineering science: the design, implementation and validation of an in vitro model of a contusion (blunt force) spinal cord injury.&lt;/p&gt;
+&lt;p&gt;Novel bio-engineering science: the manipulation of mechanistically important proteins (determined from the bioinformatics analysis) in established contusion injury models.&lt;/p&gt;
+&lt;p&gt;This project is funded by the &lt;a href=&#34;https://epsrc.ukri.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPSRC&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Does knee cartilage repair surgery prevent arthritis or the need for a joint replacement?</title>
+      <link>https://oskor.netlify.app/project/does-knee-cartilage-repair-surgery-prevent-arthritis-or-the-need-for-a-joint-replacement/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/does-knee-cartilage-repair-surgery-prevent-arthritis-or-the-need-for-a-joint-replacement/</guid>
+      <description>
+
+
+&lt;p&gt;Musculoskeletal conditions, such as arthritis, account for 20% of GP visits. Arthritis is a wide-spread disease which affects our joints, and osteoarthritis (OA) is the most common form. In the UK, approximately 1/5 of over-45s have been diagnosed with OA, the knee being the most frequently affected joint. The cause of OA is unknown but it develops when cartilage wears out. Knee injury in young adults can increase their risk of developing knee OA sixfold. OA is treated with physiotherapy, painkillers, surgery, or as a last resort, a joint replacement.&lt;/p&gt;
+&lt;p&gt;Cartilage repair surgeries focus on stopping knee pain and improving function but may also slow OA. It’s important to measure outcomes following surgery to understand if they have worked. There are different ways to assess outcome for knee cartilage surgery including clinical (e.g., need for re-operation or joint replacement), X-rays, cartilage or bone tests, studying genes or proteins in blood samples, or ‘patient reported’ (e.g., questionnaires). Outcomes are collected and stored in large health databases and registries.&lt;/p&gt;
+&lt;p&gt;Ideally, knee cartilage surgeries in middle-aged patients will slow down OA and delay or eliminate the need for joint replacement. We don’t know if this happens in reality. I plan to work out the true effect of knee cartilage surgeries by studying health records and outcome measures.&lt;/p&gt;
+&lt;p&gt;The Robert Jones &amp;amp; Agnes Hunt Orthopaedic NHS Hospital in Oswestry specialises in bone and joint disorders. Uniquely, it has cartilage surgery data spanning more than 20 years. I plan to link this information with the National Joint Registry (results from joint replacements) to work out the time from surgery to joint replacement to see if I can predict when and for whom cartilage surgery would be successful. Also, I plan to use the UK Biobank (health records and risk factors for the major diseases of middle and old age) to find out whether cartilage surgery can help patients with a higher genetic risk of OA onset.&lt;/p&gt;
+&lt;p&gt;The study will help patients with cartilage defects by giving orthopaedic surgeons a tool to help fit cartilage treatment to their patients to delay or avoid the development of severe OA. This will improve their quality of life and reduce the need for knee replacements, both of which represent health-economic benefits. This potential cost benefit also fits with the NHS national programme “GIRFT” (&lt;a href=&#34;https://gettingitrightfirsttime.co.uk/&#34; class=&#34;uri&#34;&gt;https://gettingitrightfirsttime.co.uk/&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence in the diagnosis of orthopaedic conditions (Bone Tumours and Infection)</title>
+      <link>https://oskor.netlify.app/project/artificial-intelligence-in-the-diagnosis-of-orthopaedic-conditions/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/artificial-intelligence-in-the-diagnosis-of-orthopaedic-conditions/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;strong&gt;PhD project&lt;/strong&gt;:“Artificial Intelligence in the diagnosis of orthopaedic conditions”&lt;/p&gt;
+&lt;p&gt;Supervisors: Dr Karina Wright and Dr Paul Cool&lt;/p&gt;
+&lt;p&gt;The aim of this PhD prpject is o investigate the possibility of using nanopore DNA sequencing technology for the real time identification of pathogens in infected arthroplasty, including antimicrobial resistance.&lt;/p&gt;
+&lt;p&gt;With the lack of a gold standard for identifying infected arthroplasty, comparison will be made with results from frozen section histology, microbiological cultures, clinical details and results from laboratory tests (CRP, ESR, WCC etc).&lt;/p&gt;
+&lt;p&gt;Artificial intelligence models will be tested on the frozen section histology slides to compare with clinical results to investigate if more accurate predictions can be made on frozen section histology.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The potential utility of human regulatory T cell-derived EV to control inflammation in RA</title>
+      <link>https://oskor.netlify.app/project/the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-ra/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/the-potential-utility-of-human-regulatory-t-cell-derived-ev-to-control-inflammation-in-ra/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;strong&gt;PhD project&lt;/strong&gt;:“The potential utility of human regulatory T cell-derived ExtraCellular Vesicles to control inflammation in Rheumatoid Arthritis”&lt;/p&gt;
+&lt;p&gt;Supervisors: Dr Oksana Kehoe&lt;/p&gt;
+&lt;p&gt;One in every 16 of people in the UK live with an autoimmune condition causing them pain, difficulty, lost opportunities in work and in life, and in many cases placing them at risk of early death. Autoimmunity occurs when the immune system attacks the body. Regulatory cells (also called Tregs) are cells of immune system which have a role in regulating or suppressing other cells in the immune system. Tregs control the immune response to self and foreign particles and help prevent autoimmune disease. Understanding how Tregs supress cells in the immune system could help improve treatments for people with autoimmune conditions including lupus, type 1 diabetes, Sjögren syndrome, multiple sclerosis and rheumatoid arthritis. In rheumatoid arthritis, the immune system destroys the lining of the joints. At present, autoimmune conditions cannot be cured. Tregs communicate with other cells in the immune system by producing the little particles called extracellular vesicles. This project will explore these particles to find out what’s inside them and how they differ in healthy people and patients with rheumatoid arthritis using a variety of different tests. Next, this project will explore how the extracellular vesicles function. We will add the particles into a dish with immune cells from patients with rheumatoid arthritis. These cells are overactive, which causes the pain, inflammation and swelling in the joints, so we want to see if our extracellular vesicles can suppress these immune cells. If these experiments are successful and the extracellular vesicles contain anti-inflammatory properties, then they have the potential to be applied to many different autoimmune conditions.&lt;/p&gt;
+&lt;p&gt;The overarching aim of this proposal is to define the feasibility of using Tregs-derived EVs as a biological therapeutic for RA patients. The project will meet this aim through the achievement of four primary objectives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Isolate and investigate phenotypic and functional properties of ex vivo expanded Tregs from the peripheral blood of RA patients and healthy volunteers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Isolate Tregs-derived EVs and define their vesicular properties according to internationally agreed criterion (ISEV 2019).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Quantify and compare the suppressive efficacy of EVs derived from disease or healthy donors.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Identify the differentially-expressed vesicular factors that are potentially responsible for their suppressive effects.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transcriptomic, proteomic and bioinformatics analyses of cell-based therapies</title>
+      <link>https://oskor.netlify.app/project/transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/transcriptomic-proteomic-and-bioinformatics-analyses-of-cell-based-therapies/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;strong&gt;PhD project&lt;/strong&gt;: TRANSCRIPTOMIC, PROTEOMIC AND BIOINFORMATICS ANALYSES OF CELL-BASED THERAPIES FOR CARTILAGE INJURIES IN HUMANS&lt;/p&gt;
+&lt;p&gt;Supervisors: Dr Karina Wright, Prof Mandy Peffers, Dr Dan Tonge, Dr Helen McCarthy , Dr Charlotte Hulme, Dr Jan Herman Kuiper and Professor Martyn Snow.&lt;/p&gt;
+&lt;p&gt;Background: The RJAH orthopaedic hospital and Keele University have used a cell-based therapy (autologous chondrocyte implantation or ACI) to treat damaged cartilage in knees and other joints for over 20 years. Since 2016 Drs Wright, Kuiper, McCarthy and Hulme have been involved in a clinical trial to determine if cells from the bone marrow (mesenchymal stromal cells, BM-MSCs) may produce superior results compared to chondrocytes, either alone or in combination (ASCOT: Autologous Stem cells, Chondrocytes or the Two) (Eudract number 2010-022072-31). Clinical benefit in terms of functional recovery is the primary outcome, but the team also have approval to undertake considerable exploratory research alongside the trial itself, for example to determine if the implanted cells have particular ‘markers’ on their surface or within their transcriptome/proteome which could help predict their efficacy or ‘potency.’&lt;/p&gt;
+&lt;p&gt;Preliminary work: A powered half-way mRNA and miRNA-sequencing analysis of the implanted cellular therapies (66 patients) has recently been completed (funded by the Medical Research Council (MRC)) and has formed the basis of a bioinformatics-focused PhD studentship, in part funded by the Versus Arthritis Tissue Engineering and Regenerative Therapies (VA-TERT) Centre and Keele University. This studentship is expected to complete within the next 12 months and has already highlighted a series of individual markers (e.g. cartilage matrix molecules, catabolic enzymes and cytokines) and biological pathways (e.g. TGF-b signalling, cell adhesion and toll-like receptor signalling) that relate to outcome for each cell-based therapy.&lt;/p&gt;
+&lt;p&gt;The objectives of the current studentship are to (1) complete the mRNA and miRNA (transcriptome) sequencing for all 114 patients, (2) undertake paired label-free proteomic analysis, (3) carry out a systems bioinformatics analysis (to interrelate transcriptome and proteome data) and (4) to determine identifiable markers that relate to outcomes. The studentship will leverage the transcriptomic and bioinformatics methodologies developed in Dr Wright and Tonge’s interim analysis and those established for proteomics in Prof Peffers and Dr Wright’s groups.&lt;/p&gt;
+&lt;p&gt;Methods and Training: The planned RNA-sequencing is being carried out by a sequencing service provider (funded by the MRC) and is anticipated to be complete within the first four months of the studentship. Meanwhile the PhD candidate will undertake training in the preparation of samples for label free proteomics analysis with Drs Wright, Hulme and Prof Peffers and the validation of transcriptome data with Drs Tonge and McCarthy. Statistical guidance will be provided by Dr Kuiper and clinical input from Prof Snow. A patient representative (Ms Gracey-McMinn) will also have an integral role, steering the studentship from a patient perspective.&lt;/p&gt;
+&lt;p&gt;On receiving the transcriptomic and proteomic data, the candidate will aim to (1) identify a set of genes/proteins that are significantly differentially expressed between the treatment groups or that correlate to specific outcome measures and (2) condense these into meaningful biological pathways/networks. These two steps will be used to determine, at the molecular level, the mechanisms responsible for mediating the effects of each transplanted cell population. Together, these analyses will aim to identify molecular profiles which can help to predict clinical efficacy.&lt;/p&gt;
+&lt;p&gt;A wealth of clinical data is collected throughout the ASCOT trial. Lysholm score (a patient-reported functional score) and a series of imaging scores will be available at 12-months post-operatively for comparative expression analyses. Further, histological assessments of repair site biopsies also taken at 12-months will also be available.&lt;/p&gt;
+&lt;p&gt;Implanted cells have already been characterised by determining their surface marker immunoprofile as part of the ASCOT trial. The candidate will interrogate transcriptome, proteome and immunoprofile data to identify whether gene/protein signatures of interest relate to a more easily measurable cell surface marker signature, of use for future cell release and potency assessment criteria. In addition, the student will bioinformatically compare cell types across donors and within donor-matched groups. Further demographic comparisons of transcriptome and proteome data will focus on features such as gender, age and BMI which are known to influence the outcome of orthopaedic cell-based therapies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A 12-month clinical study. Spontaneous healing of articular cartilage (SHARC study)</title>
+      <link>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</guid>
+      <description>
+
+
+&lt;p&gt;When the cartilage in your joint is damaged, it is often thought that it does not heal and would eventually lead to joint degeneration.
+However, we have found evidence that in some instances, cartilage can repair itself without surgical intervention.&lt;br /&gt;
+We studied this natural healing in patients who had an artificial cartilage defect created in their knees as part of a cell therapy trial.
+Biopsies of the regenerated cartilage tissues were taken about 12 months after the defect was created and examined in our lab to determine their quality and whether the tissues returned to their original structure.
+What we found showed that although the damaged cartilage did repair itself, it did not return to its normal structure, at least in that timescale.
+For instance, collagens are very important molecules in cartilage, and we found that their organisation was different in the naturally repaired cartilage compared to normal.
+This information is useful to us in that it may help to understand how we can improve ways of encouraging better repair tissue to form.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human chondrocytes expanded in the Quantum® hollow-fibre bioreactor system</title>
+      <link>https://oskor.netlify.app/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/</guid>
+      <description>
+
+
+&lt;p&gt;The Quantum® bioreactor (Fig 9; Terumo BCT) is an automated hollow fibre system, which has an internal surface area of 2.1m&lt;span class=&#34;math inline&#34;&gt;\(^2\)&lt;/span&gt; (equivalent to 120 T-175 tissue culture flasks), allowing large scale expansion of cells.&lt;br /&gt;
+In recently published work we have been using the Quantum® to assess the characteristics of cells from human bone marrow and umbilical cords after culture expansion in the system compared to the standard tissue culture plastic technique (TCP), with the aim of using these cells in cell therapies for example, for cartilage repair.&lt;br /&gt;
+In a newly funded ‘Confidence in Concept’ MRC project we have looked to transfer these techniques to cells of cartilage (chondrocytes), in the development of up-scale manufactured allogeneic chondrocyte therapies.&lt;/p&gt;
+&lt;p&gt;So far cells from 4 samples obtained from adult donors (undergoing total knee replacements) and 2 samples obtained from juvenile (polydactyl) donors have been cultured in the Quantum® and the results are currently being analysed.
+Techniques for chondrocyte growth and harvest using the system are being optimised and further MRC Biomedical Catalyst funded work will ensure GMP compliance of the manufacturing process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The suitability of pre-operative MRI in predicting accurate cartilage defect sizes in cell therapy</title>
+      <link>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</guid>
+      <description>
+
+
+&lt;p&gt;Clinicians are given guidance as to appropriate sizes of cartilage defects to treat with cell therapy.
+However, estimating the size of a defect using scans such as magnetic resonance imaging (MRI) may in fact differ from the ‘real-life’ situation.
+We performed a retrospective study to evaluate the accuracy of MRI scans to predict the size of articular cartilage lesions in the knee and compared them against actual defect sizes recorded surgically.&lt;/p&gt;
+&lt;p&gt;We included 64 patients, all of whom underwent autologous cell implantation (ACI) performed by two different RJAH surgeons (PDG and JBR).
+Each patient received a pre-operative MRI approximately 6 weeks prior to cell implantation.
+MRIs were analysed by a Consultant radiologist (BT) and a research PhD student (JP) trained by the radiologist to ascertain the full-thickness defect measurement and the total abnormal defect area that they believed would require debridement (removal of damaged/ unhealthy tissue).
+At the time of cell implantation, the Consultant orthopaedic surgeon measured the defect sizes pre- and post-debridement.
+The post-debridement surgical measurements have been used as the ‘gold standard’ in this study.
+All measurements were further assessed according to defect location within the knee (patella, trochlea, medial or lateral femoral condyle (MFC and LFC)).&lt;/p&gt;
+&lt;p&gt;We assessed a total of 92 cartilage defects and, as expected, found them to be significantly smaller pre-debridement than post-debridement when measured during arthroscopy.
+To date, from a radiological perspective (BT), MRI scans significantly underestimated the (pre-debridement) defect size but not the total abnormal area (so this was found to be similar and not significantly different to the post-debridement size measured surgically).&lt;br /&gt;
+When considering defect location, MRI still significantly underestimated pre-debridement defect sizes on the patella and MFC but not the LFC and trochlea.
+Total abnormal area assessment on MRI was not affected by defect location.&lt;/p&gt;
+&lt;p&gt;This preliminary data indicates that measuring only the full-thickness component of a cartilage defect on MRI will significantly underestimate the area to treat for ACI; evaluating the whole abnormal area will provide a more accurate estimate of the actual defect size requiring treatment. This is critical for surgical planning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biological, physical and psychosocial factors that affect the health of the human knee</title>
+      <link>https://oskor.netlify.app/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/</guid>
+      <description>
+
+
+This project uses several different approaches to investigate factors that have an impact on human knee health. Osteoarthritis (OA) is the most common joint disease in the world, but its onset and progression are still not fully understood.
+Although traditionally considered specifically a disease of the articular cartilage (AC), OA is now regarded as an ‘organ-level failure’ that affects and involves all tissues of the joint rather than the AC alone.
+Of these tissues, the subchondral bone (SB) is of particular interest given the close physical interaction and shared signalling pathways between the two tissues.
+In this part of the project, a series of experiments are being performed to test if cells taken from healthy areas of the SB, and those taken from unhealthy areas of the SB, have different characteristics that could point to their involvement in OA (figure 2 and 3).
+Subsequently, we are investigating whether cells from these different regions have different effects on the characteristics of cells isolated from the cartilage (chondrocytes). This is carried out using a ‘co-culture’ model (figure 4), in which the cells from the SB and cells from the AC are grown together but separated by a membrane that prevents contact but allows communication between the cells.
+The aim of this part of the project is to try and characterise the relationship between the AC and SB and the part that this relationship plays on the onset and progression of OA in the knee.&lt;br /&gt;
+
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;Schematic illustrating the co-culture system of bone and cartilage cells.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Schematic illustrating the co-culture system of bone and cartilage cells.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Another part of this project is based in the clinic.
+A patient;s knee function is known to vary over their lifetime.
+However, there also appears to be variation over a more short-term basis, week-to-week or even day-to-day.
+One factor thought to play a part in this variability is the patient’s activity levels.
+We have recently shown, in a study of 64 patients undergoing rehabilitation following cell therapy, that the relationship between activity levels and knee function varies significantly between patients (a sample of these patients is shown in Figure 5).
+We then sought to find factors that could explain this variation between patients.
+Affect, the feeling of emotion, is described in terms of positive and negative and is known to vary between patients and influence perceived disease symptoms.
+We demonstrated that patients with a high positive affect score and low negative affect score are more likely to report improved knee function with increased activity levels and vice versa.
+This has implications for the prescription of rehabilitation. We now plan to build on this study, which used an activity questionnaire, using wearable activity trackers (Figure 6) to provide a more accurate measure of patients’ activity levels, alongside validated scoring systems for knee function and attitudes to pain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Can cells from umbilical cords be used to treat patients with osteoarthritis?</title>
+      <link>https://oskor.netlify.app/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/</guid>
+      <description>
+
+
+&lt;p&gt;Osteoarthritis (OA) is a complex degenerative joint disease, characterised by degradation and loss of articular cartilage (causing the joint space to narrow), as well as a lot of changes in the bone, such as abnormal bony spurs or ‘osteophytes’ forming.
+Currently, there are no effective pharmaceutical or non-surgical therapies to reverse osteoarthritis. Researchers around the world are seeking new approaches, including seeing if a biological approach such as cell therapy could be useful.
+Here in Oswestry, we have been obtaining mesenchymal stromal or stem cells (MSCs) from human umbilical cords (UC-MSCs) for some years now. These are an attractive source of cells for regenerative medicine since they are fairly easy to obtain and grow and they also appear to have anti-inflammatory properties, which may be useful and make an immune reaction less likely if used in a different individual.&lt;br /&gt;
+We are currently working with collaborators in other universities to see if the cells prepared here in Oswestry could delay osteoarthritis in their models.
+Specifically, we are examining the effect of a single injection of UC-MSCs to determine if they can help repair or regenerate damaged joints.
+If successful, it is likely they could be an excellent allogeneic (i.e. from another person) source of cells for the treatment of OA.&lt;/p&gt;
+&lt;p&gt;One of these (called the PMM or partial medial meniscectomy model) mimics end-stage osteoarthritis, with severe loss of cartilage and osteophyte formation appearing in the operated groups.
+Our results demonstrated that although the transplanted UC-MSCs did not recover joint damage induced by the PMM, as assessed histologically or by micro computed tomography (micro CT), the implanted cells did not appear to elicit an inflammatory response in the treated groups, even though they were from a different species (at least at the timepoints examined).
+Furthermore, there was marked variability between the UC donors, with a significantly reduced loss of joint space appearing at 12 weeks with one donor but not the other 2 donors’ cells. This suggests that some donors’ cells may have a greater therapeutic potential than others, highlighting the importance of characterising each batch of cells for allogeneic cell therapies.&lt;/p&gt;
+&lt;p&gt;The second model used a small isolated injury to the cartilage, which can lead to secondary osteoarthritis (and so significantly less severe than the aforementioned model).
+In this injury model we compared human UC-MSCs and bone marrow (BM)-derived MSCs, grown in a bioreactor (Quantum®), at repairing cartilage damage and preventing secondary OA.
+As in the other study, the groups treated with cells did not appear to show any macroscopic or microscopic signs of swelling/inflammation due to human cell implantation.
+Furthermore, when assessed histologically both human MSC treated groups had significantly better repair compared with the untreated group (ie without cells; Figure 7).
+Additionally, immunohistochemistry showed that there was more type II collagen in the repair tissue of those joints with better cartilage morphologically, as well as it containing many ‘tomato’-positive cells (which are derived from the joint interzone).
+These results suggest that up-scale manufactured UC-MSCs and BM-MSCs could be an effective therapy for treating cartilage injuries.
+The implanted MSCs did not appear to elicit an inflammatory response, further supporting their potential as an allogeneic treatment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transcriptome analysis of the umbilical cord-MSCs&#39; therapeutic response to inflammation</title>
+      <link>https://oskor.netlify.app/project/transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/transcriptome-analysis-of-the-umbilical-cord-mesenchymal-stromal-cells-therapeutic-response-to-inflammation-with-a-view-to-banking-the-most-potent-cells-for-allogeneic-therapy/</guid>
+      <description>
+
+
+&lt;p&gt;Mesenchymal Stromal Cells (MSCs) isolated from bone marrow (BM) are considered to be the “gold standard” for MSC populations which can be used for cell therapy.
+However, sourcing them can be painful and provide limited numbers of cells. Umbilical Cords (UCs) show great potential as an alternative source of MSCs as they are normally thrown away and also UC-MSCs proliferate faster in culture than BM-MSCs, allowing larger numbers to be produced quicker which would be necessary for creating large numbers of allogeneic cells for treating greater numbers of patients.
+UC-derived MSCs also have an immune-privileged status and an immunomodulatory phenotype (meaning they are less likely to elicit an immune response when used in a person they were not sourced from), again making them attractive candidates for allogeneic cell based therapies.
+Previous work in our group has focussed on sourcing MSCs from whole UC and characterising the cells’ modulatory properties in an inflammatory environment, such as that which may be found in an inflamed joint.&lt;/p&gt;
+&lt;p&gt;The International Society for Cell Therapy (ISCT) advises that characterisation of MSCs destined for cell therapy should include activation or ‘licensing’, which involves stimulation with inflammatory molecules such as interferon gamma (IFN-γ), either alone or with TNF-&lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt;.
+These molecules are often found in joints of patients with rheumatoid arthritis or osteoarthritis.&lt;br /&gt;
+The production of molecule such as indoleamine 2,3-dioxygenase (IDO), which are known to dampen down inflammation, only occurs following activation with these inflammatory cytokines. We have found, however, that different peoples’ cells can respond differently in how much IDO they produce.&lt;br /&gt;
+This suggests that it would be important for cells destined for allogeneic cell banks to have their immunomodulatory potential tested prior to banking, to characterise the response to inflammatory cytokines for each donor.&lt;/p&gt;
+&lt;p&gt;We are working on using state of the art RNA-sequencing of the transcriptome of UC-MSC donors with either high or low response to inflammatory cytokines (as assessed via IDO gene expression). This should help to identify the most potent cells for allogeneic cell therapy and cell banking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cell therapy for repair of cartilage defects in the ankle - how does it work and who should we treat?</title>
+      <link>https://oskor.netlify.app/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/cell-therapy-for-repair-of-cartilage-defects-in-the-ankle-how-does-it-work-and-who-should-we-treat/</guid>
+      <description>
+
+
+&lt;p&gt;Untreated cartilage defects in the ankle can lead to osteoarthritis (OA).
+Various versions of a cell therapy, using a one-step arthroscopic technique to deliver bone-marrow aspirate concentrate (BMAC) into a cartilage defect to delay the development of OA have been used in the ankle at RJAH.
+Previously used to treat cartilage defects in the knee1, one such technique called Complete Cartilage Repair (CCR) has been used at RJAH for the treatment of cartilage defects in the ankle (n=62)2.
+Preliminary data from our laboratory using such patients BMAC samples have demonstrated that not all cells adhere to a traditional mesenchymal stem cell (MSC) phenotype, thus questioning the suggested mechanism of action.
+This reverse-translational study aims to establish the exact cell population/s obtained via BMAC (in both commercially available normal and patient samples); we aim to assess their chondrogenic potency and phenotype and how these cells might relate to a good clinical outcome.
+Furthermore, we will aim to identify biomarkers within the synovial fluid and bloods which may predict which patients are most likely to benefit from this treatment.&lt;/p&gt;
+&lt;p&gt;Commercially-available bone marrow aspirate from young, healthy donors will be concentrated via centrifugation using the three BMAC preparation kits trialled clinically in our centre (Complete Cartilage Repair (CCR), RegenGlobal; Heragen® Maxx, Heraeus; and Angel® BMC, Arthrex).
+Flow cytometry and qRT-PCR will be used to characterise the cell phenotype/s and assess their chondrogenic potency.
+Additionally, how BMAC cells respond to the environment within the scaffold used in the CCR kit is unknown.
+Therefore, cells will be seeded within this scaffold in the laboratory and their viability and chondrogenic potency assessed by live/dead assays and qRT-PCR, respectively.
+Synovial fluid and bloods will be collected from patients at the time of BMAC (CCR) implantation and a panel of protein markers, found to predict clinical outcome following knee surgery3-5, will be assessed to identify proteins that may predict clinical outcome following treatment.
+At 6 and 12 months post-treatment, clinical outcome and general well-being of the patients enrolled in this study will be assessed using a validated foot and ankle questionnaire (MOXFQ) and the EQ5D questionnaire, respectively.&lt;/p&gt;
+&lt;p&gt;The comparison of the three different preparation kits will indicate which preparation yields the most suitable cell type/s for cartilage repair.
+This will provide clinically relevant information which could contribute to a clinical trial application and for seeking more substantive scientific funding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biomarkers for the PARIS study: Psoriatic Arthritis - Resistance to TNF Inhibitor Study</title>
+      <link>https://oskor.netlify.app/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/paris-psoriatic-arthritis-resistance-to-tnf-inhibitor-study/</guid>
+      <description>
+
+
+&lt;p&gt;Psoriatic arthritis (PsA) is a chronic immune-mediated inflammatory disease
+and patients suffer from joint and spinal pain because of immune cell
+infiltration and expansion in skin and synovium. These cells release a large
+panel of pro inflammatory factors responsible for the inflammation, as
+cytokines and chemokines. We can cite for instance Tumor Necrosis Factor &lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;
+(TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;), Interleukin (IL)-17, IL-23 and IL-1&lt;span class=&#34;math inline&#34;&gt;\(β\)&lt;/span&gt; released by Peripheral
+Blood Mononuclear Cells (PBMC) such as CD4+ and CD8+ T cells, neutrophils and
+macrophages.&lt;/p&gt;
+&lt;p&gt;PsA occurs in 30% of people with psoriasis. It diminishes considerably the
+quality of life of patients and serious desabiliting effects are present on
+the peripheral joints, spine, tendon insertion and fingers. PsA accounts for
+20% of referrals to the early arthritis clinic and early recognition and
+intervention is crucial to patient outcome. Currently, diagnosis of PsA is
+not optimal because there are no precise tests available to detect or
+recognize the disease.&lt;/p&gt;
+&lt;p&gt;No curative treatments are available for PsA. Non Steroidal Anti-Inflammatory
+drugs (NSAID) are used as first approach for topical therapy for psoriasis
+and to reduce pain; the next step is administration of Disease-Modifying
+Anti-Rheumatic Drugs (DMARDs) alone, and then in combination; and finally,
+biologic drugs targeting specific cytokines and signaling pathways, such as
+TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt; inhibitors or IL-17 inhibitors, are administrated if patients fail to
+respond NSAID and DMARDs. However, at least 40% of patients with PsA have
+only a partial response or fail to respond to biologics.
+The aim of the PSAPS study is to investigate whether blood inflammatory
+markers can predict if patients with PsA will respond or not to TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;
+inhibitors, and consequently to help choosing the optimal biologic therapy
+for patients, individually.&lt;/p&gt;
+&lt;p&gt;First literature research has highlighted several promising inflammatory
+factors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Human Serum Albumin and its receptor FcRn (Neonatal Fc Receptor)&lt;/li&gt;
+&lt;li&gt;Alarmins, such as S100 family members and HMGB1&lt;/li&gt;
+&lt;li&gt;Advanced Glycation End-products (AGEs)&lt;/li&gt;
+&lt;li&gt;Lymphotoxin α, the second ligand to TNF Receptor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Arrays allowing the detection of hundreds of pro inflammatory markers can
+also be used to analyze serum of patients at a large scale, and IL-17 pathway
+will be screen in detail to understand why some patients respond to IL-17
+inhibitors while they do not respond to TNF&lt;span class=&#34;math inline&#34;&gt;\(α\)&lt;/span&gt;-inhibitors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Up-scaling UC-MSC extracellular vesicle production for rheumatoid arthritis treatment</title>
+      <link>https://oskor.netlify.app/project/up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/up-scaling-uc-msc-extracellular-vesicle-production-for-rheumatoid-arthritis-treatment/</guid>
+      <description>
+
+
+&lt;p&gt;The anti-inflammatory properties of umbilical cord mesenchymal stromal cells (UC-MSCs) make them an attractive source for cells therapies of inflammatory based disorders, including rheumatoid arthritis (RA). Yet, extracellular vesicles, which are small membrane bound particles, can recapitulate these advantageous properties through the delivery of biological cargo (protein and RNA) thereby removing concerns with safety and practicality associated with cell therapy.&lt;/p&gt;
+&lt;p&gt;This project aims to tackle some of the challenges of EV research by up-scaling UC-MSC vesicle production and exploring their subsequent characteristics and immunomodulatory potential, with particular attention given to their ability to treat RA. To do this, we will:
+Determine the optimal conditions to harvest and enrich UC-MSC EVs, in which a comparison of EV collection media was performed to investigate resulting cellular attributes and EV production before conducting a trial of three EV enrichment protocols (ultracentrifugation, sucrose cushion and size exclusion chromatography).
+Characterise single donor UC-MSC EVs to compare to an allogeneic strategy of EV production, to explore whether combining donors changes the resulting EV profile, with particular attention paid to their protein cargo and immunomodulatory properties.
+Compare the ability of UC-MSC EVs to treat an inflammatory model of arthritis with their parental cells, by assessing their resulting histology and T-cell subsets.
+Achieve the large-scale production of UC-MSC EVs using the Quantum cell expansion system, to see how this changes EV characteristics assessed previously, and how effective these EVs are at promoting an anti-inflammatory phenotype in RA derived PBMCs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

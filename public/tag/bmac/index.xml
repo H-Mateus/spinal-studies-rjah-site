@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BMAC | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/bmac/</link>
+      <atom:link href="https://oskor.netlify.app/tag/bmac/index.xml" rel="self" type="application/rss+xml" />
+    <description>BMAC</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>BMAC</title>
+      <link>https://oskor.netlify.app/tag/bmac/</link>
+    </image>
+    
+    <item>
+      <title>Characterisation of mesenchymal stromal cells isolated from bone marrow aspirate concentrate</title>
+      <link>https://oskor.netlify.app/publication/characterisation-of-mesenchymal-stromal-cells-isolated-from-bone-marrow-aspirate-concentrate/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/characterisation-of-mesenchymal-stromal-cells-isolated-from-bone-marrow-aspirate-concentrate/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alasdair G. Kay | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/alasdair-g.-kay/</link>
+      <atom:link href="https://oskor.netlify.app/author/alasdair-g.-kay/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alasdair G. Kay</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Alasdair G. Kay</title>
+      <link>https://oskor.netlify.app/author/alasdair-g.-kay/</link>
+    </image>
+    
+    <item>
+      <title>Murine Mesenchymal Stem Cell-Conditioned Medium Reduces Disease Severity and Immune Responses in Inflammatory Arthritis</title>
+      <link>https://oskor.netlify.app/publication/murine-mesenchymal-stem-cell-conditioned-medium-reduces-disease-severity-and-immune-responses-in-inflammatory-arthritis/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/murine-mesenchymal-stem-cell-conditioned-medium-reduces-disease-severity-and-immune-responses-in-inflammatory-arthritis/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/murine-mesenchymal-stem-cell-conditioned-medium-reduces-disease-severity-and-immune-responses-in-inflammatory-arthritis/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Mesenchymal Stem Cell Therapy in Rheumatoid Arthritis</title>
+      <link>https://oskor.netlify.app/publication/mesenchymal-stem-cell-therapy-in-rheumatoid-arthritis/</link>
+      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/mesenchymal-stem-cell-therapy-in-rheumatoid-arthritis/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/mesenchymal-stem-cell-therapy-in-rheumatoid-arthritis/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

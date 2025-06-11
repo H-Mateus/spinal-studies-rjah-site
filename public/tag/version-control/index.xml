@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version Control | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/version-control/</link>
+      <atom:link href="https://oskor.netlify.app/tag/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Version Control</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Version Control</title>
+      <link>https://oskor.netlify.app/tag/version-control/</link>
+    </image>
+    
+    <item>
+      <title>Reproducible Research - Version control</title>
+      <link>https://oskor.netlify.app/post/reproducible-research-version-control/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/post/reproducible-research-version-control/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/post/reproducible-research-version-control/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;As promised in the prior article on &lt;a href=&#34;../../../../post/reproducible-data-analysis/&#34;&gt;reproducible data analysis&lt;/a&gt;, here I’d like to outline the concept of version control, and how it pertains to reproducible research.&lt;/p&gt;
+&lt;p&gt;Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes.
+Many academics attempt a poor facsimile of this by using some flavour of “track changes” via software like Microsoft Word or &lt;a href=&#34;https://docs.google.com/&#34;&gt;Google docs&lt;/a&gt;, and emailing these documents back an forth with varying file names.
+Particularly with the use of Microsoft Word, this can lead to having lots of slightly different versions of the same file, with no easy way of knowing what version contains which changes, and who made them.&lt;/p&gt;
+&lt;p&gt;More advanced version control systems (VCS) such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;, &lt;a href=&#34;https://subversion.apache.org/&#34;&gt;SVN&lt;/a&gt; and &lt;a href=&#34;https://www.mercurial-scm.org/&#34;&gt;Mercurial&lt;/a&gt; provide more powerful and elegant tools.
+Git was originally designed for large groups of developers to work on big software projects, but is now used for many other kinds of projects.&lt;/p&gt;
+&lt;p&gt;As in the previous article, here is an overview of the benefits of using version control:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The process of creating work becomes more seamlessly integrated with organising, recording and disseminating said work, as opposed to additional burdens that may be neglected&lt;/li&gt;
+&lt;li&gt;More structured collaboration, with robust tools for asynchronous work and managing versions&lt;/li&gt;
+&lt;li&gt;Easy creation of a web presence for a given project (this website is on &lt;a href=&#34;https://github.com/H-Mateus/spinal-studies-rjah-site&#34;&gt;GitHub&lt;/a&gt;!)&lt;/li&gt;
+&lt;li&gt;It can also serve as an excellent tool to support teaching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Motivation&lt;/h1&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:git-mascot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;git_mascot.jpg&#34; alt=&#34;A toy of the GitHub mascot. Image credit: [**Unslash**](https://unsplash.com/photos/wX2L8L-fGeA)&#34; width=&#34;2664&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A toy of the GitHub mascot. Image credit: &lt;a href=&#34;https://unsplash.com/photos/wX2L8L-fGeA&#34;&gt;&lt;strong&gt;Unslash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Version control allows us to understand the history of a piece of work (typically the writing of a paper for academics).
+This lets us and others understand what was done, when, and with the aid of well written comments/commit messages, &lt;strong&gt;&lt;em&gt;why&lt;/em&gt;&lt;/strong&gt; it was done.
+This greatly increases the transparency of the work, which is crucial for reproducibility.
+A version control system allows us to do this cleanly, with no debris from previous versions of files strewn about various folders which could confuse us or others trying to understand how we arrived at out final results.
+This can be especially useful with code, as we no longer need to keep large chunks of unused code commented out just in case we want it later.&lt;/p&gt;
+&lt;p&gt;But perhaps the greatest benefit is the ease of collaboration good version control allows for.
+Particularly when combined with version control hosting services, such as &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://about.gitlab.com/&#34;&gt;GitLab&lt;/a&gt; or &lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt;, version control allows many people, potential all over the world and in different time zones, to work on the same files.
+The changes from different people can be tracked separately, and there are powerful tools communicate in a more structured way, via pull requests, code reviews and issues for example.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;basic-workflow&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Basic workflow&lt;/h1&gt;
+&lt;p&gt;A typical workflow using version control is as follows:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Create files - these should be plain text, usually code and/or markup or some kind&lt;/li&gt;
+&lt;li&gt;Work on these files - adding, deleting or changing content&lt;/li&gt;
+&lt;li&gt;Create a snapshot - explicitly record the state of a file/s at that particular time, with a message summarising what was done&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In Git, which I will focus on for the remainder of the article as it the most popular, these snapshots are called “commits”.
+This can feel a little strange at first, but you quickly get used to it.
+Personally, I’ve found a nice added benefit to using Git as a tool for delimitating where my day ends.
+The last thing I do each day is commit all the work I’ve done, giving me a nice sense of accomplishment (or terrible shame if I’ve been unproductive…), and giving my brain a signal that work is over it’s time to switch gears.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;learning-resources&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Learning resources&lt;/h1&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:learn&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;learn.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/WE_Kv_ZB1l0)&#34; width=&#34;4500&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Image credit: &lt;a href=&#34;https://unsplash.com/photos/WE_Kv_ZB1l0&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;If I’ve managed to convince you to give version control a go then do be warned if you using Windows - getting things set up will be a bit ugly.
+Windows is a pretty terrible operating system for doing anything, but it’s especially bad for these kinds of things.&lt;/p&gt;
+&lt;p&gt;In an ideal world more people would realise that there are operating systems that you don’t have to pay for &lt;strong&gt;and&lt;/strong&gt; don’t include spyware.
+I’m talking about Linux for the uninitiated.
+If you’ve got an old clunker computer that’s unusably slow, try installing a lightweight Linux distribution and marvel at how much difference a good OS can make.
+Without getting into some boring details, MacOS effectively has the same backbone as Linux, so that works well enough (but Linux is still way better!).&lt;/p&gt;
+&lt;p&gt;That’s not to say it can’t be done of course, especially with the help of these lovely resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A great resource for many facets of reproducible research is &lt;a href=&#34;https://the-turing-way.netlify.app/welcome.html&#34;&gt;The Turing Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Another great resource, particularly for integrating Git with R is &lt;a href=&#34;https://happygitwithr.com/index.html&#34;&gt;Happy Git with R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;Pro Git&lt;/a&gt; book is another great resource for a more in depth understanding of how Git works, and some of it’s more advanced features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

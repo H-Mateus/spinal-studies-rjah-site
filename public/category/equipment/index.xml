@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Equipment | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/category/equipment/</link>
+      <atom:link href="https://oskor.netlify.app/category/equipment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Equipment</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Equipment</title>
+      <link>https://oskor.netlify.app/category/equipment/</link>
+    </image>
+    
+    <item>
+      <title>Fluostar Omega Plate Reader</title>
+      <link>https://oskor.netlify.app/project/equipment/fluostar-omega-plate-reader/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/equipment/fluostar-omega-plate-reader/</guid>
+      <description>
+
+
+&lt;p&gt;The FLUOstar® Omega is a multi-mode microplate reader with six detection modes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fluorescence intensity (including FRET),&lt;/li&gt;
+&lt;li&gt;Luminescence (including BRET),&lt;/li&gt;
+&lt;li&gt;UV/vis absorbance,&lt;/li&gt;
+&lt;li&gt;Time-resolved fluorescence,&lt;/li&gt;
+&lt;li&gt;TR-FRET,&lt;/li&gt;
+&lt;li&gt;AlphaScreen®/AlphaLISA®.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It utilizes an ultra-fast UV/vis spectrometer or filters for absorbance as well as
+highly sensitive filters for all other detection modes. The LVis Plate is suitable for
+quick and easy low-volume concentration measurements of up to 16 DNA, RNA, protein
+samples, or spectral scanning. The Atmospheric Control Unit (ACU) enables live
+cell-based applications, from standard proliferation to hypoxic or cytotoxicity assays
+by independently regulating both O2 and CO2 gas levels within the microplate reader
+chamber.&lt;/p&gt;
+&lt;p&gt;It was funded by the Higher Education Funding Council for England (HEFCE).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hefce.png&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agilent tape station</title>
+      <link>https://oskor.netlify.app/project/equipment/agilent-tape-station/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/equipment/agilent-tape-station/</guid>
+      <description>
+
+
+&lt;p&gt;The Agilent 4150 TapeStation System is a unique all-in-one platform that includes instrumentation, data processing software, and reagents for the analysis of quantity and integrity of DNA and RNA by proprietary small-scale gel electrophoresis. The system is fully automated, using only 1-2ul sample per run and can analyse up to 16 samples at once with results available in under 20 minutes. The Tapestation provides reliable and reproducible quality control data such as Integrity standards for RNA (RNA integrity number equivalent, RINe) and genomic DNA (DNA Integrity Number, DIN) required for downstream analyses such as next-generation sequencing.&lt;/p&gt;
+&lt;p&gt;It was funded by the Orthopaedic Institute&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;orthopaedic.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Epredia HM525 NX Cryostat</title>
+      <link>https://oskor.netlify.app/project/equipment/epredia-cryostat/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/equipment/epredia-cryostat/</guid>
+      <description>
+
+
+&lt;p&gt;Our brand new Epredia™ HM525 NX cryostat is a high-performance routine cryostat with intuitive software and touchscreen for simple, efficient operation with a user-friendly and ergonomic design. The cryochamber cools to -35°C and features 27 cooled specimen positions, including four fast-freeze stations (cooled to -60°C) to keep up with heavy workloads. A reliable stepping motor technology delivers reproducible section thickness, ranging from 1µm to 500µm. It includes a UV disinfection mode to protect against occupational exposure to biological pathogens and surface contamination.&lt;/p&gt;
+&lt;p&gt;It was funded by the Orthopaedic Institute.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;orthopaedic.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mirus Ingento Ezporator</title>
+      <link>https://oskor.netlify.app/project/equipment/mirus-ingento-ezporator/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/equipment/mirus-ingento-ezporator/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Terumo BCT Quantum Cell Expansion System</title>
+      <link>https://oskor.netlify.app/project/equipment/pcr-machine/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/equipment/pcr-machine/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

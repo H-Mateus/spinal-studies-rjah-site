@@ -1,0 +1,1420 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Gabriel Mateus Bernardo Harrington" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="As promised in the prior article on reproducible data analysis, here I’d like to outline the concept of version control, and how it pertains to reproducible research.
+Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes." />
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://oskor.netlify.app/post/reproducible-research-version-control/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171428188-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-171428188-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://oskor.netlify.app/post/reproducible-research-version-control/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@CellTherapyRJAH" />
+    <meta property="twitter:creator" content="@CellTherapyRJAH" />
+  
+  <meta property="og:site_name" content="Oswestry Keele Orthopaedic Research group - OsKOR" />
+  <meta property="og:url" content="https://oskor.netlify.app/post/reproducible-research-version-control/" />
+  <meta property="og:title" content="Reproducible Research - Version control | Oswestry Keele Orthopaedic Research group - OsKOR" />
+  <meta property="og:description" content="As promised in the prior article on reproducible data analysis, here I’d like to outline the concept of version control, and how it pertains to reproducible research.
+Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes." /><meta property="og:image" content="https://oskor.netlify.app/post/reproducible-research-version-control/featured.png" />
+    <meta property="twitter:image" content="https://oskor.netlify.app/post/reproducible-research-version-control/featured.png" /><meta property="og:locale" content="en-gb" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-05-21T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-05-21T14:34:07&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://oskor.netlify.app/post/reproducible-research-version-control/"
+  },
+  "headline": "Reproducible Research - Version control",
+  
+  "image": [
+    "https://oskor.netlify.app/post/reproducible-research-version-control/featured.png"
+  ],
+  
+  "datePublished": "2021-05-21T00:00:00Z",
+  "dateModified": "2021-05-21T14:34:07+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Gabriel Mateus Bernardo Harrington"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Group name (placeholder)",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "As promised in the prior article on reproducible data analysis, here I’d like to outline the concept of version control, and how it pertains to reproducible research.\nVersion control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Reproducible Research - Version control | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="01055691cb9bef2dc8a9935a8f57180c" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_0x70_resize_lanczos_3.png" alt="Oswestry Keele Orthopaedic Research group - OsKOR"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_0x70_resize_lanczos_3.png" alt="Oswestry Keele Orthopaedic Research group - OsKOR"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people/"><span>Team</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/projects/"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/equipment/"><span>Equipment</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/post/"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/events/"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/vacancies/"><span>Vacancies</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Reproducible Research - Version control</h1>
+
+  
+  <p class="page-subtitle">Better collaboration and transparency</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 21, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/methodology/">Methodology</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 242px;">
+  <div style="position: relative">
+    <img src="/post/reproducible-research-version-control/featured_hu0f08b776798b02014505b4662fd4f669_7637_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="242" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://www.flickr.com/photos/18090920@N07/10788643606" target="_blank" rel="noopener"><strong>Flickr</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="https://oskor.netlify.app/post/reproducible-research-version-control/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>As promised in the prior article on <a href="../../../../post/reproducible-data-analysis/">reproducible data analysis</a>, here I’d like to outline the concept of version control, and how it pertains to reproducible research.</p>
+<p>Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes.
+Many academics attempt a poor facsimile of this by using some flavour of “track changes” via software like Microsoft Word or <a href="https://docs.google.com/">Google docs</a>, and emailing these documents back an forth with varying file names.
+Particularly with the use of Microsoft Word, this can lead to having lots of slightly different versions of the same file, with no easy way of knowing what version contains which changes, and who made them.</p>
+<p>More advanced version control systems (VCS) such as <a href="https://en.wikipedia.org/wiki/Git">Git</a>, <a href="https://subversion.apache.org/">SVN</a> and <a href="https://www.mercurial-scm.org/">Mercurial</a> provide more powerful and elegant tools.
+Git was originally designed for large groups of developers to work on big software projects, but is now used for many other kinds of projects.</p>
+<p>As in the previous article, here is an overview of the benefits of using version control:</p>
+<ul>
+<li>The process of creating work becomes more seamlessly integrated with organising, recording and disseminating said work, as opposed to additional burdens that may be neglected</li>
+<li>More structured collaboration, with robust tools for asynchronous work and managing versions</li>
+<li>Easy creation of a web presence for a given project (this website is on <a href="https://github.com/H-Mateus/spinal-studies-rjah-site">GitHub</a>!)</li>
+<li>It can also serve as an excellent tool to support teaching</li>
+</ul>
+<div id="motivation" class="section level1">
+<h1>Motivation</h1>
+<div class="figure" style="text-align: center"><span id="fig:git-mascot"></span>
+<img src="git_mascot.jpg" alt="A toy of the GitHub mascot. Image credit: [**Unslash**](https://unsplash.com/photos/wX2L8L-fGeA)" width="2664" />
+<p class="caption">
+Figure 1: A toy of the GitHub mascot. Image credit: <a href="https://unsplash.com/photos/wX2L8L-fGeA"><strong>Unslash</strong></a>
+</p>
+</div>
+<p>Version control allows us to understand the history of a piece of work (typically the writing of a paper for academics).
+This lets us and others understand what was done, when, and with the aid of well written comments/commit messages, <strong><em>why</em></strong> it was done.
+This greatly increases the transparency of the work, which is crucial for reproducibility.
+A version control system allows us to do this cleanly, with no debris from previous versions of files strewn about various folders which could confuse us or others trying to understand how we arrived at out final results.
+This can be especially useful with code, as we no longer need to keep large chunks of unused code commented out just in case we want it later.</p>
+<p>But perhaps the greatest benefit is the ease of collaboration good version control allows for.
+Particularly when combined with version control hosting services, such as <a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/">GitLab</a> or <a href="https://bitbucket.org/">Bitbucket</a>, version control allows many people, potential all over the world and in different time zones, to work on the same files.
+The changes from different people can be tracked separately, and there are powerful tools communicate in a more structured way, via pull requests, code reviews and issues for example.</p>
+</div>
+<div id="basic-workflow" class="section level1">
+<h1>Basic workflow</h1>
+<p>A typical workflow using version control is as follows:</p>
+<ol style="list-style-type: decimal">
+<li>Create files - these should be plain text, usually code and/or markup or some kind</li>
+<li>Work on these files - adding, deleting or changing content</li>
+<li>Create a snapshot - explicitly record the state of a file/s at that particular time, with a message summarising what was done</li>
+</ol>
+<p>In Git, which I will focus on for the remainder of the article as it the most popular, these snapshots are called “commits”.
+This can feel a little strange at first, but you quickly get used to it.
+Personally, I’ve found a nice added benefit to using Git as a tool for delimitating where my day ends.
+The last thing I do each day is commit all the work I’ve done, giving me a nice sense of accomplishment (or terrible shame if I’ve been unproductive…), and giving my brain a signal that work is over it’s time to switch gears.</p>
+</div>
+<div id="learning-resources" class="section level1">
+<h1>Learning resources</h1>
+<div class="figure" style="text-align: center"><span id="fig:learn"></span>
+<img src="learn.jpg" alt="Image credit: [**Unsplash**](https://unsplash.com/photos/WE_Kv_ZB1l0)" width="4500" />
+<p class="caption">
+Figure 2: Image credit: <a href="https://unsplash.com/photos/WE_Kv_ZB1l0"><strong>Unsplash</strong></a>
+</p>
+</div>
+<p>If I’ve managed to convince you to give version control a go then do be warned if you using Windows - getting things set up will be a bit ugly.
+Windows is a pretty terrible operating system for doing anything, but it’s especially bad for these kinds of things.</p>
+<p>In an ideal world more people would realise that there are operating systems that you don’t have to pay for <strong>and</strong> don’t include spyware.
+I’m talking about Linux for the uninitiated.
+If you’ve got an old clunker computer that’s unusably slow, try installing a lightweight Linux distribution and marvel at how much difference a good OS can make.
+Without getting into some boring details, MacOS effectively has the same backbone as Linux, so that works well enough (but Linux is still way better!).</p>
+<p>That’s not to say it can’t be done of course, especially with the help of these lovely resources:</p>
+<ul>
+<li>A great resource for many facets of reproducible research is <a href="https://the-turing-way.netlify.app/welcome.html">The Turing Way</a></li>
+<li>Another great resource, particularly for integrating Git with R is <a href="https://happygitwithr.com/index.html">Happy Git with R</a></li>
+<li>The <a href="https://git-scm.com/book/en/v2">Pro Git</a> book is another great resource for a more in depth understanding of how Git works, and some of it’s more advanced features</li>
+</ul>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/reproducible-research/">Reproducible Research</a>
+  
+  <a class="badge badge-light" href="/tag/methodology/">Methodology</a>
+  
+  <a class="badge badge-light" href="/tag/version-control/">Version Control</a>
+  
+  <a class="badge badge-light" href="/tag/git/">Git</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://oskor.netlify.app/post/reproducible-research-version-control/&amp;text=Reproducible%20Research%20-%20Version%20control" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://oskor.netlify.app/post/reproducible-research-version-control/&amp;t=Reproducible%20Research%20-%20Version%20control" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Reproducible%20Research%20-%20Version%20control&amp;body=https://oskor.netlify.app/post/reproducible-research-version-control/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://oskor.netlify.app/post/reproducible-research-version-control/&amp;title=Reproducible%20Research%20-%20Version%20control" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Reproducible%20Research%20-%20Version%20control%20https://oskor.netlify.app/post/reproducible-research-version-control/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://oskor.netlify.app/post/reproducible-research-version-control/&amp;title=Reproducible%20Research%20-%20Version%20control" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/gabriel-mateus-bernardo-harrington/"><img class="avatar mr-3 avatar-circle" src="/author/gabriel-mateus-bernardo-harrington/avatar_hu4d67782d496a3ef7da3e607db294fa94_177713_270x270_fill_lanczos_center_3.png" alt="Gabriel Mateus Bernardo Harrington"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/gabriel-mateus-bernardo-harrington/">Gabriel Mateus Bernardo Harrington</a></h5>
+      
+      <p class="card-text">My research interests include spinal cord injury, bioinformatics, statistical modelling and reproducible research.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:g.m.bernardo.harrington@keele.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Hmateus4" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/H-Mateus" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/mateus-harrington-33657b68/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-6075-3619" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/post/org_mode_basics_2020-12-03/" rel="next">Org-mode basics</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/post/reproducible-data-analysis/" rel="prev">Reproducible Research - Data analysis</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/reproducible-data-analysis/">Reproducible Research - Data analysis</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2025
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.0047d4febf356e7f0b988e541f50b065.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.8d464630e57565cec18d704bd3ef621f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

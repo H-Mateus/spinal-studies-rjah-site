@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tomas Link | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/tomas-link/</link>
+      <atom:link href="https://oskor.netlify.app/author/tomas-link/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tomas Link</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/tomas-link/avatar_hu74050d2d006d28fe0edd4eb23c14ffd8_1526357_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Tomas Link</title>
+      <link>https://oskor.netlify.app/author/tomas-link/</link>
+    </image>
+    
+  </channel>
+</rss>

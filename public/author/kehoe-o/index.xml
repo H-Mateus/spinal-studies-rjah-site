@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kehoe O | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/kehoe-o/</link>
+      <atom:link href="https://oskor.netlify.app/author/kehoe-o/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kehoe O</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Kehoe O</title>
+      <link>https://oskor.netlify.app/author/kehoe-o/</link>
+    </image>
+    
+    <item>
+      <title>A 12-month clinical study. Spontaneous healing of articular cartilage (SHARC study)</title>
+      <link>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</guid>
+      <description>
+
+
+&lt;p&gt;When the cartilage in your joint is damaged, it is often thought that it does not heal and would eventually lead to joint degeneration.
+However, we have found evidence that in some instances, cartilage can repair itself without surgical intervention.&lt;br /&gt;
+We studied this natural healing in patients who had an artificial cartilage defect created in their knees as part of a cell therapy trial.
+Biopsies of the regenerated cartilage tissues were taken about 12 months after the defect was created and examined in our lab to determine their quality and whether the tissues returned to their original structure.
+What we found showed that although the damaged cartilage did repair itself, it did not return to its normal structure, at least in that timescale.
+For instance, collagens are very important molecules in cartilage, and we found that their organisation was different in the naturally repaired cartilage compared to normal.
+This information is useful to us in that it may help to understand how we can improve ways of encouraging better repair tissue to form.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

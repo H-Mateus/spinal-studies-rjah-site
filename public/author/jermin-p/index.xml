@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jermin P | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/jermin-p/</link>
+      <atom:link href="https://oskor.netlify.app/author/jermin-p/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jermin P</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Jermin P</title>
+      <link>https://oskor.netlify.app/author/jermin-p/</link>
+    </image>
+    
+    <item>
+      <title>A 12-month clinical study. Spontaneous healing of articular cartilage (SHARC study)</title>
+      <link>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</guid>
+      <description>
+
+
+&lt;p&gt;When the cartilage in your joint is damaged, it is often thought that it does not heal and would eventually lead to joint degeneration.
+However, we have found evidence that in some instances, cartilage can repair itself without surgical intervention.&lt;br /&gt;
+We studied this natural healing in patients who had an artificial cartilage defect created in their knees as part of a cell therapy trial.
+Biopsies of the regenerated cartilage tissues were taken about 12 months after the defect was created and examined in our lab to determine their quality and whether the tissues returned to their original structure.
+What we found showed that although the damaged cartilage did repair itself, it did not return to its normal structure, at least in that timescale.
+For instance, collagens are very important molecules in cartilage, and we found that their organisation was different in the naturally repaired cartilage compared to normal.
+This information is useful to us in that it may help to understand how we can improve ways of encouraging better repair tissue to form.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The suitability of pre-operative MRI in predicting accurate cartilage defect sizes in cell therapy</title>
+      <link>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</guid>
+      <description>
+
+
+&lt;p&gt;Clinicians are given guidance as to appropriate sizes of cartilage defects to treat with cell therapy.
+However, estimating the size of a defect using scans such as magnetic resonance imaging (MRI) may in fact differ from the ‘real-life’ situation.
+We performed a retrospective study to evaluate the accuracy of MRI scans to predict the size of articular cartilage lesions in the knee and compared them against actual defect sizes recorded surgically.&lt;/p&gt;
+&lt;p&gt;We included 64 patients, all of whom underwent autologous cell implantation (ACI) performed by two different RJAH surgeons (PDG and JBR).
+Each patient received a pre-operative MRI approximately 6 weeks prior to cell implantation.
+MRIs were analysed by a Consultant radiologist (BT) and a research PhD student (JP) trained by the radiologist to ascertain the full-thickness defect measurement and the total abnormal defect area that they believed would require debridement (removal of damaged/ unhealthy tissue).
+At the time of cell implantation, the Consultant orthopaedic surgeon measured the defect sizes pre- and post-debridement.
+The post-debridement surgical measurements have been used as the ‘gold standard’ in this study.
+All measurements were further assessed according to defect location within the knee (patella, trochlea, medial or lateral femoral condyle (MFC and LFC)).&lt;/p&gt;
+&lt;p&gt;We assessed a total of 92 cartilage defects and, as expected, found them to be significantly smaller pre-debridement than post-debridement when measured during arthroscopy.
+To date, from a radiological perspective (BT), MRI scans significantly underestimated the (pre-debridement) defect size but not the total abnormal area (so this was found to be similar and not significantly different to the post-debridement size measured surgically).&lt;br /&gt;
+When considering defect location, MRI still significantly underestimated pre-debridement defect sizes on the patella and MFC but not the LFC and trochlea.
+Total abnormal area assessment on MRI was not affected by defect location.&lt;/p&gt;
+&lt;p&gt;This preliminary data indicates that measuring only the full-thickness component of a cartilage defect on MRI will significantly underestimate the area to treat for ACI; evaluating the whole abnormal area will provide a more accurate estimate of the actual defect size requiring treatment. This is critical for surgical planning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

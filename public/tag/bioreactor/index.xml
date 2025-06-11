@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioreactor | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/bioreactor/</link>
+      <atom:link href="https://oskor.netlify.app/tag/bioreactor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bioreactor</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Bioreactor</title>
+      <link>https://oskor.netlify.app/tag/bioreactor/</link>
+    </image>
+    
+    <item>
+      <title>Human chondrocytes expanded in the Quantum® hollow-fibre bioreactor system</title>
+      <link>https://oskor.netlify.app/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/</guid>
+      <description>
+
+
+&lt;p&gt;The Quantum® bioreactor (Fig 9; Terumo BCT) is an automated hollow fibre system, which has an internal surface area of 2.1m&lt;span class=&#34;math inline&#34;&gt;\(^2\)&lt;/span&gt; (equivalent to 120 T-175 tissue culture flasks), allowing large scale expansion of cells.&lt;br /&gt;
+In recently published work we have been using the Quantum® to assess the characteristics of cells from human bone marrow and umbilical cords after culture expansion in the system compared to the standard tissue culture plastic technique (TCP), with the aim of using these cells in cell therapies for example, for cartilage repair.&lt;br /&gt;
+In a newly funded ‘Confidence in Concept’ MRC project we have looked to transfer these techniques to cells of cartilage (chondrocytes), in the development of up-scale manufactured allogeneic chondrocyte therapies.&lt;/p&gt;
+&lt;p&gt;So far cells from 4 samples obtained from adult donors (undergoing total knee replacements) and 2 samples obtained from juvenile (polydactyl) donors have been cultured in the Quantum® and the results are currently being analysed.
+Techniques for chondrocyte growth and harvest using the system are being optimised and further MRC Biomedical Catalyst funded work will ensure GMP compliance of the manufacturing process.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

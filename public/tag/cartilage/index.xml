@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cartilage | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/cartilage/</link>
+      <atom:link href="https://oskor.netlify.app/tag/cartilage/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cartilage</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Cartilage</title>
+      <link>https://oskor.netlify.app/tag/cartilage/</link>
+    </image>
+    
+    <item>
+      <title>Biomarker discovery in orthopaedics: Matching patients to the best treatment</title>
+      <link>https://oskor.netlify.app/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/biomarker-discovery-in-orthopaedics-matching-patients-to-the-best-treatment/</guid>
+      <description>
+
+
+&lt;p&gt;As in all treatments, a few patients who have their osteoarthritis treated using biological approaches, such as cell therapies, osteotomy or microfracture, do not respond so well as others, though we do not know why.
+Our previous work has identified particular molecules in synovial fluid or blood known as ‘biomarkers’ that have the potential to identify which patients are unlikely to improve clinically following the cell therapy known as autologous chondrocyte implantation (ACI).
+These investigations focussed on protein markers whose biology is known to relate to poor repair of cartilage or general inflammation e.g. an enzyme, aggrecanase-1, and another molecule involved in the immune system, CD14.
+Our recent work, however, has used a highly specialised technique called proteomics to identify larger numbers of proteins which are altered within the synovial fluid in the knee of patients who either do or do not respond well to ACI.
+The proteins identified using this approach include many that have never been investigated before and which therefore provide attractive new candidates.
+To date, we have confirmed that four of these proteins, S100A13, MMP1, Complement C1S and MMP3, have the potential to inform us of whether or not a patient is suitable to continue through the ACI procedure.
+In addition, the MMP candidates have recently been validated in an independent group of patients using a different multi-plex discovery platform, providing added confidence to our results.&lt;/p&gt;
+&lt;p&gt;In addition, we have used ‘bioinformatic’ analysis, using complex computer programmes, to inform us of how the ACI procedure may be affecting different biological mechanisms, such as ‘acute phase response signalling’ in individuals who improve following ACI compared to those who do not (Figure 1).
+These studies may help us identify ways to improve ACI outcomes for patients in which it would not currently be successful.&lt;/p&gt;
+&lt;p&gt;We have gone on to see if any of these ‘biomarkers’ can help us predict what the outcome might be following other treatments, such as osteotomy or microfracture.
+We have shown that the amount of both S100A13 and the total amount of protein within the synovial fluid before an operation relates to the clinical functional scores that patients achieve a year after their osteotomy.
+We hope that this work will help us to identify a reliable panel of molecular markers which can be used to help the surgeon and patient decide on what is the best treatment for that particular person.
+This would not only save the health service money, but most importantly get people pain free and back to their normal lives quicker.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:proj-fig&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;**Acute Phase Signalling is an example of a biological pathway that is altered in people who do poorly following ACI.** Proteins in red were increased and proteins in green were decreased following initial ACI surgery compared to pre-operative levels. This signalling pathway is therefore likely to be a good target for new drugs to improve the outcome for individuals who currently do not benefit from ACI.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: &lt;strong&gt;Acute Phase Signalling is an example of a biological pathway that is altered in people who do poorly following ACI.&lt;/strong&gt; Proteins in red were increased and proteins in green were decreased following initial ACI surgery compared to pre-operative levels. This signalling pathway is therefore likely to be a good target for new drugs to improve the outcome for individuals who currently do not benefit from ACI.
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction of clinical outcome following ACI by magnetic resonance imaging</title>
+      <link>https://oskor.netlify.app/project/aci_mri_prediction_2021-04-27/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/aci_mri_prediction_2021-04-27/</guid>
+      <description>&lt;p&gt;Since 2010, we have been collating data from a Retrospective study of Autologous Cell Therapy (REACT), using a postal questionnaire completed by patients who have previously received this treatment here at this hospital for cartilage defects of their knee.
+We have assessed the quality of the repair tissue which forms in the treated defect using magnetic resonance imaging (MRI) to see if it correlates with clinical outcomes.&lt;/p&gt;
+&lt;p&gt;We found that certain features identifiable on the MRIs correlated significantly with how well the patient felt at a year after treatment (eg the amount and composition of repair tissue which had formed, how well it was integrated with the adjacent cartilage and bone, how smooth the surface was and if there were no cysts in the bone beneath).
+What may be particularly useful is that 3 of these parameters at 1 year after treatment (how much tissue, its composition and the smoothness of the surface) all affected the clinical outcome in the long term (up to 17 years after treatment).
+This could be particularly useful for clinical trials, meaning that long term follow up such as is ongoing in the Oswestry led multicentre trial of Autologous Chondrocyte Implantation (ACI) in ACTIVE, could be avoided.
+Instead of following patients up for 10 years in person, an MRI at 1 year could predict how well those patients would do with this treatment, which could be a huge cost-saving in running such trials. (&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6081761/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;McCarthy et al (2018) Orthop J Sports Med. 2018 Aug; 6(8): 325967118788280&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Histological and Radiological Assessment of Endogenously Generated Repair Tissue In Vivo Following a Chondral Harvest</title>
+      <link>https://oskor.netlify.app/publication/histological-and-radiological-assessment-of-endogenously-generated-repair-tissue-in-vivo-following-a-chondral-harvest/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/histological-and-radiological-assessment-of-endogenously-generated-repair-tissue-in-vivo-following-a-chondral-harvest/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+    <item>
+      <title> Chondrocyte Isolation and Expansion</title>
+      <link>https://oskor.netlify.app/publication/chondrocyte-isolation-and-expansion/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/chondrocyte-isolation-and-expansion/</guid>
+      <description>
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Cell therapy for cartilage repair</title>
+      <link>https://oskor.netlify.app/publication/cell-therapy-for-cartilage-repair/</link>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/cell-therapy-for-cartilage-repair/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/cell-therapy-for-cartilage-repair/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Syndecan-3: A Signaling Conductor in the Musculoskeletal System</title>
+      <link>https://oskor.netlify.app/publication/syndecan-3-a-signaling-conductor-in-the-musculoskeletal-system/</link>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/syndecan-3-a-signaling-conductor-in-the-musculoskeletal-system/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/syndecan-3-a-signaling-conductor-in-the-musculoskeletal-system/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>A 12-month clinical study. Spontaneous healing of articular cartilage (SHARC study)</title>
+      <link>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/spontaneous-healing-of-articular-cartilage-sharc/</guid>
+      <description>
+
+
+&lt;p&gt;When the cartilage in your joint is damaged, it is often thought that it does not heal and would eventually lead to joint degeneration.
+However, we have found evidence that in some instances, cartilage can repair itself without surgical intervention.&lt;br /&gt;
+We studied this natural healing in patients who had an artificial cartilage defect created in their knees as part of a cell therapy trial.
+Biopsies of the regenerated cartilage tissues were taken about 12 months after the defect was created and examined in our lab to determine their quality and whether the tissues returned to their original structure.
+What we found showed that although the damaged cartilage did repair itself, it did not return to its normal structure, at least in that timescale.
+For instance, collagens are very important molecules in cartilage, and we found that their organisation was different in the naturally repaired cartilage compared to normal.
+This information is useful to us in that it may help to understand how we can improve ways of encouraging better repair tissue to form.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human chondrocytes expanded in the Quantum® hollow-fibre bioreactor system</title>
+      <link>https://oskor.netlify.app/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/human-chondrocytes-expanded-in-the-quantum-hollow-fibre-bioreactor-system-for-the-first-time/</guid>
+      <description>
+
+
+&lt;p&gt;The Quantum® bioreactor (Fig 9; Terumo BCT) is an automated hollow fibre system, which has an internal surface area of 2.1m&lt;span class=&#34;math inline&#34;&gt;\(^2\)&lt;/span&gt; (equivalent to 120 T-175 tissue culture flasks), allowing large scale expansion of cells.&lt;br /&gt;
+In recently published work we have been using the Quantum® to assess the characteristics of cells from human bone marrow and umbilical cords after culture expansion in the system compared to the standard tissue culture plastic technique (TCP), with the aim of using these cells in cell therapies for example, for cartilage repair.&lt;br /&gt;
+In a newly funded ‘Confidence in Concept’ MRC project we have looked to transfer these techniques to cells of cartilage (chondrocytes), in the development of up-scale manufactured allogeneic chondrocyte therapies.&lt;/p&gt;
+&lt;p&gt;So far cells from 4 samples obtained from adult donors (undergoing total knee replacements) and 2 samples obtained from juvenile (polydactyl) donors have been cultured in the Quantum® and the results are currently being analysed.
+Techniques for chondrocyte growth and harvest using the system are being optimised and further MRC Biomedical Catalyst funded work will ensure GMP compliance of the manufacturing process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The suitability of pre-operative MRI in predicting accurate cartilage defect sizes in cell therapy</title>
+      <link>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/the-suitability-of-pre-operative-magnetic-resonance-imaging-in-predicting-accurate-cartilage-defect-sizes-for-treatment-with-cell-therapy/</guid>
+      <description>
+
+
+&lt;p&gt;Clinicians are given guidance as to appropriate sizes of cartilage defects to treat with cell therapy.
+However, estimating the size of a defect using scans such as magnetic resonance imaging (MRI) may in fact differ from the ‘real-life’ situation.
+We performed a retrospective study to evaluate the accuracy of MRI scans to predict the size of articular cartilage lesions in the knee and compared them against actual defect sizes recorded surgically.&lt;/p&gt;
+&lt;p&gt;We included 64 patients, all of whom underwent autologous cell implantation (ACI) performed by two different RJAH surgeons (PDG and JBR).
+Each patient received a pre-operative MRI approximately 6 weeks prior to cell implantation.
+MRIs were analysed by a Consultant radiologist (BT) and a research PhD student (JP) trained by the radiologist to ascertain the full-thickness defect measurement and the total abnormal defect area that they believed would require debridement (removal of damaged/ unhealthy tissue).
+At the time of cell implantation, the Consultant orthopaedic surgeon measured the defect sizes pre- and post-debridement.
+The post-debridement surgical measurements have been used as the ‘gold standard’ in this study.
+All measurements were further assessed according to defect location within the knee (patella, trochlea, medial or lateral femoral condyle (MFC and LFC)).&lt;/p&gt;
+&lt;p&gt;We assessed a total of 92 cartilage defects and, as expected, found them to be significantly smaller pre-debridement than post-debridement when measured during arthroscopy.
+To date, from a radiological perspective (BT), MRI scans significantly underestimated the (pre-debridement) defect size but not the total abnormal area (so this was found to be similar and not significantly different to the post-debridement size measured surgically).&lt;br /&gt;
+When considering defect location, MRI still significantly underestimated pre-debridement defect sizes on the patella and MFC but not the LFC and trochlea.
+Total abnormal area assessment on MRI was not affected by defect location.&lt;/p&gt;
+&lt;p&gt;This preliminary data indicates that measuring only the full-thickness component of a cartilage defect on MRI will significantly underestimate the area to treat for ACI; evaluating the whole abnormal area will provide a more accurate estimate of the actual defect size requiring treatment. This is critical for surgical planning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tissue engineering of meniscus cells, bmscs, chondrocytes and co-cultures on a scaffolds</title>
+      <link>https://oskor.netlify.app/project/cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/cell-based-meniscus-tissue-engineering-comparing-meniscus-cells-chondrocytes-bmscs-and-co-cultures-on-synthetic-scaffolds/</guid>
+      <description>
+
+
+&lt;p&gt;Menisci play an important role in force transmission, shock absorption, joint stability, lubrication, and proprioception of the knee joint.
+Meniscus tears are the most commonly observed intra-articular knee injury. In the UK, there are 60-70 meniscal injuries each year per 100,000 people.
+When the irreparable meniscus (the inner avascular zone with no blood vessels in) is damaged, the articular cartilage of the knee joint is exposed to excessive loading, which eventually increases the risk of early osteoarthritis.
+Currently, two scaffolds are used in clinic in a cell-free approach as replacement menisci: CMI® (collagen scaffold) and Actifit® (polyurethane scaffold).
+Though both scaffolds sometimes show some clinical benefit, there remain limitations: the grafts shrink, do not integrate well with the patients’ own tissues and they have a fairly high failure rate.
+Therefore, we aim to see if adding cells to these scaffolds would improve things. Meniscal cells, cartilage cells (chondrocytes) and mesenchymal stromal/stem cells (MSCs) from bone marrow are being studied in this project as potential cell sources.&lt;br /&gt;
+This work is forming a PhD for a Chinese orthopaedic surgeon (Jingsong Wang) who is in his second year.
+He aims to develop ways of seeding cells into the synthetic scaffolds and see how effective they will be at synthesising the molecules needed for a healthy meniscus.
+Currently he is testing different formulations of fibrin glue for this purpose.
+The results of this study will hopefully determine whether this approach can be applied in the clinic.&lt;/p&gt;
+&lt;p&gt;Jingsong, with other members of the team have also just published a case report looking at 2 patients (A and B) who have previously been treated by Prof Richardson with a combination of cells (both autologous chondrocytes and MSCs from the patients’ bone marrow), 8 and 9 years ago.
+Interestingly both patients appear to have improved for longer than might be expected, with defects or lesions seen on MRI in their bone beneath the cartilage appearing less obvious with time (Figure 8).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biological, physical and psychosocial factors that affect the health of the human knee</title>
+      <link>https://oskor.netlify.app/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/biological-physical-and-psychosocial-factors-that-affect-the-health-of-the-human-knee/</guid>
+      <description>
+
+
+This project uses several different approaches to investigate factors that have an impact on human knee health. Osteoarthritis (OA) is the most common joint disease in the world, but its onset and progression are still not fully understood.
+Although traditionally considered specifically a disease of the articular cartilage (AC), OA is now regarded as an ‘organ-level failure’ that affects and involves all tissues of the joint rather than the AC alone.
+Of these tissues, the subchondral bone (SB) is of particular interest given the close physical interaction and shared signalling pathways between the two tissues.
+In this part of the project, a series of experiments are being performed to test if cells taken from healthy areas of the SB, and those taken from unhealthy areas of the SB, have different characteristics that could point to their involvement in OA (figure 2 and 3).
+Subsequently, we are investigating whether cells from these different regions have different effects on the characteristics of cells isolated from the cartilage (chondrocytes). This is carried out using a ‘co-culture’ model (figure 4), in which the cells from the SB and cells from the AC are grown together but separated by a membrane that prevents contact but allows communication between the cells.
+The aim of this part of the project is to try and characterise the relationship between the AC and SB and the part that this relationship plays on the onset and progression of OA in the knee.&lt;br /&gt;
+
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;Schematic illustrating the co-culture system of bone and cartilage cells.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Schematic illustrating the co-culture system of bone and cartilage cells.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Another part of this project is based in the clinic.
+A patient;s knee function is known to vary over their lifetime.
+However, there also appears to be variation over a more short-term basis, week-to-week or even day-to-day.
+One factor thought to play a part in this variability is the patient’s activity levels.
+We have recently shown, in a study of 64 patients undergoing rehabilitation following cell therapy, that the relationship between activity levels and knee function varies significantly between patients (a sample of these patients is shown in Figure 5).
+We then sought to find factors that could explain this variation between patients.
+Affect, the feeling of emotion, is described in terms of positive and negative and is known to vary between patients and influence perceived disease symptoms.
+We demonstrated that patients with a high positive affect score and low negative affect score are more likely to report improved knee function with increased activity levels and vice versa.
+This has implications for the prescription of rehabilitation. We now plan to build on this study, which used an activity questionnaire, using wearable activity trackers (Figure 6) to provide a more accurate measure of patients’ activity levels, alongside validated scoring systems for knee function and attitudes to pain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Can cells from umbilical cords be used to treat patients with osteoarthritis?</title>
+      <link>https://oskor.netlify.app/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/can-cells-from-umbilical-cords-be-used-to-treat-patients-with-osteoarthritis/</guid>
+      <description>
+
+
+&lt;p&gt;Osteoarthritis (OA) is a complex degenerative joint disease, characterised by degradation and loss of articular cartilage (causing the joint space to narrow), as well as a lot of changes in the bone, such as abnormal bony spurs or ‘osteophytes’ forming.
+Currently, there are no effective pharmaceutical or non-surgical therapies to reverse osteoarthritis. Researchers around the world are seeking new approaches, including seeing if a biological approach such as cell therapy could be useful.
+Here in Oswestry, we have been obtaining mesenchymal stromal or stem cells (MSCs) from human umbilical cords (UC-MSCs) for some years now. These are an attractive source of cells for regenerative medicine since they are fairly easy to obtain and grow and they also appear to have anti-inflammatory properties, which may be useful and make an immune reaction less likely if used in a different individual.&lt;br /&gt;
+We are currently working with collaborators in other universities to see if the cells prepared here in Oswestry could delay osteoarthritis in their models.
+Specifically, we are examining the effect of a single injection of UC-MSCs to determine if they can help repair or regenerate damaged joints.
+If successful, it is likely they could be an excellent allogeneic (i.e. from another person) source of cells for the treatment of OA.&lt;/p&gt;
+&lt;p&gt;One of these (called the PMM or partial medial meniscectomy model) mimics end-stage osteoarthritis, with severe loss of cartilage and osteophyte formation appearing in the operated groups.
+Our results demonstrated that although the transplanted UC-MSCs did not recover joint damage induced by the PMM, as assessed histologically or by micro computed tomography (micro CT), the implanted cells did not appear to elicit an inflammatory response in the treated groups, even though they were from a different species (at least at the timepoints examined).
+Furthermore, there was marked variability between the UC donors, with a significantly reduced loss of joint space appearing at 12 weeks with one donor but not the other 2 donors’ cells. This suggests that some donors’ cells may have a greater therapeutic potential than others, highlighting the importance of characterising each batch of cells for allogeneic cell therapies.&lt;/p&gt;
+&lt;p&gt;The second model used a small isolated injury to the cartilage, which can lead to secondary osteoarthritis (and so significantly less severe than the aforementioned model).
+In this injury model we compared human UC-MSCs and bone marrow (BM)-derived MSCs, grown in a bioreactor (Quantum®), at repairing cartilage damage and preventing secondary OA.
+As in the other study, the groups treated with cells did not appear to show any macroscopic or microscopic signs of swelling/inflammation due to human cell implantation.
+Furthermore, when assessed histologically both human MSC treated groups had significantly better repair compared with the untreated group (ie without cells; Figure 7).
+Additionally, immunohistochemistry showed that there was more type II collagen in the repair tissue of those joints with better cartilage morphologically, as well as it containing many ‘tomato’-positive cells (which are derived from the joint interzone).
+These results suggest that up-scale manufactured UC-MSCs and BM-MSCs could be an effective therapy for treating cartilage injuries.
+The implanted MSCs did not appear to elicit an inflammatory response, further supporting their potential as an allogeneic treatment.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

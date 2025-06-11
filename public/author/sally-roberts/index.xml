@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sally Roberts | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/sally-roberts/</link>
+      <atom:link href="https://oskor.netlify.app/author/sally-roberts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sally Roberts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/sally-roberts/avatar_hu5a61ed386e603fa792b63763d0f41438_57339_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Sally Roberts</title>
+      <link>https://oskor.netlify.app/author/sally-roberts/</link>
+    </image>
+    
+  </channel>
+</rss>

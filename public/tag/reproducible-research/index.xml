@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reproducible Research | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/tag/reproducible-research/</link>
+      <atom:link href="https://oskor.netlify.app/tag/reproducible-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reproducible Research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Reproducible Research</title>
+      <link>https://oskor.netlify.app/tag/reproducible-research/</link>
+    </image>
+    
+    <item>
+      <title>Reproducible Research - Version control</title>
+      <link>https://oskor.netlify.app/post/reproducible-research-version-control/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/post/reproducible-research-version-control/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/post/reproducible-research-version-control/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;As promised in the prior article on &lt;a href=&#34;../../../../post/reproducible-data-analysis/&#34;&gt;reproducible data analysis&lt;/a&gt;, here I’d like to outline the concept of version control, and how it pertains to reproducible research.&lt;/p&gt;
+&lt;p&gt;Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes.
+Many academics attempt a poor facsimile of this by using some flavour of “track changes” via software like Microsoft Word or &lt;a href=&#34;https://docs.google.com/&#34;&gt;Google docs&lt;/a&gt;, and emailing these documents back an forth with varying file names.
+Particularly with the use of Microsoft Word, this can lead to having lots of slightly different versions of the same file, with no easy way of knowing what version contains which changes, and who made them.&lt;/p&gt;
+&lt;p&gt;More advanced version control systems (VCS) such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;, &lt;a href=&#34;https://subversion.apache.org/&#34;&gt;SVN&lt;/a&gt; and &lt;a href=&#34;https://www.mercurial-scm.org/&#34;&gt;Mercurial&lt;/a&gt; provide more powerful and elegant tools.
+Git was originally designed for large groups of developers to work on big software projects, but is now used for many other kinds of projects.&lt;/p&gt;
+&lt;p&gt;As in the previous article, here is an overview of the benefits of using version control:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The process of creating work becomes more seamlessly integrated with organising, recording and disseminating said work, as opposed to additional burdens that may be neglected&lt;/li&gt;
+&lt;li&gt;More structured collaboration, with robust tools for asynchronous work and managing versions&lt;/li&gt;
+&lt;li&gt;Easy creation of a web presence for a given project (this website is on &lt;a href=&#34;https://github.com/H-Mateus/spinal-studies-rjah-site&#34;&gt;GitHub&lt;/a&gt;!)&lt;/li&gt;
+&lt;li&gt;It can also serve as an excellent tool to support teaching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Motivation&lt;/h1&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:git-mascot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;git_mascot.jpg&#34; alt=&#34;A toy of the GitHub mascot. Image credit: [**Unslash**](https://unsplash.com/photos/wX2L8L-fGeA)&#34; width=&#34;2664&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A toy of the GitHub mascot. Image credit: &lt;a href=&#34;https://unsplash.com/photos/wX2L8L-fGeA&#34;&gt;&lt;strong&gt;Unslash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Version control allows us to understand the history of a piece of work (typically the writing of a paper for academics).
+This lets us and others understand what was done, when, and with the aid of well written comments/commit messages, &lt;strong&gt;&lt;em&gt;why&lt;/em&gt;&lt;/strong&gt; it was done.
+This greatly increases the transparency of the work, which is crucial for reproducibility.
+A version control system allows us to do this cleanly, with no debris from previous versions of files strewn about various folders which could confuse us or others trying to understand how we arrived at out final results.
+This can be especially useful with code, as we no longer need to keep large chunks of unused code commented out just in case we want it later.&lt;/p&gt;
+&lt;p&gt;But perhaps the greatest benefit is the ease of collaboration good version control allows for.
+Particularly when combined with version control hosting services, such as &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://about.gitlab.com/&#34;&gt;GitLab&lt;/a&gt; or &lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt;, version control allows many people, potential all over the world and in different time zones, to work on the same files.
+The changes from different people can be tracked separately, and there are powerful tools communicate in a more structured way, via pull requests, code reviews and issues for example.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;basic-workflow&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Basic workflow&lt;/h1&gt;
+&lt;p&gt;A typical workflow using version control is as follows:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Create files - these should be plain text, usually code and/or markup or some kind&lt;/li&gt;
+&lt;li&gt;Work on these files - adding, deleting or changing content&lt;/li&gt;
+&lt;li&gt;Create a snapshot - explicitly record the state of a file/s at that particular time, with a message summarising what was done&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In Git, which I will focus on for the remainder of the article as it the most popular, these snapshots are called “commits”.
+This can feel a little strange at first, but you quickly get used to it.
+Personally, I’ve found a nice added benefit to using Git as a tool for delimitating where my day ends.
+The last thing I do each day is commit all the work I’ve done, giving me a nice sense of accomplishment (or terrible shame if I’ve been unproductive…), and giving my brain a signal that work is over it’s time to switch gears.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;learning-resources&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Learning resources&lt;/h1&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:learn&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;learn.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/WE_Kv_ZB1l0)&#34; width=&#34;4500&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Image credit: &lt;a href=&#34;https://unsplash.com/photos/WE_Kv_ZB1l0&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;If I’ve managed to convince you to give version control a go then do be warned if you using Windows - getting things set up will be a bit ugly.
+Windows is a pretty terrible operating system for doing anything, but it’s especially bad for these kinds of things.&lt;/p&gt;
+&lt;p&gt;In an ideal world more people would realise that there are operating systems that you don’t have to pay for &lt;strong&gt;and&lt;/strong&gt; don’t include spyware.
+I’m talking about Linux for the uninitiated.
+If you’ve got an old clunker computer that’s unusably slow, try installing a lightweight Linux distribution and marvel at how much difference a good OS can make.
+Without getting into some boring details, MacOS effectively has the same backbone as Linux, so that works well enough (but Linux is still way better!).&lt;/p&gt;
+&lt;p&gt;That’s not to say it can’t be done of course, especially with the help of these lovely resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A great resource for many facets of reproducible research is &lt;a href=&#34;https://the-turing-way.netlify.app/welcome.html&#34;&gt;The Turing Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Another great resource, particularly for integrating Git with R is &lt;a href=&#34;https://happygitwithr.com/index.html&#34;&gt;Happy Git with R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;Pro Git&lt;/a&gt; book is another great resource for a more in depth understanding of how Git works, and some of it’s more advanced features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducible Research - Data analysis</title>
+      <link>https://oskor.netlify.app/post/reproducible-data-analysis/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/post/reproducible-data-analysis/</guid>
+      <description>
+
+
+&lt;p&gt;This post is a companion to the talk I’m due to give at the Joint CDT virtual conference this year.
+The goal of both is to outline the selfish benefits of working more reproducibly, particularly from a students perspective, focusing on data analysis.&lt;/p&gt;
+&lt;p&gt;I hope to convince you that working this way will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Save you a lot of time&lt;/li&gt;
+&lt;li&gt;Make you a better scientist&lt;/li&gt;
+&lt;li&gt;And perhaps most importantly for any students, make you much more employable!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Usually this topic is approached from a more ideological view, suggesting that we must do these things because science has a reproducibility problem.
+If the ideology interests you, I’ve outlined my own feelings on the problems with how science is done in my article &lt;a href=&#34;https://gmbernardoharrington.netlify.app/post/the-sovereign-of-science/&#34;&gt;The Sovereign of Science&lt;/a&gt;, and I outline my ideas to address these issues in &lt;a href=&#34;https://gmbernardoharrington.netlify.app/post/how-might-science-be-done-better/&#34;&gt;How might science be done better?&lt;/a&gt;.
+The short version is that I don’t feel individual scientists are to blame, but rather the system we are subject to fails reward good science or punish bad practises.&lt;/p&gt;
+&lt;p&gt;I also don’t feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.&lt;/p&gt;
+&lt;div id=&#34;whats-wrong-with-the-way-i-currently-do-things&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s wrong with the way I currently do things?&lt;/h2&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:you-suck&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;you_suck.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/KHaaHwAZ9LE)&#34; width=&#34;80%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Image credit: &lt;a href=&#34;https://unsplash.com/photos/KHaaHwAZ9LE&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I’m guessing you’re a fairly typical scientist.
+You exclusively use proprietary closed-source graphical user interface (GUI) based software for all your work.
+Think Excel, SPSS and GraphPad.&lt;/p&gt;
+&lt;p&gt;You use these tools not because you ever asked whether they were good at what you use them for, but rather because they are the defaults that are either provided for free, or what you university/colleagues taught you to use.&lt;/p&gt;
+&lt;p&gt;The main issue with all these tools is that there is no record of what anyone has done with them or why.&lt;/p&gt;
+&lt;p&gt;I think a fun story may illustrate this point&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;story-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Story time&lt;/h2&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:story-time&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;story_time.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/aZ8G5l3VLkI)&#34; width=&#34;60%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Image credit: &lt;a href=&#34;https://unsplash.com/photos/aZ8G5l3VLkI&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;So imagine the following scenario:&lt;/p&gt;
+&lt;p&gt;We have a research project we are conducting.
+A student has carried out the experiment and generated the data for analysis.
+After several iterations back and forth between Excel and SPSS, the file &lt;code&gt;finaldata9&lt;/code&gt; is created, and several slightly different versions of this file exists between the supervisor, a postdoc and the student.
+The student graduates, and a new student comes in to finish the project.
+The original student has moved to another city and no longer cares about this project.&lt;/p&gt;
+&lt;p&gt;There is no documentation to accompany &lt;code&gt;finaldata9&lt;/code&gt; and so it contains several columns of unknown origin or purpose.
+The project is now being written up in Microsoft Word, with values being copied and pasted from the various iterations of &lt;code&gt;finaldata9&lt;/code&gt;.
+After several months, the final draft is submitted to a journal for publication.&lt;/p&gt;
+&lt;p&gt;Now, do you think this research group could reproduce the values they report in the results of this paper?&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;strong&gt;&lt;em&gt;Of course not.&lt;/em&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;The raw experimental data has been completely mutilated.
+There is no record or documentation of who has done what, using which tools and when.
+And this is how most research is done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-excel-mistake-heard-round-the-world&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Excel mistake heard round the world&lt;/h2&gt;
+&lt;p&gt;To give a specific example, several years ago, a couple of Harvard economists &lt;a href=&#34;https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/&#34;&gt;published a paper&lt;/a&gt; suggesting that countries with debt over 90% of GDP would enter recession.
+They reported these findings to American senators, who decided to implement years of harsh austerity based on these findings.
+But it turned out they made a little goof with their Excel spreadsheets.
+When doing their calculations, they didn’t quite drag a box down all the way, missing data from 5 countries.
+Redoing the analysis with these extra countries changes their results fairly dramatically.&lt;/p&gt;
+&lt;p&gt;It took a few years before anyone noticed the mistake, and the only reason anyone did was because the data they used was publically available.
+The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and miss during peer review.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;well-what-could-i-do-differently&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Well what could I do differently?&lt;/h2&gt;
+&lt;p&gt;I’m so glad you asked.&lt;/p&gt;
+&lt;p&gt;There are lots of things you can and should do, but the most important one is to learn to code!&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:matrix&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;matrix.jpg&#34; alt=&#34;This is definitely exactly what code looks like. Image credit: [**Unsplash**](https://unsplash.com/photos/iar-afB0QQw)&#34; width=&#34;80%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: This is definitely exactly what code looks like. Image credit: &lt;a href=&#34;https://unsplash.com/photos/iar-afB0QQw&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Now that may sound scary, but I promise it’s a lot easier than you might think.
+Code is just a set of plain text instructions, written with a specific syntax, that the computer can then execute exactly.
+You can, and absolutely should, leave comments in your code as well.
+These are lines that are ignored by the computer, but are there to explain what your code is doing and why.
+This means that rerunning a particular analysis, from raw experimental data all the way through to publication quality plots and stats, is a simple as rerunning a script, and it can take mere seconds.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-benefits&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The benefits&lt;/h2&gt;
+&lt;p&gt;This is where the real time saving comes from.
+A lot of labs revolve around a few pieces of equipment, which generally will generate the same kind of data, that needs to be analyses in the same kind of way, regardless of the experimental specifics.
+When you use the GUI tools, you need to start from scratch each time.&lt;/p&gt;
+&lt;p&gt;Imagine a particular assay.
+Every assay run has a standard curve and some experimental samples.
+With the data, you generate a standard curve, use it to estimate the concentration of your samples, maybe average some replicates, and do some stats to compare experimental groups.
+Let’s say you run this assay a lot, so you can do these steps in 10 minutes in Excel.&lt;/p&gt;
+&lt;p&gt;But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it will reach parity if you run the assay twice.
+All you change is the data you feed to the script.
+Each additional time you run the assay you’re saving 10 minutes of time, and you’ve eliminated the risk of making a mistake in subsequent analyses.
+You can also easily share your script with colleagues so they don’t even need to spend 20 minutes to write it in the first place.&lt;/p&gt;
+&lt;p&gt;If you did this for every major piece of equipment in your lab how much time could &lt;strong&gt;&lt;em&gt;you&lt;/em&gt;&lt;/strong&gt; save?
+How popular would you be in your group?
+How sexy would you look to prospective employers?&lt;/p&gt;
+&lt;p&gt;And there are many other benefits to code.
+GUI tools don’t scale to large datasets, and even include hard caps as to how much data they can hold.
+The British Government &lt;a href=&#34;https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england&#34;&gt;learned this the hard way&lt;/a&gt; during the Covid-19 pandemic.
+Programming languages can handle data of any size, and it’s no harder to deal with 10 rows of data than 100,000,000 rows.
+As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to need to be able to work with larger and larger datasets.&lt;/p&gt;
+&lt;p&gt;Programming languages can do everything Excel, SPSS and GraphPad do, and so much more besides.
+Maybe you’ve heard of this machine learning lark?
+Well good luck doing that in SPSS or Excel.
+&lt;a href=&#34;https://www.r-project.org/&#34;&gt;R&lt;/a&gt; or &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; on the other hand?
+Easy-peasy.
+This means the skill will serve you extremely well in the job market, and if you’re a fresh-faced student just starting out, it’s fairly likely you’ll be forced to learn these skills to stay in this field sooner or later.
+So why not start now?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-personal-testimony-on-the-employability-benefits&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A personal testimony on the employability benefits&lt;/h2&gt;
+&lt;p&gt;My saying coding makes you more employable is not without cause.
+I write this a third year PhD student who was scouted for a data science role, and secured a bioinformatics postdoc at a Russell Group university.
+This is in spite of me having never written a line of code prior to starting my PhD, and having no formal bioinformatics training.&lt;/p&gt;
+&lt;p&gt;And there are loads of excellent free written and video guides to learn these skills.&lt;/p&gt;
+&lt;p&gt;Some personal favourites for learning R (my first language, and the one I’d recommend you start with):&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;The &lt;a href=&#34;https://r4ds.had.co.nz/index.html&#34;&gt;R for Data Science&lt;/a&gt; book&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.youtube.com/watch?v=_V8eKsto3Ug&amp;amp;t=1241s&#34;&gt;freeCodeCamp Youtube video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://education.rstudio.com/learn/beginner/&#34;&gt;RStudios documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For a more broad walkthrough of methods for reproducible research, &lt;a href=&#34;https://the-turing-way.netlify.app/welcome.html&#34;&gt;The Turing Way&lt;/a&gt; is a great guide&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;going-further-down-the-rabbit-hole&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Going further down the rabbit hole&lt;/h2&gt;
+&lt;p&gt;I hope I’ve convinced you that code is the best way to analyse data.
+But you probably use a lot of other suboptimal software in both your personal and professional life.
+If you interested in finder better alternatives, I would suggest a simple rule:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stick to software that’s &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/free-vs-open-source-software&#34;&gt;free and open-source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:open-source-alternatives&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;open_source_alts.jpg&#34; alt=&#34;Free and open-source alternatives. The logos from left to right: [Ubuntu](https://ubuntu.com/), [Linux](https://en.wikipedia.org/wiki/Linux), [GIMP](https://www.gimp.org/), [Audacity](https://www.audacityteam.org/), [Firefox](https://www.mozilla.org/en-GB/firefox/new/), [LibreOffice](https://www.libreoffice.org/), [7-zip](https://www.7-zip.org/). Image credit: [**Flikr**](https://www.flickr.com/photos/26887294@N05/6846553672)&#34; width=&#34;400&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Free and open-source alternatives. The logos from left to right: &lt;a href=&#34;https://ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34;&gt;Linux&lt;/a&gt;, &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GIMP&lt;/a&gt;, &lt;a href=&#34;https://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt;, &lt;a href=&#34;https://www.mozilla.org/en-GB/firefox/new/&#34;&gt;Firefox&lt;/a&gt;, &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;, &lt;a href=&#34;https://www.7-zip.org/&#34;&gt;7-zip&lt;/a&gt;. Image credit: &lt;a href=&#34;https://www.flickr.com/photos/26887294@N05/6846553672&#34;&gt;&lt;strong&gt;Flikr&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;That way you don’t waste time learning software that may be taken away from you if the price increased, your employer refused to provide it for you, etc.
+It means you can be sure you always have access to the tools you need, when you need them.
+And that anyone you want to work with can’t say “sorry, I don’t have access to that software, can’t contribute”.
+It also facilitates reproducibility, as anyone will be able to use the same tools.&lt;/p&gt;
+&lt;p&gt;I will also write further article/s on how to make your &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;scientific writing more reproducible&lt;/a&gt;, on using &lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&#34;&gt;version control&lt;/a&gt; and touch on &lt;a href=&#34;https://www.docker.com/resources/what-container&#34;&gt;containers&lt;/a&gt;, and link them here once done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;As promised, some follow-up posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A brief explainer on the wonders of version control - &lt;a href=&#34;../../../../post/reproducible-research-version-control/&#34;&gt;Reproducible Research - Version control&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

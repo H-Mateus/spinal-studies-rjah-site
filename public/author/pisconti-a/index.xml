@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pisconti A | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/pisconti-a/</link>
+      <atom:link href="https://oskor.netlify.app/author/pisconti-a/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pisconti A</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Pisconti A</title>
+      <link>https://oskor.netlify.app/author/pisconti-a/</link>
+    </image>
+    
+    <item>
+      <title>Syndecan-3 plays a role in MSC adhesion and efficacy in an in vivo model of inflammatory arthritis</title>
+      <link>https://oskor.netlify.app/project/syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/project/syndecan-3-regulates-msc-adhesion-erk-and-akt-signaling-in-vitro-and-its-deletion-enhances-msc-efficacy-in-a-model-of-inflammatory-arthritis-in-vivo/</guid>
+      <description>
+
+
+&lt;p&gt;Inflammation is a central feature of rheumatoid arthritis that affects around 1% of the population and can result in disability and morbidity.
+The immunomodulatory effects of bone marrow derived mesenchymal stem cells (MSCs) has been widely studied and the recent observations that syndecan-3 (SDC3) is selectively pro-inflammatory in the joint led us to hypothesise that SDC3 might play an important role in MSC biology.
+MSCs isolated from bone marrow of wild type and Sdc3-/- mice were used to assess immunophenotype, differentiation, adhesion and migration properties and cell signalling pathways.
+While both cell types show similar differentiation potential and forward scatter values, the cell complexity in wild type MSCs was significantly higher than in Sdc3-/- cells and was accompanied by lower spread surface area.
+Moreover, Sdc3-/- MSCs adhered more rapidly to collagen type I and showed a dramatic increase in AKT phosphorylation, accompanied by a decrease in ERK1/2 phosphorylation compared with control cells.
+In a mouse model of antigen-induced inflammatory arthritis, intraarticular injection of Sdc3-/- MSCs yielded enhanced recovery compared to injection of wild type MSCs.
+In conclusion, our data suggest that syndecan-3 regulates MSC adhesion and efficacy in inflammatory arthritis, likely via induction of the AKT pathway (Figure 1).&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:figure1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;Loss of SCD3 in MSCs causes increased ATK phosphorylation and a reduction in ERK phosphorylation.  (A) representative images of blots used for quantification. SDC3 knockout was confirmed for Sdc3-/- MSCs in each sample (B) Total phosphorylated tyrosine normalised to GAPDH. (C) Phosphorylated AKTSer473 was normalised to total AKT. (D) Phosphorylated ERKThr202/Tyr204 was normalised to total ERK. Quantification was performed using ImageJ.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Loss of SCD3 in MSCs causes increased ATK phosphorylation and a reduction in ERK phosphorylation. (A) representative images of blots used for quantification. SDC3 knockout was confirmed for Sdc3-/- MSCs in each sample (B) Total phosphorylated tyrosine normalised to GAPDH. (C) Phosphorylated AKTSer473 was normalised to total AKT. (D) Phosphorylated ERKThr202/Tyr204 was normalised to total ERK. Quantification was performed using ImageJ.
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syndecan-3: A Signaling Conductor in the Musculoskeletal System</title>
+      <link>https://oskor.netlify.app/publication/syndecan-3-a-signaling-conductor-in-the-musculoskeletal-system/</link>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/publication/syndecan-3-a-signaling-conductor-in-the-musculoskeletal-system/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/publication/syndecan-3-a-signaling-conductor-in-the-musculoskeletal-system/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

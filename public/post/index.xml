@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/post/</link>
+      <atom:link href="https://oskor.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright><lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://oskor.netlify.app/media/logo_hu0e35ae0aaba2517cccb2b0d7ca3e2f28_296151_300x300_fit_lanczos_3.png</url>
+      <title>Posts</title>
+      <link>https://oskor.netlify.app/post/</link>
+    </image>
+    
+    <item>
+      <title>Org-mode basics</title>
+      <link>https://oskor.netlify.app/post/org_mode_basics_2020-12-03/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/post/org_mode_basics_2020-12-03/</guid>
+      <description>&lt;div class=&#34;ox-hugo-toc toc&#34;&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div class=&#34;heading&#34;&gt;Table of Contents&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#why-org-mode&#34;&gt;Why org-mode?&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#a-note-on-working-with-org-mode-files&#34;&gt;A note on working with org-mode files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#an-alternative-rmarkdown&#34;&gt;An alternative: RMarkdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#formatting&#34;&gt;Formatting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#headings-and-lists&#34;&gt;Headings and lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#links-and-images&#34;&gt;Links and images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#symbols-and-equations&#34;&gt;Symbols and equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#code-and-foldable-blocks&#34;&gt;Code and foldable blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#diagrams&#34;&gt;Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#todo-lists&#34;&gt;Todo lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#callouts&#34;&gt;Callouts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#spoilers&#34;&gt;Spoilers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#icons&#34;&gt;Icons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--endtoc--&gt;
+&lt;p&gt;This is a brief introduction to formatting in &lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;org-mode&lt;/a&gt; made mostly to help my dear colleagues with writing content for the site&lt;/p&gt;
+&lt;h2 id=&#34;why-org-mode&#34;&gt;Why org-mode?&lt;/h2&gt;
+&lt;p&gt;This website uses a single &lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;org-mode&lt;/a&gt; file to manage most of the content.
+Org-mode is an example of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Markup%5Flanguage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markup language&lt;/a&gt;, which means the text formating is described in the text itself.
+This is in contrast to a &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/WYSIWYG&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;what you see is what you get&lt;/a&gt;&amp;rdquo; system where the formatting information is hidden from the user and stored in the file data somehow, as Microsoft Word does with it&amp;rsquo;s proprietary file formats.&lt;/p&gt;
+&lt;p&gt;There are several advantages to using plain text.
+Perhaps the most important of which is transportability and reproducibility.
+You can&amp;rsquo;t view or edit a .doc file without special software (which you often have to pay for), whereas plain text files can be viewed an edited on any computer, regardless of operating system, and with thousands of text editors to choose from.&lt;/p&gt;
+&lt;p&gt;The only real disadvantage to markup languages is that you have to learn their syntax.
+This is only really an issue for some languages though, &lt;a href=&#34;https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20%28HTML%29%20is,scripting%20languages%20such%20as%20JavaScript.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;html&lt;/a&gt; (the language website are written in) is fairly complicated and fiddly, but languages like &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown#:~:text=Markdown%20is%20a%20lightweight%20markup,Markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markdown&lt;/a&gt; and org-mode were made to be simple and easy to learn.
+And this post is going to demonstrate the basics, so read on!&lt;/p&gt;
+&lt;p&gt;Plus, with a bit of magic from &lt;a href=&#34;https://pandoc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pandoc&lt;/a&gt; you can convert pretty much any markup language to any other markup language.
+This lets us do things like export a markdown file to a really nice pdf, or html document!&lt;/p&gt;
+&lt;h3 id=&#34;a-note-on-working-with-org-mode-files&#34;&gt;A note on working with org-mode files&lt;/h3&gt;
+&lt;p&gt;Org-mode is made to be used with the wonderful &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emacs&lt;/a&gt;, which sells itself as an extensible text editor, but it&amp;rsquo;s really just an elisp interpreter geared towards text editing.
+Emacs makes working with org-mode files a joy, though it has a bit of a learning curve itself.
+There are plenty of great &lt;a href=&#34;https://www.gnu.org/software/emacs/tour/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guides&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=49kBWM3RQQ8&amp;amp;list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;videos&lt;/a&gt; for getting to grips with emacs, but you can of course use whatever plain text editor you like!&lt;/p&gt;
+&lt;h3 id=&#34;an-alternative-rmarkdown&#34;&gt;An alternative: RMarkdown&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m using org-mode because I like emacs, but you can also use the wonderful &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RMarkdown&lt;/a&gt; to create posts, and if you&amp;rsquo;re a fan of &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;, there&amp;rsquo;s a neat package called &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt; to make adding content super easy.
+I suspect some of you may prefer that, it is probably easier to get up an running with compared to emacs&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;formatting&#34;&gt;Formatting&lt;/h2&gt;
+&lt;p&gt;For example, if you would like &lt;strong&gt;bold text&lt;/strong&gt;, you simply wrap the text with * like so: &lt;code&gt;*bold*&lt;/code&gt;
+similarly, we can have:&lt;/p&gt;
+&lt;div class=&#34;table-caption&#34;&gt;
+  &lt;span class=&#34;table-number&#34;&gt;Table 1&lt;/span&gt;:
+  If you&#39;re wondering how I&#39;m able to show the formatting without it rendering have a look at this .org file on the &lt;a href=&#34;https://github.com/H-Mateus/spinal-studies-rjah-site/blob/master/content-org/all-posts.org&#34;&gt;git repository&lt;/a&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Rendered text&lt;/th&gt;
+&lt;th&gt;Raw text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/italics/&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;monospace&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;=monospace=&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;~code~&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;del&gt;strike-through&lt;/del&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;+strike-through+&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span class=&#34;underline&#34;&gt;underlined&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;_underlined_&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you want a footnote &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; use &lt;code&gt;[fn:: footnote text goes here]&lt;/code&gt;.
+It even comes with a helpful return link!&lt;/p&gt;
+&lt;h2 id=&#34;headings-and-lists&#34;&gt;Headings and lists&lt;/h2&gt;
+&lt;p&gt;For headings org-mode uses *:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;* Level one header&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;** Level two header&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*** Level three header&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and so on. Org-mode will automatically scale the text to the size of the level of the header.&lt;/p&gt;
+&lt;p&gt;For bullet point lists use &lt;code&gt;-&lt;/code&gt; or &lt;code&gt;+&lt;/code&gt; or numbers &lt;code&gt;1.&lt;/code&gt;
+The following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using &lt;code&gt;-&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;- item 1&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;- item 2&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using &lt;code&gt;+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;+ item 1&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;+ item 2&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using numbers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;1. numbered list 1&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;2. numbered list 2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Renders to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;using &lt;code&gt;-&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;item 1&lt;/li&gt;
+&lt;li&gt;item 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;using &lt;code&gt;+&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;item 1&lt;/li&gt;
+&lt;li&gt;item 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;using numbers&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;numbered list 1&lt;/li&gt;
+&lt;li&gt;numbered list 2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;links-and-images&#34;&gt;Links and images&lt;/h2&gt;
+&lt;p&gt;To insert &lt;a href=&#34;https://en.wikipedia.org/wiki/Hyperlink&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;links&lt;/a&gt; use square brackets like so: &lt;code&gt;[[link_address_goes_here][text_goes_here]]&lt;/code&gt;
+The link in the previous sentence looks like this:
+&lt;code&gt;[[https://en.wikipedia.org/wiki/Hyperlink][links]]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To insert images we do the same, but the link has to point to an image in the static/images directory of the site.
+So &lt;code&gt;[[/images/red_panda.jpeg]]&lt;/code&gt;
+Results in the following image being embedded:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-i-know-the-feeling-panda-image-credit-unsplashhttpsunsplashcomphotosqzwf5ynopuo&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://oskor.netlify.app/images/red_panda.jpeg&#34; alt=&#34;Figure 1: I know the feeling panda... Image credit: [Unsplash](https://unsplash.com/photos/QZwf5yNopUo)&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: I know the feeling panda&amp;hellip; Image credit: &lt;a href=&#34;https://unsplash.com/photos/QZwf5yNopUo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unsplash&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;And if you&amp;rsquo;re wondering about the captions, just add header on the line above whatever you want caption:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#+CAPTION: caption text goes here&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;thing you want a caption on goes here(normally an image or table)&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;symbols-and-equations&#34;&gt;Symbols and equations&lt;/h2&gt;
+&lt;p&gt;For things like Greek letters just type the letter after a &lt;code&gt;\&lt;/code&gt; like so:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;α&lt;/th&gt;
+&lt;th&gt;&lt;code&gt;\alpha&lt;/code&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;β&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\beta&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;γ&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\gamma&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;±&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\pm&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≥&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\ge&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≠&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\neq&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For more complex equations we can use &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latex math&lt;/a&gt; syntax and wrap in single &lt;code&gt;$&lt;/code&gt; for inline equations, and double &lt;code&gt;$$&lt;/code&gt; for equation blocks.
+So &lt;code&gt;$a=+\sqrt{2}$&lt;/code&gt; renders to \(a=+\sqrt{2}\).&lt;/p&gt;
+&lt;p&gt;And &lt;code&gt;$$P\left(A=2\middle|\frac{A^2}{B}&amp;gt;4\right)$$&lt;/code&gt; renders to&lt;/p&gt;
+&lt;p&gt;\[P\left(A=2\middle|\frac{A^2}{B}&amp;gt;4\right)\]&lt;/p&gt;
+&lt;p&gt;We can also wrap in &lt;code&gt;\(&lt;/code&gt; and close with &lt;code&gt;\)&lt;/code&gt; for inline and &lt;code&gt;\[&lt;/code&gt; &lt;code&gt;\]&lt;/code&gt; for blocks to produce the same effect&lt;/p&gt;
+&lt;h2 id=&#34;code-and-foldable-blocks&#34;&gt;Code and foldable blocks&lt;/h2&gt;
+&lt;p&gt;So there&amp;rsquo;s this awesome package called &lt;a href=&#34;https://orgmode.org/worg/org-contrib/babel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;org-babel&lt;/a&gt; that let you include code from pretty much any widely used language in org-mode files.
+I won&amp;rsquo;t go into depth on org-babel here as there&amp;rsquo;s a lot to it, but I&amp;rsquo;ll use it to demonstrate folding blocks (click on the line bellow with the triangle to expand or collapse the block)&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;
+A little R code
+&lt;/summary&gt;
+&lt;p class=&#34;details&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## notice we get nice code highlighting to boot&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;head&lt;/span&gt;(mtcars)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;for&lt;/span&gt;(i in &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;code&amp;#34;&lt;/span&gt;)}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[1] &amp;#34;code&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[1] &amp;#34;code&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[1] &amp;#34;code&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;So there are three parts here:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#+begin_details&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;#+begin_summary&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;A little R code&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;#+end_summary&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;#+begin_src&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;## notice we get nice code highlighting to boot&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;head(mtcars)&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;for(i in 1:3){&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;print(&amp;quot;code&amp;quot;)}&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;#+end_src&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;#+end_details&lt;/code&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;The whole thing is wrapped in the &lt;code&gt;begin_details&lt;/code&gt; block, the text next the triangle is defined in the &lt;code&gt;begin_summary&lt;/code&gt;, and the code is in the &lt;code&gt;begin_src&lt;/code&gt; block.
+Note that each block must be closed, and that code doesn&amp;rsquo;t have to be run, the output with be produced during export&lt;/p&gt;
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;We can use the &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mermaid&lt;/a&gt; markup syntax to add nice diagrams too.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+begin_src mermaid
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;graph TD
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;A[Hard] --&amp;gt;|Text| B(Round)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;B --&amp;gt; C{Decision}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;C --&amp;gt;|One| D[Result 1]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;C --&amp;gt;|Two| E[Result 2]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+end_src
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+begin_src mermaid
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sequenceDiagram
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;loop Healthcheck
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;end
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Note right of John: Rational thoughts!
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;John--&amp;gt;&amp;gt;Alice: Great!
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;John-&amp;gt;&amp;gt;Bob: How about you?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+end_src
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;An example &lt;strong&gt;Gnatt diagram&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+begin_src mermaid
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gantt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;section Section
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Completed :done,    des1, 2014-01-06,2014-01-08
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Active        :active,  des2, 2014-01-07, 3d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Parallel 1   :         des3, after des1, 1d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Parallel 2   :         des4, after des1, 1d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Parallel 3   :         des5, after des3, 1d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Parallel 4   :         des6, after des4, 1d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+end_src
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+begin_src mermaid
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    classDiagram
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class01 &amp;lt;|-- AveryLongClass : Cool
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class09 --&amp;gt; C2 : Where am i?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class09 --* C3
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class09 --|&amp;gt; Class07
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class07 : equals()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class07 : Object[] elementData
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class01 : size()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class01 : int chimp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Class01 : int gorilla
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    class Class10 {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      int id
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      size()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+end_src
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+begin_src mermaid
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    stateDiagram
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [*] --&amp;gt; Still
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Still --&amp;gt; [*]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Still --&amp;gt; Moving
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Moving --&amp;gt; Still
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Moving --&amp;gt; Crash
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Crash --&amp;gt; [*]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+end_src
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
+&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;- [X] Write math example&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;- [X] Write diagram example&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;- [ ] Do something else&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;| First Header | Second Header |&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;|--------------+---------------|&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;| Content Cell | Content Cell  |&lt;/code&gt; &lt;br /&gt;
+&lt;code&gt;| Content Cell | Content Cell  |&lt;/code&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header&lt;/th&gt;
+&lt;th&gt;Second Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;callouts&#34;&gt;Callouts&lt;/h2&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;strong&gt;asides&lt;/strong&gt;, &lt;strong&gt;hints&lt;/strong&gt;, or &lt;strong&gt;alerts&lt;/strong&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{% /callout %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h2&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;spoiler&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Click to view the spoiler&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#f92672&#34;&gt;spoiler&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
+  &lt;p&gt;You found me!&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;icons&#34;&gt;Icons&lt;/h2&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;span class=&#34;underline&#34;&gt;Font Awesome&lt;/span&gt; and _Academicons_&lt;/a&gt; in addition to &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the `icon` shortcode to render icons:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;terminal&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pack&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fas&amp;#34;&lt;/span&gt; &amp;gt;}} Terminal
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pack&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &amp;gt;}} Python
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r-project&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pack&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &amp;gt;}} R
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;org-mode sure is neat!&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducible Research - Version control</title>
+      <link>https://oskor.netlify.app/post/reproducible-research-version-control/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/post/reproducible-research-version-control/</guid>
+      <description>
+&lt;script src=&#34;https://oskor.netlify.app/post/reproducible-research-version-control/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;As promised in the prior article on &lt;a href=&#34;../../../../post/reproducible-data-analysis/&#34;&gt;reproducible data analysis&lt;/a&gt;, here I’d like to outline the concept of version control, and how it pertains to reproducible research.&lt;/p&gt;
+&lt;p&gt;Version control is a method of recording changes made in a file or set of files over time, allowing you and/or your collaborators to track their history and easily review any changes.
+Many academics attempt a poor facsimile of this by using some flavour of “track changes” via software like Microsoft Word or &lt;a href=&#34;https://docs.google.com/&#34;&gt;Google docs&lt;/a&gt;, and emailing these documents back an forth with varying file names.
+Particularly with the use of Microsoft Word, this can lead to having lots of slightly different versions of the same file, with no easy way of knowing what version contains which changes, and who made them.&lt;/p&gt;
+&lt;p&gt;More advanced version control systems (VCS) such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;, &lt;a href=&#34;https://subversion.apache.org/&#34;&gt;SVN&lt;/a&gt; and &lt;a href=&#34;https://www.mercurial-scm.org/&#34;&gt;Mercurial&lt;/a&gt; provide more powerful and elegant tools.
+Git was originally designed for large groups of developers to work on big software projects, but is now used for many other kinds of projects.&lt;/p&gt;
+&lt;p&gt;As in the previous article, here is an overview of the benefits of using version control:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The process of creating work becomes more seamlessly integrated with organising, recording and disseminating said work, as opposed to additional burdens that may be neglected&lt;/li&gt;
+&lt;li&gt;More structured collaboration, with robust tools for asynchronous work and managing versions&lt;/li&gt;
+&lt;li&gt;Easy creation of a web presence for a given project (this website is on &lt;a href=&#34;https://github.com/H-Mateus/spinal-studies-rjah-site&#34;&gt;GitHub&lt;/a&gt;!)&lt;/li&gt;
+&lt;li&gt;It can also serve as an excellent tool to support teaching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Motivation&lt;/h1&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:git-mascot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;git_mascot.jpg&#34; alt=&#34;A toy of the GitHub mascot. Image credit: [**Unslash**](https://unsplash.com/photos/wX2L8L-fGeA)&#34; width=&#34;2664&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A toy of the GitHub mascot. Image credit: &lt;a href=&#34;https://unsplash.com/photos/wX2L8L-fGeA&#34;&gt;&lt;strong&gt;Unslash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Version control allows us to understand the history of a piece of work (typically the writing of a paper for academics).
+This lets us and others understand what was done, when, and with the aid of well written comments/commit messages, &lt;strong&gt;&lt;em&gt;why&lt;/em&gt;&lt;/strong&gt; it was done.
+This greatly increases the transparency of the work, which is crucial for reproducibility.
+A version control system allows us to do this cleanly, with no debris from previous versions of files strewn about various folders which could confuse us or others trying to understand how we arrived at out final results.
+This can be especially useful with code, as we no longer need to keep large chunks of unused code commented out just in case we want it later.&lt;/p&gt;
+&lt;p&gt;But perhaps the greatest benefit is the ease of collaboration good version control allows for.
+Particularly when combined with version control hosting services, such as &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://about.gitlab.com/&#34;&gt;GitLab&lt;/a&gt; or &lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt;, version control allows many people, potential all over the world and in different time zones, to work on the same files.
+The changes from different people can be tracked separately, and there are powerful tools communicate in a more structured way, via pull requests, code reviews and issues for example.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;basic-workflow&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Basic workflow&lt;/h1&gt;
+&lt;p&gt;A typical workflow using version control is as follows:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Create files - these should be plain text, usually code and/or markup or some kind&lt;/li&gt;
+&lt;li&gt;Work on these files - adding, deleting or changing content&lt;/li&gt;
+&lt;li&gt;Create a snapshot - explicitly record the state of a file/s at that particular time, with a message summarising what was done&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In Git, which I will focus on for the remainder of the article as it the most popular, these snapshots are called “commits”.
+This can feel a little strange at first, but you quickly get used to it.
+Personally, I’ve found a nice added benefit to using Git as a tool for delimitating where my day ends.
+The last thing I do each day is commit all the work I’ve done, giving me a nice sense of accomplishment (or terrible shame if I’ve been unproductive…), and giving my brain a signal that work is over it’s time to switch gears.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;learning-resources&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Learning resources&lt;/h1&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:learn&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;learn.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/WE_Kv_ZB1l0)&#34; width=&#34;4500&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Image credit: &lt;a href=&#34;https://unsplash.com/photos/WE_Kv_ZB1l0&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;If I’ve managed to convince you to give version control a go then do be warned if you using Windows - getting things set up will be a bit ugly.
+Windows is a pretty terrible operating system for doing anything, but it’s especially bad for these kinds of things.&lt;/p&gt;
+&lt;p&gt;In an ideal world more people would realise that there are operating systems that you don’t have to pay for &lt;strong&gt;and&lt;/strong&gt; don’t include spyware.
+I’m talking about Linux for the uninitiated.
+If you’ve got an old clunker computer that’s unusably slow, try installing a lightweight Linux distribution and marvel at how much difference a good OS can make.
+Without getting into some boring details, MacOS effectively has the same backbone as Linux, so that works well enough (but Linux is still way better!).&lt;/p&gt;
+&lt;p&gt;That’s not to say it can’t be done of course, especially with the help of these lovely resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A great resource for many facets of reproducible research is &lt;a href=&#34;https://the-turing-way.netlify.app/welcome.html&#34;&gt;The Turing Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Another great resource, particularly for integrating Git with R is &lt;a href=&#34;https://happygitwithr.com/index.html&#34;&gt;Happy Git with R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;Pro Git&lt;/a&gt; book is another great resource for a more in depth understanding of how Git works, and some of it’s more advanced features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducible Research - Data analysis</title>
+      <link>https://oskor.netlify.app/post/reproducible-data-analysis/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://oskor.netlify.app/post/reproducible-data-analysis/</guid>
+      <description>
+
+
+&lt;p&gt;This post is a companion to the talk I’m due to give at the Joint CDT virtual conference this year.
+The goal of both is to outline the selfish benefits of working more reproducibly, particularly from a students perspective, focusing on data analysis.&lt;/p&gt;
+&lt;p&gt;I hope to convince you that working this way will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Save you a lot of time&lt;/li&gt;
+&lt;li&gt;Make you a better scientist&lt;/li&gt;
+&lt;li&gt;And perhaps most importantly for any students, make you much more employable!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Usually this topic is approached from a more ideological view, suggesting that we must do these things because science has a reproducibility problem.
+If the ideology interests you, I’ve outlined my own feelings on the problems with how science is done in my article &lt;a href=&#34;https://gmbernardoharrington.netlify.app/post/the-sovereign-of-science/&#34;&gt;The Sovereign of Science&lt;/a&gt;, and I outline my ideas to address these issues in &lt;a href=&#34;https://gmbernardoharrington.netlify.app/post/how-might-science-be-done-better/&#34;&gt;How might science be done better?&lt;/a&gt;.
+The short version is that I don’t feel individual scientists are to blame, but rather the system we are subject to fails reward good science or punish bad practises.&lt;/p&gt;
+&lt;p&gt;I also don’t feel this preachy stance is likely to compel individuals to change their behaviour, thus I want to use a more self-interested approach.&lt;/p&gt;
+&lt;div id=&#34;whats-wrong-with-the-way-i-currently-do-things&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s wrong with the way I currently do things?&lt;/h2&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:you-suck&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;you_suck.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/KHaaHwAZ9LE)&#34; width=&#34;80%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Image credit: &lt;a href=&#34;https://unsplash.com/photos/KHaaHwAZ9LE&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I’m guessing you’re a fairly typical scientist.
+You exclusively use proprietary closed-source graphical user interface (GUI) based software for all your work.
+Think Excel, SPSS and GraphPad.&lt;/p&gt;
+&lt;p&gt;You use these tools not because you ever asked whether they were good at what you use them for, but rather because they are the defaults that are either provided for free, or what you university/colleagues taught you to use.&lt;/p&gt;
+&lt;p&gt;The main issue with all these tools is that there is no record of what anyone has done with them or why.&lt;/p&gt;
+&lt;p&gt;I think a fun story may illustrate this point&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;story-time&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Story time&lt;/h2&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:story-time&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;story_time.jpg&#34; alt=&#34;Image credit: [**Unsplash**](https://unsplash.com/photos/aZ8G5l3VLkI)&#34; width=&#34;60%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Image credit: &lt;a href=&#34;https://unsplash.com/photos/aZ8G5l3VLkI&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;So imagine the following scenario:&lt;/p&gt;
+&lt;p&gt;We have a research project we are conducting.
+A student has carried out the experiment and generated the data for analysis.
+After several iterations back and forth between Excel and SPSS, the file &lt;code&gt;finaldata9&lt;/code&gt; is created, and several slightly different versions of this file exists between the supervisor, a postdoc and the student.
+The student graduates, and a new student comes in to finish the project.
+The original student has moved to another city and no longer cares about this project.&lt;/p&gt;
+&lt;p&gt;There is no documentation to accompany &lt;code&gt;finaldata9&lt;/code&gt; and so it contains several columns of unknown origin or purpose.
+The project is now being written up in Microsoft Word, with values being copied and pasted from the various iterations of &lt;code&gt;finaldata9&lt;/code&gt;.
+After several months, the final draft is submitted to a journal for publication.&lt;/p&gt;
+&lt;p&gt;Now, do you think this research group could reproduce the values they report in the results of this paper?&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;strong&gt;&lt;em&gt;Of course not.&lt;/em&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;The raw experimental data has been completely mutilated.
+There is no record or documentation of who has done what, using which tools and when.
+And this is how most research is done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-excel-mistake-heard-round-the-world&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Excel mistake heard round the world&lt;/h2&gt;
+&lt;p&gt;To give a specific example, several years ago, a couple of Harvard economists &lt;a href=&#34;https://www.marketplace.org/2013/04/17/economy/excel-mistake-heard-round-world/&#34;&gt;published a paper&lt;/a&gt; suggesting that countries with debt over 90% of GDP would enter recession.
+They reported these findings to American senators, who decided to implement years of harsh austerity based on these findings.
+But it turned out they made a little goof with their Excel spreadsheets.
+When doing their calculations, they didn’t quite drag a box down all the way, missing data from 5 countries.
+Redoing the analysis with these extra countries changes their results fairly dramatically.&lt;/p&gt;
+&lt;p&gt;It took a few years before anyone noticed the mistake, and the only reason anyone did was because the data they used was publically available.
+The lack of reproducibility of these GUI tools means these kinds of mistakes are extremely easy to both make in the first place, and miss during peer review.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;well-what-could-i-do-differently&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Well what could I do differently?&lt;/h2&gt;
+&lt;p&gt;I’m so glad you asked.&lt;/p&gt;
+&lt;p&gt;There are lots of things you can and should do, but the most important one is to learn to code!&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:matrix&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;matrix.jpg&#34; alt=&#34;This is definitely exactly what code looks like. Image credit: [**Unsplash**](https://unsplash.com/photos/iar-afB0QQw)&#34; width=&#34;80%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: This is definitely exactly what code looks like. Image credit: &lt;a href=&#34;https://unsplash.com/photos/iar-afB0QQw&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Now that may sound scary, but I promise it’s a lot easier than you might think.
+Code is just a set of plain text instructions, written with a specific syntax, that the computer can then execute exactly.
+You can, and absolutely should, leave comments in your code as well.
+These are lines that are ignored by the computer, but are there to explain what your code is doing and why.
+This means that rerunning a particular analysis, from raw experimental data all the way through to publication quality plots and stats, is a simple as rerunning a script, and it can take mere seconds.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-benefits&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The benefits&lt;/h2&gt;
+&lt;p&gt;This is where the real time saving comes from.
+A lot of labs revolve around a few pieces of equipment, which generally will generate the same kind of data, that needs to be analyses in the same kind of way, regardless of the experimental specifics.
+When you use the GUI tools, you need to start from scratch each time.&lt;/p&gt;
+&lt;p&gt;Imagine a particular assay.
+Every assay run has a standard curve and some experimental samples.
+With the data, you generate a standard curve, use it to estimate the concentration of your samples, maybe average some replicates, and do some stats to compare experimental groups.
+Let’s say you run this assay a lot, so you can do these steps in 10 minutes in Excel.&lt;/p&gt;
+&lt;p&gt;But even if you spent 20 minutes writing a script to perform these steps, you can just reuse it for each new experiment, and so it will reach parity if you run the assay twice.
+All you change is the data you feed to the script.
+Each additional time you run the assay you’re saving 10 minutes of time, and you’ve eliminated the risk of making a mistake in subsequent analyses.
+You can also easily share your script with colleagues so they don’t even need to spend 20 minutes to write it in the first place.&lt;/p&gt;
+&lt;p&gt;If you did this for every major piece of equipment in your lab how much time could &lt;strong&gt;&lt;em&gt;you&lt;/em&gt;&lt;/strong&gt; save?
+How popular would you be in your group?
+How sexy would you look to prospective employers?&lt;/p&gt;
+&lt;p&gt;And there are many other benefits to code.
+GUI tools don’t scale to large datasets, and even include hard caps as to how much data they can hold.
+The British Government &lt;a href=&#34;https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england&#34;&gt;learned this the hard way&lt;/a&gt; during the Covid-19 pandemic.
+Programming languages can handle data of any size, and it’s no harder to deal with 10 rows of data than 100,000,000 rows.
+As various forms of omics techniques become cheaper and more accurate, more and more biologists are going to need to be able to work with larger and larger datasets.&lt;/p&gt;
+&lt;p&gt;Programming languages can do everything Excel, SPSS and GraphPad do, and so much more besides.
+Maybe you’ve heard of this machine learning lark?
+Well good luck doing that in SPSS or Excel.
+&lt;a href=&#34;https://www.r-project.org/&#34;&gt;R&lt;/a&gt; or &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; on the other hand?
+Easy-peasy.
+This means the skill will serve you extremely well in the job market, and if you’re a fresh-faced student just starting out, it’s fairly likely you’ll be forced to learn these skills to stay in this field sooner or later.
+So why not start now?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-personal-testimony-on-the-employability-benefits&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A personal testimony on the employability benefits&lt;/h2&gt;
+&lt;p&gt;My saying coding makes you more employable is not without cause.
+I write this a third year PhD student who was scouted for a data science role, and secured a bioinformatics postdoc at a Russell Group university.
+This is in spite of me having never written a line of code prior to starting my PhD, and having no formal bioinformatics training.&lt;/p&gt;
+&lt;p&gt;And there are loads of excellent free written and video guides to learn these skills.&lt;/p&gt;
+&lt;p&gt;Some personal favourites for learning R (my first language, and the one I’d recommend you start with):&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;The &lt;a href=&#34;https://r4ds.had.co.nz/index.html&#34;&gt;R for Data Science&lt;/a&gt; book&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.youtube.com/watch?v=_V8eKsto3Ug&amp;amp;t=1241s&#34;&gt;freeCodeCamp Youtube video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://education.rstudio.com/learn/beginner/&#34;&gt;RStudios documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For a more broad walkthrough of methods for reproducible research, &lt;a href=&#34;https://the-turing-way.netlify.app/welcome.html&#34;&gt;The Turing Way&lt;/a&gt; is a great guide&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;going-further-down-the-rabbit-hole&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Going further down the rabbit hole&lt;/h2&gt;
+&lt;p&gt;I hope I’ve convinced you that code is the best way to analyse data.
+But you probably use a lot of other suboptimal software in both your personal and professional life.
+If you interested in finder better alternatives, I would suggest a simple rule:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stick to software that’s &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/free-vs-open-source-software&#34;&gt;free and open-source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:open-source-alternatives&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;open_source_alts.jpg&#34; alt=&#34;Free and open-source alternatives. The logos from left to right: [Ubuntu](https://ubuntu.com/), [Linux](https://en.wikipedia.org/wiki/Linux), [GIMP](https://www.gimp.org/), [Audacity](https://www.audacityteam.org/), [Firefox](https://www.mozilla.org/en-GB/firefox/new/), [LibreOffice](https://www.libreoffice.org/), [7-zip](https://www.7-zip.org/). Image credit: [**Flikr**](https://www.flickr.com/photos/26887294@N05/6846553672)&#34; width=&#34;400&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Free and open-source alternatives. The logos from left to right: &lt;a href=&#34;https://ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34;&gt;Linux&lt;/a&gt;, &lt;a href=&#34;https://www.gimp.org/&#34;&gt;GIMP&lt;/a&gt;, &lt;a href=&#34;https://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt;, &lt;a href=&#34;https://www.mozilla.org/en-GB/firefox/new/&#34;&gt;Firefox&lt;/a&gt;, &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;, &lt;a href=&#34;https://www.7-zip.org/&#34;&gt;7-zip&lt;/a&gt;. Image credit: &lt;a href=&#34;https://www.flickr.com/photos/26887294@N05/6846553672&#34;&gt;&lt;strong&gt;Flikr&lt;/strong&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;That way you don’t waste time learning software that may be taken away from you if the price increased, your employer refused to provide it for you, etc.
+It means you can be sure you always have access to the tools you need, when you need them.
+And that anyone you want to work with can’t say “sorry, I don’t have access to that software, can’t contribute”.
+It also facilitates reproducibility, as anyone will be able to use the same tools.&lt;/p&gt;
+&lt;p&gt;I will also write further article/s on how to make your &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;scientific writing more reproducible&lt;/a&gt;, on using &lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&#34;&gt;version control&lt;/a&gt; and touch on &lt;a href=&#34;https://www.docker.com/resources/what-container&#34;&gt;containers&lt;/a&gt;, and link them here once done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;As promised, some follow-up posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A brief explainer on the wonders of version control - &lt;a href=&#34;../../../../post/reproducible-research-version-control/&#34;&gt;Reproducible Research - Version control&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

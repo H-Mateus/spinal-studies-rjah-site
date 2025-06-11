@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Martyn Snow | Oswestry Keele Orthopaedic Research group - OsKOR</title>
+    <link>https://oskor.netlify.app/author/martyn-snow/</link>
+      <atom:link href="https://oskor.netlify.app/author/martyn-snow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Martyn Snow</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025</copyright>
+    <image>
+      <url>https://oskor.netlify.app/author/martyn-snow/avatar_hua7ac0a5e87e0121472b6895d4959391e_1042356_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Martyn Snow</title>
+      <link>https://oskor.netlify.app/author/martyn-snow/</link>
+    </image>
+    
+  </channel>
+</rss>
